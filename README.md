@@ -115,7 +115,7 @@ The script maps EPL matches to the Heat app's fixed channel numbers. Primary EPL
 - **Telemundo/Univision**: Ch. 181, 183
 - **TUDN**: Ch. 853
 
-> **Note:** football-data.org does not provide per-match US broadcaster info. The channel mapping is a best-effort guide based on known broadcast rights (NBC/Peacock holds primary US EPL rights).
+> **Note:** Per-match US broadcaster data is scraped from [LiveSoccerTV](https://www.livesoccertv.com/) when available. For matches without broadcast data (typically >2-3 weeks out), the system falls back to heuristics based on NBC's broadcast patterns (time-slot, Big Six status, etc.).
 
 ## Programmatic Usage
 
@@ -137,6 +137,81 @@ all_matches = finder.get_all_season_matches()
 for m in matches:
     print(f"{m.home_team.short_name} vs {m.away_team.short_name} — {m.utc_date}")
 ```
+
+## Automated Updates (GitHub Actions)
+
+The schedule data can be automatically updated via GitHub Actions. This keeps the front-end fresh without manual intervention.
+
+### Setup (One-Time)
+
+1. **Go to your GitHub repo** → **Settings** → **Secrets and variables** → **Actions**
+2. Click **New repository secret**
+3. Set **Name** = `FOOTBALL_DATA_API_KEY` and **Value** = your API key from football-data.org
+4. Click **Add secret**
+
+That's it! The workflow will now run automatically.
+
+### Schedule
+
+The workflow runs **twice per week** by default:
+
+| Day | Time (UTC) | Time (ET) | Purpose |
+|-----|-----------|-----------|----------|
+| Monday | 10:00 AM | 5:00 AM | Pick up weekend results + new broadcast assignments |
+| Thursday | 10:00 AM | 5:00 AM | Pick up midweek changes before the weekend |
+
+### Manual Trigger
+
+You can also trigger an update manually at any time:
+
+1. Go to your GitHub repo → **Actions** tab
+2. Select **"Update EPL Schedule Data"** from the left sidebar
+3. Click **"Run workflow"** → **"Run workflow"** (green button)
+
+### How It Works
+
+1. Checks out the repo
+2. Installs Python dependencies
+3. Runs `export_data.py` which:
+   - Fetches match data from football-data.org API
+   - Scrapes LiveSoccerTV for actual US broadcast channels (competition page + 21 daily schedule pages)
+   - Writes updated JSON files to `web/data/`
+4. If data changed, commits and pushes to `main` (which auto-deploys via GitHub Pages)
+
+### Customizing the Schedule
+
+Edit `.github/workflows/update-schedule.yml` and change the `cron` expressions:
+
+```yaml
+on:
+  schedule:
+    # Format: minute hour day-of-month month day-of-week
+    - cron: '0 10 * * 1'   # Monday 10:00 UTC
+    - cron: '0 10 * * 4'   # Thursday 10:00 UTC
+```
+
+Useful cron patterns:
+- `'0 10 * * *'` — every day at 10:00 UTC
+- `'0 10 * * 1,4'` — Monday and Thursday
+- `'0 */6 * * *'` — every 6 hours
+
+### Viewing Workflow Runs
+
+Go to **Actions** tab in your repo to see run history, logs, and any errors.
+
+## Broadcast Data Sources
+
+| Source | Data | Coverage |
+|--------|------|----------|
+| **football-data.org API** | Match fixtures, scores, teams | Full season |
+| **LiveSoccerTV (competition page)** | US broadcast channels | Next 1-2 matchdays |
+| **LiveSoccerTV (daily pages)** | US broadcast channels | Next 21 days |
+| **Heuristic fallback** | Time-slot + Big Six logic | All remaining matches |
+
+Broadcast data availability:
+- **2-3 weeks out**: NBC/Peacock announces platform assignments
+- **5-7 days out**: Final channel assignments locked in
+- **3+ weeks out**: No broadcast data → heuristic fallback
 
 ## Future Plans
 

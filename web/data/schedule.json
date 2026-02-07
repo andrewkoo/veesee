@@ -12169,7 +12169,7 @@
     "title": "West Ham vs Man United",
     "description": "Matchday 26: West Ham United FC vs Manchester United FC",
     "isLive": false,
-    "broadcaster": "USA Network (Midweek)",
+    "broadcaster": "Peacock",
     "channel": {
       "number": "174",
       "name": "USA Network East",
@@ -12184,14 +12184,14 @@
         "hasPlayback": true
       },
       {
-        "number": "857",
-        "name": "BT Sports 1",
+        "number": "870",
+        "name": "Sky Sports Premier League",
         "category": "Sports",
         "hasPlayback": false
       },
       {
-        "number": "870",
-        "name": "Sky Sports Premier League",
+        "number": "857",
+        "name": "BT Sports 1",
         "category": "Sports",
         "hasPlayback": false
       },
@@ -12217,19 +12217,19 @@
     "title": "Aston Villa vs Brighton Hove",
     "description": "Matchday 26: Aston Villa FC vs Brighton & Hove Albion FC",
     "isLive": false,
-    "broadcaster": "Peacock / BT Sport",
+    "broadcaster": "Peacock",
     "channel": {
-      "number": "857",
-      "name": "BT Sports 1",
-      "category": "Sports",
-      "hasPlayback": false
+      "number": "174",
+      "name": "USA Network East",
+      "category": "National",
+      "hasPlayback": true
     },
     "channels": [
       {
-        "number": "857",
-        "name": "BT Sports 1",
-        "category": "Sports",
-        "hasPlayback": false
+        "number": "174",
+        "name": "USA Network East",
+        "category": "National",
+        "hasPlayback": true
       },
       {
         "number": "870",
@@ -12238,10 +12238,10 @@
         "hasPlayback": false
       },
       {
-        "number": "174",
-        "name": "USA Network East",
-        "category": "National",
-        "hasPlayback": true
+        "number": "857",
+        "name": "BT Sports 1",
+        "category": "Sports",
+        "hasPlayback": false
       },
       {
         "number": "828",
@@ -12265,19 +12265,19 @@
     "title": "Crystal Palace vs Burnley",
     "description": "Matchday 26: Crystal Palace FC vs Burnley FC",
     "isLive": false,
-    "broadcaster": "Peacock / BT Sport",
+    "broadcaster": "Peacock",
     "channel": {
-      "number": "857",
-      "name": "BT Sports 1",
-      "category": "Sports",
-      "hasPlayback": false
+      "number": "174",
+      "name": "USA Network East",
+      "category": "National",
+      "hasPlayback": true
     },
     "channels": [
       {
-        "number": "857",
-        "name": "BT Sports 1",
-        "category": "Sports",
-        "hasPlayback": false
+        "number": "174",
+        "name": "USA Network East",
+        "category": "National",
+        "hasPlayback": true
       },
       {
         "number": "870",
@@ -12286,10 +12286,10 @@
         "hasPlayback": false
       },
       {
-        "number": "174",
-        "name": "USA Network East",
-        "category": "National",
-        "hasPlayback": true
+        "number": "857",
+        "name": "BT Sports 1",
+        "category": "Sports",
+        "hasPlayback": false
       },
       {
         "number": "828",
@@ -12313,7 +12313,7 @@
     "title": "Man City vs Fulham",
     "description": "Matchday 26: Manchester City FC vs Fulham FC",
     "isLive": false,
-    "broadcaster": "USA Network (Midweek)",
+    "broadcaster": "Peacock",
     "channel": {
       "number": "174",
       "name": "USA Network East",
@@ -12328,14 +12328,14 @@
         "hasPlayback": true
       },
       {
-        "number": "857",
-        "name": "BT Sports 1",
+        "number": "870",
+        "name": "Sky Sports Premier League",
         "category": "Sports",
         "hasPlayback": false
       },
       {
-        "number": "870",
-        "name": "Sky Sports Premier League",
+        "number": "857",
+        "name": "BT Sports 1",
         "category": "Sports",
         "hasPlayback": false
       },

@@ -9,6 +9,7 @@ Uses the football-data.org API (free tier) for EPL fixtures and teams.
 
 import os
 import re
+import time
 import requests
 from datetime import datetime, timedelta
 from typing import Optional
@@ -411,37 +412,23 @@ def _parse_lstv_match(text: str) -> tuple[str, str] | None:
     return (home, away)
 
 
-def scrape_livesoccertv_epl() -> dict[tuple[str, str], list[str]]:
+def _scrape_lstv_page(scraper, url: str) -> dict[tuple[str, str], list[str]]:
     """
-    Scrape LiveSoccerTV's EPL page for US broadcast data.
+    Scrape a single LiveSoccerTV page for EPL US broadcast data.
 
     Returns dict mapping (home_short, away_short) → list of US broadcaster names.
-    Falls back to empty dict on any error.
     """
-    if not HAS_BS4:
-        print("  Warning: beautifulsoup4 not installed, skipping LiveSoccerTV scrape")
-        print("  Install with: pip install beautifulsoup4")
-        return {}
-
-    if not HAS_CLOUDSCRAPER:
-        print("  Warning: cloudscraper not installed, skipping LiveSoccerTV scrape")
-        print("  Install with: pip install cloudscraper")
-        return {}
-
-    url = "https://www.livesoccertv.com/competitions/england/premier-league/"
-
     try:
-        scraper = cloudscraper.create_scraper()
         resp = scraper.get(url, timeout=15)
         resp.raise_for_status()
     except Exception as e:
-        print(f"  Warning: Could not reach LiveSoccerTV: {e}")
+        print(f"    Warning: Could not fetch {url}: {e}")
         return {}
 
     try:
         soup = BeautifulSoup(resp.text, "html.parser")
     except Exception as e:
-        print(f"  Warning: Could not parse LiveSoccerTV HTML: {e}")
+        print(f"    Warning: Could not parse HTML from {url}: {e}")
         return {}
 
     broadcast_map: dict[tuple[str, str], list[str]] = {}
@@ -467,6 +454,77 @@ def scrape_livesoccertv_epl() -> dict[tuple[str, str], list[str]]:
     # Save last match
     if current_key and current_channels:
         broadcast_map[current_key] = list(current_channels)
+
+    return broadcast_map
+
+
+def scrape_livesoccertv_epl(
+    days_ahead: int = 21,
+    rate_limit: float = 1.5,
+) -> dict[tuple[str, str], list[str]]:
+    """
+    Scrape LiveSoccerTV for US broadcast data across multiple sources.
+
+    Strategy:
+    1. Scrape the EPL competition overview page (next few matchdays).
+    2. Scrape daily schedule pages for each day in the upcoming window
+       to catch matches not yet shown on the competition page.
+
+    Args:
+        days_ahead: Number of days ahead to scrape daily pages for.
+        rate_limit: Seconds to wait between HTTP requests.
+
+    Returns dict mapping (home_short, away_short) → list of US broadcaster names.
+    Falls back to empty dict on any error.
+    """
+    if not HAS_BS4:
+        print("  Warning: beautifulsoup4 not installed, skipping LiveSoccerTV scrape")
+        print("  Install with: pip install beautifulsoup4")
+        return {}
+
+    if not HAS_CLOUDSCRAPER:
+        print("  Warning: cloudscraper not installed, skipping LiveSoccerTV scrape")
+        print("  Install with: pip install cloudscraper")
+        return {}
+
+    scraper = cloudscraper.create_scraper()
+    broadcast_map: dict[tuple[str, str], list[str]] = {}
+
+    # 1. Scrape the EPL competition overview page
+    print("  Scraping EPL competition page...")
+    overview_url = "https://www.livesoccertv.com/competitions/england/premier-league/"
+    page_data = _scrape_lstv_page(scraper, overview_url)
+    broadcast_map.update(page_data)
+    print(f"    Found {len(page_data)} matches from competition page")
+
+    # 2. Scrape daily schedule pages for broader coverage
+    today = datetime.utcnow().date()
+    dates_to_scrape = []
+    for i in range(days_ahead):
+        d = today + timedelta(days=i)
+        dates_to_scrape.append(d)
+
+    print(f"  Scraping daily schedules ({len(dates_to_scrape)} days)...")
+    daily_found = 0
+    for d in dates_to_scrape:
+        date_str = d.strftime("%Y-%m-%d")
+        url = f"https://www.livesoccertv.com/schedules/{date_str}/"
+        time.sleep(rate_limit)
+        page_data = _scrape_lstv_page(scraper, url)
+
+        # Only add matches not already in the map (competition page takes priority)
+        new_count = 0
+        for key, channels in page_data.items():
+            if key not in broadcast_map:
+                broadcast_map[key] = channels
+                new_count += 1
+
+        if new_count > 0:
+            print(f"    {date_str}: +{new_count} new matches")
+            daily_found += new_count
+
+    if daily_found:
+        print(f"  Daily pages added {daily_found} additional matches")
 
     return broadcast_map
 
