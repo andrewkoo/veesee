@@ -76,6 +76,7 @@ def export_live_data(api_key: str):
             "description": f"Matchday {m.matchday}: {m.home_team.name} vs {m.away_team.name}",
             "isLive": m.status in ("LIVE", "IN_PLAY", "PAUSED"),
             "broadcaster": m.broadcaster,
+            "broadcastConfirmed": m.broadcast_confirmed,
             "channel": channels[0] if channels else None,
             "channels": channels,
         })

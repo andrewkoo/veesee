@@ -63,6 +63,7 @@ class Match:
     away_score: Optional[int] = None
     heat_channels: list[HeatChannel] = field(default_factory=list)
     broadcaster: str = ""
+    broadcast_confirmed: bool = False
 
 
 # Heat app EPL-relevant channels (from vseebox.net/pages/channel-list)
@@ -308,6 +309,7 @@ def _assign_heat_channels(
     sky = HEAT_CHANNELS["Sky Sports Premier League"]
     bt = HEAT_CHANNELS["BT Sports 1"]
     espn = HEAT_CHANNELS["ESPN"]
+    tele = HEAT_CHANNELS["Telemundo"]
 
     is_big_six_clash = home_id in BIG_SIX_IDS and away_id in BIG_SIX_IDS
     has_big_six = home_id in BIG_SIX_IDS or away_id in BIG_SIX_IDS
@@ -321,40 +323,40 @@ def _assign_heat_channels(
     # Saturday 12:30 PM ET slot (UTC 17:30) — NBC marquee game
     if is_weekend and et_hour == 12 and utc_date and utc_date.minute >= 15:
         broadcaster = "NBC (Marquee)"
-        return [usa, sky, bt, espn], broadcaster
+        return [usa, tele, sky, bt, espn], broadcaster
 
     # Big Six clash — very likely on USA Network
     if is_big_six_clash:
         broadcaster = "USA Network (Big Six)"
-        return [usa, sky, bt, espn], broadcaster
+        return [usa, tele, sky, bt, espn], broadcaster
 
     # Weekend early morning ET (7:30-10 AM ET = 12:30-15:00 UTC)
     # Typically multiple games; featured one on USA Network, rest on Peacock
     if is_weekend and 7 <= et_hour <= 10:
         if has_big_six:
             broadcaster = "USA Network (Featured)"
-            return [usa, sky, bt, espn], broadcaster
+            return [usa, tele, sky, bt, espn], broadcaster
         else:
             broadcaster = "Peacock / Sky Sports"
-            return [sky, bt, usa, espn], broadcaster
+            return [sky, bt, usa, tele, espn], broadcaster
 
     # Weekend late morning / afternoon (11 AM+ ET)
     if is_weekend and et_hour >= 11:
         broadcaster = "USA Network"
-        return [usa, sky, bt, espn], broadcaster
+        return [usa, tele, sky, bt, espn], broadcaster
 
     # Midweek games (Tue/Wed/Thu) — usually USA Network for featured
     if day_of_week in (1, 2, 3):
         if has_big_six:
             broadcaster = "USA Network (Midweek)"
-            return [usa, bt, sky, espn], broadcaster
+            return [usa, tele, bt, sky, espn], broadcaster
         else:
             broadcaster = "Peacock / BT Sport"
-            return [bt, sky, usa, espn], broadcaster
+            return [bt, sky, usa, tele, espn], broadcaster
 
     # Default fallback
     broadcaster = "NBC / USA Network"
-    return [usa, sky, bt, espn], broadcaster
+    return [usa, tele, sky, bt, espn], broadcaster
 
 
 def _channels_from_scraped(networks: list[str]) -> tuple[list[HeatChannel], str]:
@@ -568,6 +570,7 @@ class EPLScheduleFinder:
                     away_id=match.away_team.id,
                     scraped_networks=scraped,
                 )
+                match.broadcast_confirmed = True
                 enriched += 1
 
         if enriched:

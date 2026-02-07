@@ -174,6 +174,29 @@
             color: var(--green);
             margin-left: 0.3rem;
         }
+        .badge-confirmed {
+            background: rgba(0, 184, 148, 0.15);
+            color: var(--green);
+            font-size: 0.7rem;
+        }
+        .badge-estimated {
+            background: rgba(139, 143, 163, 0.12);
+            color: var(--text-muted);
+            font-size: 0.7rem;
+        }
+        .broadcast-legend {
+            font-size: 0.78rem;
+            color: var(--text-muted);
+            margin-bottom: 1rem;
+            display: flex;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+        }
+        .broadcast-legend span {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.3rem;
+        }
 
         @keyframes pulse {
             0%, 100% { opacity: 1; }
@@ -320,7 +343,7 @@ function populateTeamDropdown() {
 
 function updateHeader() {
     const badge = document.getElementById('data-source-badge');
-    badge.textContent = metadata.isSampleData ? 'Sample Data' : `${metadata.totalGames} games`;
+    badge.textContent = metadata.isSampleData ? 'Sample Data' : '2025-26 Season';
 
     // Compute latest game across ALL schedule data (unaffected by filters)
     const subtitle = document.getElementById('header-subtitle');
@@ -371,7 +394,11 @@ function render() {
 
     // Schedule table
     main.insertAdjacentHTML('beforeend', `
-        <div class="section-title">Upcoming Schedule</div>`);
+        <div class="section-title">Upcoming Schedule</div>
+        <div class="broadcast-legend">
+            <span><span class="badge badge-confirmed">✓ Confirmed</span> Verified US broadcast from LiveSoccerTV</span>
+            <span><span class="badge badge-estimated">≈ Estimated</span> Best guess based on time slot &amp; team</span>
+        </div>`);
 
     if (upcoming.length === 0) {
         main.insertAdjacentHTML('beforeend', `
@@ -427,14 +454,17 @@ function buildScheduleTable(games) {
                     <div class="channel-cell">${channelsHtml}</div>
                 </td>
                 <td>
-                    <span class="badge badge-channel">${escapeHtml(g.broadcaster)}</span>
+                    ${g.broadcastConfirmed
+                        ? `<span class="badge badge-confirmed">✓ ${escapeHtml(g.broadcaster)}</span>`
+                        : `<span class="badge badge-estimated">≈ ${escapeHtml(g.broadcaster)}</span>`
+                    }
                 </td>
             </tr>`;
     });
 
     return `<div class="schedule-table-wrap"><table class="schedule-table">
         <thead><tr>
-            <th>Time</th><th>Match</th><th>Possible Channels</th><th>Network</th>
+            <th>Time</th><th>Match</th><th>Possible Channels</th><th>Broadcaster</th>
         </tr></thead>
         <tbody>${rows}</tbody>
     </table></div>`;
