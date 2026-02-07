@@ -402,8 +402,13 @@ function buildScheduleTable(games) {
         const liveBadge = g.isLive ? '<span class="badge badge-live">LIVE</span> ' : '';
         const statusBadge = g.status === 'FINISHED' ? '<span class="badge" style="background:rgba(0,184,148,0.15);color:var(--green);">FT</span> ' : '';
         const matchdayStr = g.matchday ? `MD ${g.matchday}` : '';
-        const ch = g.channel || (g.channels && g.channels[0]);
-        const playbackBadge = ch && ch.hasPlayback ? '<span class="badge badge-playback">DVR</span>' : '';
+        const channels = g.channels || (g.channel ? [g.channel] : []);
+        const channelsHtml = channels.length > 0
+            ? channels.map(ch => {
+                const dvr = ch.hasPlayback ? ' <span class="badge badge-playback">DVR</span>' : '';
+                return `<div style="margin-bottom:0.25rem;"><span class="channel-number" style="font-size:0.85rem;">Ch. ${ch.number}</span> <span class="channel-name">${escapeHtml(ch.name)}${dvr}</span></div>`;
+            }).join('')
+            : '<span style="color:var(--text-muted)">—</span>';
 
         rows += `
             <tr>
@@ -416,10 +421,7 @@ function buildScheduleTable(games) {
                     <div class="match-desc">${escapeHtml(g.description)}</div>
                 </td>
                 <td>
-                    ${ch ? `<div class="channel-cell">
-                        <div class="channel-number">Ch. ${ch.number}</div>
-                        <div class="channel-name">${escapeHtml(ch.name)} ${playbackBadge}</div>
-                    </div>` : '<span style="color:var(--text-muted)">—</span>'}
+                    <div class="channel-cell">${channelsHtml}</div>
                 </td>
                 <td>
                     <span class="badge badge-channel">${escapeHtml(g.broadcaster)}</span>
@@ -429,7 +431,7 @@ function buildScheduleTable(games) {
 
     return `<div class="schedule-table-wrap"><table class="schedule-table">
         <thead><tr>
-            <th>Time</th><th>Match</th><th>Heat Channel</th><th>Network</th>
+            <th>Time</th><th>Match</th><th>Possible Channels</th><th>Network</th>
         </tr></thead>
         <tbody>${rows}</tbody>
     </table></div>`;
