@@ -109,11 +109,11 @@ LSTV_US_CHANNELS = {
     "UNIVERSO", "UNIVERSO NOW", "TeleXitos",
 }
 
-# Map scraped network name → Heat channel(s) in priority order
+# Map scraped network name → Heat channel(s) in priority order.
+# Peacock is excluded: it's a streaming service with no Heat channel equivalent.
 NETWORK_HEAT_MAP = {
     "NBC": [HEAT_CHANNELS["USA Network"]],
     "USA Network": [HEAT_CHANNELS["USA Network"]],
-    "Peacock": [HEAT_CHANNELS["USA Network"]],
     "CNBC": [HEAT_CHANNELS["USA Network"]],
     "Telemundo": [HEAT_CHANNELS["Telemundo"]],
     "Telemundo Deportes En Vivo": [HEAT_CHANNELS["Telemundo"]],
@@ -121,6 +121,18 @@ NETWORK_HEAT_MAP = {
     "UNIVERSO NOW": [HEAT_CHANNELS["Univision"]],
     "TeleXitos": [HEAT_CHANNELS["Telemundo"]],
 }
+
+# Streaming-only networks (no Heat channel equivalent)
+STREAMING_ONLY_NETWORKS = {"Peacock"}
+
+# Default Heat channels to show when no specific broadcast is known
+DEFAULT_EPL_CHANNELS = [
+    HEAT_CHANNELS["USA Network"],
+    HEAT_CHANNELS["Telemundo"],
+    HEAT_CHANNELS["Sky Sports Premier League"],
+    HEAT_CHANNELS["BT Sports 1"],
+    HEAT_CHANNELS["ESPN"],
+]
 
 # Map LiveSoccerTV team names (lowercase) → football-data.org short names
 _LSTV_TEAM_NORMALIZE = {
@@ -258,134 +270,61 @@ class FootballDataClient:
                 away_score=ft.get("away"),
             )
 
-            # Assign Heat channels ordered by broadcast likelihood
-            match.heat_channels, match.broadcaster = _assign_heat_channels(
-                utc_date=match.utc_date,
-                home_id=match.home_team.id,
-                away_id=match.away_team.id,
-            )
+            # Assign default channels (will be overridden by scraper if available)
+            match.heat_channels, match.broadcaster = _assign_heat_channels()
 
             matches.append(match)
 
         return sorted(matches, key=lambda m: m.utc_date)
 
 
-# "Big Six" team IDs on football-data.org
-BIG_SIX_IDS = {
-    57,   # Arsenal
-    61,   # Chelsea
-    64,   # Liverpool
-    65,   # Manchester City
-    66,   # Manchester United
-    73,   # Tottenham Hotspur
-}
-
-
 def _assign_heat_channels(
-    utc_date: datetime = None,
-    home_id: int = 0,
-    away_id: int = 0,
     scraped_networks: list[str] = None,
 ) -> tuple[list[HeatChannel], str]:
     """
-    Return Heat channels ordered by broadcast likelihood and a broadcaster string.
+    Return Heat channels and a broadcaster string based on scraped broadcast data.
 
-    Heuristic based on NBC's US EPL broadcast patterns (2022-2028 deal):
-    - Saturday 12:30 PM ET "marquee" slot → NBC broadcast (biggest game)
-    - Big Six clashes at any time → likely USA Network
-    - Saturday/Sunday morning slots → USA Network or Peacock
-    - Midweek games → USA Network
-    - UK broadcasts fill Sky Sports / BT Sport slots
-
-    All four channels are always returned; only the ordering changes.
-
-    If scraped_networks is provided (from LiveSoccerTV), actual data takes priority.
+    - If scraped_networks contains real TV channels (NBC, USA Network, etc.),
+      map them to Heat channels and mark as confirmed.
+    - If scraped_networks contains only streaming services (Peacock),
+      return default channels with a "Peacock (streaming)" broadcaster.
+    - If no scraped data, return default channels with "Not yet announced".
     """
-    # Use actual broadcast data when available
-    if scraped_networks:
-        return _channels_from_scraped(scraped_networks)
+    if not scraped_networks:
+        return list(DEFAULT_EPL_CHANNELS), "Not yet announced"
 
-    usa = HEAT_CHANNELS["USA Network"]
-    sky = HEAT_CHANNELS["Sky Sports Premier League"]
-    bt = HEAT_CHANNELS["BT Sports 1"]
-    espn = HEAT_CHANNELS["ESPN"]
-    tele = HEAT_CHANNELS["Telemundo"]
+    # Separate real TV networks from streaming-only
+    tv_networks = [n for n in scraped_networks if n not in STREAMING_ONLY_NETWORKS]
+    streaming = [n for n in scraped_networks if n in STREAMING_ONLY_NETWORKS]
 
-    is_big_six_clash = home_id in BIG_SIX_IDS and away_id in BIG_SIX_IDS
-    has_big_six = home_id in BIG_SIX_IDS or away_id in BIG_SIX_IDS
-
-    # Convert UTC to US Eastern (ET = UTC-5, EDT = UTC-4).
-    # Use a rough offset; exact DST boundaries aren't critical for heuristics.
-    et_hour = (utc_date.hour - 5) % 24 if utc_date else 12
-    day_of_week = utc_date.weekday() if utc_date else 5  # 0=Mon, 5=Sat, 6=Sun
-    is_weekend = day_of_week in (5, 6)
-
-    # Saturday 12:30 PM ET slot (UTC 17:30) — NBC marquee game
-    if is_weekend and et_hour == 12 and utc_date and utc_date.minute >= 15:
-        broadcaster = "NBC (Marquee)"
-        return [usa, tele, sky, bt, espn], broadcaster
-
-    # Big Six clash — very likely on USA Network
-    if is_big_six_clash:
-        broadcaster = "USA Network (Big Six)"
-        return [usa, tele, sky, bt, espn], broadcaster
-
-    # Weekend early morning ET (7:30-10 AM ET = 12:30-15:00 UTC)
-    # Typically multiple games; featured one on USA Network, rest on Peacock
-    if is_weekend and 7 <= et_hour <= 10:
-        if has_big_six:
-            broadcaster = "USA Network (Featured)"
-            return [usa, tele, sky, bt, espn], broadcaster
-        else:
-            broadcaster = "Peacock / Sky Sports"
-            return [sky, bt, usa, tele, espn], broadcaster
-
-    # Weekend late morning / afternoon (11 AM+ ET)
-    if is_weekend and et_hour >= 11:
-        broadcaster = "USA Network"
-        return [usa, tele, sky, bt, espn], broadcaster
-
-    # Midweek games (Tue/Wed/Thu) — usually USA Network for featured
-    if day_of_week in (1, 2, 3):
-        if has_big_six:
-            broadcaster = "USA Network (Midweek)"
-            return [usa, tele, bt, sky, espn], broadcaster
-        else:
-            broadcaster = "Peacock / BT Sport"
-            return [bt, sky, usa, tele, espn], broadcaster
-
-    # Default fallback
-    broadcaster = "NBC / USA Network"
-    return [usa, tele, sky, bt, espn], broadcaster
-
-
-def _channels_from_scraped(networks: list[str]) -> tuple[list[HeatChannel], str]:
-    """Map scraped US broadcaster names to ordered Heat channels."""
     # Build broadcaster string (deduplicated, preserving order)
     seen_names = []
-    for n in networks:
+    for n in scraped_networks:
         if n not in seen_names:
             seen_names.append(n)
     broadcaster = " / ".join(seen_names)
 
-    heat_channels = []
-    seen_nums = set()
+    # If we have real TV networks, map them to Heat channels
+    if tv_networks:
+        heat_channels = []
+        seen_nums = set()
 
-    # Add channels based on actual scraped networks
-    for network in networks:
-        for ch in NETWORK_HEAT_MAP.get(network, []):
+        for network in tv_networks:
+            for ch in NETWORK_HEAT_MAP.get(network, []):
+                if ch.channel_number not in seen_nums:
+                    heat_channels.append(ch)
+                    seen_nums.add(ch.channel_number)
+
+        # Fill remaining default channels
+        for ch in DEFAULT_EPL_CHANNELS:
             if ch.channel_number not in seen_nums:
                 heat_channels.append(ch)
                 seen_nums.add(ch.channel_number)
 
-    # Fill remaining standard EPL channels so the list is never empty
-    for ch_name in ["USA Network", "Sky Sports Premier League", "BT Sports 1", "ESPN"]:
-        ch = HEAT_CHANNELS[ch_name]
-        if ch.channel_number not in seen_nums:
-            heat_channels.append(ch)
-            seen_nums.add(ch.channel_number)
+        return heat_channels, broadcaster
 
-    return heat_channels, broadcaster
+    # Peacock-only (streaming): no specific Heat channel confirmed
+    return list(DEFAULT_EPL_CHANNELS), broadcaster
 
 
 def _normalize_lstv_team(name: str) -> str:
@@ -565,12 +504,11 @@ class EPLScheduleFinder:
 
             if scraped:
                 match.heat_channels, match.broadcaster = _assign_heat_channels(
-                    utc_date=match.utc_date,
-                    home_id=match.home_team.id,
-                    away_id=match.away_team.id,
                     scraped_networks=scraped,
                 )
-                match.broadcast_confirmed = True
+                # Only mark as confirmed if there's at least one real TV channel
+                has_tv = any(n not in STREAMING_ONLY_NETWORKS for n in scraped)
+                match.broadcast_confirmed = has_tv
                 enriched += 1
 
         if enriched:

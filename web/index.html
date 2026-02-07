@@ -184,6 +184,11 @@
             color: var(--text-muted);
             font-size: 0.7rem;
         }
+        .badge-streaming {
+            background: rgba(253, 203, 110, 0.15);
+            color: var(--orange);
+            font-size: 0.7rem;
+        }
         .broadcast-legend {
             font-size: 0.78rem;
             color: var(--text-muted);
@@ -396,8 +401,9 @@ function render() {
     main.insertAdjacentHTML('beforeend', `
         <div class="section-title">Upcoming Schedule</div>
         <div class="broadcast-legend">
-            <span><span class="badge badge-confirmed">✓ Confirmed</span> Verified US broadcast from LiveSoccerTV</span>
-            <span><span class="badge badge-estimated">≈ Estimated</span> Best guess based on time slot &amp; team</span>
+            <span><span class="badge badge-confirmed">✓ Confirmed</span> Verified US TV channel</span>
+            <span><span class="badge badge-streaming">▶ Streaming</span> Peacock only (no TV channel)</span>
+            <span><span class="badge badge-estimated">TBD</span> Not yet announced</span>
         </div>`);
 
     if (upcoming.length === 0) {
@@ -456,7 +462,9 @@ function buildScheduleTable(games) {
                 <td>
                     ${g.broadcastConfirmed
                         ? `<span class="badge badge-confirmed">✓ ${escapeHtml(g.broadcaster)}</span>`
-                        : `<span class="badge badge-estimated">≈ ${escapeHtml(g.broadcaster)}</span>`
+                        : g.broadcaster === 'Not yet announced'
+                            ? `<span class="badge badge-estimated">TBD</span>`
+                            : `<span class="badge badge-streaming">▶ ${escapeHtml(g.broadcaster)}</span>`
                     }
                 </td>
             </tr>`;
