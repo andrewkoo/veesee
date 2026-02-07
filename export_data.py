@@ -25,7 +25,6 @@ from pathlib import Path
 from epl_schedule import (
     EPLScheduleFinder,
     HEAT_CHANNELS,
-    _assign_heat_channels,
 )
 
 

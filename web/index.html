@@ -404,9 +404,12 @@ function buildScheduleTable(games) {
         const matchdayStr = g.matchday ? `MD ${g.matchday}` : '';
         const channels = g.channels || (g.channel ? [g.channel] : []);
         const channelsHtml = channels.length > 0
-            ? channels.map(ch => {
+            ? channels.map((ch, i) => {
                 const dvr = ch.hasPlayback ? ' <span class="badge badge-playback">DVR</span>' : '';
-                return `<div style="margin-bottom:0.25rem;"><span class="channel-number" style="font-size:0.85rem;">Ch. ${ch.number}</span> <span class="channel-name">${escapeHtml(ch.name)}${dvr}</span></div>`;
+                if (i === 0) {
+                    return `<div style="margin-bottom:0.3rem;"><span class="channel-number" style="font-size:0.85rem;">Ch. ${ch.number}</span> <span class="channel-name">${escapeHtml(ch.name)}${dvr}</span></div>`;
+                }
+                return `<div style="margin-bottom:0.15rem;opacity:0.45;font-size:0.75rem;"><span style="color:var(--accent-light);">Ch. ${ch.number}</span> <span class="channel-name">${escapeHtml(ch.name)}${dvr}</span></div>`;
             }).join('')
             : '<span style="color:var(--text-muted)">—</span>';
 

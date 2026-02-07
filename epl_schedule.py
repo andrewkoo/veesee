@@ -181,28 +181,97 @@ class FootballDataClient:
                 away_score=ft.get("away"),
             )
 
-            # Assign Heat channels (best-effort since API has no US broadcaster data)
-            match.heat_channels = _assign_heat_channels()
-            match.broadcaster = "NBC / USA Network"
+            # Assign Heat channels ordered by broadcast likelihood
+            match.heat_channels, match.broadcaster = _assign_heat_channels(
+                utc_date=match.utc_date,
+                home_id=match.home_team.id,
+                away_id=match.away_team.id,
+            )
 
             matches.append(match)
 
         return sorted(matches, key=lambda m: m.utc_date)
 
 
-def _assign_heat_channels() -> list[HeatChannel]:
-    """
-    Return the list of Heat channels that typically carry EPL matches.
+# "Big Six" team IDs on football-data.org
+BIG_SIX_IDS = {
+    57,   # Arsenal
+    61,   # Chelsea
+    64,   # Liverpool
+    65,   # Manchester City
+    66,   # Manchester United
+    73,   # Tottenham Hotspur
+}
 
-    Since football-data.org does not include per-match US broadcaster info,
-    we return the primary channels known to carry EPL in the US and UK.
+
+def _assign_heat_channels(
+    utc_date: datetime = None,
+    home_id: int = 0,
+    away_id: int = 0,
+) -> tuple[list[HeatChannel], str]:
     """
-    return [
-        HEAT_CHANNELS["USA Network"],
-        HEAT_CHANNELS["Sky Sports Premier League"],
-        HEAT_CHANNELS["BT Sports 1"],
-        HEAT_CHANNELS["ESPN"],
-    ]
+    Return Heat channels ordered by broadcast likelihood and a broadcaster string.
+
+    Heuristic based on NBC's US EPL broadcast patterns (2022-2028 deal):
+    - Saturday 12:30 PM ET "marquee" slot → NBC broadcast (biggest game)
+    - Big Six clashes at any time → likely USA Network
+    - Saturday/Sunday morning slots → USA Network or Peacock
+    - Midweek games → USA Network
+    - UK broadcasts fill Sky Sports / BT Sport slots
+
+    All four channels are always returned; only the ordering changes.
+    """
+    usa = HEAT_CHANNELS["USA Network"]
+    sky = HEAT_CHANNELS["Sky Sports Premier League"]
+    bt = HEAT_CHANNELS["BT Sports 1"]
+    espn = HEAT_CHANNELS["ESPN"]
+
+    is_big_six_clash = home_id in BIG_SIX_IDS and away_id in BIG_SIX_IDS
+    has_big_six = home_id in BIG_SIX_IDS or away_id in BIG_SIX_IDS
+
+    # Convert UTC to US Eastern (ET = UTC-5, EDT = UTC-4).
+    # Use a rough offset; exact DST boundaries aren't critical for heuristics.
+    et_hour = (utc_date.hour - 5) % 24 if utc_date else 12
+    day_of_week = utc_date.weekday() if utc_date else 5  # 0=Mon, 5=Sat, 6=Sun
+    is_weekend = day_of_week in (5, 6)
+
+    # Saturday 12:30 PM ET slot (UTC 17:30) — NBC marquee game
+    if is_weekend and et_hour == 12 and utc_date and utc_date.minute >= 15:
+        broadcaster = "NBC (Marquee)"
+        return [usa, sky, bt, espn], broadcaster
+
+    # Big Six clash — very likely on USA Network
+    if is_big_six_clash:
+        broadcaster = "USA Network (Big Six)"
+        return [usa, sky, bt, espn], broadcaster
+
+    # Weekend early morning ET (7:30-10 AM ET = 12:30-15:00 UTC)
+    # Typically multiple games; featured one on USA Network, rest on Peacock
+    if is_weekend and 7 <= et_hour <= 10:
+        if has_big_six:
+            broadcaster = "USA Network (Featured)"
+            return [usa, sky, bt, espn], broadcaster
+        else:
+            broadcaster = "Peacock / Sky Sports"
+            return [sky, bt, usa, espn], broadcaster
+
+    # Weekend late morning / afternoon (11 AM+ ET)
+    if is_weekend and et_hour >= 11:
+        broadcaster = "USA Network"
+        return [usa, sky, bt, espn], broadcaster
+
+    # Midweek games (Tue/Wed/Thu) — usually USA Network for featured
+    if day_of_week in (1, 2, 3):
+        if has_big_six:
+            broadcaster = "USA Network (Midweek)"
+            return [usa, bt, sky, espn], broadcaster
+        else:
+            broadcaster = "Peacock / BT Sport"
+            return [bt, sky, usa, espn], broadcaster
+
+    # Default fallback
+    broadcaster = "NBC / USA Network"
+    return [usa, sky, bt, espn], broadcaster
 
 
 class EPLScheduleFinder:
