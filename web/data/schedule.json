@@ -11917,14 +11917,26 @@
     "title": "Brighton Hove vs Crystal Palace",
     "description": "Matchday 25: Brighton & Hove Albion FC vs Crystal Palace FC",
     "isLive": false,
-    "broadcaster": "Peacock / Sky Sports",
+    "broadcaster": "Telemundo / Telemundo Deportes En Vivo / Peacock",
     "channel": {
-      "number": "870",
-      "name": "Sky Sports Premier League",
-      "category": "Sports",
+      "number": "181",
+      "name": "Telemundo East",
+      "category": "National",
       "hasPlayback": false
     },
     "channels": [
+      {
+        "number": "181",
+        "name": "Telemundo East",
+        "category": "National",
+        "hasPlayback": false
+      },
+      {
+        "number": "174",
+        "name": "USA Network East",
+        "category": "National",
+        "hasPlayback": true
+      },
       {
         "number": "870",
         "name": "Sky Sports Premier League",
@@ -11936,12 +11948,6 @@
         "name": "BT Sports 1",
         "category": "Sports",
         "hasPlayback": false
-      },
-      {
-        "number": "174",
-        "name": "USA Network East",
-        "category": "National",
-        "hasPlayback": true
       },
       {
         "number": "828",
@@ -11965,7 +11971,7 @@
     "title": "Liverpool vs Man City",
     "description": "Matchday 25: Liverpool FC vs Manchester City FC",
     "isLive": false,
-    "broadcaster": "USA Network (Big Six)",
+    "broadcaster": "Peacock",
     "channel": {
       "number": "174",
       "name": "USA Network East",
@@ -12013,14 +12019,20 @@
     "title": "Chelsea vs Leeds United",
     "description": "Matchday 26: Chelsea FC vs Leeds United FC",
     "isLive": false,
-    "broadcaster": "USA Network (Midweek)",
+    "broadcaster": "TeleXitos",
     "channel": {
-      "number": "174",
-      "name": "USA Network East",
+      "number": "181",
+      "name": "Telemundo East",
       "category": "National",
-      "hasPlayback": true
+      "hasPlayback": false
     },
     "channels": [
+      {
+        "number": "181",
+        "name": "Telemundo East",
+        "category": "National",
+        "hasPlayback": false
+      },
       {
         "number": "174",
         "name": "USA Network East",
@@ -12028,14 +12040,14 @@
         "hasPlayback": true
       },
       {
-        "number": "857",
-        "name": "BT Sports 1",
+        "number": "870",
+        "name": "Sky Sports Premier League",
         "category": "Sports",
         "hasPlayback": false
       },
       {
-        "number": "870",
-        "name": "Sky Sports Premier League",
+        "number": "857",
+        "name": "BT Sports 1",
         "category": "Sports",
         "hasPlayback": false
       },
@@ -12061,19 +12073,19 @@
     "title": "Everton vs Bournemouth",
     "description": "Matchday 26: Everton FC vs AFC Bournemouth",
     "isLive": false,
-    "broadcaster": "Peacock / BT Sport",
+    "broadcaster": "Peacock",
     "channel": {
-      "number": "857",
-      "name": "BT Sports 1",
-      "category": "Sports",
-      "hasPlayback": false
+      "number": "174",
+      "name": "USA Network East",
+      "category": "National",
+      "hasPlayback": true
     },
     "channels": [
       {
-        "number": "857",
-        "name": "BT Sports 1",
-        "category": "Sports",
-        "hasPlayback": false
+        "number": "174",
+        "name": "USA Network East",
+        "category": "National",
+        "hasPlayback": true
       },
       {
         "number": "870",
@@ -12082,10 +12094,10 @@
         "hasPlayback": false
       },
       {
-        "number": "174",
-        "name": "USA Network East",
-        "category": "National",
-        "hasPlayback": true
+        "number": "857",
+        "name": "BT Sports 1",
+        "category": "Sports",
+        "hasPlayback": false
       },
       {
         "number": "828",
@@ -12109,7 +12121,7 @@
     "title": "Tottenham vs Newcastle",
     "description": "Matchday 26: Tottenham Hotspur FC vs Newcastle United FC",
     "isLive": false,
-    "broadcaster": "USA Network (Midweek)",
+    "broadcaster": "Peacock",
     "channel": {
       "number": "174",
       "name": "USA Network East",
@@ -12124,14 +12136,14 @@
         "hasPlayback": true
       },
       {
-        "number": "857",
-        "name": "BT Sports 1",
+        "number": "870",
+        "name": "Sky Sports Premier League",
         "category": "Sports",
         "hasPlayback": false
       },
       {
-        "number": "870",
-        "name": "Sky Sports Premier League",
+        "number": "857",
+        "name": "BT Sports 1",
         "category": "Sports",
         "hasPlayback": false
       },
@@ -12397,14 +12409,20 @@
     "title": "Sunderland vs Liverpool",
     "description": "Matchday 26: Sunderland AFC vs Liverpool FC",
     "isLive": false,
-    "broadcaster": "USA Network (Midweek)",
+    "broadcaster": "TeleXitos",
     "channel": {
-      "number": "174",
-      "name": "USA Network East",
+      "number": "181",
+      "name": "Telemundo East",
       "category": "National",
-      "hasPlayback": true
+      "hasPlayback": false
     },
     "channels": [
+      {
+        "number": "181",
+        "name": "Telemundo East",
+        "category": "National",
+        "hasPlayback": false
+      },
       {
         "number": "174",
         "name": "USA Network East",
@@ -12412,14 +12430,14 @@
         "hasPlayback": true
       },
       {
-        "number": "857",
-        "name": "BT Sports 1",
+        "number": "870",
+        "name": "Sky Sports Premier League",
         "category": "Sports",
         "hasPlayback": false
       },
       {
-        "number": "870",
-        "name": "Sky Sports Premier League",
+        "number": "857",
+        "name": "BT Sports 1",
         "category": "Sports",
         "hasPlayback": false
       },
@@ -12445,14 +12463,20 @@
     "title": "Brentford vs Arsenal",
     "description": "Matchday 26: Brentford FC vs Arsenal FC",
     "isLive": false,
-    "broadcaster": "USA Network (Midweek)",
+    "broadcaster": "TeleXitos / NBC / USA Network / Telemundo / Telemundo Deportes En Vivo / UNIVERSO / UNIVERSO NOW / Peacock",
     "channel": {
-      "number": "174",
-      "name": "USA Network East",
+      "number": "181",
+      "name": "Telemundo East",
       "category": "National",
-      "hasPlayback": true
+      "hasPlayback": false
     },
     "channels": [
+      {
+        "number": "181",
+        "name": "Telemundo East",
+        "category": "National",
+        "hasPlayback": false
+      },
       {
         "number": "174",
         "name": "USA Network East",
@@ -12460,14 +12484,20 @@
         "hasPlayback": true
       },
       {
-        "number": "857",
-        "name": "BT Sports 1",
-        "category": "Sports",
+        "number": "183",
+        "name": "Univision East",
+        "category": "National",
         "hasPlayback": false
       },
       {
         "number": "870",
         "name": "Sky Sports Premier League",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "857",
+        "name": "BT Sports 1",
         "category": "Sports",
         "hasPlayback": false
       },

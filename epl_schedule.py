@@ -8,11 +8,24 @@ Uses the football-data.org API (free tier) for EPL fixtures and teams.
 """
 
 import os
+import re
 import requests
 from datetime import datetime, timedelta
 from typing import Optional
 from dataclasses import dataclass, field
 from dotenv import load_dotenv
+
+try:
+    from bs4 import BeautifulSoup
+    HAS_BS4 = True
+except ImportError:
+    HAS_BS4 = False
+
+try:
+    import cloudscraper
+    HAS_CLOUDSCRAPER = True
+except ImportError:
+    HAS_CLOUDSCRAPER = False
 
 load_dotenv()
 
@@ -84,6 +97,68 @@ US_EPL_BROADCASTERS = [
     {"name": "Sky Sports (UK)", "channels": ["Sky Sports Premier League", "Sky Sports Arena"]},
     {"name": "BT Sport (UK)", "channels": ["BT Sports 1", "BT Sports 2"]},
 ]
+
+# ── LiveSoccerTV Scraper Configuration ──
+
+# US-relevant channel names on LiveSoccerTV (used to filter non-US channels)
+LSTV_US_CHANNELS = {
+    "Peacock", "NBC", "USA Network", "CNBC",
+    "Telemundo", "Telemundo Deportes En Vivo",
+    "UNIVERSO", "UNIVERSO NOW", "TeleXitos",
+}
+
+# Map scraped network name → Heat channel(s) in priority order
+NETWORK_HEAT_MAP = {
+    "NBC": [HEAT_CHANNELS["USA Network"]],
+    "USA Network": [HEAT_CHANNELS["USA Network"]],
+    "Peacock": [HEAT_CHANNELS["USA Network"]],
+    "CNBC": [HEAT_CHANNELS["USA Network"]],
+    "Telemundo": [HEAT_CHANNELS["Telemundo"]],
+    "Telemundo Deportes En Vivo": [HEAT_CHANNELS["Telemundo"]],
+    "UNIVERSO": [HEAT_CHANNELS["Univision"]],
+    "UNIVERSO NOW": [HEAT_CHANNELS["Univision"]],
+    "TeleXitos": [HEAT_CHANNELS["Telemundo"]],
+}
+
+# Map LiveSoccerTV team names (lowercase) → football-data.org short names
+_LSTV_TEAM_NORMALIZE = {
+    "arsenal": "Arsenal",
+    "aston villa": "Aston Villa",
+    "afc bournemouth": "Bournemouth",
+    "bournemouth": "Bournemouth",
+    "brentford": "Brentford",
+    "brighton & hove albion": "Brighton Hove",
+    "brighton hove albion": "Brighton Hove",
+    "brighton": "Brighton Hove",
+    "burnley": "Burnley",
+    "chelsea": "Chelsea",
+    "crystal palace": "Crystal Palace",
+    "everton": "Everton",
+    "fulham": "Fulham",
+    "ipswich town": "Ipswich",
+    "ipswich": "Ipswich",
+    "leeds united": "Leeds United",
+    "leeds": "Leeds United",
+    "leicester city": "Leicester",
+    "leicester": "Leicester",
+    "liverpool": "Liverpool",
+    "manchester city": "Man City",
+    "man city": "Man City",
+    "manchester united": "Man United",
+    "man united": "Man United",
+    "newcastle united": "Newcastle",
+    "newcastle": "Newcastle",
+    "nottingham forest": "Nottingham",
+    "nott'm forest": "Nottingham",
+    "southampton": "Southampton",
+    "sunderland": "Sunderland",
+    "tottenham hotspur": "Tottenham",
+    "tottenham": "Tottenham",
+    "west ham united": "West Ham",
+    "west ham": "West Ham",
+    "wolverhampton wanderers": "Wolverhampton",
+    "wolves": "Wolverhampton",
+}
 
 
 class FootballDataClient:
@@ -208,6 +283,7 @@ def _assign_heat_channels(
     utc_date: datetime = None,
     home_id: int = 0,
     away_id: int = 0,
+    scraped_networks: list[str] = None,
 ) -> tuple[list[HeatChannel], str]:
     """
     Return Heat channels ordered by broadcast likelihood and a broadcaster string.
@@ -220,7 +296,13 @@ def _assign_heat_channels(
     - UK broadcasts fill Sky Sports / BT Sport slots
 
     All four channels are always returned; only the ordering changes.
+
+    If scraped_networks is provided (from LiveSoccerTV), actual data takes priority.
     """
+    # Use actual broadcast data when available
+    if scraped_networks:
+        return _channels_from_scraped(scraped_networks)
+
     usa = HEAT_CHANNELS["USA Network"]
     sky = HEAT_CHANNELS["Sky Sports Premier League"]
     bt = HEAT_CHANNELS["BT Sports 1"]
@@ -274,18 +356,166 @@ def _assign_heat_channels(
     return [usa, sky, bt, espn], broadcaster
 
 
+def _channels_from_scraped(networks: list[str]) -> tuple[list[HeatChannel], str]:
+    """Map scraped US broadcaster names to ordered Heat channels."""
+    # Build broadcaster string (deduplicated, preserving order)
+    seen_names = []
+    for n in networks:
+        if n not in seen_names:
+            seen_names.append(n)
+    broadcaster = " / ".join(seen_names)
+
+    heat_channels = []
+    seen_nums = set()
+
+    # Add channels based on actual scraped networks
+    for network in networks:
+        for ch in NETWORK_HEAT_MAP.get(network, []):
+            if ch.channel_number not in seen_nums:
+                heat_channels.append(ch)
+                seen_nums.add(ch.channel_number)
+
+    # Fill remaining standard EPL channels so the list is never empty
+    for ch_name in ["USA Network", "Sky Sports Premier League", "BT Sports 1", "ESPN"]:
+        ch = HEAT_CHANNELS[ch_name]
+        if ch.channel_number not in seen_nums:
+            heat_channels.append(ch)
+            seen_nums.add(ch.channel_number)
+
+    return heat_channels, broadcaster
+
+
+def _normalize_lstv_team(name: str) -> str:
+    """Normalize a LiveSoccerTV team name to football-data.org short name."""
+    return _LSTV_TEAM_NORMALIZE.get(name.lower().strip(), name.strip())
+
+
+def _parse_lstv_match(text: str) -> tuple[str, str] | None:
+    """
+    Parse a LiveSoccerTV match string into (home_short, away_short).
+
+    Handles: "Arsenal vs Chelsea", "Arsenal 3 - 0 Chelsea"
+    """
+    # Remove score if present: "Arsenal 3 - 0 Chelsea"
+    m = re.match(r'^(.+?)\s+\d+\s*-\s*\d+\s+(.+)$', text)
+    if m:
+        home_raw, away_raw = m.group(1), m.group(2)
+    elif " vs " in text:
+        parts = text.split(" vs ", 1)
+        home_raw, away_raw = parts[0], parts[1]
+    else:
+        return None
+
+    home = _normalize_lstv_team(home_raw)
+    away = _normalize_lstv_team(away_raw)
+    return (home, away)
+
+
+def scrape_livesoccertv_epl() -> dict[tuple[str, str], list[str]]:
+    """
+    Scrape LiveSoccerTV's EPL page for US broadcast data.
+
+    Returns dict mapping (home_short, away_short) → list of US broadcaster names.
+    Falls back to empty dict on any error.
+    """
+    if not HAS_BS4:
+        print("  Warning: beautifulsoup4 not installed, skipping LiveSoccerTV scrape")
+        print("  Install with: pip install beautifulsoup4")
+        return {}
+
+    if not HAS_CLOUDSCRAPER:
+        print("  Warning: cloudscraper not installed, skipping LiveSoccerTV scrape")
+        print("  Install with: pip install cloudscraper")
+        return {}
+
+    url = "https://www.livesoccertv.com/competitions/england/premier-league/"
+
+    try:
+        scraper = cloudscraper.create_scraper()
+        resp = scraper.get(url, timeout=15)
+        resp.raise_for_status()
+    except Exception as e:
+        print(f"  Warning: Could not reach LiveSoccerTV: {e}")
+        return {}
+
+    try:
+        soup = BeautifulSoup(resp.text, "html.parser")
+    except Exception as e:
+        print(f"  Warning: Could not parse LiveSoccerTV HTML: {e}")
+        return {}
+
+    broadcast_map: dict[tuple[str, str], list[str]] = {}
+    current_key: tuple[str, str] | None = None
+    current_channels: list[str] = []
+
+    for a in soup.find_all("a", href=True):
+        href = a["href"]
+        text = a.get_text(strip=True)
+
+        if "/match/" in href and text:
+            # Save previous match's channels
+            if current_key and current_channels:
+                broadcast_map[current_key] = list(current_channels)
+
+            current_key = _parse_lstv_match(text)
+            current_channels = []
+
+        elif "/channels/" in href and current_key and text:
+            if text in LSTV_US_CHANNELS:
+                current_channels.append(text)
+
+    # Save last match
+    if current_key and current_channels:
+        broadcast_map[current_key] = list(current_channels)
+
+    return broadcast_map
+
+
 class EPLScheduleFinder:
     """Main class to find EPL games on vSeeBox (Heat app)."""
 
     def __init__(self, api_key: str):
         self.client = FootballDataClient(api_key)
         self._teams: Optional[list[Team]] = None
+        self._broadcast_data: Optional[dict] = None
 
     def get_teams(self) -> list[Team]:
         """Get all EPL teams (cached)."""
         if self._teams is None:
             self._teams = self.client.get_teams()
         return self._teams
+
+    def _get_broadcast_data(self) -> dict:
+        """Get broadcast data from LiveSoccerTV (cached)."""
+        if self._broadcast_data is None:
+            print("Scraping LiveSoccerTV for US broadcast data...")
+            self._broadcast_data = scrape_livesoccertv_epl()
+            count = len(self._broadcast_data)
+            print(f"  Found broadcast data for {count} EPL matches")
+        return self._broadcast_data
+
+    def _enrich_matches(self, matches: list[Match]) -> list[Match]:
+        """Enrich matches with scraped broadcast data."""
+        broadcast_data = self._get_broadcast_data()
+        enriched = 0
+
+        for match in matches:
+            key = (match.home_team.short_name, match.away_team.short_name)
+            scraped = broadcast_data.get(key, [])
+
+            if scraped:
+                match.heat_channels, match.broadcaster = _assign_heat_channels(
+                    utc_date=match.utc_date,
+                    home_id=match.home_team.id,
+                    away_id=match.away_team.id,
+                    scraped_networks=scraped,
+                )
+                enriched += 1
+
+        if enriched:
+            print(f"  Enriched {enriched}/{len(matches)} matches with actual broadcast data")
+
+        return matches
 
     def find_team(self, search_term: str) -> Optional[Team]:
         """
@@ -310,7 +540,8 @@ class EPLScheduleFinder:
 
     def get_upcoming_matches(self) -> list[Match]:
         """Get all scheduled (upcoming) EPL matches."""
-        return self.client.get_matches(status="SCHEDULED")
+        matches = self.client.get_matches(status="SCHEDULED")
+        return self._enrich_matches(matches)
 
     def get_team_matches(self, team: Team) -> list[Match]:
         """Get upcoming matches for a specific team."""
@@ -322,7 +553,8 @@ class EPLScheduleFinder:
 
     def get_all_season_matches(self) -> list[Match]:
         """Get all matches for the current season (all statuses)."""
-        return self.client.get_matches()
+        matches = self.client.get_matches()
+        return self._enrich_matches(matches)
 
 
 def format_match(match: Match, timezone_offset: int = -8) -> str:
@@ -389,7 +621,7 @@ def main():
 
     print()
     print("Heat app channels carrying EPL:")
-    for ch in _assign_heat_channels():
+    for ch in _assign_heat_channels()[0]:
         playback = " (w/ Playback)" if ch.has_playback else ""
         print(f"  Ch. {ch.channel_number}: {ch.channel_name}{playback}")
 
