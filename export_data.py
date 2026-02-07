@@ -25,14 +25,58 @@ from pathlib import Path
 from epl_schedule import (
     EPLScheduleFinder,
     HEAT_CHANNELS,
+    FOTMOB_LEAGUES,
 )
 
 
 OUTPUT_DIR = Path(__file__).parent / "web" / "data"
 
 
+def _match_to_dict(m) -> dict:
+    """Convert a Match object to a JSON-serializable dict."""
+    channels = [
+        {
+            "number": ch.channel_number,
+            "name": ch.channel_name,
+            "category": ch.category,
+            "hasPlayback": ch.has_playback,
+        }
+        for ch in m.heat_channels
+    ]
+
+    # Build description based on competition type
+    if m.matchday and m.competition_code == "PL":
+        desc = f"Matchday {m.matchday}: {m.home_team.name} vs {m.away_team.name}"
+    elif m.matchday:
+        desc = f"Round {m.matchday}: {m.home_team.name} vs {m.away_team.name}"
+    else:
+        desc = f"{m.competition}: {m.home_team.name} vs {m.away_team.name}"
+
+    return {
+        "id": m.id,
+        "startTime": m.utc_date.strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "status": m.status,
+        "matchday": m.matchday,
+        "competition": m.competition,
+        "competitionCode": m.competition_code,
+        "homeTeam": m.home_team.short_name,
+        "homeTeamTla": m.home_team.tla,
+        "awayTeam": m.away_team.short_name,
+        "awayTeamTla": m.away_team.tla,
+        "homeScore": m.home_score,
+        "awayScore": m.away_score,
+        "title": f"{m.home_team.short_name} vs {m.away_team.short_name}",
+        "description": desc,
+        "isLive": m.status in ("LIVE", "IN_PLAY", "PAUSED"),
+        "broadcaster": m.broadcaster,
+        "broadcastConfirmed": m.broadcast_confirmed,
+        "channel": channels[0] if channels else None,
+        "channels": channels,
+    }
+
+
 def export_live_data(api_key: str):
-    """Export live data from football-data.org API."""
+    """Export live data from football-data.org + FotMob APIs."""
     finder = EPLScheduleFinder(api_key)
 
     print("Fetching EPL teams...")
@@ -48,38 +92,27 @@ def export_live_data(api_key: str):
         for t in teams
     ]
 
+    # EPL matches (from football-data.org, enriched with broadcast data)
     print("Fetching EPL matches...")
-    matches = finder.get_all_season_matches()
-    schedule_data = []
-    for m in matches:
-        channels = [
-            {
-                "number": ch.channel_number,
-                "name": ch.channel_name,
-                "category": ch.category,
-                "hasPlayback": ch.has_playback,
-            }
-            for ch in m.heat_channels
-        ]
-        schedule_data.append({
-            "id": m.id,
-            "startTime": m.utc_date.strftime("%Y-%m-%dT%H:%M:%SZ"),
-            "status": m.status,
-            "matchday": m.matchday,
-            "homeTeam": m.home_team.short_name,
-            "homeTeamTla": m.home_team.tla,
-            "awayTeam": m.away_team.short_name,
-            "awayTeamTla": m.away_team.tla,
-            "homeScore": m.home_score,
-            "awayScore": m.away_score,
-            "title": f"{m.home_team.short_name} vs {m.away_team.short_name}",
-            "description": f"Matchday {m.matchday}: {m.home_team.name} vs {m.away_team.name}",
-            "isLive": m.status in ("LIVE", "IN_PLAY", "PAUSED"),
-            "broadcaster": m.broadcaster,
-            "broadcastConfirmed": m.broadcast_confirmed,
-            "channel": channels[0] if channels else None,
-            "channels": channels,
-        })
+    epl_matches = finder.get_all_season_matches()
+    schedule_data = [_match_to_dict(m) for m in epl_matches]
+    print(f"  EPL: {len(schedule_data)} matches")
+
+    # Additional competitions (from FotMob)
+    extra_matches = finder.get_additional_competitions()
+    extra_data = [_match_to_dict(m) for m in extra_matches]
+    schedule_data.extend(extra_data)
+
+    # Sort all by start time
+    schedule_data.sort(key=lambda g: g["startTime"])
+
+    # Count by competition
+    comp_counts = {}
+    for g in schedule_data:
+        comp = g["competition"]
+        comp_counts[comp] = comp_counts.get(comp, 0) + 1
+    for comp, count in comp_counts.items():
+        print(f"  {comp}: {count} matches")
 
     return teams_data, schedule_data
 

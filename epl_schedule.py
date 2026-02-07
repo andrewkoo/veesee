@@ -1,10 +1,11 @@
 """
-EPL Schedule Finder for vSeeBox (Heat App)
+Soccer Schedule Finder for vSeeBox (Heat App)
 
-This script identifies available English Premier League programming
-on vSeeBox using the Heat app's fixed channel list.
+This script identifies available soccer programming on vSeeBox
+using the Heat app's fixed channel list.
 
-Uses the football-data.org API (free tier) for EPL fixtures and teams.
+Supports: Premier League, Champions League, Europa League, FA Cup, EFL Cup.
+Data sources: football-data.org API (EPL), FotMob API (all competitions).
 """
 
 import os
@@ -33,7 +34,7 @@ load_dotenv()
 
 @dataclass
 class Team:
-    """Represents an EPL team."""
+    """Represents a soccer team."""
     id: int
     name: str
     short_name: str
@@ -52,13 +53,15 @@ class HeatChannel:
 
 @dataclass
 class Match:
-    """Represents a scheduled EPL match."""
+    """Represents a scheduled soccer match."""
     id: int
     utc_date: datetime
     status: str
     matchday: int
     home_team: Team
     away_team: Team
+    competition: str = "Premier League"
+    competition_code: str = "PL"
     home_score: Optional[int] = None
     away_score: Optional[int] = None
     heat_channels: list[HeatChannel] = field(default_factory=list)
@@ -89,16 +92,46 @@ HEAT_CHANNELS = {
     "TUDN": HeatChannel("853", "TUDN", "Sports"),
 }
 
-# Known US EPL broadcasters and their primary Heat channels.
-# NBC/Peacock holds the main US rights; USA Network, Telemundo, and
-# Universo carry select matches. This mapping is a best-effort guide
-# since football-data.org does not provide per-match US broadcaster info.
-US_EPL_BROADCASTERS = [
-    {"name": "USA Network / NBC", "channels": ["USA Network"]},
-    {"name": "Telemundo (Spanish)", "channels": ["Telemundo"]},
-    {"name": "Sky Sports (UK)", "channels": ["Sky Sports Premier League", "Sky Sports Arena"]},
-    {"name": "BT Sport (UK)", "channels": ["BT Sports 1", "BT Sports 2"]},
-]
+# ── Competition Configuration ──
+
+# FotMob league IDs for each competition
+FOTMOB_LEAGUES = {
+    "CL": {"id": 42, "name": "Champions League"},
+    "EL": {"id": 73, "name": "Europa League"},
+    "FAC": {"id": 132, "name": "FA Cup"},
+    "LC": {"id": 133, "name": "EFL Cup"},
+}
+
+# Default Heat channels per competition (when no specific broadcast is known)
+DEFAULT_CHANNELS_BY_COMP = {
+    "PL": [
+        HEAT_CHANNELS["USA Network"],
+        HEAT_CHANNELS["Telemundo"],
+        HEAT_CHANNELS["Sky Sports Premier League"],
+        HEAT_CHANNELS["BT Sports 1"],
+        HEAT_CHANNELS["ESPN"],
+    ],
+    "CL": [
+        HEAT_CHANNELS["CBS Sports Network"],
+        HEAT_CHANNELS["TUDN"],
+        HEAT_CHANNELS["Univision"],
+        HEAT_CHANNELS["BT Sports 1"],
+    ],
+    "EL": [
+        HEAT_CHANNELS["CBS Sports Network"],
+        HEAT_CHANNELS["BT Sports 1"],
+        HEAT_CHANNELS["BT Sports 2"],
+    ],
+    "FAC": [
+        HEAT_CHANNELS["ESPN"],
+        HEAT_CHANNELS["ESPN2"],
+        HEAT_CHANNELS["ESPN Deportes"],
+    ],
+    "LC": [
+        HEAT_CHANNELS["CBS Sports Network"],
+        HEAT_CHANNELS["ESPN"],
+    ],
+}
 
 # ── Scraper Configuration ──
 
@@ -283,8 +316,135 @@ class FootballDataClient:
         return sorted(matches, key=lambda m: m.utc_date)
 
 
+class FotMobClient:
+    """Client for the FotMob API (no auth required)."""
+
+    BASE_URL = "https://www.fotmob.com/api"
+    HEADERS = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+    }
+
+    def __init__(self):
+        self._session = requests.Session()
+        self._session.headers.update(self.HEADERS)
+
+    def get_league_fixtures(
+        self,
+        league_id: int,
+        competition_code: str,
+        competition_name: str,
+    ) -> list[Match]:
+        """
+        Fetch all fixtures for a FotMob league.
+
+        Returns list of Match objects with competition info set.
+        """
+        try:
+            resp = self._session.get(
+                f"{self.BASE_URL}/leagues",
+                params={"id": league_id, "ccode3": "USA"},
+                timeout=15,
+            )
+            resp.raise_for_status()
+        except Exception as e:
+            print(f"    Warning: Could not fetch {competition_name} from FotMob: {e}")
+            return []
+
+        data = resp.json()
+        fixtures = data.get("fixtures", {})
+        all_matches = fixtures.get("allMatches", [])
+
+        if not all_matches:
+            print(f"    No fixtures found for {competition_name}")
+            return []
+
+        matches = []
+        for m in all_matches:
+            status_data = m.get("status", {})
+            utc_str = status_data.get("utcTime", "")
+            if not utc_str:
+                continue
+
+            try:
+                utc_date = datetime.strptime(utc_str, "%Y-%m-%dT%H:%M:%SZ")
+            except ValueError:
+                continue
+
+            home_data = m.get("home", {})
+            away_data = m.get("away", {})
+
+            # Determine status
+            if status_data.get("finished"):
+                status = "FINISHED"
+            elif status_data.get("started"):
+                status = "IN_PLAY"
+            elif status_data.get("cancelled"):
+                status = "CANCELLED"
+            else:
+                status = "SCHEDULED"
+
+            # Parse score from scoreStr (e.g. "4 - 2")
+            home_score = None
+            away_score = None
+            score_str = status_data.get("scoreStr", "")
+            if score_str and " - " in score_str:
+                try:
+                    parts = score_str.split(" - ")
+                    home_score = int(parts[0].strip())
+                    away_score = int(parts[1].strip())
+                except (ValueError, IndexError):
+                    pass
+
+            # Round info
+            round_val = m.get("round", m.get("roundName", 0))
+            try:
+                matchday = int(round_val)
+            except (ValueError, TypeError):
+                matchday = 0
+
+            home_name = home_data.get("name", "TBD")
+            away_name = away_data.get("name", "TBD")
+            home_short = home_data.get("shortName", home_name)
+            away_short = away_data.get("shortName", away_name)
+
+            match = Match(
+                id=int(m.get("id", 0)),
+                utc_date=utc_date,
+                status=status,
+                matchday=matchday,
+                home_team=Team(
+                    id=int(home_data.get("id", 0)),
+                    name=home_name,
+                    short_name=home_short,
+                    tla=home_short[:3].upper(),
+                    crest="",
+                ),
+                away_team=Team(
+                    id=int(away_data.get("id", 0)),
+                    name=away_name,
+                    short_name=away_short,
+                    tla=away_short[:3].upper(),
+                    crest="",
+                ),
+                competition=competition_name,
+                competition_code=competition_code,
+                home_score=home_score,
+                away_score=away_score,
+            )
+
+            # Assign default channels for this competition
+            defaults = DEFAULT_CHANNELS_BY_COMP.get(competition_code, DEFAULT_CHANNELS_BY_COMP["PL"])
+            match.heat_channels = list(defaults)
+            match.broadcaster = "Not yet announced"
+
+            matches.append(match)
+
+        return sorted(matches, key=lambda m: m.utc_date)
+
+
 def _assign_heat_channels(
     scraped_networks: list[str] = None,
+    competition_code: str = "PL",
 ) -> tuple[list[HeatChannel], str]:
     """
     Return Heat channels and a broadcaster string based on scraped broadcast data.
@@ -292,15 +452,16 @@ def _assign_heat_channels(
     - If scraped_networks contains real TV channels (NBC, USA Network, etc.),
       map them to Heat channels and mark as confirmed.
     - If scraped_networks contains only streaming services (Peacock),
-      return default channels with a "Peacock (streaming)" broadcaster.
+      return default channels with the streaming broadcaster string.
     - If no scraped data, return default channels with "Not yet announced".
     """
+    defaults = DEFAULT_CHANNELS_BY_COMP.get(competition_code, DEFAULT_CHANNELS_BY_COMP["PL"])
+
     if not scraped_networks:
-        return list(DEFAULT_EPL_CHANNELS), "Not yet announced"
+        return list(defaults), "Not yet announced"
 
     # Separate real TV networks from streaming-only
     tv_networks = [n for n in scraped_networks if n not in STREAMING_ONLY_NETWORKS]
-    streaming = [n for n in scraped_networks if n in STREAMING_ONLY_NETWORKS]
 
     # Build broadcaster string (deduplicated, preserving order)
     seen_names = []
@@ -320,16 +481,16 @@ def _assign_heat_channels(
                     heat_channels.append(ch)
                     seen_nums.add(ch.channel_number)
 
-        # Fill remaining default channels
-        for ch in DEFAULT_EPL_CHANNELS:
+        # Fill remaining default channels for this competition
+        for ch in defaults:
             if ch.channel_number not in seen_nums:
                 heat_channels.append(ch)
                 seen_nums.add(ch.channel_number)
 
         return heat_channels, broadcaster
 
-    # Peacock-only (streaming): no specific Heat channel confirmed
-    return list(DEFAULT_EPL_CHANNELS), broadcaster
+    # Streaming-only: no specific Heat channel confirmed
+    return list(defaults), broadcaster
 
 
 def _normalize_lstv_team(name: str) -> str:
@@ -622,10 +783,16 @@ def scrape_worldsoccertalk_epl() -> dict[tuple[str, str], list[str]]:
 
 
 class EPLScheduleFinder:
-    """Main class to find EPL games on vSeeBox (Heat app)."""
+    """Main class to find soccer games on vSeeBox (Heat app).
+
+    Supports multiple competitions:
+    - Premier League (via football-data.org API)
+    - Champions League, Europa League, FA Cup, EFL Cup (via FotMob API)
+    """
 
     def __init__(self, api_key: str):
         self.client = FootballDataClient(api_key)
+        self.fotmob = FotMobClient()
         self._teams: Optional[list[Team]] = None
         self._broadcast_data: Optional[dict] = None
 
@@ -676,6 +843,7 @@ class EPLScheduleFinder:
             if scraped:
                 match.heat_channels, match.broadcaster = _assign_heat_channels(
                     scraped_networks=scraped,
+                    competition_code=match.competition_code,
                 )
                 # Only mark as confirmed if there's at least one real TV channel
                 has_tv = any(n not in STREAMING_ONLY_NETWORKS for n in scraped)
@@ -686,6 +854,26 @@ class EPLScheduleFinder:
             print(f"  Enriched {enriched}/{len(matches)} matches with actual broadcast data")
 
         return matches
+
+    def get_additional_competitions(self) -> list[Match]:
+        """Fetch fixtures from CL, EL, FA Cup, and EFL Cup via FotMob."""
+        all_matches = []
+
+        print("Fetching additional competitions from FotMob...")
+        for code, info in FOTMOB_LEAGUES.items():
+            print(f"  Fetching {info['name']}...")
+            matches = self.fotmob.get_league_fixtures(
+                league_id=info["id"],
+                competition_code=code,
+                competition_name=info["name"],
+            )
+            if matches:
+                upcoming = [m for m in matches if m.status != "FINISHED"]
+                print(f"    {len(matches)} total, {len(upcoming)} upcoming")
+                all_matches.extend(matches)
+            time.sleep(0.5)  # Rate limit between requests
+
+        return sorted(all_matches, key=lambda m: m.utc_date)
 
     def find_team(self, search_term: str) -> Optional[Team]:
         """

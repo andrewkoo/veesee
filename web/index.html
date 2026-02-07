@@ -189,6 +189,35 @@
             color: var(--orange);
             font-size: 0.7rem;
         }
+        .badge-comp {
+            font-size: 0.65rem;
+            font-weight: 600;
+            padding: 0.15rem 0.4rem;
+            border-radius: 3px;
+        }
+        .badge-comp-pl { background: rgba(55, 0, 130, 0.2); color: #a78bfa; }
+        .badge-comp-cl { background: rgba(0, 70, 150, 0.2); color: #60a5fa; }
+        .badge-comp-el { background: rgba(230, 126, 34, 0.2); color: #f59e0b; }
+        .badge-comp-fac { background: rgba(220, 20, 60, 0.2); color: #f87171; }
+        .badge-comp-lc { background: rgba(0, 128, 0, 0.2); color: #4ade80; }
+        .comp-filter {
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+            margin-bottom: 0.75rem;
+        }
+        .comp-filter button {
+            background: var(--surface2);
+            border: 1px solid var(--border);
+            color: var(--text-muted);
+            padding: 0.3rem 0.7rem;
+            border-radius: 6px;
+            font-size: 0.78rem;
+            cursor: pointer;
+            transition: all 0.15s;
+        }
+        .comp-filter button:hover { border-color: var(--accent-light); color: var(--text); }
+        .comp-filter button.active { background: var(--accent); color: #fff; border-color: var(--accent); }
         .broadcast-legend {
             font-size: 0.78rem;
             color: var(--text-muted);
@@ -277,7 +306,7 @@
 <div class="header">
     <div class="header-left">
         <div class="header-title-row">
-            <h1>vSeeBox Heat Live EPL Schedule</h1>
+            <h1>vSeeBox Heat Live Soccer Schedule</h1>
             <span class="header-badge" id="data-source-badge">Loading...</span>
         </div>
         <div class="header-subtitle" id="header-subtitle">Latest game in schedule: loading...</div>
@@ -297,7 +326,7 @@
 </div>
 
 <div class="footer">
-    vSeeBox Heat Live EPL Schedule &mdash; Channel data from
+    vSeeBox Heat Live Soccer Schedule &mdash; Channel data from
     <a href="https://www.vseebox.net/pages/channel-list" style="color:var(--accent-light)">vseebox.net</a>
 </div>
 
@@ -397,14 +426,41 @@ function render() {
     const main = document.getElementById('main-content');
     main.innerHTML = '';
 
+    // Competition filter
+    const compCodes = [...new Set(games.map(g => g.competitionCode || 'PL'))];
+    const compNames = { PL: 'Premier League', CL: 'Champions League', EL: 'Europa League', FAC: 'FA Cup', LC: 'EFL Cup' };
+
+    let compFilterHtml = '';
+    if (compCodes.length > 1) {
+        compFilterHtml = `<div class="comp-filter" id="comp-filter">
+            <button class="active" data-comp="all">All Competitions</button>
+            ${compCodes.map(c => `<button data-comp="${c}">${compNames[c] || c}</button>`).join('')}
+        </div>`;
+    }
+
     // Schedule table
     main.insertAdjacentHTML('beforeend', `
         <div class="section-title">Upcoming Schedule</div>
+        ${compFilterHtml}
         <div class="broadcast-legend">
             <span><span class="badge badge-confirmed">✓ Confirmed</span> Verified US TV channel</span>
             <span><span class="badge badge-streaming">▶ Streaming</span> Peacock only (no TV channel)</span>
             <span><span class="badge badge-estimated">TBD</span> Not yet announced</span>
         </div>`);
+
+    // Wire up competition filter buttons
+    const compFilter = document.getElementById('comp-filter');
+    if (compFilter) {
+        compFilter.addEventListener('click', e => {
+            if (e.target.tagName !== 'BUTTON') return;
+            compFilter.querySelectorAll('button').forEach(b => b.classList.remove('active'));
+            e.target.classList.add('active');
+            const comp = e.target.dataset.comp;
+            const filtered = comp === 'all' ? upcoming : upcoming.filter(g => (g.competitionCode || 'PL') === comp);
+            const tableWrap = main.querySelector('.schedule-table-wrap');
+            if (tableWrap) tableWrap.outerHTML = buildScheduleTable(filtered);
+        });
+    }
 
     if (upcoming.length === 0) {
         main.insertAdjacentHTML('beforeend', `
@@ -434,6 +490,10 @@ function buildScheduleTable(games) {
         const timeStr = start.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit', hour12: true, timeZoneName: 'short' });
         const liveBadge = g.isLive ? '<span class="badge badge-live">LIVE</span> ' : '';
         const statusBadge = g.status === 'FINISHED' ? '<span class="badge" style="background:rgba(0,184,148,0.15);color:var(--green);">FT</span> ' : '';
+        const compCode = g.competitionCode || 'PL';
+        const compClass = `badge-comp-${compCode.toLowerCase()}`;
+        const compLabel = { PL: 'PL', CL: 'UCL', EL: 'UEL', FAC: 'FA', LC: 'LC' }[compCode] || compCode;
+        const compBadge = compCode !== 'PL' ? `<span class="badge badge-comp ${compClass}">${compLabel}</span> ` : '';
         const matchdayStr = g.matchday ? `MD ${g.matchday}` : '';
         const channels = g.channels || (g.channel ? [g.channel] : []);
         const channelsHtml = channels.length > 0
@@ -453,7 +513,7 @@ function buildScheduleTable(games) {
                     <div style="font-size:0.72rem;color:var(--text-muted);">${matchdayStr}</div>
                 </td>
                 <td>
-                    <div class="match-title">${liveBadge}${statusBadge}${escapeHtml(g.title)}</div>
+                    <div class="match-title">${compBadge}${liveBadge}${statusBadge}${escapeHtml(g.title)}</div>
                     <div class="match-desc">${escapeHtml(g.description)}</div>
                 </td>
                 <td>
