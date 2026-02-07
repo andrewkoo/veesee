@@ -13268,8 +13268,8 @@
     "title": "Man United vs Tottenham",
     "description": "Matchday 25: Manchester United FC vs Tottenham Hotspur FC",
     "isLive": false,
-    "broadcaster": "Not yet announced",
-    "broadcastConfirmed": false,
+    "broadcaster": "USA Network / Universo / DirecTV Stream / Sling Blue",
+    "broadcastConfirmed": true,
     "channel": {
       "number": "174",
       "name": "USA Network East",
@@ -13282,6 +13282,12 @@
         "name": "USA Network East",
         "category": "National",
         "hasPlayback": true
+      },
+      {
+        "number": "183",
+        "name": "Univision East",
+        "category": "National",
+        "hasPlayback": false
       },
       {
         "number": "181",
@@ -13323,7 +13329,7 @@
     "title": "Bournemouth vs Aston Villa",
     "description": "Matchday 25: AFC Bournemouth vs Aston Villa FC",
     "isLive": false,
-    "broadcaster": "Not yet announced",
+    "broadcaster": "Peacock Premium",
     "broadcastConfirmed": false,
     "channel": {
       "number": "174",
@@ -13378,15 +13384,21 @@
     "title": "Arsenal vs Sunderland",
     "description": "Matchday 25: Arsenal FC vs Sunderland AFC",
     "isLive": false,
-    "broadcaster": "Not yet announced",
-    "broadcastConfirmed": false,
+    "broadcaster": "Peacock Premium / Universo / DirecTV Stream",
+    "broadcastConfirmed": true,
     "channel": {
-      "number": "174",
-      "name": "USA Network East",
+      "number": "183",
+      "name": "Univision East",
       "category": "National",
-      "hasPlayback": true
+      "hasPlayback": false
     },
     "channels": [
+      {
+        "number": "183",
+        "name": "Univision East",
+        "category": "National",
+        "hasPlayback": false
+      },
       {
         "number": "174",
         "name": "USA Network East",
@@ -13433,7 +13445,7 @@
     "title": "Burnley vs West Ham",
     "description": "Matchday 25: Burnley FC vs West Ham United FC",
     "isLive": false,
-    "broadcaster": "Not yet announced",
+    "broadcaster": "Peacock Premium",
     "broadcastConfirmed": false,
     "channel": {
       "number": "174",
@@ -13488,7 +13500,7 @@
     "title": "Fulham vs Everton",
     "description": "Matchday 25: Fulham FC vs Everton FC",
     "isLive": false,
-    "broadcaster": "Not yet announced",
+    "broadcaster": "Peacock Premium",
     "broadcastConfirmed": false,
     "channel": {
       "number": "174",
@@ -13543,7 +13555,7 @@
     "title": "Wolverhampton vs Chelsea",
     "description": "Matchday 25: Wolverhampton Wanderers FC vs Chelsea FC",
     "isLive": false,
-    "broadcaster": "Not yet announced",
+    "broadcaster": "Peacock Premium",
     "broadcastConfirmed": false,
     "channel": {
       "number": "174",
@@ -13598,7 +13610,7 @@
     "title": "Newcastle vs Brentford",
     "description": "Matchday 25: Newcastle United FC vs Brentford FC",
     "isLive": false,
-    "broadcaster": "Not yet announced",
+    "broadcaster": "Peacock Premium",
     "broadcastConfirmed": false,
     "channel": {
       "number": "174",
@@ -13653,7 +13665,7 @@
     "title": "Brighton Hove vs Crystal Palace",
     "description": "Matchday 25: Brighton & Hove Albion FC vs Crystal Palace FC",
     "isLive": false,
-    "broadcaster": "Telemundo / Telemundo Deportes En Vivo / Peacock",
+    "broadcaster": "Peacock Premium / Telemundo / DirecTV Stream",
     "broadcastConfirmed": true,
     "channel": {
       "number": "181",
@@ -13708,7 +13720,7 @@
     "title": "Liverpool vs Man City",
     "description": "Matchday 25: Liverpool FC vs Manchester City FC",
     "isLive": false,
-    "broadcaster": "Peacock",
+    "broadcaster": "Peacock Premium",
     "broadcastConfirmed": false,
     "channel": {
       "number": "174",

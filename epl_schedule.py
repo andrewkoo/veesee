@@ -100,7 +100,7 @@ US_EPL_BROADCASTERS = [
     {"name": "BT Sport (UK)", "channels": ["BT Sports 1", "BT Sports 2"]},
 ]
 
-# ── LiveSoccerTV Scraper Configuration ──
+# ── Scraper Configuration ──
 
 # US-relevant channel names on LiveSoccerTV (used to filter non-US channels)
 LSTV_US_CHANNELS = {
@@ -110,7 +110,8 @@ LSTV_US_CHANNELS = {
 }
 
 # Map scraped network name → Heat channel(s) in priority order.
-# Peacock is excluded: it's a streaming service with no Heat channel equivalent.
+# Covers names from both LiveSoccerTV and World Soccer Talk.
+# Peacock/streaming services are excluded.
 NETWORK_HEAT_MAP = {
     "NBC": [HEAT_CHANNELS["USA Network"]],
     "USA Network": [HEAT_CHANNELS["USA Network"]],
@@ -119,11 +120,15 @@ NETWORK_HEAT_MAP = {
     "Telemundo Deportes En Vivo": [HEAT_CHANNELS["Telemundo"]],
     "UNIVERSO": [HEAT_CHANNELS["Univision"]],
     "UNIVERSO NOW": [HEAT_CHANNELS["Univision"]],
+    "Universo": [HEAT_CHANNELS["Univision"]],
     "TeleXitos": [HEAT_CHANNELS["Telemundo"]],
 }
 
 # Streaming-only networks (no Heat channel equivalent)
-STREAMING_ONLY_NETWORKS = {"Peacock"}
+STREAMING_ONLY_NETWORKS = {"Peacock", "Peacock Premium", "DirecTV Stream", "Sling Blue", "Fubo"}
+
+# World Soccer Talk US TV channels (real linear TV, not streaming)
+WST_TV_CHANNELS = {"USA Network", "NBC", "CNBC", "Telemundo", "Universo", "UNIVERSO"}
 
 # Default Heat channels to show when no specific broadcast is known
 DEFAULT_EPL_CHANNELS = [
@@ -470,6 +475,152 @@ def scrape_livesoccertv_epl(
     return broadcast_map
 
 
+# ── World Soccer Talk Scraper ──
+
+# Map World Soccer Talk team names → football-data.org short names
+_WST_TEAM_NORMALIZE = {
+    "arsenal": "Arsenal",
+    "aston villa": "Aston Villa",
+    "afc bournemouth": "Bournemouth",
+    "bournemouth": "Bournemouth",
+    "brentford": "Brentford",
+    "brighton & hove albion": "Brighton Hove",
+    "brighton hove albion": "Brighton Hove",
+    "brighton": "Brighton Hove",
+    "burnley": "Burnley",
+    "chelsea": "Chelsea",
+    "crystal palace": "Crystal Palace",
+    "everton": "Everton",
+    "fulham": "Fulham",
+    "ipswich town": "Ipswich",
+    "ipswich": "Ipswich",
+    "leeds united": "Leeds United",
+    "leeds": "Leeds United",
+    "leicester city": "Leicester",
+    "leicester": "Leicester",
+    "liverpool": "Liverpool",
+    "manchester city": "Man City",
+    "man city": "Man City",
+    "manchester united": "Man United",
+    "man united": "Man United",
+    "newcastle united": "Newcastle",
+    "newcastle": "Newcastle",
+    "nottingham forest": "Nottingham",
+    "nott'm forest": "Nottingham",
+    "southampton": "Southampton",
+    "sunderland": "Sunderland",
+    "tottenham hotspur": "Tottenham",
+    "tottenham": "Tottenham",
+    "west ham united": "West Ham",
+    "west ham": "West Ham",
+    "wolverhampton wanderers": "Wolverhampton",
+    "wolves": "Wolverhampton",
+}
+
+
+def _normalize_wst_team(name: str) -> str:
+    """Normalize a World Soccer Talk team name to football-data.org short name."""
+    return _WST_TEAM_NORMALIZE.get(name.lower().strip(), name.strip())
+
+
+def _parse_wst_match(title_text: str) -> tuple[str, str] | None:
+    """
+    Parse a World Soccer Talk match title into (home_short, away_short).
+
+    Handles: "Manchester United vs. Tottenham Hotspur(English Premier League)"
+    """
+    # Remove league suffix
+    text = re.sub(r'\s*\(.*?\)\s*$', '', title_text).strip()
+    if " vs. " not in text:
+        return None
+    parts = text.split(" vs. ", 1)
+    if len(parts) != 2:
+        return None
+    home = _normalize_wst_team(parts[0])
+    away = _normalize_wst_team(parts[1])
+    return (home, away)
+
+
+def scrape_worldsoccertalk_epl() -> dict[tuple[str, str], list[str]]:
+    """
+    Scrape World Soccer Talk's EPL TV schedule page for US broadcast data.
+
+    Returns dict mapping (home_short, away_short) → list of US channel names.
+    This source clearly distinguishes TV channels from streaming services.
+    Falls back to empty dict on any error.
+    """
+    if not HAS_BS4:
+        print("  Warning: beautifulsoup4 not installed, skipping World Soccer Talk scrape")
+        return {}
+
+    if not HAS_CLOUDSCRAPER:
+        print("  Warning: cloudscraper not installed, skipping World Soccer Talk scrape")
+        return {}
+
+    url = "https://worldsoccertalk.com/premier-league-tv-schedule/"
+    print("  Scraping World Soccer Talk EPL TV schedule...")
+
+    try:
+        scraper = cloudscraper.create_scraper()
+        resp = scraper.get(url, timeout=15)
+        resp.raise_for_status()
+    except Exception as e:
+        print(f"    Warning: Could not reach World Soccer Talk: {e}")
+        return {}
+
+    try:
+        soup = BeautifulSoup(resp.text, "html.parser")
+    except Exception as e:
+        print(f"    Warning: Could not parse World Soccer Talk HTML: {e}")
+        return {}
+
+    broadcast_map: dict[tuple[str, str], list[str]] = {}
+
+    # Match titles use CSS class containing "MatchTitle"
+    match_titles = soup.find_all(class_=re.compile(r"MatchTitle", re.I))
+
+    for mt in match_titles:
+        title_text = mt.get_text(strip=True)
+        if "English Premier League" not in title_text:
+            continue
+
+        key = _parse_wst_match(title_text)
+        if not key:
+            continue
+
+        # Walk up to find parent container with channel links
+        parent = mt.parent
+        channels = []
+        for _ in range(5):
+            if parent is None:
+                break
+            all_text = parent.get_text(separator="|", strip=True)
+            has_channel_data = any(ch in all_text for ch in
+                                  ["USA Network", "Peacock", "Telemundo", "Universo",
+                                   "NBC", "CNBC", "Sling", "DirecTV"])
+            if has_channel_data:
+                # Extract channel names from links and text nodes
+                for link in parent.find_all("a"):
+                    text = link.get_text(strip=True)
+                    if text and text not in channels and "Premier League" not in text:
+                        # Only keep known US broadcast/streaming names
+                        if text in NETWORK_HEAT_MAP or text in STREAMING_ONLY_NETWORKS:
+                            channels.append(text)
+                break
+            parent = parent.parent
+
+        if channels:
+            broadcast_map[key] = channels
+
+    print(f"    Found {len(broadcast_map)} EPL matches from World Soccer Talk")
+    for key, chs in broadcast_map.items():
+        tv = [c for c in chs if c not in STREAMING_ONLY_NETWORKS]
+        label = ", ".join(tv) if tv else "Peacock only"
+        print(f"      {key[0]} vs {key[1]}: {label}")
+
+    return broadcast_map
+
+
 class EPLScheduleFinder:
     """Main class to find EPL games on vSeeBox (Heat app)."""
 
@@ -485,12 +636,32 @@ class EPLScheduleFinder:
         return self._teams
 
     def _get_broadcast_data(self) -> dict:
-        """Get broadcast data from LiveSoccerTV (cached)."""
+        """
+        Get broadcast data from multiple sources (cached).
+
+        Sources (in priority order):
+        1. World Soccer Talk — most accurate for US TV vs streaming distinction
+        2. LiveSoccerTV — broader coverage, daily schedule pages
+        """
         if self._broadcast_data is None:
-            print("Scraping LiveSoccerTV for US broadcast data...")
-            self._broadcast_data = scrape_livesoccertv_epl()
-            count = len(self._broadcast_data)
-            print(f"  Found broadcast data for {count} EPL matches")
+            print("Scraping broadcast data from multiple sources...")
+
+            # Primary: World Soccer Talk (high confidence US TV data)
+            wst_data = scrape_worldsoccertalk_epl()
+
+            # Secondary: LiveSoccerTV (broader coverage)
+            lstv_data = scrape_livesoccertv_epl()
+
+            # Merge: WST takes priority, LSTV fills gaps
+            merged = dict(wst_data)
+            lstv_added = 0
+            for key, channels in lstv_data.items():
+                if key not in merged:
+                    merged[key] = channels
+                    lstv_added += 1
+
+            print(f"  Combined: {len(wst_data)} from WST + {lstv_added} additional from LSTV = {len(merged)} total")
+            self._broadcast_data = merged
         return self._broadcast_data
 
     def _enrich_matches(self, matches: list[Match]) -> list[Match]:
