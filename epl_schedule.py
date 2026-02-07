@@ -12,6 +12,9 @@ import requests
 from datetime import datetime, timedelta
 from typing import Optional
 from dataclasses import dataclass, field
+from dotenv import load_dotenv
+
+load_dotenv()
 
 
 @dataclass
