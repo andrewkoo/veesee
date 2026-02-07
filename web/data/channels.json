@@ -1,0 +1,116 @@
+[
+  {
+    "number": "174",
+    "name": "USA Network East",
+    "category": "National",
+    "hasPlayback": true
+  },
+  {
+    "number": "181",
+    "name": "Telemundo East",
+    "category": "National",
+    "hasPlayback": false
+  },
+  {
+    "number": "183",
+    "name": "Univision East",
+    "category": "National",
+    "hasPlayback": false
+  },
+  {
+    "number": "827",
+    "name": "CBS Sports Network",
+    "category": "Sports",
+    "hasPlayback": true
+  },
+  {
+    "number": "828",
+    "name": "ESPN",
+    "category": "Sports",
+    "hasPlayback": true
+  },
+  {
+    "number": "829",
+    "name": "ESPN Deportes",
+    "category": "Sports",
+    "hasPlayback": true
+  },
+  {
+    "number": "830",
+    "name": "ESPN2",
+    "category": "Sports",
+    "hasPlayback": true
+  },
+  {
+    "number": "831",
+    "name": "ESPNU",
+    "category": "Sports",
+    "hasPlayback": true
+  },
+  {
+    "number": "833",
+    "name": "Fox Sports 1",
+    "category": "Sports",
+    "hasPlayback": true
+  },
+  {
+    "number": "834",
+    "name": "Fox Sports 2",
+    "category": "Sports",
+    "hasPlayback": false
+  },
+  {
+    "number": "853",
+    "name": "TUDN",
+    "category": "Sports",
+    "hasPlayback": false
+  },
+  {
+    "number": "856",
+    "name": "Fox Soccer Plus",
+    "category": "Sports",
+    "hasPlayback": false
+  },
+  {
+    "number": "857",
+    "name": "BT Sports 1",
+    "category": "Sports",
+    "hasPlayback": false
+  },
+  {
+    "number": "858",
+    "name": "BT Sports 2",
+    "category": "Sports",
+    "hasPlayback": false
+  },
+  {
+    "number": "859",
+    "name": "BT Sports 3",
+    "category": "Sports",
+    "hasPlayback": false
+  },
+  {
+    "number": "860",
+    "name": "BT Sports 4",
+    "category": "Sports",
+    "hasPlayback": false
+  },
+  {
+    "number": "869",
+    "name": "Sky Sports Arena",
+    "category": "Sports",
+    "hasPlayback": false
+  },
+  {
+    "number": "870",
+    "name": "Sky Sports Premier League",
+    "category": "Sports",
+    "hasPlayback": false
+  },
+  {
+    "number": "874",
+    "name": "ESPNews",
+    "category": "Sports",
+    "hasPlayback": false
+  }
+]
