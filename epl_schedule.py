@@ -94,43 +94,108 @@ HEAT_CHANNELS = {
 
 # ── Competition Configuration ──
 
-# FotMob league IDs for each competition
+# FotMob league IDs for each competition (grouped by category)
 FOTMOB_LEAGUES = {
-    "CL": {"id": 42, "name": "Champions League"},
-    "EL": {"id": 73, "name": "Europa League"},
-    "FAC": {"id": 132, "name": "FA Cup"},
-    "LC": {"id": 133, "name": "EFL Cup"},
+    # ── English ──
+    "FAC":   {"id": 132,   "name": "FA Cup",              "category": "english"},
+    "LC":    {"id": 133,   "name": "EFL Cup",             "category": "english"},
+    "ELC":   {"id": 48,    "name": "Championship",        "category": "english"},
+    # ── European Cups ──
+    "CL":    {"id": 42,    "name": "Champions League",    "category": "europe_cups"},
+    "EL":    {"id": 73,    "name": "Europa League",       "category": "europe_cups"},
+    "CWC":   {"id": 78,    "name": "Club World Cup",      "category": "europe_cups"},
+    # ── European Leagues ──
+    "LL":    {"id": 87,    "name": "La Liga",             "category": "europe"},
+    "BL":    {"id": 54,    "name": "Bundesliga",          "category": "europe"},
+    "SA":    {"id": 55,    "name": "Serie A",             "category": "europe"},
+    "L1":    {"id": 53,    "name": "Ligue 1",             "category": "europe"},
+    "ERE":   {"id": 57,    "name": "Eredivisie",          "category": "europe"},
+    "LP":    {"id": 61,    "name": "Liga Portugal",       "category": "europe"},
+    "SPL":   {"id": 64,    "name": "Scottish Premiership", "category": "europe"},
+    # ── European Domestic Cups ──
+    "CDR":   {"id": 138,   "name": "Copa del Rey",        "category": "europe_cups"},
+    "DFB":   {"id": 209,   "name": "DFB Pokal",           "category": "europe_cups"},
+    "CI":    {"id": 141,   "name": "Coppa Italia",        "category": "europe_cups"},
+    "CDF":   {"id": 134,   "name": "Coupe de France",     "category": "europe_cups"},
+    # ── Americas ──
+    "MLS":   {"id": 130,   "name": "MLS",                 "category": "americas"},
+    "LMX":   {"id": 230,   "name": "Liga MX",             "category": "americas"},
+    # ── Women's ──
+    "NWSL":  {"id": 9134,  "name": "NWSL",                "category": "womens"},
+    "WSL":   {"id": 9227,  "name": "WSL",                 "category": "womens"},
+    "UWCL":  {"id": 9375,  "name": "Women's Champions League", "category": "womens"},
+    "LMXF":  {"id": 9906,  "name": "Liga MX Femenil",     "category": "womens"},
+    "LF":    {"id": 9907,  "name": "Liga F",              "category": "womens"},
+    "FBL":   {"id": 9676,  "name": "Frauen Bundesliga",   "category": "womens"},
+    "SAF":   {"id": 10178, "name": "Serie A Femminile",   "category": "womens"},
 }
+
+# Competition category labels (for frontend grouping)
+COMP_CATEGORIES = {
+    "english":     "English",
+    "europe_cups": "European Cups",
+    "europe":      "European Leagues",
+    "americas":    "Americas",
+    "womens":      "Women's",
+}
+
+# US broadcast defaults by channel group
+_ESPN_CHANNELS = [
+    HEAT_CHANNELS["ESPN"],
+    HEAT_CHANNELS["ESPN2"],
+    HEAT_CHANNELS["ESPN Deportes"],
+]
+_CBS_CHANNELS = [
+    HEAT_CHANNELS["CBS Sports Network"],
+]
+_FOX_CHANNELS = [
+    HEAT_CHANNELS["Fox Sports 1"],
+    HEAT_CHANNELS["Fox Sports 2"],
+]
+_SKY_BT_CHANNELS = [
+    HEAT_CHANNELS["Sky Sports Premier League"],
+    HEAT_CHANNELS["BT Sports 1"],
+    HEAT_CHANNELS["BT Sports 2"],
+]
+_UNIVISION_CHANNELS = [
+    HEAT_CHANNELS["TUDN"],
+    HEAT_CHANNELS["Univision"],
+]
 
 # Default Heat channels per competition (when no specific broadcast is known)
 DEFAULT_CHANNELS_BY_COMP = {
-    "PL": [
-        HEAT_CHANNELS["USA Network"],
-        HEAT_CHANNELS["Telemundo"],
-        HEAT_CHANNELS["Sky Sports Premier League"],
-        HEAT_CHANNELS["BT Sports 1"],
-        HEAT_CHANNELS["ESPN"],
-    ],
-    "CL": [
-        HEAT_CHANNELS["CBS Sports Network"],
-        HEAT_CHANNELS["TUDN"],
-        HEAT_CHANNELS["Univision"],
-        HEAT_CHANNELS["BT Sports 1"],
-    ],
-    "EL": [
-        HEAT_CHANNELS["CBS Sports Network"],
-        HEAT_CHANNELS["BT Sports 1"],
-        HEAT_CHANNELS["BT Sports 2"],
-    ],
-    "FAC": [
-        HEAT_CHANNELS["ESPN"],
-        HEAT_CHANNELS["ESPN2"],
-        HEAT_CHANNELS["ESPN Deportes"],
-    ],
-    "LC": [
-        HEAT_CHANNELS["CBS Sports Network"],
-        HEAT_CHANNELS["ESPN"],
-    ],
+    # English
+    "PL":   [HEAT_CHANNELS["USA Network"], HEAT_CHANNELS["Telemundo"]] + _SKY_BT_CHANNELS + [HEAT_CHANNELS["ESPN"]],
+    "FAC":  _ESPN_CHANNELS,
+    "LC":   _CBS_CHANNELS + [HEAT_CHANNELS["ESPN"]],
+    "ELC":  _CBS_CHANNELS + _SKY_BT_CHANNELS,
+    # European Cups
+    "CL":   _CBS_CHANNELS + _UNIVISION_CHANNELS + [HEAT_CHANNELS["BT Sports 1"]],
+    "EL":   _CBS_CHANNELS + [HEAT_CHANNELS["BT Sports 1"], HEAT_CHANNELS["BT Sports 2"]],
+    "CWC":  _ESPN_CHANNELS,
+    "CDR":  _ESPN_CHANNELS,
+    "DFB":  _ESPN_CHANNELS,
+    "CI":   _CBS_CHANNELS,
+    "CDF":  _ESPN_CHANNELS,
+    # European Leagues
+    "LL":   _ESPN_CHANNELS,
+    "BL":   _ESPN_CHANNELS,
+    "SA":   _CBS_CHANNELS,
+    "L1":   _ESPN_CHANNELS,
+    "ERE":  _ESPN_CHANNELS,
+    "LP":   _ESPN_CHANNELS,
+    "SPL":  _CBS_CHANNELS,
+    # Americas
+    "MLS":  _ESPN_CHANNELS + _FOX_CHANNELS + _UNIVISION_CHANNELS,
+    "LMX":  _FOX_CHANNELS + _UNIVISION_CHANNELS,
+    # Women's
+    "NWSL": _CBS_CHANNELS + _ESPN_CHANNELS,
+    "WSL":  _ESPN_CHANNELS,
+    "UWCL": _ESPN_CHANNELS,
+    "LMXF": _UNIVISION_CHANNELS,
+    "LF":   _ESPN_CHANNELS,
+    "FBL":  _ESPN_CHANNELS,
+    "SAF":  _CBS_CHANNELS,
 }
 
 # ── Scraper Configuration ──

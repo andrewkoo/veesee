@@ -195,11 +195,44 @@
             padding: 0.15rem 0.4rem;
             border-radius: 3px;
         }
+        /* English */
         .badge-comp-pl { background: rgba(55, 0, 130, 0.2); color: #a78bfa; }
-        .badge-comp-cl { background: rgba(0, 70, 150, 0.2); color: #60a5fa; }
-        .badge-comp-el { background: rgba(230, 126, 34, 0.2); color: #f59e0b; }
         .badge-comp-fac { background: rgba(220, 20, 60, 0.2); color: #f87171; }
         .badge-comp-lc { background: rgba(0, 128, 0, 0.2); color: #4ade80; }
+        .badge-comp-elc { background: rgba(200, 200, 200, 0.15); color: #94a3b8; }
+        /* European Cups */
+        .badge-comp-cl { background: rgba(0, 70, 150, 0.2); color: #60a5fa; }
+        .badge-comp-el { background: rgba(230, 126, 34, 0.2); color: #f59e0b; }
+        .badge-comp-cwc { background: rgba(218, 165, 32, 0.2); color: #fbbf24; }
+        .badge-comp-cdr, .badge-comp-dfb, .badge-comp-ci, .badge-comp-cdf { background: rgba(139, 92, 246, 0.15); color: #a78bfa; }
+        /* European Leagues */
+        .badge-comp-ll { background: rgba(255, 87, 34, 0.2); color: #ff7043; }
+        .badge-comp-bl { background: rgba(220, 38, 38, 0.2); color: #ef4444; }
+        .badge-comp-sa { background: rgba(0, 128, 128, 0.2); color: #2dd4bf; }
+        .badge-comp-l1 { background: rgba(0, 51, 153, 0.2); color: #818cf8; }
+        .badge-comp-ere { background: rgba(255, 140, 0, 0.2); color: #fb923c; }
+        .badge-comp-lp { background: rgba(0, 100, 0, 0.2); color: #4ade80; }
+        .badge-comp-spl { background: rgba(0, 0, 139, 0.2); color: #93c5fd; }
+        /* Americas */
+        .badge-comp-mls { background: rgba(0, 51, 160, 0.2); color: #60a5fa; }
+        .badge-comp-lmx { background: rgba(0, 100, 0, 0.2); color: #4ade80; }
+        /* Women's */
+        .badge-comp-nwsl { background: rgba(0, 120, 215, 0.2); color: #38bdf8; }
+        .badge-comp-wsl { background: rgba(148, 0, 211, 0.2); color: #c084fc; }
+        .badge-comp-uwcl { background: rgba(219, 39, 119, 0.2); color: #f472b6; }
+        .badge-comp-lmxf { background: rgba(0, 100, 0, 0.15); color: #86efac; }
+        .badge-comp-lf { background: rgba(255, 87, 34, 0.15); color: #fdba74; }
+        .badge-comp-fbl { background: rgba(220, 38, 38, 0.15); color: #fca5a5; }
+        .badge-comp-saf { background: rgba(0, 128, 128, 0.15); color: #99f6e4; }
+        .cat-label {
+            font-size: 0.68rem;
+            font-weight: 600;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-right: 0.25rem;
+            white-space: nowrap;
+        }
         .comp-filter {
             display: flex;
             gap: 0.5rem;
@@ -313,7 +346,7 @@
     </div>
     <div class="header-right">
         <select class="team-select" id="team-select">
-            <option value="all">All Teams</option>
+            <option value="all">All EPL Teams</option>
         </select>
     </div>
 </div>
@@ -426,17 +459,16 @@ function render() {
     const main = document.getElementById('main-content');
     main.innerHTML = '';
 
-    // Competition filter
-    const compCodes = [...new Set(games.map(g => g.competitionCode || 'PL'))];
-    const compNames = { PL: 'Premier League', CL: 'Champions League', EL: 'Europa League', FAC: 'FA Cup', LC: 'EFL Cup' };
+    // Competition category filter
+    const catNames = { english: 'English', europe_cups: 'Euro Cups', europe: 'Euro Leagues', americas: 'Americas', womens: "Women's" };
+    const catOrder = ['english', 'europe_cups', 'europe', 'americas', 'womens'];
+    const presentCats = [...new Set(games.map(g => g.competitionCategory || 'english'))];
+    const orderedCats = catOrder.filter(c => presentCats.includes(c));
 
-    let compFilterHtml = '';
-    if (compCodes.length > 1) {
-        compFilterHtml = `<div class="comp-filter" id="comp-filter">
-            <button class="active" data-comp="all">All Competitions</button>
-            ${compCodes.map(c => `<button data-comp="${c}">${compNames[c] || c}</button>`).join('')}
-        </div>`;
-    }
+    let compFilterHtml = `<div class="comp-filter" id="comp-filter">
+        <button class="active" data-cat="all">All</button>
+        ${orderedCats.map(c => `<button data-cat="${c}">${catNames[c] || c}</button>`).join('')}
+    </div>`;
 
     // Schedule table
     main.insertAdjacentHTML('beforeend', `
@@ -444,19 +476,19 @@ function render() {
         ${compFilterHtml}
         <div class="broadcast-legend">
             <span><span class="badge badge-confirmed">✓ Confirmed</span> Verified US TV channel</span>
-            <span><span class="badge badge-streaming">▶ Streaming</span> Peacock only (no TV channel)</span>
+            <span><span class="badge badge-streaming">▶ Streaming</span> Peacock Premium only (no TV channel)</span>
             <span><span class="badge badge-estimated">TBD</span> Not yet announced</span>
         </div>`);
 
-    // Wire up competition filter buttons
+    // Wire up category filter buttons
     const compFilter = document.getElementById('comp-filter');
     if (compFilter) {
         compFilter.addEventListener('click', e => {
             if (e.target.tagName !== 'BUTTON') return;
             compFilter.querySelectorAll('button').forEach(b => b.classList.remove('active'));
             e.target.classList.add('active');
-            const comp = e.target.dataset.comp;
-            const filtered = comp === 'all' ? upcoming : upcoming.filter(g => (g.competitionCode || 'PL') === comp);
+            const cat = e.target.dataset.cat;
+            const filtered = cat === 'all' ? upcoming : upcoming.filter(g => (g.competitionCategory || 'english') === cat);
             const tableWrap = main.querySelector('.schedule-table-wrap');
             if (tableWrap) tableWrap.outerHTML = buildScheduleTable(filtered);
         });
@@ -492,8 +524,14 @@ function buildScheduleTable(games) {
         const statusBadge = g.status === 'FINISHED' ? '<span class="badge" style="background:rgba(0,184,148,0.15);color:var(--green);">FT</span> ' : '';
         const compCode = g.competitionCode || 'PL';
         const compClass = `badge-comp-${compCode.toLowerCase()}`;
-        const compLabel = { PL: 'PL', CL: 'UCL', EL: 'UEL', FAC: 'FA', LC: 'LC' }[compCode] || compCode;
-        const compBadge = compCode !== 'PL' ? `<span class="badge badge-comp ${compClass}">${compLabel}</span> ` : '';
+        const compLabel = {
+            PL: 'PL', FAC: 'FA Cup', LC: 'EFL Cup', ELC: 'Champ',
+            CL: 'UCL', EL: 'UEL', CWC: 'CWC', CDR: 'Copa', DFB: 'DFB', CI: 'Coppa', CDF: 'CdF',
+            LL: 'LaLiga', BL: 'BL', SA: 'Serie A', L1: 'L1', ERE: 'Ere', LP: 'Liga PT', SPL: 'SPL',
+            MLS: 'MLS', LMX: 'Liga MX',
+            NWSL: 'NWSL', WSL: 'WSL', UWCL: 'UWCL', LMXF: 'MX Fem', LF: 'Liga F', FBL: 'Fr BL', SAF: 'SA Fem',
+        }[compCode] || compCode;
+        const compBadge = `<span class="badge badge-comp ${compClass}">${compLabel}</span> `;
         const matchdayStr = g.matchday ? `MD ${g.matchday}` : '';
         const channels = g.channels || (g.channel ? [g.channel] : []);
         const channelsHtml = channels.length > 0
@@ -524,7 +562,7 @@ function buildScheduleTable(games) {
                         ? `<span class="badge badge-confirmed">✓ ${escapeHtml(g.broadcaster)}</span>`
                         : g.broadcaster === 'Not yet announced'
                             ? `<span class="badge badge-estimated">TBD</span>`
-                            : `<span class="badge badge-streaming">▶ ${escapeHtml(g.broadcaster)}</span>`
+                            : `<span class="badge badge-streaming">▶ ${escapeHtml(g.broadcaster.replace('Peacock', 'Peacock Premium'))}</span>`
                     }
                 </td>
             </tr>`;

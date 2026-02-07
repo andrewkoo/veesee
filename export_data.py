@@ -26,6 +26,7 @@ from epl_schedule import (
     EPLScheduleFinder,
     HEAT_CHANNELS,
     FOTMOB_LEAGUES,
+    COMP_CATEGORIES,
 )
 
 
@@ -59,6 +60,7 @@ def _match_to_dict(m) -> dict:
         "matchday": m.matchday,
         "competition": m.competition,
         "competitionCode": m.competition_code,
+        "competitionCategory": FOTMOB_LEAGUES.get(m.competition_code, {}).get("category", "english"),
         "homeTeam": m.home_team.short_name,
         "homeTeamTla": m.home_team.tla,
         "awayTeam": m.away_team.short_name,
