@@ -20124,7 +20124,7 @@
     "title": "Liverpool vs Fulham",
     "description": "Matchday 32: Liverpool FC vs Fulham FC",
     "isLive": false,
-    "broadcaster": "NBC / Universo / DirecTV Stream / Sling Blue",
+    "broadcaster": "NBC / Universo / DirecTV Stream / Sling Blue / Peacock Premium",
     "broadcastConfirmed": true,
     "channel": {
       "number": "174",
@@ -22430,6 +22430,70 @@
     ]
   },
   {
+    "id": 538140,
+    "startTime": "2026-05-09T11:30:00Z",
+    "status": "TIMED",
+    "matchday": 36,
+    "competition": "Premier League",
+    "competitionCode": "PL",
+    "competitionCategory": "english",
+    "homeTeam": "Liverpool",
+    "homeTeamTla": "LIV",
+    "awayTeam": "Chelsea",
+    "awayTeamTla": "CHE",
+    "homeScore": null,
+    "awayScore": null,
+    "title": "Liverpool vs Chelsea",
+    "description": "Matchday 36: Liverpool FC vs Chelsea FC",
+    "isLive": false,
+    "broadcaster": "Not yet announced",
+    "broadcastConfirmed": false,
+    "channel": {
+      "number": "174",
+      "name": "USA Network East",
+      "category": "National",
+      "hasPlayback": true
+    },
+    "channels": [
+      {
+        "number": "174",
+        "name": "USA Network East",
+        "category": "National",
+        "hasPlayback": true
+      },
+      {
+        "number": "181",
+        "name": "Telemundo East",
+        "category": "National",
+        "hasPlayback": false
+      },
+      {
+        "number": "870",
+        "name": "Sky Sports Premier League",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "857",
+        "name": "BT Sports 1",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "858",
+        "name": "BT Sports 2",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "828",
+        "name": "ESPN",
+        "category": "Sports",
+        "hasPlayback": true
+      }
+    ]
+  },
+  {
     "id": 538135,
     "startTime": "2026-05-09T14:00:00Z",
     "status": "TIMED",
@@ -22750,72 +22814,8 @@
     ]
   },
   {
-    "id": 538140,
-    "startTime": "2026-05-09T14:00:00Z",
-    "status": "TIMED",
-    "matchday": 36,
-    "competition": "Premier League",
-    "competitionCode": "PL",
-    "competitionCategory": "english",
-    "homeTeam": "Liverpool",
-    "homeTeamTla": "LIV",
-    "awayTeam": "Chelsea",
-    "awayTeamTla": "CHE",
-    "homeScore": null,
-    "awayScore": null,
-    "title": "Liverpool vs Chelsea",
-    "description": "Matchday 36: Liverpool FC vs Chelsea FC",
-    "isLive": false,
-    "broadcaster": "Not yet announced",
-    "broadcastConfirmed": false,
-    "channel": {
-      "number": "174",
-      "name": "USA Network East",
-      "category": "National",
-      "hasPlayback": true
-    },
-    "channels": [
-      {
-        "number": "174",
-        "name": "USA Network East",
-        "category": "National",
-        "hasPlayback": true
-      },
-      {
-        "number": "181",
-        "name": "Telemundo East",
-        "category": "National",
-        "hasPlayback": false
-      },
-      {
-        "number": "870",
-        "name": "Sky Sports Premier League",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "857",
-        "name": "BT Sports 1",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "858",
-        "name": "BT Sports 2",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "828",
-        "name": "ESPN",
-        "category": "Sports",
-        "hasPlayback": true
-      }
-    ]
-  },
-  {
     "id": 538141,
-    "startTime": "2026-05-09T14:00:00Z",
+    "startTime": "2026-05-09T16:30:00Z",
     "status": "TIMED",
     "matchday": 36,
     "competition": "Premier League",
@@ -22879,7 +22879,7 @@
   },
   {
     "id": 538142,
-    "startTime": "2026-05-09T14:00:00Z",
+    "startTime": "2026-05-10T13:00:00Z",
     "status": "TIMED",
     "matchday": 36,
     "competition": "Premier League",
@@ -22942,21 +22942,21 @@
     ]
   },
   {
-    "id": 538143,
-    "startTime": "2026-05-09T14:00:00Z",
+    "id": 538144,
+    "startTime": "2026-05-10T15:30:00Z",
     "status": "TIMED",
     "matchday": 36,
     "competition": "Premier League",
     "competitionCode": "PL",
     "competitionCategory": "english",
-    "homeTeam": "Tottenham",
-    "homeTeamTla": "TOT",
-    "awayTeam": "Leeds United",
-    "awayTeamTla": "LEE",
+    "homeTeam": "West Ham",
+    "homeTeamTla": "WHU",
+    "awayTeam": "Arsenal",
+    "awayTeamTla": "ARS",
     "homeScore": null,
     "awayScore": null,
-    "title": "Tottenham vs Leeds United",
-    "description": "Matchday 36: Tottenham Hotspur FC vs Leeds United FC",
+    "title": "West Ham vs Arsenal",
+    "description": "Matchday 36: West Ham United FC vs Arsenal FC",
     "isLive": false,
     "broadcaster": "Not yet announced",
     "broadcastConfirmed": false,
@@ -23006,21 +23006,21 @@
     ]
   },
   {
-    "id": 538144,
-    "startTime": "2026-05-09T14:00:00Z",
+    "id": 538143,
+    "startTime": "2026-05-11T19:00:00Z",
     "status": "TIMED",
     "matchday": 36,
     "competition": "Premier League",
     "competitionCode": "PL",
     "competitionCategory": "english",
-    "homeTeam": "West Ham",
-    "homeTeamTla": "WHU",
-    "awayTeam": "Arsenal",
-    "awayTeamTla": "ARS",
+    "homeTeam": "Tottenham",
+    "homeTeamTla": "TOT",
+    "awayTeam": "Leeds United",
+    "awayTeamTla": "LEE",
     "homeScore": null,
     "awayScore": null,
-    "title": "West Ham vs Arsenal",
-    "description": "Matchday 36: West Ham United FC vs Arsenal FC",
+    "title": "Tottenham vs Leeds United",
+    "description": "Matchday 36: Tottenham Hotspur FC vs Leeds United FC",
     "isLive": false,
     "broadcaster": "Not yet announced",
     "broadcastConfirmed": false,
