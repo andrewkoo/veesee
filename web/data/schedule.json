@@ -20322,21 +20322,15 @@
     "title": "Nottingham vs Aston Villa",
     "description": "Matchday 32: Nottingham Forest FC vs Aston Villa FC",
     "isLive": false,
-    "broadcaster": "Peacock Premium / Universo / DirecTV Stream",
-    "broadcastConfirmed": true,
+    "broadcaster": "Peacock Premium",
+    "broadcastConfirmed": false,
     "channel": {
-      "number": "183",
-      "name": "Univision East",
+      "number": "174",
+      "name": "USA Network East",
       "category": "National",
-      "hasPlayback": false
+      "hasPlayback": true
     },
     "channels": [
-      {
-        "number": "183",
-        "name": "Univision East",
-        "category": "National",
-        "hasPlayback": false
-      },
       {
         "number": "174",
         "name": "USA Network East",
@@ -21150,6 +21144,198 @@
     ]
   },
   {
+    "id": 538117,
+    "startTime": "2026-04-21T19:00:00Z",
+    "status": "TIMED",
+    "matchday": 34,
+    "competition": "Premier League",
+    "competitionCode": "PL",
+    "competitionCategory": "english",
+    "homeTeam": "Brighton Hove",
+    "homeTeamTla": "BHA",
+    "awayTeam": "Chelsea",
+    "awayTeamTla": "CHE",
+    "homeScore": null,
+    "awayScore": null,
+    "title": "Brighton Hove vs Chelsea",
+    "description": "Matchday 34: Brighton & Hove Albion FC vs Chelsea FC",
+    "isLive": false,
+    "broadcaster": "Not yet announced",
+    "broadcastConfirmed": false,
+    "channel": {
+      "number": "174",
+      "name": "USA Network East",
+      "category": "National",
+      "hasPlayback": true
+    },
+    "channels": [
+      {
+        "number": "174",
+        "name": "USA Network East",
+        "category": "National",
+        "hasPlayback": true
+      },
+      {
+        "number": "181",
+        "name": "Telemundo East",
+        "category": "National",
+        "hasPlayback": false
+      },
+      {
+        "number": "870",
+        "name": "Sky Sports Premier League",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "857",
+        "name": "BT Sports 1",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "858",
+        "name": "BT Sports 2",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "828",
+        "name": "ESPN",
+        "category": "Sports",
+        "hasPlayback": true
+      }
+    ]
+  },
+  {
+    "id": 538115,
+    "startTime": "2026-04-22T19:00:00Z",
+    "status": "TIMED",
+    "matchday": 34,
+    "competition": "Premier League",
+    "competitionCode": "PL",
+    "competitionCategory": "english",
+    "homeTeam": "Bournemouth",
+    "homeTeamTla": "BOU",
+    "awayTeam": "Leeds United",
+    "awayTeamTla": "LEE",
+    "homeScore": null,
+    "awayScore": null,
+    "title": "Bournemouth vs Leeds United",
+    "description": "Matchday 34: AFC Bournemouth vs Leeds United FC",
+    "isLive": false,
+    "broadcaster": "Not yet announced",
+    "broadcastConfirmed": false,
+    "channel": {
+      "number": "174",
+      "name": "USA Network East",
+      "category": "National",
+      "hasPlayback": true
+    },
+    "channels": [
+      {
+        "number": "174",
+        "name": "USA Network East",
+        "category": "National",
+        "hasPlayback": true
+      },
+      {
+        "number": "181",
+        "name": "Telemundo East",
+        "category": "National",
+        "hasPlayback": false
+      },
+      {
+        "number": "870",
+        "name": "Sky Sports Premier League",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "857",
+        "name": "BT Sports 1",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "858",
+        "name": "BT Sports 2",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "828",
+        "name": "ESPN",
+        "category": "Sports",
+        "hasPlayback": true
+      }
+    ]
+  },
+  {
+    "id": 538119,
+    "startTime": "2026-04-22T19:00:00Z",
+    "status": "TIMED",
+    "matchday": 34,
+    "competition": "Premier League",
+    "competitionCode": "PL",
+    "competitionCategory": "english",
+    "homeTeam": "Burnley",
+    "homeTeamTla": "BUR",
+    "awayTeam": "Man City",
+    "awayTeamTla": "MCI",
+    "homeScore": null,
+    "awayScore": null,
+    "title": "Burnley vs Man City",
+    "description": "Matchday 34: Burnley FC vs Manchester City FC",
+    "isLive": false,
+    "broadcaster": "Not yet announced",
+    "broadcastConfirmed": false,
+    "channel": {
+      "number": "174",
+      "name": "USA Network East",
+      "category": "National",
+      "hasPlayback": true
+    },
+    "channels": [
+      {
+        "number": "174",
+        "name": "USA Network East",
+        "category": "National",
+        "hasPlayback": true
+      },
+      {
+        "number": "181",
+        "name": "Telemundo East",
+        "category": "National",
+        "hasPlayback": false
+      },
+      {
+        "number": "870",
+        "name": "Sky Sports Premier League",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "857",
+        "name": "BT Sports 1",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "858",
+        "name": "BT Sports 2",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "828",
+        "name": "ESPN",
+        "category": "Sports",
+        "hasPlayback": true
+      }
+    ]
+  },
+  {
     "id": 538116,
     "startTime": "2026-04-24T19:00:00Z",
     "status": "TIMED",
@@ -21229,70 +21415,6 @@
     "awayScore": null,
     "title": "Fulham vs Aston Villa",
     "description": "Matchday 34: Fulham FC vs Aston Villa FC",
-    "isLive": false,
-    "broadcaster": "Not yet announced",
-    "broadcastConfirmed": false,
-    "channel": {
-      "number": "174",
-      "name": "USA Network East",
-      "category": "National",
-      "hasPlayback": true
-    },
-    "channels": [
-      {
-        "number": "174",
-        "name": "USA Network East",
-        "category": "National",
-        "hasPlayback": true
-      },
-      {
-        "number": "181",
-        "name": "Telemundo East",
-        "category": "National",
-        "hasPlayback": false
-      },
-      {
-        "number": "870",
-        "name": "Sky Sports Premier League",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "857",
-        "name": "BT Sports 1",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "858",
-        "name": "BT Sports 2",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "828",
-        "name": "ESPN",
-        "category": "Sports",
-        "hasPlayback": true
-      }
-    ]
-  },
-  {
-    "id": 538115,
-    "startTime": "2026-04-25T14:00:00Z",
-    "status": "TIMED",
-    "matchday": 34,
-    "competition": "Premier League",
-    "competitionCode": "PL",
-    "competitionCategory": "english",
-    "homeTeam": "Bournemouth",
-    "homeTeamTla": "BOU",
-    "awayTeam": "Leeds United",
-    "awayTeamTla": "LEE",
-    "homeScore": null,
-    "awayScore": null,
-    "title": "Bournemouth vs Leeds United",
-    "description": "Matchday 34: AFC Bournemouth vs Leeds United FC",
     "isLive": false,
     "broadcaster": "Not yet announced",
     "broadcastConfirmed": false,
@@ -21549,134 +21671,6 @@
     "awayScore": null,
     "title": "Arsenal vs Newcastle",
     "description": "Matchday 34: Arsenal FC vs Newcastle United FC",
-    "isLive": false,
-    "broadcaster": "Not yet announced",
-    "broadcastConfirmed": false,
-    "channel": {
-      "number": "174",
-      "name": "USA Network East",
-      "category": "National",
-      "hasPlayback": true
-    },
-    "channels": [
-      {
-        "number": "174",
-        "name": "USA Network East",
-        "category": "National",
-        "hasPlayback": true
-      },
-      {
-        "number": "181",
-        "name": "Telemundo East",
-        "category": "National",
-        "hasPlayback": false
-      },
-      {
-        "number": "870",
-        "name": "Sky Sports Premier League",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "857",
-        "name": "BT Sports 1",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "858",
-        "name": "BT Sports 2",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "828",
-        "name": "ESPN",
-        "category": "Sports",
-        "hasPlayback": true
-      }
-    ]
-  },
-  {
-    "id": 538119,
-    "startTime": "2026-04-26T13:00:00Z",
-    "status": "TIMED",
-    "matchday": 34,
-    "competition": "Premier League",
-    "competitionCode": "PL",
-    "competitionCategory": "english",
-    "homeTeam": "Burnley",
-    "homeTeamTla": "BUR",
-    "awayTeam": "Man City",
-    "awayTeamTla": "MCI",
-    "homeScore": null,
-    "awayScore": null,
-    "title": "Burnley vs Man City",
-    "description": "Matchday 34: Burnley FC vs Manchester City FC",
-    "isLive": false,
-    "broadcaster": "Not yet announced",
-    "broadcastConfirmed": false,
-    "channel": {
-      "number": "174",
-      "name": "USA Network East",
-      "category": "National",
-      "hasPlayback": true
-    },
-    "channels": [
-      {
-        "number": "174",
-        "name": "USA Network East",
-        "category": "National",
-        "hasPlayback": true
-      },
-      {
-        "number": "181",
-        "name": "Telemundo East",
-        "category": "National",
-        "hasPlayback": false
-      },
-      {
-        "number": "870",
-        "name": "Sky Sports Premier League",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "857",
-        "name": "BT Sports 1",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "858",
-        "name": "BT Sports 2",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "828",
-        "name": "ESPN",
-        "category": "Sports",
-        "hasPlayback": true
-      }
-    ]
-  },
-  {
-    "id": 538117,
-    "startTime": "2026-04-26T15:30:00Z",
-    "status": "TIMED",
-    "matchday": 34,
-    "competition": "Premier League",
-    "competitionCode": "PL",
-    "competitionCategory": "english",
-    "homeTeam": "Brighton Hove",
-    "homeTeamTla": "BHA",
-    "awayTeam": "Chelsea",
-    "awayTeamTla": "CHE",
-    "homeScore": null,
-    "awayScore": null,
-    "title": "Brighton Hove vs Chelsea",
-    "description": "Matchday 34: Brighton & Hove Albion FC vs Chelsea FC",
     "isLive": false,
     "broadcaster": "Not yet announced",
     "broadcastConfirmed": false,
