@@ -19328,70 +19328,6 @@
     ]
   },
   {
-    "id": 538091,
-    "startTime": "2026-03-21T00:00:00Z",
-    "status": "POSTPONED",
-    "matchday": 31,
-    "competition": "Premier League",
-    "competitionCode": "PL",
-    "competitionCategory": "english",
-    "homeTeam": "Man City",
-    "homeTeamTla": "MCI",
-    "awayTeam": "Crystal Palace",
-    "awayTeamTla": "CRY",
-    "homeScore": null,
-    "awayScore": null,
-    "title": "Man City vs Crystal Palace",
-    "description": "Matchday 31: Manchester City FC vs Crystal Palace FC",
-    "isLive": false,
-    "broadcaster": "Not yet announced",
-    "broadcastConfirmed": false,
-    "channel": {
-      "number": "174",
-      "name": "USA Network East",
-      "category": "National",
-      "hasPlayback": true
-    },
-    "channels": [
-      {
-        "number": "174",
-        "name": "USA Network East",
-        "category": "National",
-        "hasPlayback": true
-      },
-      {
-        "number": "181",
-        "name": "Telemundo East",
-        "category": "National",
-        "hasPlayback": false
-      },
-      {
-        "number": "870",
-        "name": "Sky Sports Premier League",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "857",
-        "name": "BT Sports 1",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "858",
-        "name": "BT Sports 2",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "828",
-        "name": "ESPN",
-        "category": "Sports",
-        "hasPlayback": true
-      }
-    ]
-  },
-  {
     "id": 538087,
     "startTime": "2026-03-21T12:45:00Z",
     "status": "FINISHED",
@@ -19842,7 +19778,7 @@
   {
     "id": 538104,
     "startTime": "2026-04-10T19:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 32,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -19851,13 +19787,13 @@
     "homeTeamTla": "WHU",
     "awayTeam": "Wolverhampton",
     "awayTeamTla": "WOL",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 4,
+    "awayScore": 0,
     "title": "West Ham vs Wolverhampton",
     "description": "Matchday 32: West Ham United FC vs Wolverhampton Wanderers FC",
     "isLive": false,
-    "broadcaster": "USA Network / Universo / DirecTV Stream / Sling Blue",
-    "broadcastConfirmed": true,
+    "broadcaster": "Not yet announced",
+    "broadcastConfirmed": false,
     "channel": {
       "number": "174",
       "name": "USA Network East",
@@ -19870,12 +19806,6 @@
         "name": "USA Network East",
         "category": "National",
         "hasPlayback": true
-      },
-      {
-        "number": "183",
-        "name": "Univision East",
-        "category": "National",
-        "hasPlayback": false
       },
       {
         "number": "181",
@@ -19912,7 +19842,7 @@
   {
     "id": 538097,
     "startTime": "2026-04-11T11:30:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 32,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -19921,13 +19851,13 @@
     "homeTeamTla": "ARS",
     "awayTeam": "Bournemouth",
     "awayTeamTla": "BOU",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 1,
+    "awayScore": 2,
     "title": "Arsenal vs Bournemouth",
     "description": "Matchday 32: Arsenal FC vs AFC Bournemouth",
     "isLive": false,
-    "broadcaster": "USA Network / Universo / DirecTV Stream / Sling Blue",
-    "broadcastConfirmed": true,
+    "broadcaster": "Not yet announced",
+    "broadcastConfirmed": false,
     "channel": {
       "number": "174",
       "name": "USA Network East",
@@ -19940,12 +19870,6 @@
         "name": "USA Network East",
         "category": "National",
         "hasPlayback": true
-      },
-      {
-        "number": "183",
-        "name": "Univision East",
-        "category": "National",
-        "hasPlayback": false
       },
       {
         "number": "181",
@@ -19982,7 +19906,7 @@
   {
     "id": 538098,
     "startTime": "2026-04-11T14:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 32,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -19991,13 +19915,13 @@
     "homeTeamTla": "BRE",
     "awayTeam": "Everton",
     "awayTeamTla": "EVE",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 2,
+    "awayScore": 2,
     "title": "Brentford vs Everton",
     "description": "Matchday 32: Brentford FC vs Everton FC",
     "isLive": false,
-    "broadcaster": "USA Network / DirecTV Stream / Sling Blue",
-    "broadcastConfirmed": true,
+    "broadcaster": "Not yet announced",
+    "broadcastConfirmed": false,
     "channel": {
       "number": "174",
       "name": "USA Network East",
@@ -20046,7 +19970,7 @@
   {
     "id": 538099,
     "startTime": "2026-04-11T14:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 32,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -20055,12 +19979,12 @@
     "homeTeamTla": "BUR",
     "awayTeam": "Brighton Hove",
     "awayTeamTla": "BHA",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 0,
+    "awayScore": 2,
     "title": "Burnley vs Brighton Hove",
     "description": "Matchday 32: Burnley FC vs Brighton & Hove Albion FC",
     "isLive": false,
-    "broadcaster": "Peacock Premium",
+    "broadcaster": "Not yet announced",
     "broadcastConfirmed": false,
     "channel": {
       "number": "174",
@@ -20110,7 +20034,7 @@
   {
     "id": 538101,
     "startTime": "2026-04-11T16:30:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 32,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -20119,13 +20043,13 @@
     "homeTeamTla": "LIV",
     "awayTeam": "Fulham",
     "awayTeamTla": "FUL",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 2,
+    "awayScore": 0,
     "title": "Liverpool vs Fulham",
     "description": "Matchday 32: Liverpool FC vs Fulham FC",
     "isLive": false,
-    "broadcaster": "NBC / Universo / DirecTV Stream / Sling Blue / Peacock Premium",
-    "broadcastConfirmed": true,
+    "broadcaster": "Not yet announced",
+    "broadcastConfirmed": false,
     "channel": {
       "number": "174",
       "name": "USA Network East",
@@ -20138,12 +20062,6 @@
         "name": "USA Network East",
         "category": "National",
         "hasPlayback": true
-      },
-      {
-        "number": "183",
-        "name": "Univision East",
-        "category": "National",
-        "hasPlayback": false
       },
       {
         "number": "181",
@@ -20180,7 +20098,7 @@
   {
     "id": 538095,
     "startTime": "2026-04-12T13:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 32,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -20189,13 +20107,13 @@
     "homeTeamTla": "SUN",
     "awayTeam": "Tottenham",
     "awayTeamTla": "TOT",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 1,
+    "awayScore": 0,
     "title": "Sunderland vs Tottenham",
     "description": "Matchday 32: Sunderland AFC vs Tottenham Hotspur FC",
     "isLive": false,
-    "broadcaster": "USA Network / Telemundo / DirecTV Stream / Sling Blue",
-    "broadcastConfirmed": true,
+    "broadcaster": "Not yet announced",
+    "broadcastConfirmed": false,
     "channel": {
       "number": "174",
       "name": "USA Network East",
@@ -20244,7 +20162,7 @@
   {
     "id": 538096,
     "startTime": "2026-04-12T13:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 32,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -20253,12 +20171,12 @@
     "homeTeamTla": "CRY",
     "awayTeam": "Newcastle",
     "awayTeamTla": "NEW",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 2,
+    "awayScore": 1,
     "title": "Crystal Palace vs Newcastle",
     "description": "Matchday 32: Crystal Palace FC vs Newcastle United FC",
     "isLive": false,
-    "broadcaster": "Peacock Premium",
+    "broadcaster": "Not yet announced",
     "broadcastConfirmed": false,
     "channel": {
       "number": "174",
@@ -20308,7 +20226,7 @@
   {
     "id": 538103,
     "startTime": "2026-04-12T13:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 32,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -20317,12 +20235,12 @@
     "homeTeamTla": "NOT",
     "awayTeam": "Aston Villa",
     "awayTeamTla": "AVL",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 1,
+    "awayScore": 1,
     "title": "Nottingham vs Aston Villa",
     "description": "Matchday 32: Nottingham Forest FC vs Aston Villa FC",
     "isLive": false,
-    "broadcaster": "Peacock Premium",
+    "broadcaster": "Not yet announced",
     "broadcastConfirmed": false,
     "channel": {
       "number": "174",
@@ -20372,7 +20290,7 @@
   {
     "id": 538100,
     "startTime": "2026-04-12T15:30:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 32,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -20381,13 +20299,13 @@
     "homeTeamTla": "CHE",
     "awayTeam": "Man City",
     "awayTeamTla": "MCI",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 0,
+    "awayScore": 3,
     "title": "Chelsea vs Man City",
     "description": "Matchday 32: Chelsea FC vs Manchester City FC",
     "isLive": false,
-    "broadcaster": "USA Network / Telemundo / DirecTV Stream / Sling Blue",
-    "broadcastConfirmed": true,
+    "broadcaster": "Not yet announced",
+    "broadcastConfirmed": false,
     "channel": {
       "number": "174",
       "name": "USA Network East",
@@ -20520,8 +20438,8 @@
     "title": "Brentford vs Fulham",
     "description": "Matchday 33: Brentford FC vs Fulham FC",
     "isLive": false,
-    "broadcaster": "Not yet announced",
-    "broadcastConfirmed": false,
+    "broadcaster": "USA Network / Universo / DirecTV Stream / Sling Blue",
+    "broadcastConfirmed": true,
     "channel": {
       "number": "174",
       "name": "USA Network East",
@@ -20534,6 +20452,12 @@
         "name": "USA Network East",
         "category": "National",
         "hasPlayback": true
+      },
+      {
+        "number": "183",
+        "name": "Univision East",
+        "category": "National",
+        "hasPlayback": false
       },
       {
         "number": "181",
@@ -20584,8 +20508,8 @@
     "title": "Newcastle vs Bournemouth",
     "description": "Matchday 33: Newcastle United FC vs AFC Bournemouth",
     "isLive": false,
-    "broadcaster": "Not yet announced",
-    "broadcastConfirmed": false,
+    "broadcaster": "USA Network / Universo / DirecTV Stream / Sling Blue",
+    "broadcastConfirmed": true,
     "channel": {
       "number": "174",
       "name": "USA Network East",
@@ -20598,6 +20522,12 @@
         "name": "USA Network East",
         "category": "National",
         "hasPlayback": true
+      },
+      {
+        "number": "183",
+        "name": "Univision East",
+        "category": "National",
+        "hasPlayback": false
       },
       {
         "number": "181",
@@ -20648,7 +20578,7 @@
     "title": "Leeds United vs Wolverhampton",
     "description": "Matchday 33: Leeds United FC vs Wolverhampton Wanderers FC",
     "isLive": false,
-    "broadcaster": "Not yet announced",
+    "broadcaster": "Peacock Premium",
     "broadcastConfirmed": false,
     "channel": {
       "number": "174",
@@ -20712,8 +20642,8 @@
     "title": "Tottenham vs Brighton Hove",
     "description": "Matchday 33: Tottenham Hotspur FC vs Brighton & Hove Albion FC",
     "isLive": false,
-    "broadcaster": "Not yet announced",
-    "broadcastConfirmed": false,
+    "broadcaster": "NBC / Universo / DirecTV Stream / Sling Blue",
+    "broadcastConfirmed": true,
     "channel": {
       "number": "174",
       "name": "USA Network East",
@@ -20726,6 +20656,12 @@
         "name": "USA Network East",
         "category": "National",
         "hasPlayback": true
+      },
+      {
+        "number": "183",
+        "name": "Univision East",
+        "category": "National",
+        "hasPlayback": false
       },
       {
         "number": "181",
@@ -20776,26 +20712,32 @@
     "title": "Chelsea vs Man United",
     "description": "Matchday 33: Chelsea FC vs Manchester United FC",
     "isLive": false,
-    "broadcaster": "Not yet announced",
-    "broadcastConfirmed": false,
+    "broadcaster": "Telemundo / Universo / DirecTV Stream / Peacock Premium",
+    "broadcastConfirmed": true,
     "channel": {
-      "number": "174",
-      "name": "USA Network East",
+      "number": "181",
+      "name": "Telemundo East",
       "category": "National",
-      "hasPlayback": true
+      "hasPlayback": false
     },
     "channels": [
-      {
-        "number": "174",
-        "name": "USA Network East",
-        "category": "National",
-        "hasPlayback": true
-      },
       {
         "number": "181",
         "name": "Telemundo East",
         "category": "National",
         "hasPlayback": false
+      },
+      {
+        "number": "183",
+        "name": "Univision East",
+        "category": "National",
+        "hasPlayback": false
+      },
+      {
+        "number": "174",
+        "name": "USA Network East",
+        "category": "National",
+        "hasPlayback": true
       },
       {
         "number": "870",
@@ -20840,7 +20782,7 @@
     "title": "Nottingham vs Burnley",
     "description": "Matchday 33: Nottingham Forest FC vs Burnley FC",
     "isLive": false,
-    "broadcaster": "Not yet announced",
+    "broadcaster": "Peacock Premium",
     "broadcastConfirmed": false,
     "channel": {
       "number": "174",
@@ -20904,7 +20846,7 @@
     "title": "Aston Villa vs Sunderland",
     "description": "Matchday 33: Aston Villa FC vs Sunderland AFC",
     "isLive": false,
-    "broadcaster": "Not yet announced",
+    "broadcaster": "Peacock Premium",
     "broadcastConfirmed": false,
     "channel": {
       "number": "174",
@@ -20968,8 +20910,8 @@
     "title": "Everton vs Liverpool",
     "description": "Matchday 33: Everton FC vs Liverpool FC",
     "isLive": false,
-    "broadcaster": "Not yet announced",
-    "broadcastConfirmed": false,
+    "broadcaster": "USA Network / Telemundo / DirecTV Stream / Sling Blue",
+    "broadcastConfirmed": true,
     "channel": {
       "number": "174",
       "name": "USA Network East",
@@ -21032,8 +20974,8 @@
     "title": "Man City vs Arsenal",
     "description": "Matchday 33: Manchester City FC vs Arsenal FC",
     "isLive": false,
-    "broadcaster": "Not yet announced",
-    "broadcastConfirmed": false,
+    "broadcaster": "NBC / Telemundo / DirecTV Stream / Sling Blue",
+    "broadcastConfirmed": true,
     "channel": {
       "number": "174",
       "name": "USA Network East",
@@ -21096,8 +21038,8 @@
     "title": "Crystal Palace vs West Ham",
     "description": "Matchday 33: Crystal Palace FC vs West Ham United FC",
     "isLive": false,
-    "broadcaster": "Not yet announced",
-    "broadcastConfirmed": false,
+    "broadcaster": "USA Network / Universo / DirecTV Stream / Sling Blue",
+    "broadcastConfirmed": true,
     "channel": {
       "number": "174",
       "name": "USA Network East",
@@ -21110,6 +21052,12 @@
         "name": "USA Network East",
         "category": "National",
         "hasPlayback": true
+      },
+      {
+        "number": "183",
+        "name": "Univision East",
+        "category": "National",
+        "hasPlayback": false
       },
       {
         "number": "181",
@@ -21160,8 +21108,8 @@
     "title": "Brighton Hove vs Chelsea",
     "description": "Matchday 34: Brighton & Hove Albion FC vs Chelsea FC",
     "isLive": false,
-    "broadcaster": "Not yet announced",
-    "broadcastConfirmed": false,
+    "broadcaster": "USA Network / DirecTV Stream / Sling Blue",
+    "broadcastConfirmed": true,
     "channel": {
       "number": "174",
       "name": "USA Network East",
@@ -21224,7 +21172,7 @@
     "title": "Bournemouth vs Leeds United",
     "description": "Matchday 34: AFC Bournemouth vs Leeds United FC",
     "isLive": false,
-    "broadcaster": "Not yet announced",
+    "broadcaster": "Peacock Premium",
     "broadcastConfirmed": false,
     "channel": {
       "number": "174",
@@ -21288,8 +21236,8 @@
     "title": "Burnley vs Man City",
     "description": "Matchday 34: Burnley FC vs Manchester City FC",
     "isLive": false,
-    "broadcaster": "Not yet announced",
-    "broadcastConfirmed": false,
+    "broadcaster": "USA Network / DirecTV Stream / Sling Blue",
+    "broadcastConfirmed": true,
     "channel": {
       "number": "174",
       "name": "USA Network East",
@@ -21352,8 +21300,8 @@
     "title": "Sunderland vs Nottingham",
     "description": "Matchday 34: Sunderland AFC vs Nottingham Forest FC",
     "isLive": false,
-    "broadcaster": "Not yet announced",
-    "broadcastConfirmed": false,
+    "broadcaster": "USA Network / DirecTV Stream / Sling Blue",
+    "broadcastConfirmed": true,
     "channel": {
       "number": "174",
       "name": "USA Network East",
@@ -21416,8 +21364,8 @@
     "title": "Fulham vs Aston Villa",
     "description": "Matchday 34: Fulham FC vs Aston Villa FC",
     "isLive": false,
-    "broadcaster": "Not yet announced",
-    "broadcastConfirmed": false,
+    "broadcaster": "USA Network / Universo / DirecTV Stream / Sling Blue",
+    "broadcastConfirmed": true,
     "channel": {
       "number": "174",
       "name": "USA Network East",
@@ -21430,6 +21378,12 @@
         "name": "USA Network East",
         "category": "National",
         "hasPlayback": true
+      },
+      {
+        "number": "183",
+        "name": "Univision East",
+        "category": "National",
+        "hasPlayback": false
       },
       {
         "number": "181",
@@ -21480,7 +21434,7 @@
     "title": "Liverpool vs Crystal Palace",
     "description": "Matchday 34: Liverpool FC vs Crystal Palace FC",
     "isLive": false,
-    "broadcaster": "Not yet announced",
+    "broadcaster": "Peacock Premium",
     "broadcastConfirmed": false,
     "channel": {
       "number": "174",
@@ -21544,7 +21498,7 @@
     "title": "West Ham vs Everton",
     "description": "Matchday 34: West Ham United FC vs Everton FC",
     "isLive": false,
-    "broadcaster": "Not yet announced",
+    "broadcaster": "Peacock Premium",
     "broadcastConfirmed": false,
     "channel": {
       "number": "174",
@@ -21608,8 +21562,8 @@
     "title": "Wolverhampton vs Tottenham",
     "description": "Matchday 34: Wolverhampton Wanderers FC vs Tottenham Hotspur FC",
     "isLive": false,
-    "broadcaster": "Not yet announced",
-    "broadcastConfirmed": false,
+    "broadcaster": "USA Network / Universo / DirecTV Stream / Sling Blue",
+    "broadcastConfirmed": true,
     "channel": {
       "number": "174",
       "name": "USA Network East",
@@ -21622,6 +21576,12 @@
         "name": "USA Network East",
         "category": "National",
         "hasPlayback": true
+      },
+      {
+        "number": "183",
+        "name": "Univision East",
+        "category": "National",
+        "hasPlayback": false
       },
       {
         "number": "181",
@@ -21672,7 +21632,7 @@
     "title": "Arsenal vs Newcastle",
     "description": "Matchday 34: Arsenal FC vs Newcastle United FC",
     "isLive": false,
-    "broadcaster": "Not yet announced",
+    "broadcaster": "Peacock Premium",
     "broadcastConfirmed": false,
     "channel": {
       "number": "174",
@@ -21736,8 +21696,8 @@
     "title": "Man United vs Brentford",
     "description": "Matchday 34: Manchester United FC vs Brentford FC",
     "isLive": false,
-    "broadcaster": "Not yet announced",
-    "broadcastConfirmed": false,
+    "broadcaster": "USA Network / Universo / DirecTV Stream / Sling Blue",
+    "broadcastConfirmed": true,
     "channel": {
       "number": "174",
       "name": "USA Network East",
@@ -21750,6 +21710,12 @@
         "name": "USA Network East",
         "category": "National",
         "hasPlayback": true
+      },
+      {
+        "number": "183",
+        "name": "Univision East",
+        "category": "National",
+        "hasPlayback": false
       },
       {
         "number": "181",
@@ -23655,6 +23621,70 @@
     "awayScore": null,
     "title": "Wolverhampton vs Fulham",
     "description": "Matchday 37: Wolverhampton Wanderers FC vs Fulham FC",
+    "isLive": false,
+    "broadcaster": "Not yet announced",
+    "broadcastConfirmed": false,
+    "channel": {
+      "number": "174",
+      "name": "USA Network East",
+      "category": "National",
+      "hasPlayback": true
+    },
+    "channels": [
+      {
+        "number": "174",
+        "name": "USA Network East",
+        "category": "National",
+        "hasPlayback": true
+      },
+      {
+        "number": "181",
+        "name": "Telemundo East",
+        "category": "National",
+        "hasPlayback": false
+      },
+      {
+        "number": "870",
+        "name": "Sky Sports Premier League",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "857",
+        "name": "BT Sports 1",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "858",
+        "name": "BT Sports 2",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "828",
+        "name": "ESPN",
+        "category": "Sports",
+        "hasPlayback": true
+      }
+    ]
+  },
+  {
+    "id": 538091,
+    "startTime": "2026-05-22T00:00:00Z",
+    "status": "POSTPONED",
+    "matchday": 31,
+    "competition": "Premier League",
+    "competitionCode": "PL",
+    "competitionCategory": "english",
+    "homeTeam": "Man City",
+    "homeTeamTla": "MCI",
+    "awayTeam": "Crystal Palace",
+    "awayTeamTla": "CRY",
+    "homeScore": null,
+    "awayScore": null,
+    "title": "Man City vs Crystal Palace",
+    "description": "Matchday 31: Manchester City FC vs Crystal Palace FC",
     "isLive": false,
     "broadcaster": "Not yet announced",
     "broadcastConfirmed": false,
