@@ -20354,7 +20354,7 @@
   {
     "id": 538102,
     "startTime": "2026-04-13T19:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 32,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -20363,13 +20363,13 @@
     "homeTeamTla": "MUN",
     "awayTeam": "Leeds United",
     "awayTeamTla": "LEE",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 1,
+    "awayScore": 2,
     "title": "Man United vs Leeds United",
     "description": "Matchday 32: Manchester United FC vs Leeds United FC",
     "isLive": false,
-    "broadcaster": "USA Network / Universo / DirecTV Stream / Sling Blue",
-    "broadcastConfirmed": true,
+    "broadcaster": "Not yet announced",
+    "broadcastConfirmed": false,
     "channel": {
       "number": "174",
       "name": "USA Network East",
@@ -20382,12 +20382,6 @@
         "name": "USA Network East",
         "category": "National",
         "hasPlayback": true
-      },
-      {
-        "number": "183",
-        "name": "Univision East",
-        "category": "National",
-        "hasPlayback": false
       },
       {
         "number": "181",
@@ -21108,7 +21102,7 @@
     "title": "Brighton Hove vs Chelsea",
     "description": "Matchday 34: Brighton & Hove Albion FC vs Chelsea FC",
     "isLive": false,
-    "broadcaster": "USA Network / DirecTV Stream / Sling Blue",
+    "broadcaster": "USA Network / Universo / DirecTV Stream / Sling Blue",
     "broadcastConfirmed": true,
     "channel": {
       "number": "174",
@@ -21122,6 +21116,12 @@
         "name": "USA Network East",
         "category": "National",
         "hasPlayback": true
+      },
+      {
+        "number": "183",
+        "name": "Univision East",
+        "category": "National",
+        "hasPlayback": false
       },
       {
         "number": "181",
@@ -21236,7 +21236,7 @@
     "title": "Burnley vs Man City",
     "description": "Matchday 34: Burnley FC vs Manchester City FC",
     "isLive": false,
-    "broadcaster": "USA Network / DirecTV Stream / Sling Blue",
+    "broadcaster": "USA Network / Universo / DirecTV Stream / Sling Blue",
     "broadcastConfirmed": true,
     "channel": {
       "number": "174",
@@ -21250,6 +21250,12 @@
         "name": "USA Network East",
         "category": "National",
         "hasPlayback": true
+      },
+      {
+        "number": "183",
+        "name": "Univision East",
+        "category": "National",
+        "hasPlayback": false
       },
       {
         "number": "181",
