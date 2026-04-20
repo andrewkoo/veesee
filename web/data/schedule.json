@@ -20418,7 +20418,7 @@
   {
     "id": 538107,
     "startTime": "2026-04-18T11:30:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 33,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -20427,13 +20427,13 @@
     "homeTeamTla": "BRE",
     "awayTeam": "Fulham",
     "awayTeamTla": "FUL",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 0,
+    "awayScore": 0,
     "title": "Brentford vs Fulham",
     "description": "Matchday 33: Brentford FC vs Fulham FC",
     "isLive": false,
-    "broadcaster": "USA Network / Universo / DirecTV Stream / Sling Blue",
-    "broadcastConfirmed": true,
+    "broadcaster": "Not yet announced",
+    "broadcastConfirmed": false,
     "channel": {
       "number": "174",
       "name": "USA Network East",
@@ -20446,12 +20446,6 @@
         "name": "USA Network East",
         "category": "National",
         "hasPlayback": true
-      },
-      {
-        "number": "183",
-        "name": "Univision East",
-        "category": "National",
-        "hasPlayback": false
       },
       {
         "number": "181",
@@ -20488,7 +20482,7 @@
   {
     "id": 538112,
     "startTime": "2026-04-18T14:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 33,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -20497,13 +20491,13 @@
     "homeTeamTla": "NEW",
     "awayTeam": "Bournemouth",
     "awayTeamTla": "BOU",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 1,
+    "awayScore": 2,
     "title": "Newcastle vs Bournemouth",
     "description": "Matchday 33: Newcastle United FC vs AFC Bournemouth",
     "isLive": false,
-    "broadcaster": "USA Network / Universo / DirecTV Stream / Sling Blue",
-    "broadcastConfirmed": true,
+    "broadcaster": "Not yet announced",
+    "broadcastConfirmed": false,
     "channel": {
       "number": "174",
       "name": "USA Network East",
@@ -20516,12 +20510,6 @@
         "name": "USA Network East",
         "category": "National",
         "hasPlayback": true
-      },
-      {
-        "number": "183",
-        "name": "Univision East",
-        "category": "National",
-        "hasPlayback": false
       },
       {
         "number": "181",
@@ -20558,7 +20546,7 @@
   {
     "id": 538110,
     "startTime": "2026-04-18T14:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 33,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -20567,12 +20555,12 @@
     "homeTeamTla": "LEE",
     "awayTeam": "Wolverhampton",
     "awayTeamTla": "WOL",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 3,
+    "awayScore": 0,
     "title": "Leeds United vs Wolverhampton",
     "description": "Matchday 33: Leeds United FC vs Wolverhampton Wanderers FC",
     "isLive": false,
-    "broadcaster": "Peacock Premium",
+    "broadcaster": "Not yet announced",
     "broadcastConfirmed": false,
     "channel": {
       "number": "174",
@@ -20622,7 +20610,7 @@
   {
     "id": 538114,
     "startTime": "2026-04-18T16:30:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 33,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -20631,13 +20619,13 @@
     "homeTeamTla": "TOT",
     "awayTeam": "Brighton Hove",
     "awayTeamTla": "BHA",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 2,
+    "awayScore": 2,
     "title": "Tottenham vs Brighton Hove",
     "description": "Matchday 33: Tottenham Hotspur FC vs Brighton & Hove Albion FC",
     "isLive": false,
-    "broadcaster": "NBC / Universo / DirecTV Stream / Sling Blue",
-    "broadcastConfirmed": true,
+    "broadcaster": "Not yet announced",
+    "broadcastConfirmed": false,
     "channel": {
       "number": "174",
       "name": "USA Network East",
@@ -20650,12 +20638,6 @@
         "name": "USA Network East",
         "category": "National",
         "hasPlayback": true
-      },
-      {
-        "number": "183",
-        "name": "Univision East",
-        "category": "National",
-        "hasPlayback": false
       },
       {
         "number": "181",
@@ -20692,7 +20674,7 @@
   {
     "id": 538108,
     "startTime": "2026-04-18T19:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 33,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -20701,37 +20683,31 @@
     "homeTeamTla": "CHE",
     "awayTeam": "Man United",
     "awayTeamTla": "MUN",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 0,
+    "awayScore": 1,
     "title": "Chelsea vs Man United",
     "description": "Matchday 33: Chelsea FC vs Manchester United FC",
     "isLive": false,
-    "broadcaster": "Telemundo / Universo / DirecTV Stream / Peacock Premium",
-    "broadcastConfirmed": true,
+    "broadcaster": "Not yet announced",
+    "broadcastConfirmed": false,
     "channel": {
-      "number": "181",
-      "name": "Telemundo East",
+      "number": "174",
+      "name": "USA Network East",
       "category": "National",
-      "hasPlayback": false
+      "hasPlayback": true
     },
     "channels": [
-      {
-        "number": "181",
-        "name": "Telemundo East",
-        "category": "National",
-        "hasPlayback": false
-      },
-      {
-        "number": "183",
-        "name": "Univision East",
-        "category": "National",
-        "hasPlayback": false
-      },
       {
         "number": "174",
         "name": "USA Network East",
         "category": "National",
         "hasPlayback": true
+      },
+      {
+        "number": "181",
+        "name": "Telemundo East",
+        "category": "National",
+        "hasPlayback": false
       },
       {
         "number": "870",
@@ -20762,7 +20738,7 @@
   {
     "id": 538113,
     "startTime": "2026-04-19T13:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 33,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -20771,12 +20747,12 @@
     "homeTeamTla": "NOT",
     "awayTeam": "Burnley",
     "awayTeamTla": "BUR",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 4,
+    "awayScore": 1,
     "title": "Nottingham vs Burnley",
     "description": "Matchday 33: Nottingham Forest FC vs Burnley FC",
     "isLive": false,
-    "broadcaster": "Peacock Premium",
+    "broadcaster": "Not yet announced",
     "broadcastConfirmed": false,
     "channel": {
       "number": "174",
@@ -20826,7 +20802,7 @@
   {
     "id": 538105,
     "startTime": "2026-04-19T13:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 33,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -20835,12 +20811,12 @@
     "homeTeamTla": "AVL",
     "awayTeam": "Sunderland",
     "awayTeamTla": "SUN",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 4,
+    "awayScore": 3,
     "title": "Aston Villa vs Sunderland",
     "description": "Matchday 33: Aston Villa FC vs Sunderland AFC",
     "isLive": false,
-    "broadcaster": "Peacock Premium",
+    "broadcaster": "Not yet announced",
     "broadcastConfirmed": false,
     "channel": {
       "number": "174",
@@ -20890,7 +20866,7 @@
   {
     "id": 538109,
     "startTime": "2026-04-19T13:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 33,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -20899,13 +20875,13 @@
     "homeTeamTla": "EVE",
     "awayTeam": "Liverpool",
     "awayTeamTla": "LIV",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 1,
+    "awayScore": 2,
     "title": "Everton vs Liverpool",
     "description": "Matchday 33: Everton FC vs Liverpool FC",
     "isLive": false,
-    "broadcaster": "USA Network / Telemundo / DirecTV Stream / Sling Blue",
-    "broadcastConfirmed": true,
+    "broadcaster": "Not yet announced",
+    "broadcastConfirmed": false,
     "channel": {
       "number": "174",
       "name": "USA Network East",
@@ -20954,7 +20930,7 @@
   {
     "id": 538111,
     "startTime": "2026-04-19T15:30:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 33,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -20963,13 +20939,13 @@
     "homeTeamTla": "MCI",
     "awayTeam": "Arsenal",
     "awayTeamTla": "ARS",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 2,
+    "awayScore": 1,
     "title": "Man City vs Arsenal",
     "description": "Matchday 33: Manchester City FC vs Arsenal FC",
     "isLive": false,
-    "broadcaster": "NBC / Telemundo / DirecTV Stream / Sling Blue",
-    "broadcastConfirmed": true,
+    "broadcaster": "Not yet announced",
+    "broadcastConfirmed": false,
     "channel": {
       "number": "174",
       "name": "USA Network East",
@@ -21820,134 +21796,6 @@
     ]
   },
   {
-    "id": 538126,
-    "startTime": "2026-05-02T11:30:00Z",
-    "status": "TIMED",
-    "matchday": 35,
-    "competition": "Premier League",
-    "competitionCode": "PL",
-    "competitionCategory": "english",
-    "homeTeam": "Aston Villa",
-    "homeTeamTla": "AVL",
-    "awayTeam": "Tottenham",
-    "awayTeamTla": "TOT",
-    "homeScore": null,
-    "awayScore": null,
-    "title": "Aston Villa vs Tottenham",
-    "description": "Matchday 35: Aston Villa FC vs Tottenham Hotspur FC",
-    "isLive": false,
-    "broadcaster": "Not yet announced",
-    "broadcastConfirmed": false,
-    "channel": {
-      "number": "174",
-      "name": "USA Network East",
-      "category": "National",
-      "hasPlayback": true
-    },
-    "channels": [
-      {
-        "number": "174",
-        "name": "USA Network East",
-        "category": "National",
-        "hasPlayback": true
-      },
-      {
-        "number": "181",
-        "name": "Telemundo East",
-        "category": "National",
-        "hasPlayback": false
-      },
-      {
-        "number": "870",
-        "name": "Sky Sports Premier League",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "857",
-        "name": "BT Sports 1",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "858",
-        "name": "BT Sports 2",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "828",
-        "name": "ESPN",
-        "category": "Sports",
-        "hasPlayback": true
-      }
-    ]
-  },
-  {
-    "id": 538125,
-    "startTime": "2026-05-02T14:00:00Z",
-    "status": "TIMED",
-    "matchday": 35,
-    "competition": "Premier League",
-    "competitionCode": "PL",
-    "competitionCategory": "english",
-    "homeTeam": "Bournemouth",
-    "homeTeamTla": "BOU",
-    "awayTeam": "Crystal Palace",
-    "awayTeamTla": "CRY",
-    "homeScore": null,
-    "awayScore": null,
-    "title": "Bournemouth vs Crystal Palace",
-    "description": "Matchday 35: AFC Bournemouth vs Crystal Palace FC",
-    "isLive": false,
-    "broadcaster": "Not yet announced",
-    "broadcastConfirmed": false,
-    "channel": {
-      "number": "174",
-      "name": "USA Network East",
-      "category": "National",
-      "hasPlayback": true
-    },
-    "channels": [
-      {
-        "number": "174",
-        "name": "USA Network East",
-        "category": "National",
-        "hasPlayback": true
-      },
-      {
-        "number": "181",
-        "name": "Telemundo East",
-        "category": "National",
-        "hasPlayback": false
-      },
-      {
-        "number": "870",
-        "name": "Sky Sports Premier League",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "857",
-        "name": "BT Sports 1",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "858",
-        "name": "BT Sports 2",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "828",
-        "name": "ESPN",
-        "category": "Sports",
-        "hasPlayback": true
-      }
-    ]
-  },
-  {
     "id": 538128,
     "startTime": "2026-05-02T14:00:00Z",
     "status": "TIMED",
@@ -22204,6 +22052,70 @@
     ]
   },
   {
+    "id": 538125,
+    "startTime": "2026-05-03T13:00:00Z",
+    "status": "TIMED",
+    "matchday": 35,
+    "competition": "Premier League",
+    "competitionCode": "PL",
+    "competitionCategory": "english",
+    "homeTeam": "Bournemouth",
+    "homeTeamTla": "BOU",
+    "awayTeam": "Crystal Palace",
+    "awayTeamTla": "CRY",
+    "homeScore": null,
+    "awayScore": null,
+    "title": "Bournemouth vs Crystal Palace",
+    "description": "Matchday 35: AFC Bournemouth vs Crystal Palace FC",
+    "isLive": false,
+    "broadcaster": "Not yet announced",
+    "broadcastConfirmed": false,
+    "channel": {
+      "number": "174",
+      "name": "USA Network East",
+      "category": "National",
+      "hasPlayback": true
+    },
+    "channels": [
+      {
+        "number": "174",
+        "name": "USA Network East",
+        "category": "National",
+        "hasPlayback": true
+      },
+      {
+        "number": "181",
+        "name": "Telemundo East",
+        "category": "National",
+        "hasPlayback": false
+      },
+      {
+        "number": "870",
+        "name": "Sky Sports Premier League",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "857",
+        "name": "BT Sports 1",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "858",
+        "name": "BT Sports 2",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "828",
+        "name": "ESPN",
+        "category": "Sports",
+        "hasPlayback": true
+      }
+    ]
+  },
+  {
     "id": 538132,
     "startTime": "2026-05-03T14:30:00Z",
     "status": "TIMED",
@@ -22219,6 +22131,70 @@
     "awayScore": null,
     "title": "Man United vs Liverpool",
     "description": "Matchday 35: Manchester United FC vs Liverpool FC",
+    "isLive": false,
+    "broadcaster": "Not yet announced",
+    "broadcastConfirmed": false,
+    "channel": {
+      "number": "174",
+      "name": "USA Network East",
+      "category": "National",
+      "hasPlayback": true
+    },
+    "channels": [
+      {
+        "number": "174",
+        "name": "USA Network East",
+        "category": "National",
+        "hasPlayback": true
+      },
+      {
+        "number": "181",
+        "name": "Telemundo East",
+        "category": "National",
+        "hasPlayback": false
+      },
+      {
+        "number": "870",
+        "name": "Sky Sports Premier League",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "857",
+        "name": "BT Sports 1",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "858",
+        "name": "BT Sports 2",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "828",
+        "name": "ESPN",
+        "category": "Sports",
+        "hasPlayback": true
+      }
+    ]
+  },
+  {
+    "id": 538126,
+    "startTime": "2026-05-03T18:00:00Z",
+    "status": "TIMED",
+    "matchday": 35,
+    "competition": "Premier League",
+    "competitionCode": "PL",
+    "competitionCategory": "english",
+    "homeTeam": "Aston Villa",
+    "homeTeamTla": "AVL",
+    "awayTeam": "Tottenham",
+    "awayTeamTla": "TOT",
+    "homeScore": null,
+    "awayScore": null,
+    "title": "Aston Villa vs Tottenham",
+    "description": "Matchday 35: Aston Villa FC vs Tottenham Hotspur FC",
     "isLive": false,
     "broadcaster": "Not yet announced",
     "broadcastConfirmed": false,
@@ -22588,134 +22564,6 @@
     ]
   },
   {
-    "id": 538137,
-    "startTime": "2026-05-09T14:00:00Z",
-    "status": "TIMED",
-    "matchday": 36,
-    "competition": "Premier League",
-    "competitionCode": "PL",
-    "competitionCategory": "english",
-    "homeTeam": "Crystal Palace",
-    "homeTeamTla": "CRY",
-    "awayTeam": "Everton",
-    "awayTeamTla": "EVE",
-    "homeScore": null,
-    "awayScore": null,
-    "title": "Crystal Palace vs Everton",
-    "description": "Matchday 36: Crystal Palace FC vs Everton FC",
-    "isLive": false,
-    "broadcaster": "Not yet announced",
-    "broadcastConfirmed": false,
-    "channel": {
-      "number": "174",
-      "name": "USA Network East",
-      "category": "National",
-      "hasPlayback": true
-    },
-    "channels": [
-      {
-        "number": "174",
-        "name": "USA Network East",
-        "category": "National",
-        "hasPlayback": true
-      },
-      {
-        "number": "181",
-        "name": "Telemundo East",
-        "category": "National",
-        "hasPlayback": false
-      },
-      {
-        "number": "870",
-        "name": "Sky Sports Premier League",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "857",
-        "name": "BT Sports 1",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "858",
-        "name": "BT Sports 2",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "828",
-        "name": "ESPN",
-        "category": "Sports",
-        "hasPlayback": true
-      }
-    ]
-  },
-  {
-    "id": 538138,
-    "startTime": "2026-05-09T14:00:00Z",
-    "status": "TIMED",
-    "matchday": 36,
-    "competition": "Premier League",
-    "competitionCode": "PL",
-    "competitionCategory": "english",
-    "homeTeam": "Burnley",
-    "homeTeamTla": "BUR",
-    "awayTeam": "Aston Villa",
-    "awayTeamTla": "AVL",
-    "homeScore": null,
-    "awayScore": null,
-    "title": "Burnley vs Aston Villa",
-    "description": "Matchday 36: Burnley FC vs Aston Villa FC",
-    "isLive": false,
-    "broadcaster": "Not yet announced",
-    "broadcastConfirmed": false,
-    "channel": {
-      "number": "174",
-      "name": "USA Network East",
-      "category": "National",
-      "hasPlayback": true
-    },
-    "channels": [
-      {
-        "number": "174",
-        "name": "USA Network East",
-        "category": "National",
-        "hasPlayback": true
-      },
-      {
-        "number": "181",
-        "name": "Telemundo East",
-        "category": "National",
-        "hasPlayback": false
-      },
-      {
-        "number": "870",
-        "name": "Sky Sports Premier League",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "857",
-        "name": "BT Sports 1",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "858",
-        "name": "BT Sports 2",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "828",
-        "name": "ESPN",
-        "category": "Sports",
-        "hasPlayback": true
-      }
-    ]
-  },
-  {
     "id": 538139,
     "startTime": "2026-05-09T14:00:00Z",
     "status": "TIMED",
@@ -22795,6 +22643,134 @@
     "awayScore": null,
     "title": "Man City vs Brentford",
     "description": "Matchday 36: Manchester City FC vs Brentford FC",
+    "isLive": false,
+    "broadcaster": "Not yet announced",
+    "broadcastConfirmed": false,
+    "channel": {
+      "number": "174",
+      "name": "USA Network East",
+      "category": "National",
+      "hasPlayback": true
+    },
+    "channels": [
+      {
+        "number": "174",
+        "name": "USA Network East",
+        "category": "National",
+        "hasPlayback": true
+      },
+      {
+        "number": "181",
+        "name": "Telemundo East",
+        "category": "National",
+        "hasPlayback": false
+      },
+      {
+        "number": "870",
+        "name": "Sky Sports Premier League",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "857",
+        "name": "BT Sports 1",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "858",
+        "name": "BT Sports 2",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "828",
+        "name": "ESPN",
+        "category": "Sports",
+        "hasPlayback": true
+      }
+    ]
+  },
+  {
+    "id": 538137,
+    "startTime": "2026-05-10T13:00:00Z",
+    "status": "TIMED",
+    "matchday": 36,
+    "competition": "Premier League",
+    "competitionCode": "PL",
+    "competitionCategory": "english",
+    "homeTeam": "Crystal Palace",
+    "homeTeamTla": "CRY",
+    "awayTeam": "Everton",
+    "awayTeamTla": "EVE",
+    "homeScore": null,
+    "awayScore": null,
+    "title": "Crystal Palace vs Everton",
+    "description": "Matchday 36: Crystal Palace FC vs Everton FC",
+    "isLive": false,
+    "broadcaster": "Not yet announced",
+    "broadcastConfirmed": false,
+    "channel": {
+      "number": "174",
+      "name": "USA Network East",
+      "category": "National",
+      "hasPlayback": true
+    },
+    "channels": [
+      {
+        "number": "174",
+        "name": "USA Network East",
+        "category": "National",
+        "hasPlayback": true
+      },
+      {
+        "number": "181",
+        "name": "Telemundo East",
+        "category": "National",
+        "hasPlayback": false
+      },
+      {
+        "number": "870",
+        "name": "Sky Sports Premier League",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "857",
+        "name": "BT Sports 1",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "858",
+        "name": "BT Sports 2",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "828",
+        "name": "ESPN",
+        "category": "Sports",
+        "hasPlayback": true
+      }
+    ]
+  },
+  {
+    "id": 538138,
+    "startTime": "2026-05-10T13:00:00Z",
+    "status": "TIMED",
+    "matchday": 36,
+    "competition": "Premier League",
+    "competitionCode": "PL",
+    "competitionCategory": "english",
+    "homeTeam": "Burnley",
+    "homeTeamTla": "BUR",
+    "awayTeam": "Aston Villa",
+    "awayTeamTla": "AVL",
+    "homeScore": null,
+    "awayScore": null,
+    "title": "Burnley vs Aston Villa",
+    "description": "Matchday 36: Burnley FC vs Aston Villa FC",
     "isLive": false,
     "broadcaster": "Not yet announced",
     "broadcastConfirmed": false,
