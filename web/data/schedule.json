@@ -20994,7 +20994,7 @@
   {
     "id": 538106,
     "startTime": "2026-04-20T19:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 33,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -21003,13 +21003,13 @@
     "homeTeamTla": "CRY",
     "awayTeam": "West Ham",
     "awayTeamTla": "WHU",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 0,
+    "awayScore": 0,
     "title": "Crystal Palace vs West Ham",
     "description": "Matchday 33: Crystal Palace FC vs West Ham United FC",
     "isLive": false,
-    "broadcaster": "USA Network / Universo / DirecTV Stream / Sling Blue",
-    "broadcastConfirmed": true,
+    "broadcaster": "Not yet announced",
+    "broadcastConfirmed": false,
     "channel": {
       "number": "174",
       "name": "USA Network East",
@@ -21022,12 +21022,6 @@
         "name": "USA Network East",
         "category": "National",
         "hasPlayback": true
-      },
-      {
-        "number": "183",
-        "name": "Univision East",
-        "category": "National",
-        "hasPlayback": false
       },
       {
         "number": "181",
@@ -21064,7 +21058,7 @@
   {
     "id": 538117,
     "startTime": "2026-04-21T19:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 34,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -21073,13 +21067,13 @@
     "homeTeamTla": "BHA",
     "awayTeam": "Chelsea",
     "awayTeamTla": "CHE",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 3,
+    "awayScore": 0,
     "title": "Brighton Hove vs Chelsea",
     "description": "Matchday 34: Brighton & Hove Albion FC vs Chelsea FC",
     "isLive": false,
-    "broadcaster": "USA Network / Universo / DirecTV Stream / Sling Blue",
-    "broadcastConfirmed": true,
+    "broadcaster": "Not yet announced",
+    "broadcastConfirmed": false,
     "channel": {
       "number": "174",
       "name": "USA Network East",
@@ -21092,12 +21086,6 @@
         "name": "USA Network East",
         "category": "National",
         "hasPlayback": true
-      },
-      {
-        "number": "183",
-        "name": "Univision East",
-        "category": "National",
-        "hasPlayback": false
       },
       {
         "number": "181",
@@ -21134,7 +21122,7 @@
   {
     "id": 538115,
     "startTime": "2026-04-22T19:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 34,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -21143,12 +21131,12 @@
     "homeTeamTla": "BOU",
     "awayTeam": "Leeds United",
     "awayTeamTla": "LEE",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 2,
+    "awayScore": 2,
     "title": "Bournemouth vs Leeds United",
     "description": "Matchday 34: AFC Bournemouth vs Leeds United FC",
     "isLive": false,
-    "broadcaster": "Peacock Premium",
+    "broadcaster": "Not yet announced",
     "broadcastConfirmed": false,
     "channel": {
       "number": "174",
@@ -21198,7 +21186,7 @@
   {
     "id": 538119,
     "startTime": "2026-04-22T19:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 34,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -21207,13 +21195,13 @@
     "homeTeamTla": "BUR",
     "awayTeam": "Man City",
     "awayTeamTla": "MCI",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 0,
+    "awayScore": 1,
     "title": "Burnley vs Man City",
     "description": "Matchday 34: Burnley FC vs Manchester City FC",
     "isLive": false,
-    "broadcaster": "USA Network / Universo / DirecTV Stream / Sling Blue",
-    "broadcastConfirmed": true,
+    "broadcaster": "Not yet announced",
+    "broadcastConfirmed": false,
     "channel": {
       "number": "174",
       "name": "USA Network East",
@@ -21226,12 +21214,6 @@
         "name": "USA Network East",
         "category": "National",
         "hasPlayback": true
-      },
-      {
-        "number": "183",
-        "name": "Univision East",
-        "category": "National",
-        "hasPlayback": false
       },
       {
         "number": "181",
@@ -21614,15 +21596,21 @@
     "title": "Arsenal vs Newcastle",
     "description": "Matchday 34: Arsenal FC vs Newcastle United FC",
     "isLive": false,
-    "broadcaster": "Peacock Premium",
-    "broadcastConfirmed": false,
+    "broadcaster": "Peacock Premium / Universo / DirecTV Stream",
+    "broadcastConfirmed": true,
     "channel": {
-      "number": "174",
-      "name": "USA Network East",
+      "number": "183",
+      "name": "Univision East",
       "category": "National",
-      "hasPlayback": true
+      "hasPlayback": false
     },
     "channels": [
+      {
+        "number": "183",
+        "name": "Univision East",
+        "category": "National",
+        "hasPlayback": false
+      },
       {
         "number": "174",
         "name": "USA Network East",
