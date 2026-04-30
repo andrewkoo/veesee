@@ -21634,7 +21634,7 @@
   {
     "id": 538122,
     "startTime": "2026-04-27T19:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 34,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -21643,13 +21643,13 @@
     "homeTeamTla": "MUN",
     "awayTeam": "Brentford",
     "awayTeamTla": "BRE",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 2,
+    "awayScore": 1,
     "title": "Man United vs Brentford",
     "description": "Matchday 34: Manchester United FC vs Brentford FC",
     "isLive": false,
-    "broadcaster": "USA Network / Universo / DirecTV Stream / Sling Blue",
-    "broadcastConfirmed": true,
+    "broadcaster": "Not yet announced",
+    "broadcastConfirmed": false,
     "channel": {
       "number": "174",
       "name": "USA Network East",
@@ -21662,12 +21662,6 @@
         "name": "USA Network East",
         "category": "National",
         "hasPlayback": true
-      },
-      {
-        "number": "183",
-        "name": "Univision East",
-        "category": "National",
-        "hasPlayback": false
       },
       {
         "number": "181",
@@ -23006,21 +23000,21 @@
     ]
   },
   {
-    "id": 538145,
-    "startTime": "2026-05-17T14:00:00Z",
+    "id": 538091,
+    "startTime": "2026-05-13T19:00:00Z",
     "status": "TIMED",
-    "matchday": 37,
+    "matchday": 31,
     "competition": "Premier League",
     "competitionCode": "PL",
     "competitionCategory": "english",
-    "homeTeam": "Bournemouth",
-    "homeTeamTla": "BOU",
-    "awayTeam": "Man City",
-    "awayTeamTla": "MCI",
+    "homeTeam": "Man City",
+    "homeTeamTla": "MCI",
+    "awayTeam": "Crystal Palace",
+    "awayTeamTla": "CRY",
     "homeScore": null,
     "awayScore": null,
-    "title": "Bournemouth vs Man City",
-    "description": "Matchday 37: AFC Bournemouth vs Manchester City FC",
+    "title": "Man City vs Crystal Palace",
+    "description": "Matchday 31: Manchester City FC vs Crystal Palace FC",
     "isLive": false,
     "broadcaster": "Not yet announced",
     "broadcastConfirmed": false,
@@ -23071,7 +23065,7 @@
   },
   {
     "id": 538146,
-    "startTime": "2026-05-17T14:00:00Z",
+    "startTime": "2026-05-17T11:30:00Z",
     "status": "TIMED",
     "matchday": 37,
     "competition": "Premier League",
@@ -23134,21 +23128,21 @@
     ]
   },
   {
-    "id": 538147,
-    "startTime": "2026-05-17T14:00:00Z",
+    "id": 538152,
+    "startTime": "2026-05-17T11:30:00Z",
     "status": "TIMED",
     "matchday": 37,
     "competition": "Premier League",
     "competitionCode": "PL",
     "competitionCategory": "english",
-    "homeTeam": "Arsenal",
-    "homeTeamTla": "ARS",
-    "awayTeam": "Burnley",
-    "awayTeamTla": "BUR",
+    "homeTeam": "Man United",
+    "homeTeamTla": "MUN",
+    "awayTeam": "Nottingham",
+    "awayTeamTla": "NOT",
     "homeScore": null,
     "awayScore": null,
-    "title": "Arsenal vs Burnley",
-    "description": "Matchday 37: Arsenal FC vs Burnley FC",
+    "title": "Man United vs Nottingham",
+    "description": "Matchday 37: Manchester United FC vs Nottingham Forest FC",
     "isLive": false,
     "broadcaster": "Not yet announced",
     "broadcastConfirmed": false,
@@ -23213,70 +23207,6 @@
     "awayScore": null,
     "title": "Brentford vs Crystal Palace",
     "description": "Matchday 37: Brentford FC vs Crystal Palace FC",
-    "isLive": false,
-    "broadcaster": "Not yet announced",
-    "broadcastConfirmed": false,
-    "channel": {
-      "number": "174",
-      "name": "USA Network East",
-      "category": "National",
-      "hasPlayback": true
-    },
-    "channels": [
-      {
-        "number": "174",
-        "name": "USA Network East",
-        "category": "National",
-        "hasPlayback": true
-      },
-      {
-        "number": "181",
-        "name": "Telemundo East",
-        "category": "National",
-        "hasPlayback": false
-      },
-      {
-        "number": "870",
-        "name": "Sky Sports Premier League",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "857",
-        "name": "BT Sports 1",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "858",
-        "name": "BT Sports 2",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "828",
-        "name": "ESPN",
-        "category": "Sports",
-        "hasPlayback": true
-      }
-    ]
-  },
-  {
-    "id": 538149,
-    "startTime": "2026-05-17T14:00:00Z",
-    "status": "TIMED",
-    "matchday": 37,
-    "competition": "Premier League",
-    "competitionCode": "PL",
-    "competitionCategory": "english",
-    "homeTeam": "Chelsea",
-    "homeTeamTla": "CHE",
-    "awayTeam": "Tottenham",
-    "awayTeamTla": "TOT",
-    "homeScore": null,
-    "awayScore": null,
-    "title": "Chelsea vs Tottenham",
-    "description": "Matchday 37: Chelsea FC vs Tottenham Hotspur FC",
     "isLive": false,
     "broadcaster": "Not yet announced",
     "broadcastConfirmed": false,
@@ -23454,134 +23384,6 @@
     ]
   },
   {
-    "id": 538152,
-    "startTime": "2026-05-17T14:00:00Z",
-    "status": "TIMED",
-    "matchday": 37,
-    "competition": "Premier League",
-    "competitionCode": "PL",
-    "competitionCategory": "english",
-    "homeTeam": "Man United",
-    "homeTeamTla": "MUN",
-    "awayTeam": "Nottingham",
-    "awayTeamTla": "NOT",
-    "homeScore": null,
-    "awayScore": null,
-    "title": "Man United vs Nottingham",
-    "description": "Matchday 37: Manchester United FC vs Nottingham Forest FC",
-    "isLive": false,
-    "broadcaster": "Not yet announced",
-    "broadcastConfirmed": false,
-    "channel": {
-      "number": "174",
-      "name": "USA Network East",
-      "category": "National",
-      "hasPlayback": true
-    },
-    "channels": [
-      {
-        "number": "174",
-        "name": "USA Network East",
-        "category": "National",
-        "hasPlayback": true
-      },
-      {
-        "number": "181",
-        "name": "Telemundo East",
-        "category": "National",
-        "hasPlayback": false
-      },
-      {
-        "number": "870",
-        "name": "Sky Sports Premier League",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "857",
-        "name": "BT Sports 1",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "858",
-        "name": "BT Sports 2",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "828",
-        "name": "ESPN",
-        "category": "Sports",
-        "hasPlayback": true
-      }
-    ]
-  },
-  {
-    "id": 538153,
-    "startTime": "2026-05-17T14:00:00Z",
-    "status": "TIMED",
-    "matchday": 37,
-    "competition": "Premier League",
-    "competitionCode": "PL",
-    "competitionCategory": "english",
-    "homeTeam": "Newcastle",
-    "homeTeamTla": "NEW",
-    "awayTeam": "West Ham",
-    "awayTeamTla": "WHU",
-    "homeScore": null,
-    "awayScore": null,
-    "title": "Newcastle vs West Ham",
-    "description": "Matchday 37: Newcastle United FC vs West Ham United FC",
-    "isLive": false,
-    "broadcaster": "Not yet announced",
-    "broadcastConfirmed": false,
-    "channel": {
-      "number": "174",
-      "name": "USA Network East",
-      "category": "National",
-      "hasPlayback": true
-    },
-    "channels": [
-      {
-        "number": "174",
-        "name": "USA Network East",
-        "category": "National",
-        "hasPlayback": true
-      },
-      {
-        "number": "181",
-        "name": "Telemundo East",
-        "category": "National",
-        "hasPlayback": false
-      },
-      {
-        "number": "870",
-        "name": "Sky Sports Premier League",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "857",
-        "name": "BT Sports 1",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "858",
-        "name": "BT Sports 2",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "828",
-        "name": "ESPN",
-        "category": "Sports",
-        "hasPlayback": true
-      }
-    ]
-  },
-  {
     "id": 538154,
     "startTime": "2026-05-17T14:00:00Z",
     "status": "TIMED",
@@ -23646,21 +23448,213 @@
     ]
   },
   {
-    "id": 538091,
-    "startTime": "2026-05-22T00:00:00Z",
-    "status": "POSTPONED",
-    "matchday": 31,
+    "id": 538153,
+    "startTime": "2026-05-17T16:30:00Z",
+    "status": "TIMED",
+    "matchday": 37,
     "competition": "Premier League",
     "competitionCode": "PL",
     "competitionCategory": "english",
-    "homeTeam": "Man City",
-    "homeTeamTla": "MCI",
-    "awayTeam": "Crystal Palace",
-    "awayTeamTla": "CRY",
+    "homeTeam": "Newcastle",
+    "homeTeamTla": "NEW",
+    "awayTeam": "West Ham",
+    "awayTeamTla": "WHU",
     "homeScore": null,
     "awayScore": null,
-    "title": "Man City vs Crystal Palace",
-    "description": "Matchday 31: Manchester City FC vs Crystal Palace FC",
+    "title": "Newcastle vs West Ham",
+    "description": "Matchday 37: Newcastle United FC vs West Ham United FC",
+    "isLive": false,
+    "broadcaster": "Not yet announced",
+    "broadcastConfirmed": false,
+    "channel": {
+      "number": "174",
+      "name": "USA Network East",
+      "category": "National",
+      "hasPlayback": true
+    },
+    "channels": [
+      {
+        "number": "174",
+        "name": "USA Network East",
+        "category": "National",
+        "hasPlayback": true
+      },
+      {
+        "number": "181",
+        "name": "Telemundo East",
+        "category": "National",
+        "hasPlayback": false
+      },
+      {
+        "number": "870",
+        "name": "Sky Sports Premier League",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "857",
+        "name": "BT Sports 1",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "858",
+        "name": "BT Sports 2",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "828",
+        "name": "ESPN",
+        "category": "Sports",
+        "hasPlayback": true
+      }
+    ]
+  },
+  {
+    "id": 538147,
+    "startTime": "2026-05-18T19:00:00Z",
+    "status": "TIMED",
+    "matchday": 37,
+    "competition": "Premier League",
+    "competitionCode": "PL",
+    "competitionCategory": "english",
+    "homeTeam": "Arsenal",
+    "homeTeamTla": "ARS",
+    "awayTeam": "Burnley",
+    "awayTeamTla": "BUR",
+    "homeScore": null,
+    "awayScore": null,
+    "title": "Arsenal vs Burnley",
+    "description": "Matchday 37: Arsenal FC vs Burnley FC",
+    "isLive": false,
+    "broadcaster": "Not yet announced",
+    "broadcastConfirmed": false,
+    "channel": {
+      "number": "174",
+      "name": "USA Network East",
+      "category": "National",
+      "hasPlayback": true
+    },
+    "channels": [
+      {
+        "number": "174",
+        "name": "USA Network East",
+        "category": "National",
+        "hasPlayback": true
+      },
+      {
+        "number": "181",
+        "name": "Telemundo East",
+        "category": "National",
+        "hasPlayback": false
+      },
+      {
+        "number": "870",
+        "name": "Sky Sports Premier League",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "857",
+        "name": "BT Sports 1",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "858",
+        "name": "BT Sports 2",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "828",
+        "name": "ESPN",
+        "category": "Sports",
+        "hasPlayback": true
+      }
+    ]
+  },
+  {
+    "id": 538145,
+    "startTime": "2026-05-19T18:30:00Z",
+    "status": "TIMED",
+    "matchday": 37,
+    "competition": "Premier League",
+    "competitionCode": "PL",
+    "competitionCategory": "english",
+    "homeTeam": "Bournemouth",
+    "homeTeamTla": "BOU",
+    "awayTeam": "Man City",
+    "awayTeamTla": "MCI",
+    "homeScore": null,
+    "awayScore": null,
+    "title": "Bournemouth vs Man City",
+    "description": "Matchday 37: AFC Bournemouth vs Manchester City FC",
+    "isLive": false,
+    "broadcaster": "Not yet announced",
+    "broadcastConfirmed": false,
+    "channel": {
+      "number": "174",
+      "name": "USA Network East",
+      "category": "National",
+      "hasPlayback": true
+    },
+    "channels": [
+      {
+        "number": "174",
+        "name": "USA Network East",
+        "category": "National",
+        "hasPlayback": true
+      },
+      {
+        "number": "181",
+        "name": "Telemundo East",
+        "category": "National",
+        "hasPlayback": false
+      },
+      {
+        "number": "870",
+        "name": "Sky Sports Premier League",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "857",
+        "name": "BT Sports 1",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "858",
+        "name": "BT Sports 2",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "828",
+        "name": "ESPN",
+        "category": "Sports",
+        "hasPlayback": true
+      }
+    ]
+  },
+  {
+    "id": 538149,
+    "startTime": "2026-05-19T19:15:00Z",
+    "status": "TIMED",
+    "matchday": 37,
+    "competition": "Premier League",
+    "competitionCode": "PL",
+    "competitionCategory": "english",
+    "homeTeam": "Chelsea",
+    "homeTeamTla": "CHE",
+    "awayTeam": "Tottenham",
+    "awayTeamTla": "TOT",
+    "homeScore": null,
+    "awayScore": null,
+    "title": "Chelsea vs Tottenham",
+    "description": "Matchday 37: Chelsea FC vs Tottenham Hotspur FC",
     "isLive": false,
     "broadcaster": "Not yet announced",
     "broadcastConfirmed": false,
