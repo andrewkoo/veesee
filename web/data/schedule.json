@@ -21698,7 +21698,7 @@
   {
     "id": 538131,
     "startTime": "2026-05-01T19:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 35,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -21707,13 +21707,13 @@
     "homeTeamTla": "LEE",
     "awayTeam": "Burnley",
     "awayTeamTla": "BUR",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 3,
+    "awayScore": 1,
     "title": "Leeds United vs Burnley",
     "description": "Matchday 35: Leeds United FC vs Burnley FC",
     "isLive": false,
-    "broadcaster": "USA Network / DirecTV Stream / Sling Blue",
-    "broadcastConfirmed": true,
+    "broadcaster": "Not yet announced",
+    "broadcastConfirmed": false,
     "channel": {
       "number": "174",
       "name": "USA Network East",
@@ -21762,7 +21762,7 @@
   {
     "id": 538128,
     "startTime": "2026-05-02T14:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 35,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -21771,13 +21771,13 @@
     "homeTeamTla": "BRE",
     "awayTeam": "West Ham",
     "awayTeamTla": "WHU",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 3,
+    "awayScore": 0,
     "title": "Brentford vs West Ham",
     "description": "Matchday 35: Brentford FC vs West Ham United FC",
     "isLive": false,
-    "broadcaster": "USA Network / Universo / DirecTV Stream / Sling Blue",
-    "broadcastConfirmed": true,
+    "broadcaster": "Not yet announced",
+    "broadcastConfirmed": false,
     "channel": {
       "number": "174",
       "name": "USA Network East",
@@ -21790,12 +21790,6 @@
         "name": "USA Network East",
         "category": "National",
         "hasPlayback": true
-      },
-      {
-        "number": "183",
-        "name": "Univision East",
-        "category": "National",
-        "hasPlayback": false
       },
       {
         "number": "181",
@@ -21832,7 +21826,7 @@
   {
     "id": 538133,
     "startTime": "2026-05-02T14:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 35,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -21841,12 +21835,12 @@
     "homeTeamTla": "NEW",
     "awayTeam": "Brighton Hove",
     "awayTeamTla": "BHA",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 3,
+    "awayScore": 1,
     "title": "Newcastle vs Brighton Hove",
     "description": "Matchday 35: Newcastle United FC vs Brighton & Hove Albion FC",
     "isLive": false,
-    "broadcaster": "Peacock Premium",
+    "broadcaster": "Not yet announced",
     "broadcastConfirmed": false,
     "channel": {
       "number": "174",
@@ -21896,7 +21890,7 @@
   {
     "id": 538134,
     "startTime": "2026-05-02T14:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 35,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -21905,12 +21899,12 @@
     "homeTeamTla": "WOL",
     "awayTeam": "Sunderland",
     "awayTeamTla": "SUN",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 1,
+    "awayScore": 1,
     "title": "Wolverhampton vs Sunderland",
     "description": "Matchday 35: Wolverhampton Wanderers FC vs Sunderland AFC",
     "isLive": false,
-    "broadcaster": "Peacock Premium",
+    "broadcaster": "Not yet announced",
     "broadcastConfirmed": false,
     "channel": {
       "number": "174",
@@ -21960,7 +21954,7 @@
   {
     "id": 538127,
     "startTime": "2026-05-02T16:30:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 35,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -21969,13 +21963,13 @@
     "homeTeamTla": "ARS",
     "awayTeam": "Fulham",
     "awayTeamTla": "FUL",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 3,
+    "awayScore": 0,
     "title": "Arsenal vs Fulham",
     "description": "Matchday 35: Arsenal FC vs Fulham FC",
     "isLive": false,
-    "broadcaster": "NBC / Telemundo / Universo / DirecTV Stream / Sling Blue / Peacock Premium",
-    "broadcastConfirmed": true,
+    "broadcaster": "Not yet announced",
+    "broadcastConfirmed": false,
     "channel": {
       "number": "174",
       "name": "USA Network East",
@@ -21992,12 +21986,6 @@
       {
         "number": "181",
         "name": "Telemundo East",
-        "category": "National",
-        "hasPlayback": false
-      },
-      {
-        "number": "183",
-        "name": "Univision East",
         "category": "National",
         "hasPlayback": false
       },
@@ -22030,7 +22018,7 @@
   {
     "id": 538125,
     "startTime": "2026-05-03T13:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 35,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -22039,12 +22027,12 @@
     "homeTeamTla": "BOU",
     "awayTeam": "Crystal Palace",
     "awayTeamTla": "CRY",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 3,
+    "awayScore": 0,
     "title": "Bournemouth vs Crystal Palace",
     "description": "Matchday 35: AFC Bournemouth vs Crystal Palace FC",
     "isLive": false,
-    "broadcaster": "Peacock Premium",
+    "broadcaster": "Not yet announced",
     "broadcastConfirmed": false,
     "channel": {
       "number": "174",
@@ -22094,7 +22082,7 @@
   {
     "id": 538132,
     "startTime": "2026-05-03T14:30:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 35,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -22103,31 +22091,31 @@
     "homeTeamTla": "MUN",
     "awayTeam": "Liverpool",
     "awayTeamTla": "LIV",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 3,
+    "awayScore": 2,
     "title": "Man United vs Liverpool",
     "description": "Matchday 35: Manchester United FC vs Liverpool FC",
     "isLive": false,
-    "broadcaster": "Peacock Premium / Telemundo / DirecTV Stream",
-    "broadcastConfirmed": true,
+    "broadcaster": "Not yet announced",
+    "broadcastConfirmed": false,
     "channel": {
-      "number": "181",
-      "name": "Telemundo East",
+      "number": "174",
+      "name": "USA Network East",
       "category": "National",
-      "hasPlayback": false
+      "hasPlayback": true
     },
     "channels": [
-      {
-        "number": "181",
-        "name": "Telemundo East",
-        "category": "National",
-        "hasPlayback": false
-      },
       {
         "number": "174",
         "name": "USA Network East",
         "category": "National",
         "hasPlayback": true
+      },
+      {
+        "number": "181",
+        "name": "Telemundo East",
+        "category": "National",
+        "hasPlayback": false
       },
       {
         "number": "870",
@@ -22158,7 +22146,7 @@
   {
     "id": 538126,
     "startTime": "2026-05-03T18:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 35,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -22167,13 +22155,13 @@
     "homeTeamTla": "AVL",
     "awayTeam": "Tottenham",
     "awayTeamTla": "TOT",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 1,
+    "awayScore": 2,
     "title": "Aston Villa vs Tottenham",
     "description": "Matchday 35: Aston Villa FC vs Tottenham Hotspur FC",
     "isLive": false,
-    "broadcaster": "USA Network / Telemundo / DirecTV Stream / Sling Blue",
-    "broadcastConfirmed": true,
+    "broadcaster": "Not yet announced",
+    "broadcastConfirmed": false,
     "channel": {
       "number": "174",
       "name": "USA Network East",
@@ -22568,8 +22556,8 @@
     "title": "Fulham vs Bournemouth",
     "description": "Matchday 36: Fulham FC vs AFC Bournemouth",
     "isLive": false,
-    "broadcaster": "Not yet announced",
-    "broadcastConfirmed": false,
+    "broadcaster": "USA Network",
+    "broadcastConfirmed": true,
     "channel": {
       "number": "174",
       "name": "USA Network East",
@@ -22632,8 +22620,8 @@
     "title": "Man City vs Brentford",
     "description": "Matchday 36: Manchester City FC vs Brentford FC",
     "isLive": false,
-    "broadcaster": "Not yet announced",
-    "broadcastConfirmed": false,
+    "broadcaster": "NBC / Telemundo / UNIVERSO",
+    "broadcastConfirmed": true,
     "channel": {
       "number": "174",
       "name": "USA Network East",
@@ -22650,6 +22638,12 @@
       {
         "number": "181",
         "name": "Telemundo East",
+        "category": "National",
+        "hasPlayback": false
+      },
+      {
+        "number": "183",
+        "name": "Univision East",
         "category": "National",
         "hasPlayback": false
       },
@@ -22760,15 +22754,21 @@
     "title": "Burnley vs Aston Villa",
     "description": "Matchday 36: Burnley FC vs Aston Villa FC",
     "isLive": false,
-    "broadcaster": "Not yet announced",
-    "broadcastConfirmed": false,
+    "broadcaster": "UNIVERSO / NBC / USA Network / Telemundo / Telemundo Deportes En Vivo / UNIVERSO NOW / Peacock / TeleXitos",
+    "broadcastConfirmed": true,
     "channel": {
-      "number": "174",
-      "name": "USA Network East",
+      "number": "183",
+      "name": "Univision East",
       "category": "National",
-      "hasPlayback": true
+      "hasPlayback": false
     },
     "channels": [
+      {
+        "number": "183",
+        "name": "Univision East",
+        "category": "National",
+        "hasPlayback": false
+      },
       {
         "number": "174",
         "name": "USA Network East",
@@ -22824,8 +22824,8 @@
     "title": "Nottingham vs Newcastle",
     "description": "Matchday 36: Nottingham Forest FC vs Newcastle United FC",
     "isLive": false,
-    "broadcaster": "Not yet announced",
-    "broadcastConfirmed": false,
+    "broadcaster": "USA Network / Telemundo",
+    "broadcastConfirmed": true,
     "channel": {
       "number": "174",
       "name": "USA Network East",
@@ -22888,8 +22888,8 @@
     "title": "West Ham vs Arsenal",
     "description": "Matchday 36: West Ham United FC vs Arsenal FC",
     "isLive": false,
-    "broadcaster": "Not yet announced",
-    "broadcastConfirmed": false,
+    "broadcaster": "USA Network / Telemundo",
+    "broadcastConfirmed": true,
     "channel": {
       "number": "174",
       "name": "USA Network East",
