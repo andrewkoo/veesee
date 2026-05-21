@@ -23490,7 +23490,7 @@
   {
     "id": 538147,
     "startTime": "2026-05-18T19:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 37,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -23499,13 +23499,13 @@
     "homeTeamTla": "ARS",
     "awayTeam": "Burnley",
     "awayTeamTla": "BUR",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 1,
+    "awayScore": 0,
     "title": "Arsenal vs Burnley",
     "description": "Matchday 37: Arsenal FC vs Burnley FC",
     "isLive": false,
-    "broadcaster": "USA Network / Universo / DirecTV Stream / Sling Blue",
-    "broadcastConfirmed": true,
+    "broadcaster": "Not yet announced",
+    "broadcastConfirmed": false,
     "channel": {
       "number": "174",
       "name": "USA Network East",
@@ -23518,12 +23518,6 @@
         "name": "USA Network East",
         "category": "National",
         "hasPlayback": true
-      },
-      {
-        "number": "183",
-        "name": "Univision East",
-        "category": "National",
-        "hasPlayback": false
       },
       {
         "number": "181",
@@ -23560,7 +23554,7 @@
   {
     "id": 538145,
     "startTime": "2026-05-19T18:30:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 37,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -23569,13 +23563,13 @@
     "homeTeamTla": "BOU",
     "awayTeam": "Man City",
     "awayTeamTla": "MCI",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 1,
+    "awayScore": 1,
     "title": "Bournemouth vs Man City",
     "description": "Matchday 37: AFC Bournemouth vs Manchester City FC",
     "isLive": false,
-    "broadcaster": "USA Network / Universo / DirecTV Stream / Sling Blue",
-    "broadcastConfirmed": true,
+    "broadcaster": "Not yet announced",
+    "broadcastConfirmed": false,
     "channel": {
       "number": "174",
       "name": "USA Network East",
@@ -23588,12 +23582,6 @@
         "name": "USA Network East",
         "category": "National",
         "hasPlayback": true
-      },
-      {
-        "number": "183",
-        "name": "Univision East",
-        "category": "National",
-        "hasPlayback": false
       },
       {
         "number": "181",
@@ -23630,7 +23618,7 @@
   {
     "id": 538149,
     "startTime": "2026-05-19T19:15:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 37,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -23639,12 +23627,12 @@
     "homeTeamTla": "CHE",
     "awayTeam": "Tottenham",
     "awayTeamTla": "TOT",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 2,
+    "awayScore": 1,
     "title": "Chelsea vs Tottenham",
     "description": "Matchday 37: Chelsea FC vs Tottenham Hotspur FC",
     "isLive": false,
-    "broadcaster": "Peacock Premium",
+    "broadcaster": "Not yet announced",
     "broadcastConfirmed": false,
     "channel": {
       "number": "174",
@@ -23708,8 +23696,8 @@
     "title": "Sunderland vs Chelsea",
     "description": "Matchday 38: Sunderland AFC vs Chelsea FC",
     "isLive": false,
-    "broadcaster": "USA Network / Universo / DirecTV Stream / Sling Blue / Peacock Premium",
-    "broadcastConfirmed": true,
+    "broadcaster": "Peacock Premium",
+    "broadcastConfirmed": false,
     "channel": {
       "number": "174",
       "name": "USA Network East",
@@ -23722,12 +23710,6 @@
         "name": "USA Network East",
         "category": "National",
         "hasPlayback": true
-      },
-      {
-        "number": "183",
-        "name": "Univision East",
-        "category": "National",
-        "hasPlayback": false
       },
       {
         "number": "181",
@@ -23778,8 +23760,8 @@
     "title": "Brighton Hove vs Man United",
     "description": "Matchday 38: Brighton & Hove Albion FC vs Manchester United FC",
     "isLive": false,
-    "broadcaster": "USA Network / Universo / DirecTV Stream / Sling Blue / Peacock Premium",
-    "broadcastConfirmed": true,
+    "broadcaster": "Peacock Premium",
+    "broadcastConfirmed": false,
     "channel": {
       "number": "174",
       "name": "USA Network East",
@@ -23792,12 +23774,6 @@
         "name": "USA Network East",
         "category": "National",
         "hasPlayback": true
-      },
-      {
-        "number": "183",
-        "name": "Univision East",
-        "category": "National",
-        "hasPlayback": false
       },
       {
         "number": "181",
@@ -23848,7 +23824,7 @@
     "title": "Crystal Palace vs Arsenal",
     "description": "Matchday 38: Crystal Palace FC vs Arsenal FC",
     "isLive": false,
-    "broadcaster": "USA Network / Universo / DirecTV Stream / Sling Blue / Peacock Premium",
+    "broadcaster": "CNBC / DirecTV Stream / Sling Blue",
     "broadcastConfirmed": true,
     "channel": {
       "number": "174",
@@ -23862,12 +23838,6 @@
         "name": "USA Network East",
         "category": "National",
         "hasPlayback": true
-      },
-      {
-        "number": "183",
-        "name": "Univision East",
-        "category": "National",
-        "hasPlayback": false
       },
       {
         "number": "181",
@@ -23918,8 +23888,8 @@
     "title": "Burnley vs Wolverhampton",
     "description": "Matchday 38: Burnley FC vs Wolverhampton Wanderers FC",
     "isLive": false,
-    "broadcaster": "USA Network / Universo / DirecTV Stream / Sling Blue / Peacock Premium",
-    "broadcastConfirmed": true,
+    "broadcaster": "Peacock Premium",
+    "broadcastConfirmed": false,
     "channel": {
       "number": "174",
       "name": "USA Network East",
@@ -23932,12 +23902,6 @@
         "name": "USA Network East",
         "category": "National",
         "hasPlayback": true
-      },
-      {
-        "number": "183",
-        "name": "Univision East",
-        "category": "National",
-        "hasPlayback": false
       },
       {
         "number": "181",
@@ -23988,8 +23952,8 @@
     "title": "Fulham vs Newcastle",
     "description": "Matchday 38: Fulham FC vs Newcastle United FC",
     "isLive": false,
-    "broadcaster": "USA Network / Universo / DirecTV Stream / Sling Blue / Peacock Premium",
-    "broadcastConfirmed": true,
+    "broadcaster": "Peacock Premium",
+    "broadcastConfirmed": false,
     "channel": {
       "number": "174",
       "name": "USA Network East",
@@ -24002,12 +23966,6 @@
         "name": "USA Network East",
         "category": "National",
         "hasPlayback": true
-      },
-      {
-        "number": "183",
-        "name": "Univision East",
-        "category": "National",
-        "hasPlayback": false
       },
       {
         "number": "181",
@@ -24058,8 +24016,8 @@
     "title": "Liverpool vs Brentford",
     "description": "Matchday 38: Liverpool FC vs Brentford FC",
     "isLive": false,
-    "broadcaster": "USA Network / Universo / DirecTV Stream / Sling Blue / Peacock Premium",
-    "broadcastConfirmed": true,
+    "broadcaster": "DirecTV Stream / Sling Blue",
+    "broadcastConfirmed": false,
     "channel": {
       "number": "174",
       "name": "USA Network East",
@@ -24072,12 +24030,6 @@
         "name": "USA Network East",
         "category": "National",
         "hasPlayback": true
-      },
-      {
-        "number": "183",
-        "name": "Univision East",
-        "category": "National",
-        "hasPlayback": false
       },
       {
         "number": "181",
@@ -24128,8 +24080,8 @@
     "title": "Man City vs Aston Villa",
     "description": "Matchday 38: Manchester City FC vs Aston Villa FC",
     "isLive": false,
-    "broadcaster": "USA Network / Universo / DirecTV Stream / Sling Blue / Peacock Premium",
-    "broadcastConfirmed": true,
+    "broadcaster": "Peacock Premium",
+    "broadcastConfirmed": false,
     "channel": {
       "number": "174",
       "name": "USA Network East",
@@ -24142,12 +24094,6 @@
         "name": "USA Network East",
         "category": "National",
         "hasPlayback": true
-      },
-      {
-        "number": "183",
-        "name": "Univision East",
-        "category": "National",
-        "hasPlayback": false
       },
       {
         "number": "181",
@@ -24198,8 +24144,8 @@
     "title": "Nottingham vs Bournemouth",
     "description": "Matchday 38: Nottingham Forest FC vs AFC Bournemouth",
     "isLive": false,
-    "broadcaster": "USA Network / Universo / DirecTV Stream / Sling Blue / Peacock Premium",
-    "broadcastConfirmed": true,
+    "broadcaster": "Peacock Premium",
+    "broadcastConfirmed": false,
     "channel": {
       "number": "174",
       "name": "USA Network East",
@@ -24212,12 +24158,6 @@
         "name": "USA Network East",
         "category": "National",
         "hasPlayback": true
-      },
-      {
-        "number": "183",
-        "name": "Univision East",
-        "category": "National",
-        "hasPlayback": false
       },
       {
         "number": "181",
@@ -24268,7 +24208,7 @@
     "title": "Tottenham vs Everton",
     "description": "Matchday 38: Tottenham Hotspur FC vs Everton FC",
     "isLive": false,
-    "broadcaster": "USA Network / Universo / DirecTV Stream / Sling Blue / Peacock Premium",
+    "broadcaster": "NBC / Telemundo / DirecTV Stream / Sling Blue / Peacock Premium",
     "broadcastConfirmed": true,
     "channel": {
       "number": "174",
@@ -24282,12 +24222,6 @@
         "name": "USA Network East",
         "category": "National",
         "hasPlayback": true
-      },
-      {
-        "number": "183",
-        "name": "Univision East",
-        "category": "National",
-        "hasPlayback": false
       },
       {
         "number": "181",
@@ -24338,7 +24272,7 @@
     "title": "West Ham vs Leeds United",
     "description": "Matchday 38: West Ham United FC vs Leeds United FC",
     "isLive": false,
-    "broadcaster": "USA Network / Universo / DirecTV Stream / Sling Blue / Peacock Premium",
+    "broadcaster": "USA Network / DirecTV Stream / Sling Blue",
     "broadcastConfirmed": true,
     "channel": {
       "number": "174",
@@ -24352,12 +24286,6 @@
         "name": "USA Network East",
         "category": "National",
         "hasPlayback": true
-      },
-      {
-        "number": "183",
-        "name": "Univision East",
-        "category": "National",
-        "hasPlayback": false
       },
       {
         "number": "181",
