@@ -35,18 +35,18 @@
     "crest": "https://crests.football-data.org/397.png"
   },
   {
-    "id": 328,
-    "name": "Burnley FC",
-    "shortName": "Burnley",
-    "tla": "BUR",
-    "crest": "https://crests.football-data.org/328.png"
-  },
-  {
     "id": 61,
     "name": "Chelsea FC",
     "shortName": "Chelsea",
     "tla": "CHE",
     "crest": "https://crests.football-data.org/61.png"
+  },
+  {
+    "id": 1076,
+    "name": "Coventry City FC",
+    "shortName": "Coventry City",
+    "tla": "COV",
+    "crest": "https://crests.football-data.org/1076.png"
   },
   {
     "id": 354,
@@ -68,6 +68,20 @@
     "shortName": "Fulham",
     "tla": "FUL",
     "crest": "https://crests.football-data.org/63.png"
+  },
+  {
+    "id": 322,
+    "name": "Hull City AFC",
+    "shortName": "Hull City",
+    "tla": "HUL",
+    "crest": "https://crests.football-data.org/322.png"
+  },
+  {
+    "id": 349,
+    "name": "Ipswich Town FC",
+    "shortName": "Ipswich Town",
+    "tla": "IPS",
+    "crest": "https://crests.football-data.org/349.png"
   },
   {
     "id": 341,
@@ -124,19 +138,5 @@
     "shortName": "Tottenham",
     "tla": "TOT",
     "crest": "https://crests.football-data.org/73.png"
-  },
-  {
-    "id": 563,
-    "name": "West Ham United FC",
-    "shortName": "West Ham",
-    "tla": "WHU",
-    "crest": "https://crests.football-data.org/563.png"
-  },
-  {
-    "id": 76,
-    "name": "Wolverhampton Wanderers FC",
-    "shortName": "Wolverhampton",
-    "tla": "WOL",
-    "crest": "https://crests.football-data.org/76.png"
   }
 ]
