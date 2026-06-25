@@ -208,8 +208,8 @@
     "title": "Nottingham vs Leeds United",
     "description": "Matchday 1: Nottingham Forest FC vs Leeds United FC",
     "isLive": false,
-    "broadcaster": "NBC / USA Network / Telemundo / Telemundo Deportes En Vivo / UNIVERSO / UNIVERSO NOW / Peacock / TeleXitos",
-    "broadcastConfirmed": true,
+    "broadcaster": "Not yet announced",
+    "broadcastConfirmed": false,
     "channel": {
       "number": "174",
       "name": "USA Network East",
@@ -226,12 +226,6 @@
       {
         "number": "181",
         "name": "Telemundo East",
-        "category": "National",
-        "hasPlayback": false
-      },
-      {
-        "number": "183",
-        "name": "Univision East",
         "category": "National",
         "hasPlayback": false
       },
