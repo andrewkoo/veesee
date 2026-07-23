@@ -16,8 +16,8 @@
     "title": "Arsenal vs Coventry City",
     "description": "Matchday 1: Arsenal FC vs Coventry City FC",
     "isLive": false,
-    "broadcaster": "Not yet announced",
-    "broadcastConfirmed": false,
+    "broadcaster": "USA Network / Universo / DirecTV Stream / Sling Blue",
+    "broadcastConfirmed": true,
     "channel": {
       "number": "174",
       "name": "USA Network East",
@@ -30,6 +30,12 @@
         "name": "USA Network East",
         "category": "National",
         "hasPlayback": true
+      },
+      {
+        "number": "183",
+        "name": "Univision East",
+        "category": "National",
+        "hasPlayback": false
       },
       {
         "number": "181",
@@ -80,8 +86,8 @@
     "title": "Hull City vs Man United",
     "description": "Matchday 1: Hull City AFC vs Manchester United FC",
     "isLive": false,
-    "broadcaster": "Not yet announced",
-    "broadcastConfirmed": false,
+    "broadcaster": "USA Network / Universo / DirecTV Stream / Sling Blue",
+    "broadcastConfirmed": true,
     "channel": {
       "number": "174",
       "name": "USA Network East",
@@ -94,6 +100,12 @@
         "name": "USA Network East",
         "category": "National",
         "hasPlayback": true
+      },
+      {
+        "number": "183",
+        "name": "Univision East",
+        "category": "National",
+        "hasPlayback": false
       },
       {
         "number": "181",
@@ -208,8 +220,8 @@
     "title": "Nottingham vs Leeds United",
     "description": "Matchday 1: Nottingham Forest FC vs Leeds United FC",
     "isLive": false,
-    "broadcaster": "NBC / USA Network / Telemundo / Telemundo Deportes En Vivo / UNIVERSO / UNIVERSO NOW / Peacock / TeleXitos",
-    "broadcastConfirmed": true,
+    "broadcaster": "Peacock Premium",
+    "broadcastConfirmed": false,
     "channel": {
       "number": "174",
       "name": "USA Network East",
@@ -226,12 +238,6 @@
       {
         "number": "181",
         "name": "Telemundo East",
-        "category": "National",
-        "hasPlayback": false
-      },
-      {
-        "number": "183",
-        "name": "Univision East",
         "category": "National",
         "hasPlayback": false
       },
@@ -278,8 +284,8 @@
     "title": "Everton vs Crystal Palace",
     "description": "Matchday 1: Everton FC vs Crystal Palace FC",
     "isLive": false,
-    "broadcaster": "Not yet announced",
-    "broadcastConfirmed": false,
+    "broadcaster": "USA Network / Universo / DirecTV Stream / Sling Blue",
+    "broadcastConfirmed": true,
     "channel": {
       "number": "174",
       "name": "USA Network East",
@@ -292,6 +298,12 @@
         "name": "USA Network East",
         "category": "National",
         "hasPlayback": true
+      },
+      {
+        "number": "183",
+        "name": "Univision East",
+        "category": "National",
+        "hasPlayback": false
       },
       {
         "number": "181",
@@ -342,8 +354,8 @@
     "title": "Brentford vs Tottenham",
     "description": "Matchday 1: Brentford FC vs Tottenham Hotspur FC",
     "isLive": false,
-    "broadcaster": "Not yet announced",
-    "broadcastConfirmed": false,
+    "broadcaster": "NBC / Universo / DirecTV Stream / Sling Blue / Peacock Premium",
+    "broadcastConfirmed": true,
     "channel": {
       "number": "174",
       "name": "USA Network East",
@@ -356,6 +368,12 @@
         "name": "USA Network East",
         "category": "National",
         "hasPlayback": true
+      },
+      {
+        "number": "183",
+        "name": "Univision East",
+        "category": "National",
+        "hasPlayback": false
       },
       {
         "number": "181",
@@ -406,8 +424,8 @@
     "title": "Man City vs Bournemouth",
     "description": "Matchday 1: Manchester City FC vs AFC Bournemouth",
     "isLive": false,
-    "broadcaster": "Not yet announced",
-    "broadcastConfirmed": false,
+    "broadcaster": "USA Network / Telemundo / DirecTV Stream / Sling Blue",
+    "broadcastConfirmed": true,
     "channel": {
       "number": "174",
       "name": "USA Network East",
@@ -470,7 +488,7 @@
     "title": "Brighton Hove vs Aston Villa",
     "description": "Matchday 1: Brighton & Hove Albion FC vs Aston Villa FC",
     "isLive": false,
-    "broadcaster": "Not yet announced",
+    "broadcaster": "Peacock Premium",
     "broadcastConfirmed": false,
     "channel": {
       "number": "174",
@@ -534,8 +552,8 @@
     "title": "Newcastle vs Liverpool",
     "description": "Matchday 1: Newcastle United FC vs Liverpool FC",
     "isLive": false,
-    "broadcaster": "Not yet announced",
-    "broadcastConfirmed": false,
+    "broadcaster": "USA Network / Telemundo / DirecTV Stream / Sling Blue",
+    "broadcastConfirmed": true,
     "channel": {
       "number": "174",
       "name": "USA Network East",
@@ -598,8 +616,8 @@
     "title": "Fulham vs Chelsea",
     "description": "Matchday 1: Fulham FC vs Chelsea FC",
     "isLive": false,
-    "broadcaster": "Not yet announced",
-    "broadcastConfirmed": false,
+    "broadcaster": "USA Network / Universo / DirecTV Stream / Sling Blue",
+    "broadcastConfirmed": true,
     "channel": {
       "number": "174",
       "name": "USA Network East",
@@ -612,6 +630,12 @@
         "name": "USA Network East",
         "category": "National",
         "hasPlayback": true
+      },
+      {
+        "number": "183",
+        "name": "Univision East",
+        "category": "National",
+        "hasPlayback": false
       },
       {
         "number": "181",
