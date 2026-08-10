@@ -1,8 +1,8 @@
 {
-  "exportedAt": "2026-08-06T11:58:22Z",
+  "exportedAt": "2026-08-10T10:55:06Z",
   "isSampleData": false,
   "totalGames": 380,
   "totalTeams": 20,
-  "latestGame": "2027-05-30T12:00:00Z",
+  "latestGame": "2027-05-30T00:00:00Z",
   "source": "football-data.org API"
 }

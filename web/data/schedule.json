@@ -2,7 +2,7 @@
   {
     "id": 560542,
     "startTime": "2026-08-21T19:00:00Z",
-    "status": "SCHEDULED",
+    "status": "TIMED",
     "matchday": 1,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -72,7 +72,7 @@
   {
     "id": 560543,
     "startTime": "2026-08-22T11:30:00Z",
-    "status": "SCHEDULED",
+    "status": "TIMED",
     "matchday": 1,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -142,7 +142,7 @@
   {
     "id": 560544,
     "startTime": "2026-08-22T14:00:00Z",
-    "status": "SCHEDULED",
+    "status": "TIMED",
     "matchday": 1,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -206,7 +206,7 @@
   {
     "id": 560545,
     "startTime": "2026-08-22T14:00:00Z",
-    "status": "SCHEDULED",
+    "status": "TIMED",
     "matchday": 1,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -270,7 +270,7 @@
   {
     "id": 560546,
     "startTime": "2026-08-22T14:00:00Z",
-    "status": "SCHEDULED",
+    "status": "TIMED",
     "matchday": 1,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -340,7 +340,7 @@
   {
     "id": 560547,
     "startTime": "2026-08-22T16:30:00Z",
-    "status": "SCHEDULED",
+    "status": "TIMED",
     "matchday": 1,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -410,7 +410,7 @@
   {
     "id": 560548,
     "startTime": "2026-08-23T13:00:00Z",
-    "status": "SCHEDULED",
+    "status": "TIMED",
     "matchday": 1,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -474,7 +474,7 @@
   {
     "id": 560549,
     "startTime": "2026-08-23T13:00:00Z",
-    "status": "SCHEDULED",
+    "status": "TIMED",
     "matchday": 1,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -538,7 +538,7 @@
   {
     "id": 560550,
     "startTime": "2026-08-23T15:30:00Z",
-    "status": "SCHEDULED",
+    "status": "TIMED",
     "matchday": 1,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -602,7 +602,7 @@
   {
     "id": 560551,
     "startTime": "2026-08-24T19:00:00Z",
-    "status": "SCHEDULED",
+    "status": "TIMED",
     "matchday": 1,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -672,7 +672,7 @@
   {
     "id": 560555,
     "startTime": "2026-08-28T19:00:00Z",
-    "status": "SCHEDULED",
+    "status": "TIMED",
     "matchday": 2,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -736,7 +736,7 @@
   {
     "id": 560552,
     "startTime": "2026-08-29T11:30:00Z",
-    "status": "SCHEDULED",
+    "status": "TIMED",
     "matchday": 2,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -800,7 +800,7 @@
   {
     "id": 560560,
     "startTime": "2026-08-29T14:00:00Z",
-    "status": "SCHEDULED",
+    "status": "TIMED",
     "matchday": 2,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -864,7 +864,7 @@
   {
     "id": 560561,
     "startTime": "2026-08-29T14:00:00Z",
-    "status": "SCHEDULED",
+    "status": "TIMED",
     "matchday": 2,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -928,7 +928,7 @@
   {
     "id": 560558,
     "startTime": "2026-08-29T16:30:00Z",
-    "status": "SCHEDULED",
+    "status": "TIMED",
     "matchday": 2,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -992,7 +992,7 @@
   {
     "id": 560554,
     "startTime": "2026-08-30T13:00:00Z",
-    "status": "SCHEDULED",
+    "status": "TIMED",
     "matchday": 2,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -1056,7 +1056,7 @@
   {
     "id": 560556,
     "startTime": "2026-08-30T13:00:00Z",
-    "status": "SCHEDULED",
+    "status": "TIMED",
     "matchday": 2,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -1120,7 +1120,7 @@
   {
     "id": 560559,
     "startTime": "2026-08-30T13:00:00Z",
-    "status": "SCHEDULED",
+    "status": "TIMED",
     "matchday": 2,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -1184,7 +1184,7 @@
   {
     "id": 560553,
     "startTime": "2026-08-30T15:30:00Z",
-    "status": "SCHEDULED",
+    "status": "TIMED",
     "matchday": 2,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -1248,7 +1248,7 @@
   {
     "id": 560557,
     "startTime": "2026-08-31T19:00:00Z",
-    "status": "SCHEDULED",
+    "status": "TIMED",
     "matchday": 2,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -1312,7 +1312,7 @@
   {
     "id": 560566,
     "startTime": "2026-09-04T19:00:00Z",
-    "status": "SCHEDULED",
+    "status": "TIMED",
     "matchday": 3,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -1376,7 +1376,7 @@
   {
     "id": 560571,
     "startTime": "2026-09-05T11:30:00Z",
-    "status": "SCHEDULED",
+    "status": "TIMED",
     "matchday": 3,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -1440,7 +1440,7 @@
   {
     "id": 560562,
     "startTime": "2026-09-05T14:00:00Z",
-    "status": "SCHEDULED",
+    "status": "TIMED",
     "matchday": 3,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -1504,7 +1504,7 @@
   {
     "id": 560563,
     "startTime": "2026-09-05T14:00:00Z",
-    "status": "SCHEDULED",
+    "status": "TIMED",
     "matchday": 3,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -1568,7 +1568,7 @@
   {
     "id": 560564,
     "startTime": "2026-09-05T14:00:00Z",
-    "status": "SCHEDULED",
+    "status": "TIMED",
     "matchday": 3,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -1632,7 +1632,7 @@
   {
     "id": 560565,
     "startTime": "2026-09-05T14:00:00Z",
-    "status": "SCHEDULED",
+    "status": "TIMED",
     "matchday": 3,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -1696,7 +1696,7 @@
   {
     "id": 560568,
     "startTime": "2026-09-05T14:00:00Z",
-    "status": "SCHEDULED",
+    "status": "TIMED",
     "matchday": 3,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -1760,7 +1760,7 @@
   {
     "id": 560569,
     "startTime": "2026-09-05T16:30:00Z",
-    "status": "SCHEDULED",
+    "status": "TIMED",
     "matchday": 3,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -1824,7 +1824,7 @@
   {
     "id": 560567,
     "startTime": "2026-09-06T13:00:00Z",
-    "status": "SCHEDULED",
+    "status": "TIMED",
     "matchday": 3,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -1888,7 +1888,7 @@
   {
     "id": 560570,
     "startTime": "2026-09-06T15:30:00Z",
-    "status": "SCHEDULED",
+    "status": "TIMED",
     "matchday": 3,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -1952,7 +1952,7 @@
   {
     "id": 560572,
     "startTime": "2026-09-12T14:00:00Z",
-    "status": "SCHEDULED",
+    "status": "TIMED",
     "matchday": 4,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -2016,7 +2016,7 @@
   {
     "id": 560573,
     "startTime": "2026-09-12T14:00:00Z",
-    "status": "SCHEDULED",
+    "status": "TIMED",
     "matchday": 4,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -2080,7 +2080,7 @@
   {
     "id": 560574,
     "startTime": "2026-09-12T14:00:00Z",
-    "status": "SCHEDULED",
+    "status": "TIMED",
     "matchday": 4,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -2144,7 +2144,7 @@
   {
     "id": 560576,
     "startTime": "2026-09-12T14:00:00Z",
-    "status": "SCHEDULED",
+    "status": "TIMED",
     "matchday": 4,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -2208,7 +2208,7 @@
   {
     "id": 560581,
     "startTime": "2026-09-12T14:00:00Z",
-    "status": "SCHEDULED",
+    "status": "TIMED",
     "matchday": 4,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -2272,7 +2272,7 @@
   {
     "id": 560575,
     "startTime": "2026-09-12T16:30:00Z",
-    "status": "SCHEDULED",
+    "status": "TIMED",
     "matchday": 4,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -2336,7 +2336,7 @@
   {
     "id": 560577,
     "startTime": "2026-09-12T19:00:00Z",
-    "status": "SCHEDULED",
+    "status": "TIMED",
     "matchday": 4,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -2400,7 +2400,7 @@
   {
     "id": 560578,
     "startTime": "2026-09-13T13:00:00Z",
-    "status": "SCHEDULED",
+    "status": "TIMED",
     "matchday": 4,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -2464,7 +2464,7 @@
   {
     "id": 560580,
     "startTime": "2026-09-13T15:30:00Z",
-    "status": "SCHEDULED",
+    "status": "TIMED",
     "matchday": 4,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -2528,7 +2528,7 @@
   {
     "id": 560579,
     "startTime": "2026-09-14T19:00:00Z",
-    "status": "SCHEDULED",
+    "status": "TIMED",
     "matchday": 4,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -2592,7 +2592,7 @@
   {
     "id": 560591,
     "startTime": "2026-09-18T19:00:00Z",
-    "status": "SCHEDULED",
+    "status": "TIMED",
     "matchday": 5,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -2656,7 +2656,7 @@
   {
     "id": 560587,
     "startTime": "2026-09-19T11:30:00Z",
-    "status": "SCHEDULED",
+    "status": "TIMED",
     "matchday": 5,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -2720,7 +2720,7 @@
   {
     "id": 560584,
     "startTime": "2026-09-19T14:00:00Z",
-    "status": "SCHEDULED",
+    "status": "TIMED",
     "matchday": 5,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -2784,7 +2784,7 @@
   {
     "id": 560585,
     "startTime": "2026-09-19T14:00:00Z",
-    "status": "SCHEDULED",
+    "status": "TIMED",
     "matchday": 5,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -2848,7 +2848,7 @@
   {
     "id": 560586,
     "startTime": "2026-09-19T14:00:00Z",
-    "status": "SCHEDULED",
+    "status": "TIMED",
     "matchday": 5,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -2912,7 +2912,7 @@
   {
     "id": 560588,
     "startTime": "2026-09-19T14:00:00Z",
-    "status": "SCHEDULED",
+    "status": "TIMED",
     "matchday": 5,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -2976,7 +2976,7 @@
   {
     "id": 560590,
     "startTime": "2026-09-19T14:00:00Z",
-    "status": "SCHEDULED",
+    "status": "TIMED",
     "matchday": 5,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -3040,7 +3040,7 @@
   {
     "id": 560589,
     "startTime": "2026-09-19T16:30:00Z",
-    "status": "SCHEDULED",
+    "status": "TIMED",
     "matchday": 5,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -3104,7 +3104,7 @@
   {
     "id": 560582,
     "startTime": "2026-09-20T13:00:00Z",
-    "status": "SCHEDULED",
+    "status": "TIMED",
     "matchday": 5,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -3168,7 +3168,7 @@
   {
     "id": 560583,
     "startTime": "2026-09-20T15:30:00Z",
-    "status": "SCHEDULED",
+    "status": "TIMED",
     "matchday": 5,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -3231,7 +3231,7 @@
   },
   {
     "id": 560592,
-    "startTime": "2026-10-10T14:00:00Z",
+    "startTime": "2026-10-10T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 6,
     "competition": "Premier League",
@@ -3295,7 +3295,7 @@
   },
   {
     "id": 560593,
-    "startTime": "2026-10-10T14:00:00Z",
+    "startTime": "2026-10-10T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 6,
     "competition": "Premier League",
@@ -3359,7 +3359,7 @@
   },
   {
     "id": 560594,
-    "startTime": "2026-10-10T14:00:00Z",
+    "startTime": "2026-10-10T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 6,
     "competition": "Premier League",
@@ -3423,7 +3423,7 @@
   },
   {
     "id": 560595,
-    "startTime": "2026-10-10T14:00:00Z",
+    "startTime": "2026-10-10T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 6,
     "competition": "Premier League",
@@ -3487,7 +3487,7 @@
   },
   {
     "id": 560596,
-    "startTime": "2026-10-10T14:00:00Z",
+    "startTime": "2026-10-10T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 6,
     "competition": "Premier League",
@@ -3551,7 +3551,7 @@
   },
   {
     "id": 560597,
-    "startTime": "2026-10-10T14:00:00Z",
+    "startTime": "2026-10-10T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 6,
     "competition": "Premier League",
@@ -3615,7 +3615,7 @@
   },
   {
     "id": 560598,
-    "startTime": "2026-10-10T14:00:00Z",
+    "startTime": "2026-10-10T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 6,
     "competition": "Premier League",
@@ -3679,7 +3679,7 @@
   },
   {
     "id": 560599,
-    "startTime": "2026-10-10T14:00:00Z",
+    "startTime": "2026-10-10T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 6,
     "competition": "Premier League",
@@ -3743,7 +3743,7 @@
   },
   {
     "id": 560600,
-    "startTime": "2026-10-10T14:00:00Z",
+    "startTime": "2026-10-10T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 6,
     "competition": "Premier League",
@@ -3807,7 +3807,7 @@
   },
   {
     "id": 560601,
-    "startTime": "2026-10-10T14:00:00Z",
+    "startTime": "2026-10-10T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 6,
     "competition": "Premier League",
@@ -3871,7 +3871,7 @@
   },
   {
     "id": 560602,
-    "startTime": "2026-10-17T14:00:00Z",
+    "startTime": "2026-10-17T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 7,
     "competition": "Premier League",
@@ -3935,7 +3935,7 @@
   },
   {
     "id": 560603,
-    "startTime": "2026-10-17T14:00:00Z",
+    "startTime": "2026-10-17T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 7,
     "competition": "Premier League",
@@ -3999,7 +3999,7 @@
   },
   {
     "id": 560604,
-    "startTime": "2026-10-17T14:00:00Z",
+    "startTime": "2026-10-17T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 7,
     "competition": "Premier League",
@@ -4063,7 +4063,7 @@
   },
   {
     "id": 560605,
-    "startTime": "2026-10-17T14:00:00Z",
+    "startTime": "2026-10-17T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 7,
     "competition": "Premier League",
@@ -4127,7 +4127,7 @@
   },
   {
     "id": 560606,
-    "startTime": "2026-10-17T14:00:00Z",
+    "startTime": "2026-10-17T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 7,
     "competition": "Premier League",
@@ -4191,7 +4191,7 @@
   },
   {
     "id": 560607,
-    "startTime": "2026-10-17T14:00:00Z",
+    "startTime": "2026-10-17T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 7,
     "competition": "Premier League",
@@ -4255,7 +4255,7 @@
   },
   {
     "id": 560608,
-    "startTime": "2026-10-17T14:00:00Z",
+    "startTime": "2026-10-17T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 7,
     "competition": "Premier League",
@@ -4319,7 +4319,7 @@
   },
   {
     "id": 560609,
-    "startTime": "2026-10-17T14:00:00Z",
+    "startTime": "2026-10-17T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 7,
     "competition": "Premier League",
@@ -4383,7 +4383,7 @@
   },
   {
     "id": 560610,
-    "startTime": "2026-10-17T14:00:00Z",
+    "startTime": "2026-10-17T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 7,
     "competition": "Premier League",
@@ -4447,7 +4447,7 @@
   },
   {
     "id": 560611,
-    "startTime": "2026-10-17T14:00:00Z",
+    "startTime": "2026-10-17T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 7,
     "competition": "Premier League",
@@ -4511,7 +4511,7 @@
   },
   {
     "id": 560612,
-    "startTime": "2026-10-24T14:00:00Z",
+    "startTime": "2026-10-24T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 8,
     "competition": "Premier League",
@@ -4575,7 +4575,7 @@
   },
   {
     "id": 560613,
-    "startTime": "2026-10-24T14:00:00Z",
+    "startTime": "2026-10-24T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 8,
     "competition": "Premier League",
@@ -4639,7 +4639,7 @@
   },
   {
     "id": 560614,
-    "startTime": "2026-10-24T14:00:00Z",
+    "startTime": "2026-10-24T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 8,
     "competition": "Premier League",
@@ -4703,7 +4703,7 @@
   },
   {
     "id": 560615,
-    "startTime": "2026-10-24T14:00:00Z",
+    "startTime": "2026-10-24T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 8,
     "competition": "Premier League",
@@ -4767,7 +4767,7 @@
   },
   {
     "id": 560616,
-    "startTime": "2026-10-24T14:00:00Z",
+    "startTime": "2026-10-24T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 8,
     "competition": "Premier League",
@@ -4831,7 +4831,7 @@
   },
   {
     "id": 560617,
-    "startTime": "2026-10-24T14:00:00Z",
+    "startTime": "2026-10-24T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 8,
     "competition": "Premier League",
@@ -4895,7 +4895,7 @@
   },
   {
     "id": 560618,
-    "startTime": "2026-10-24T14:00:00Z",
+    "startTime": "2026-10-24T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 8,
     "competition": "Premier League",
@@ -4959,7 +4959,7 @@
   },
   {
     "id": 560619,
-    "startTime": "2026-10-24T14:00:00Z",
+    "startTime": "2026-10-24T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 8,
     "competition": "Premier League",
@@ -5023,7 +5023,7 @@
   },
   {
     "id": 560620,
-    "startTime": "2026-10-24T14:00:00Z",
+    "startTime": "2026-10-24T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 8,
     "competition": "Premier League",
@@ -5087,7 +5087,7 @@
   },
   {
     "id": 560621,
-    "startTime": "2026-10-24T14:00:00Z",
+    "startTime": "2026-10-24T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 8,
     "competition": "Premier League",
@@ -5151,7 +5151,7 @@
   },
   {
     "id": 560622,
-    "startTime": "2026-10-31T15:00:00Z",
+    "startTime": "2026-10-31T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 9,
     "competition": "Premier League",
@@ -5215,7 +5215,7 @@
   },
   {
     "id": 560623,
-    "startTime": "2026-10-31T15:00:00Z",
+    "startTime": "2026-10-31T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 9,
     "competition": "Premier League",
@@ -5279,7 +5279,7 @@
   },
   {
     "id": 560624,
-    "startTime": "2026-10-31T15:00:00Z",
+    "startTime": "2026-10-31T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 9,
     "competition": "Premier League",
@@ -5343,7 +5343,7 @@
   },
   {
     "id": 560625,
-    "startTime": "2026-10-31T15:00:00Z",
+    "startTime": "2026-10-31T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 9,
     "competition": "Premier League",
@@ -5407,7 +5407,7 @@
   },
   {
     "id": 560626,
-    "startTime": "2026-10-31T15:00:00Z",
+    "startTime": "2026-10-31T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 9,
     "competition": "Premier League",
@@ -5471,7 +5471,7 @@
   },
   {
     "id": 560627,
-    "startTime": "2026-10-31T15:00:00Z",
+    "startTime": "2026-10-31T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 9,
     "competition": "Premier League",
@@ -5535,7 +5535,7 @@
   },
   {
     "id": 560628,
-    "startTime": "2026-10-31T15:00:00Z",
+    "startTime": "2026-10-31T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 9,
     "competition": "Premier League",
@@ -5599,7 +5599,7 @@
   },
   {
     "id": 560629,
-    "startTime": "2026-10-31T15:00:00Z",
+    "startTime": "2026-10-31T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 9,
     "competition": "Premier League",
@@ -5663,7 +5663,7 @@
   },
   {
     "id": 560630,
-    "startTime": "2026-10-31T15:00:00Z",
+    "startTime": "2026-10-31T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 9,
     "competition": "Premier League",
@@ -5727,7 +5727,7 @@
   },
   {
     "id": 560631,
-    "startTime": "2026-10-31T15:00:00Z",
+    "startTime": "2026-10-31T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 9,
     "competition": "Premier League",
@@ -5791,7 +5791,7 @@
   },
   {
     "id": 560640,
-    "startTime": "2026-11-07T15:00:00Z",
+    "startTime": "2026-11-07T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 10,
     "competition": "Premier League",
@@ -5855,7 +5855,7 @@
   },
   {
     "id": 560641,
-    "startTime": "2026-11-07T15:00:00Z",
+    "startTime": "2026-11-07T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 10,
     "competition": "Premier League",
@@ -5919,7 +5919,7 @@
   },
   {
     "id": 560632,
-    "startTime": "2026-11-07T15:00:00Z",
+    "startTime": "2026-11-07T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 10,
     "competition": "Premier League",
@@ -5983,7 +5983,7 @@
   },
   {
     "id": 560633,
-    "startTime": "2026-11-07T15:00:00Z",
+    "startTime": "2026-11-07T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 10,
     "competition": "Premier League",
@@ -6047,7 +6047,7 @@
   },
   {
     "id": 560634,
-    "startTime": "2026-11-07T15:00:00Z",
+    "startTime": "2026-11-07T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 10,
     "competition": "Premier League",
@@ -6111,7 +6111,7 @@
   },
   {
     "id": 560635,
-    "startTime": "2026-11-07T15:00:00Z",
+    "startTime": "2026-11-07T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 10,
     "competition": "Premier League",
@@ -6175,7 +6175,7 @@
   },
   {
     "id": 560636,
-    "startTime": "2026-11-07T15:00:00Z",
+    "startTime": "2026-11-07T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 10,
     "competition": "Premier League",
@@ -6239,7 +6239,7 @@
   },
   {
     "id": 560637,
-    "startTime": "2026-11-07T15:00:00Z",
+    "startTime": "2026-11-07T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 10,
     "competition": "Premier League",
@@ -6303,7 +6303,7 @@
   },
   {
     "id": 560638,
-    "startTime": "2026-11-07T15:00:00Z",
+    "startTime": "2026-11-07T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 10,
     "competition": "Premier League",
@@ -6367,7 +6367,7 @@
   },
   {
     "id": 560639,
-    "startTime": "2026-11-07T15:00:00Z",
+    "startTime": "2026-11-07T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 10,
     "competition": "Premier League",
@@ -6431,7 +6431,7 @@
   },
   {
     "id": 560642,
-    "startTime": "2026-11-21T15:00:00Z",
+    "startTime": "2026-11-21T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 11,
     "competition": "Premier League",
@@ -6495,7 +6495,7 @@
   },
   {
     "id": 560643,
-    "startTime": "2026-11-21T15:00:00Z",
+    "startTime": "2026-11-21T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 11,
     "competition": "Premier League",
@@ -6559,7 +6559,7 @@
   },
   {
     "id": 560644,
-    "startTime": "2026-11-21T15:00:00Z",
+    "startTime": "2026-11-21T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 11,
     "competition": "Premier League",
@@ -6623,7 +6623,7 @@
   },
   {
     "id": 560645,
-    "startTime": "2026-11-21T15:00:00Z",
+    "startTime": "2026-11-21T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 11,
     "competition": "Premier League",
@@ -6687,7 +6687,7 @@
   },
   {
     "id": 560646,
-    "startTime": "2026-11-21T15:00:00Z",
+    "startTime": "2026-11-21T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 11,
     "competition": "Premier League",
@@ -6751,7 +6751,7 @@
   },
   {
     "id": 560647,
-    "startTime": "2026-11-21T15:00:00Z",
+    "startTime": "2026-11-21T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 11,
     "competition": "Premier League",
@@ -6815,7 +6815,7 @@
   },
   {
     "id": 560648,
-    "startTime": "2026-11-21T15:00:00Z",
+    "startTime": "2026-11-21T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 11,
     "competition": "Premier League",
@@ -6879,7 +6879,7 @@
   },
   {
     "id": 560649,
-    "startTime": "2026-11-21T15:00:00Z",
+    "startTime": "2026-11-21T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 11,
     "competition": "Premier League",
@@ -6943,7 +6943,7 @@
   },
   {
     "id": 560650,
-    "startTime": "2026-11-21T15:00:00Z",
+    "startTime": "2026-11-21T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 11,
     "competition": "Premier League",
@@ -7007,7 +7007,7 @@
   },
   {
     "id": 560651,
-    "startTime": "2026-11-21T15:00:00Z",
+    "startTime": "2026-11-21T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 11,
     "competition": "Premier League",
@@ -7071,7 +7071,7 @@
   },
   {
     "id": 560652,
-    "startTime": "2026-11-28T15:00:00Z",
+    "startTime": "2026-11-28T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 12,
     "competition": "Premier League",
@@ -7135,7 +7135,7 @@
   },
   {
     "id": 560653,
-    "startTime": "2026-11-28T15:00:00Z",
+    "startTime": "2026-11-28T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 12,
     "competition": "Premier League",
@@ -7199,7 +7199,7 @@
   },
   {
     "id": 560654,
-    "startTime": "2026-11-28T15:00:00Z",
+    "startTime": "2026-11-28T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 12,
     "competition": "Premier League",
@@ -7263,7 +7263,7 @@
   },
   {
     "id": 560655,
-    "startTime": "2026-11-28T15:00:00Z",
+    "startTime": "2026-11-28T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 12,
     "competition": "Premier League",
@@ -7327,7 +7327,7 @@
   },
   {
     "id": 560656,
-    "startTime": "2026-11-28T15:00:00Z",
+    "startTime": "2026-11-28T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 12,
     "competition": "Premier League",
@@ -7391,7 +7391,7 @@
   },
   {
     "id": 560657,
-    "startTime": "2026-11-28T15:00:00Z",
+    "startTime": "2026-11-28T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 12,
     "competition": "Premier League",
@@ -7455,7 +7455,7 @@
   },
   {
     "id": 560658,
-    "startTime": "2026-11-28T15:00:00Z",
+    "startTime": "2026-11-28T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 12,
     "competition": "Premier League",
@@ -7519,7 +7519,7 @@
   },
   {
     "id": 560659,
-    "startTime": "2026-11-28T15:00:00Z",
+    "startTime": "2026-11-28T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 12,
     "competition": "Premier League",
@@ -7583,7 +7583,7 @@
   },
   {
     "id": 560660,
-    "startTime": "2026-11-28T15:00:00Z",
+    "startTime": "2026-11-28T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 12,
     "competition": "Premier League",
@@ -7647,7 +7647,7 @@
   },
   {
     "id": 560661,
-    "startTime": "2026-11-28T15:00:00Z",
+    "startTime": "2026-11-28T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 12,
     "competition": "Premier League",
@@ -7711,7 +7711,7 @@
   },
   {
     "id": 560662,
-    "startTime": "2026-12-02T20:00:00Z",
+    "startTime": "2026-12-02T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 13,
     "competition": "Premier League",
@@ -7775,7 +7775,7 @@
   },
   {
     "id": 560663,
-    "startTime": "2026-12-02T20:00:00Z",
+    "startTime": "2026-12-02T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 13,
     "competition": "Premier League",
@@ -7839,7 +7839,7 @@
   },
   {
     "id": 560664,
-    "startTime": "2026-12-02T20:00:00Z",
+    "startTime": "2026-12-02T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 13,
     "competition": "Premier League",
@@ -7903,7 +7903,7 @@
   },
   {
     "id": 560665,
-    "startTime": "2026-12-02T20:00:00Z",
+    "startTime": "2026-12-02T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 13,
     "competition": "Premier League",
@@ -7967,7 +7967,7 @@
   },
   {
     "id": 560666,
-    "startTime": "2026-12-02T20:00:00Z",
+    "startTime": "2026-12-02T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 13,
     "competition": "Premier League",
@@ -8031,7 +8031,7 @@
   },
   {
     "id": 560667,
-    "startTime": "2026-12-02T20:00:00Z",
+    "startTime": "2026-12-02T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 13,
     "competition": "Premier League",
@@ -8095,7 +8095,7 @@
   },
   {
     "id": 560668,
-    "startTime": "2026-12-02T20:00:00Z",
+    "startTime": "2026-12-02T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 13,
     "competition": "Premier League",
@@ -8159,7 +8159,7 @@
   },
   {
     "id": 560669,
-    "startTime": "2026-12-02T20:00:00Z",
+    "startTime": "2026-12-02T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 13,
     "competition": "Premier League",
@@ -8223,7 +8223,7 @@
   },
   {
     "id": 560670,
-    "startTime": "2026-12-02T20:00:00Z",
+    "startTime": "2026-12-02T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 13,
     "competition": "Premier League",
@@ -8287,7 +8287,7 @@
   },
   {
     "id": 560671,
-    "startTime": "2026-12-02T20:00:00Z",
+    "startTime": "2026-12-02T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 13,
     "competition": "Premier League",
@@ -8351,7 +8351,7 @@
   },
   {
     "id": 560672,
-    "startTime": "2026-12-05T15:00:00Z",
+    "startTime": "2026-12-05T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 14,
     "competition": "Premier League",
@@ -8415,7 +8415,7 @@
   },
   {
     "id": 560673,
-    "startTime": "2026-12-05T15:00:00Z",
+    "startTime": "2026-12-05T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 14,
     "competition": "Premier League",
@@ -8479,7 +8479,7 @@
   },
   {
     "id": 560674,
-    "startTime": "2026-12-05T15:00:00Z",
+    "startTime": "2026-12-05T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 14,
     "competition": "Premier League",
@@ -8543,7 +8543,7 @@
   },
   {
     "id": 560675,
-    "startTime": "2026-12-05T15:00:00Z",
+    "startTime": "2026-12-05T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 14,
     "competition": "Premier League",
@@ -8607,7 +8607,7 @@
   },
   {
     "id": 560676,
-    "startTime": "2026-12-05T15:00:00Z",
+    "startTime": "2026-12-05T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 14,
     "competition": "Premier League",
@@ -8671,7 +8671,7 @@
   },
   {
     "id": 560677,
-    "startTime": "2026-12-05T15:00:00Z",
+    "startTime": "2026-12-05T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 14,
     "competition": "Premier League",
@@ -8735,7 +8735,7 @@
   },
   {
     "id": 560678,
-    "startTime": "2026-12-05T15:00:00Z",
+    "startTime": "2026-12-05T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 14,
     "competition": "Premier League",
@@ -8799,7 +8799,7 @@
   },
   {
     "id": 560679,
-    "startTime": "2026-12-05T15:00:00Z",
+    "startTime": "2026-12-05T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 14,
     "competition": "Premier League",
@@ -8863,7 +8863,7 @@
   },
   {
     "id": 560680,
-    "startTime": "2026-12-05T15:00:00Z",
+    "startTime": "2026-12-05T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 14,
     "competition": "Premier League",
@@ -8927,7 +8927,7 @@
   },
   {
     "id": 560681,
-    "startTime": "2026-12-05T15:00:00Z",
+    "startTime": "2026-12-05T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 14,
     "competition": "Premier League",
@@ -8991,7 +8991,7 @@
   },
   {
     "id": 560682,
-    "startTime": "2026-12-12T15:00:00Z",
+    "startTime": "2026-12-12T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 15,
     "competition": "Premier League",
@@ -9055,7 +9055,7 @@
   },
   {
     "id": 560683,
-    "startTime": "2026-12-12T15:00:00Z",
+    "startTime": "2026-12-12T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 15,
     "competition": "Premier League",
@@ -9119,7 +9119,7 @@
   },
   {
     "id": 560684,
-    "startTime": "2026-12-12T15:00:00Z",
+    "startTime": "2026-12-12T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 15,
     "competition": "Premier League",
@@ -9183,7 +9183,7 @@
   },
   {
     "id": 560685,
-    "startTime": "2026-12-12T15:00:00Z",
+    "startTime": "2026-12-12T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 15,
     "competition": "Premier League",
@@ -9247,7 +9247,7 @@
   },
   {
     "id": 560686,
-    "startTime": "2026-12-12T15:00:00Z",
+    "startTime": "2026-12-12T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 15,
     "competition": "Premier League",
@@ -9311,7 +9311,7 @@
   },
   {
     "id": 560687,
-    "startTime": "2026-12-12T15:00:00Z",
+    "startTime": "2026-12-12T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 15,
     "competition": "Premier League",
@@ -9375,7 +9375,7 @@
   },
   {
     "id": 560688,
-    "startTime": "2026-12-12T15:00:00Z",
+    "startTime": "2026-12-12T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 15,
     "competition": "Premier League",
@@ -9439,7 +9439,7 @@
   },
   {
     "id": 560689,
-    "startTime": "2026-12-12T15:00:00Z",
+    "startTime": "2026-12-12T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 15,
     "competition": "Premier League",
@@ -9503,7 +9503,7 @@
   },
   {
     "id": 560690,
-    "startTime": "2026-12-12T15:00:00Z",
+    "startTime": "2026-12-12T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 15,
     "competition": "Premier League",
@@ -9567,7 +9567,7 @@
   },
   {
     "id": 560691,
-    "startTime": "2026-12-12T15:00:00Z",
+    "startTime": "2026-12-12T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 15,
     "competition": "Premier League",
@@ -9631,7 +9631,7 @@
   },
   {
     "id": 560692,
-    "startTime": "2026-12-19T15:00:00Z",
+    "startTime": "2026-12-19T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 16,
     "competition": "Premier League",
@@ -9695,7 +9695,7 @@
   },
   {
     "id": 560693,
-    "startTime": "2026-12-19T15:00:00Z",
+    "startTime": "2026-12-19T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 16,
     "competition": "Premier League",
@@ -9759,7 +9759,7 @@
   },
   {
     "id": 560694,
-    "startTime": "2026-12-19T15:00:00Z",
+    "startTime": "2026-12-19T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 16,
     "competition": "Premier League",
@@ -9823,7 +9823,7 @@
   },
   {
     "id": 560695,
-    "startTime": "2026-12-19T15:00:00Z",
+    "startTime": "2026-12-19T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 16,
     "competition": "Premier League",
@@ -9887,7 +9887,7 @@
   },
   {
     "id": 560696,
-    "startTime": "2026-12-19T15:00:00Z",
+    "startTime": "2026-12-19T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 16,
     "competition": "Premier League",
@@ -9951,7 +9951,7 @@
   },
   {
     "id": 560697,
-    "startTime": "2026-12-19T15:00:00Z",
+    "startTime": "2026-12-19T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 16,
     "competition": "Premier League",
@@ -10015,7 +10015,7 @@
   },
   {
     "id": 560698,
-    "startTime": "2026-12-19T15:00:00Z",
+    "startTime": "2026-12-19T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 16,
     "competition": "Premier League",
@@ -10079,7 +10079,7 @@
   },
   {
     "id": 560699,
-    "startTime": "2026-12-19T15:00:00Z",
+    "startTime": "2026-12-19T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 16,
     "competition": "Premier League",
@@ -10143,7 +10143,7 @@
   },
   {
     "id": 560700,
-    "startTime": "2026-12-19T15:00:00Z",
+    "startTime": "2026-12-19T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 16,
     "competition": "Premier League",
@@ -10207,7 +10207,7 @@
   },
   {
     "id": 560701,
-    "startTime": "2026-12-19T15:00:00Z",
+    "startTime": "2026-12-19T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 16,
     "competition": "Premier League",
@@ -10271,7 +10271,7 @@
   },
   {
     "id": 560702,
-    "startTime": "2026-12-26T15:00:00Z",
+    "startTime": "2026-12-26T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 17,
     "competition": "Premier League",
@@ -10335,7 +10335,7 @@
   },
   {
     "id": 560703,
-    "startTime": "2026-12-26T15:00:00Z",
+    "startTime": "2026-12-26T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 17,
     "competition": "Premier League",
@@ -10399,7 +10399,7 @@
   },
   {
     "id": 560704,
-    "startTime": "2026-12-26T15:00:00Z",
+    "startTime": "2026-12-26T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 17,
     "competition": "Premier League",
@@ -10463,7 +10463,7 @@
   },
   {
     "id": 560705,
-    "startTime": "2026-12-26T15:00:00Z",
+    "startTime": "2026-12-26T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 17,
     "competition": "Premier League",
@@ -10527,7 +10527,7 @@
   },
   {
     "id": 560706,
-    "startTime": "2026-12-26T15:00:00Z",
+    "startTime": "2026-12-26T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 17,
     "competition": "Premier League",
@@ -10591,7 +10591,7 @@
   },
   {
     "id": 560707,
-    "startTime": "2026-12-26T15:00:00Z",
+    "startTime": "2026-12-26T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 17,
     "competition": "Premier League",
@@ -10655,7 +10655,7 @@
   },
   {
     "id": 560708,
-    "startTime": "2026-12-26T15:00:00Z",
+    "startTime": "2026-12-26T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 17,
     "competition": "Premier League",
@@ -10719,7 +10719,7 @@
   },
   {
     "id": 560709,
-    "startTime": "2026-12-26T15:00:00Z",
+    "startTime": "2026-12-26T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 17,
     "competition": "Premier League",
@@ -10783,7 +10783,7 @@
   },
   {
     "id": 560710,
-    "startTime": "2026-12-26T15:00:00Z",
+    "startTime": "2026-12-26T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 17,
     "competition": "Premier League",
@@ -10847,7 +10847,7 @@
   },
   {
     "id": 560711,
-    "startTime": "2026-12-26T15:00:00Z",
+    "startTime": "2026-12-26T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 17,
     "competition": "Premier League",
@@ -10911,7 +10911,7 @@
   },
   {
     "id": 560712,
-    "startTime": "2026-12-30T20:00:00Z",
+    "startTime": "2026-12-30T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 18,
     "competition": "Premier League",
@@ -10975,7 +10975,7 @@
   },
   {
     "id": 560713,
-    "startTime": "2026-12-30T20:00:00Z",
+    "startTime": "2026-12-30T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 18,
     "competition": "Premier League",
@@ -11039,7 +11039,7 @@
   },
   {
     "id": 560714,
-    "startTime": "2026-12-30T20:00:00Z",
+    "startTime": "2026-12-30T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 18,
     "competition": "Premier League",
@@ -11103,7 +11103,7 @@
   },
   {
     "id": 560715,
-    "startTime": "2026-12-30T20:00:00Z",
+    "startTime": "2026-12-30T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 18,
     "competition": "Premier League",
@@ -11167,7 +11167,7 @@
   },
   {
     "id": 560716,
-    "startTime": "2026-12-30T20:00:00Z",
+    "startTime": "2026-12-30T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 18,
     "competition": "Premier League",
@@ -11231,7 +11231,7 @@
   },
   {
     "id": 560717,
-    "startTime": "2026-12-30T20:00:00Z",
+    "startTime": "2026-12-30T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 18,
     "competition": "Premier League",
@@ -11295,7 +11295,7 @@
   },
   {
     "id": 560718,
-    "startTime": "2026-12-30T20:00:00Z",
+    "startTime": "2026-12-30T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 18,
     "competition": "Premier League",
@@ -11359,7 +11359,7 @@
   },
   {
     "id": 560719,
-    "startTime": "2026-12-30T20:00:00Z",
+    "startTime": "2026-12-30T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 18,
     "competition": "Premier League",
@@ -11423,7 +11423,7 @@
   },
   {
     "id": 560720,
-    "startTime": "2026-12-30T20:00:00Z",
+    "startTime": "2026-12-30T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 18,
     "competition": "Premier League",
@@ -11487,7 +11487,7 @@
   },
   {
     "id": 560721,
-    "startTime": "2026-12-30T20:00:00Z",
+    "startTime": "2026-12-30T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 18,
     "competition": "Premier League",
@@ -11551,7 +11551,7 @@
   },
   {
     "id": 560722,
-    "startTime": "2027-01-02T12:00:00Z",
+    "startTime": "2027-01-02T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 19,
     "competition": "Premier League",
@@ -11615,7 +11615,7 @@
   },
   {
     "id": 560723,
-    "startTime": "2027-01-02T12:00:00Z",
+    "startTime": "2027-01-02T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 19,
     "competition": "Premier League",
@@ -11679,7 +11679,7 @@
   },
   {
     "id": 560724,
-    "startTime": "2027-01-02T12:00:00Z",
+    "startTime": "2027-01-02T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 19,
     "competition": "Premier League",
@@ -11743,7 +11743,7 @@
   },
   {
     "id": 560725,
-    "startTime": "2027-01-02T12:00:00Z",
+    "startTime": "2027-01-02T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 19,
     "competition": "Premier League",
@@ -11807,7 +11807,7 @@
   },
   {
     "id": 560726,
-    "startTime": "2027-01-02T12:00:00Z",
+    "startTime": "2027-01-02T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 19,
     "competition": "Premier League",
@@ -11871,7 +11871,7 @@
   },
   {
     "id": 560727,
-    "startTime": "2027-01-02T12:00:00Z",
+    "startTime": "2027-01-02T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 19,
     "competition": "Premier League",
@@ -11935,7 +11935,7 @@
   },
   {
     "id": 560728,
-    "startTime": "2027-01-02T12:00:00Z",
+    "startTime": "2027-01-02T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 19,
     "competition": "Premier League",
@@ -11999,7 +11999,7 @@
   },
   {
     "id": 560729,
-    "startTime": "2027-01-02T12:00:00Z",
+    "startTime": "2027-01-02T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 19,
     "competition": "Premier League",
@@ -12063,7 +12063,7 @@
   },
   {
     "id": 560730,
-    "startTime": "2027-01-02T12:00:00Z",
+    "startTime": "2027-01-02T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 19,
     "competition": "Premier League",
@@ -12127,7 +12127,7 @@
   },
   {
     "id": 560731,
-    "startTime": "2027-01-02T12:00:00Z",
+    "startTime": "2027-01-02T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 19,
     "competition": "Premier League",
@@ -12191,7 +12191,7 @@
   },
   {
     "id": 560732,
-    "startTime": "2027-01-06T12:00:00Z",
+    "startTime": "2027-01-06T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 20,
     "competition": "Premier League",
@@ -12255,7 +12255,7 @@
   },
   {
     "id": 560733,
-    "startTime": "2027-01-06T12:00:00Z",
+    "startTime": "2027-01-06T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 20,
     "competition": "Premier League",
@@ -12319,7 +12319,7 @@
   },
   {
     "id": 560734,
-    "startTime": "2027-01-06T12:00:00Z",
+    "startTime": "2027-01-06T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 20,
     "competition": "Premier League",
@@ -12383,7 +12383,7 @@
   },
   {
     "id": 560735,
-    "startTime": "2027-01-06T12:00:00Z",
+    "startTime": "2027-01-06T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 20,
     "competition": "Premier League",
@@ -12447,7 +12447,7 @@
   },
   {
     "id": 560736,
-    "startTime": "2027-01-06T12:00:00Z",
+    "startTime": "2027-01-06T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 20,
     "competition": "Premier League",
@@ -12511,7 +12511,7 @@
   },
   {
     "id": 560737,
-    "startTime": "2027-01-06T12:00:00Z",
+    "startTime": "2027-01-06T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 20,
     "competition": "Premier League",
@@ -12575,7 +12575,7 @@
   },
   {
     "id": 560738,
-    "startTime": "2027-01-06T12:00:00Z",
+    "startTime": "2027-01-06T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 20,
     "competition": "Premier League",
@@ -12639,7 +12639,7 @@
   },
   {
     "id": 560739,
-    "startTime": "2027-01-06T12:00:00Z",
+    "startTime": "2027-01-06T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 20,
     "competition": "Premier League",
@@ -12703,7 +12703,7 @@
   },
   {
     "id": 560740,
-    "startTime": "2027-01-06T12:00:00Z",
+    "startTime": "2027-01-06T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 20,
     "competition": "Premier League",
@@ -12767,7 +12767,7 @@
   },
   {
     "id": 560741,
-    "startTime": "2027-01-06T12:00:00Z",
+    "startTime": "2027-01-06T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 20,
     "competition": "Premier League",
@@ -12831,7 +12831,7 @@
   },
   {
     "id": 560742,
-    "startTime": "2027-01-16T12:00:00Z",
+    "startTime": "2027-01-16T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 21,
     "competition": "Premier League",
@@ -12895,7 +12895,7 @@
   },
   {
     "id": 560743,
-    "startTime": "2027-01-16T12:00:00Z",
+    "startTime": "2027-01-16T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 21,
     "competition": "Premier League",
@@ -12959,7 +12959,7 @@
   },
   {
     "id": 560744,
-    "startTime": "2027-01-16T12:00:00Z",
+    "startTime": "2027-01-16T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 21,
     "competition": "Premier League",
@@ -13023,7 +13023,7 @@
   },
   {
     "id": 560745,
-    "startTime": "2027-01-16T12:00:00Z",
+    "startTime": "2027-01-16T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 21,
     "competition": "Premier League",
@@ -13087,7 +13087,7 @@
   },
   {
     "id": 560746,
-    "startTime": "2027-01-16T12:00:00Z",
+    "startTime": "2027-01-16T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 21,
     "competition": "Premier League",
@@ -13151,7 +13151,7 @@
   },
   {
     "id": 560747,
-    "startTime": "2027-01-16T12:00:00Z",
+    "startTime": "2027-01-16T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 21,
     "competition": "Premier League",
@@ -13215,7 +13215,7 @@
   },
   {
     "id": 560748,
-    "startTime": "2027-01-16T12:00:00Z",
+    "startTime": "2027-01-16T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 21,
     "competition": "Premier League",
@@ -13279,7 +13279,7 @@
   },
   {
     "id": 560749,
-    "startTime": "2027-01-16T12:00:00Z",
+    "startTime": "2027-01-16T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 21,
     "competition": "Premier League",
@@ -13343,7 +13343,7 @@
   },
   {
     "id": 560750,
-    "startTime": "2027-01-16T12:00:00Z",
+    "startTime": "2027-01-16T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 21,
     "competition": "Premier League",
@@ -13407,7 +13407,7 @@
   },
   {
     "id": 560751,
-    "startTime": "2027-01-16T12:00:00Z",
+    "startTime": "2027-01-16T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 21,
     "competition": "Premier League",
@@ -13471,7 +13471,7 @@
   },
   {
     "id": 560752,
-    "startTime": "2027-01-23T12:00:00Z",
+    "startTime": "2027-01-23T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 22,
     "competition": "Premier League",
@@ -13535,7 +13535,7 @@
   },
   {
     "id": 560753,
-    "startTime": "2027-01-23T12:00:00Z",
+    "startTime": "2027-01-23T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 22,
     "competition": "Premier League",
@@ -13599,7 +13599,7 @@
   },
   {
     "id": 560754,
-    "startTime": "2027-01-23T12:00:00Z",
+    "startTime": "2027-01-23T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 22,
     "competition": "Premier League",
@@ -13663,7 +13663,7 @@
   },
   {
     "id": 560755,
-    "startTime": "2027-01-23T12:00:00Z",
+    "startTime": "2027-01-23T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 22,
     "competition": "Premier League",
@@ -13727,7 +13727,7 @@
   },
   {
     "id": 560756,
-    "startTime": "2027-01-23T12:00:00Z",
+    "startTime": "2027-01-23T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 22,
     "competition": "Premier League",
@@ -13791,7 +13791,7 @@
   },
   {
     "id": 560757,
-    "startTime": "2027-01-23T12:00:00Z",
+    "startTime": "2027-01-23T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 22,
     "competition": "Premier League",
@@ -13855,7 +13855,7 @@
   },
   {
     "id": 560758,
-    "startTime": "2027-01-23T12:00:00Z",
+    "startTime": "2027-01-23T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 22,
     "competition": "Premier League",
@@ -13919,7 +13919,7 @@
   },
   {
     "id": 560759,
-    "startTime": "2027-01-23T12:00:00Z",
+    "startTime": "2027-01-23T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 22,
     "competition": "Premier League",
@@ -13983,7 +13983,7 @@
   },
   {
     "id": 560760,
-    "startTime": "2027-01-23T12:00:00Z",
+    "startTime": "2027-01-23T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 22,
     "competition": "Premier League",
@@ -14047,7 +14047,7 @@
   },
   {
     "id": 560761,
-    "startTime": "2027-01-23T12:00:00Z",
+    "startTime": "2027-01-23T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 22,
     "competition": "Premier League",
@@ -14111,7 +14111,7 @@
   },
   {
     "id": 560762,
-    "startTime": "2027-01-30T12:00:00Z",
+    "startTime": "2027-01-30T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 23,
     "competition": "Premier League",
@@ -14175,7 +14175,7 @@
   },
   {
     "id": 560763,
-    "startTime": "2027-01-30T12:00:00Z",
+    "startTime": "2027-01-30T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 23,
     "competition": "Premier League",
@@ -14239,7 +14239,7 @@
   },
   {
     "id": 560764,
-    "startTime": "2027-01-30T12:00:00Z",
+    "startTime": "2027-01-30T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 23,
     "competition": "Premier League",
@@ -14303,7 +14303,7 @@
   },
   {
     "id": 560765,
-    "startTime": "2027-01-30T12:00:00Z",
+    "startTime": "2027-01-30T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 23,
     "competition": "Premier League",
@@ -14367,7 +14367,7 @@
   },
   {
     "id": 560766,
-    "startTime": "2027-01-30T12:00:00Z",
+    "startTime": "2027-01-30T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 23,
     "competition": "Premier League",
@@ -14431,7 +14431,7 @@
   },
   {
     "id": 560767,
-    "startTime": "2027-01-30T12:00:00Z",
+    "startTime": "2027-01-30T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 23,
     "competition": "Premier League",
@@ -14495,7 +14495,7 @@
   },
   {
     "id": 560768,
-    "startTime": "2027-01-30T12:00:00Z",
+    "startTime": "2027-01-30T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 23,
     "competition": "Premier League",
@@ -14559,7 +14559,7 @@
   },
   {
     "id": 560769,
-    "startTime": "2027-01-30T12:00:00Z",
+    "startTime": "2027-01-30T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 23,
     "competition": "Premier League",
@@ -14623,7 +14623,7 @@
   },
   {
     "id": 560770,
-    "startTime": "2027-01-30T12:00:00Z",
+    "startTime": "2027-01-30T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 23,
     "competition": "Premier League",
@@ -14687,7 +14687,7 @@
   },
   {
     "id": 560771,
-    "startTime": "2027-01-30T12:00:00Z",
+    "startTime": "2027-01-30T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 23,
     "competition": "Premier League",
@@ -14751,7 +14751,7 @@
   },
   {
     "id": 560772,
-    "startTime": "2027-02-06T12:00:00Z",
+    "startTime": "2027-02-06T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 24,
     "competition": "Premier League",
@@ -14815,7 +14815,7 @@
   },
   {
     "id": 560773,
-    "startTime": "2027-02-06T12:00:00Z",
+    "startTime": "2027-02-06T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 24,
     "competition": "Premier League",
@@ -14879,7 +14879,7 @@
   },
   {
     "id": 560774,
-    "startTime": "2027-02-06T12:00:00Z",
+    "startTime": "2027-02-06T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 24,
     "competition": "Premier League",
@@ -14943,7 +14943,7 @@
   },
   {
     "id": 560775,
-    "startTime": "2027-02-06T12:00:00Z",
+    "startTime": "2027-02-06T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 24,
     "competition": "Premier League",
@@ -15007,7 +15007,7 @@
   },
   {
     "id": 560776,
-    "startTime": "2027-02-06T12:00:00Z",
+    "startTime": "2027-02-06T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 24,
     "competition": "Premier League",
@@ -15071,7 +15071,7 @@
   },
   {
     "id": 560777,
-    "startTime": "2027-02-06T12:00:00Z",
+    "startTime": "2027-02-06T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 24,
     "competition": "Premier League",
@@ -15135,7 +15135,7 @@
   },
   {
     "id": 560778,
-    "startTime": "2027-02-06T12:00:00Z",
+    "startTime": "2027-02-06T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 24,
     "competition": "Premier League",
@@ -15199,7 +15199,7 @@
   },
   {
     "id": 560779,
-    "startTime": "2027-02-06T12:00:00Z",
+    "startTime": "2027-02-06T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 24,
     "competition": "Premier League",
@@ -15263,7 +15263,7 @@
   },
   {
     "id": 560780,
-    "startTime": "2027-02-06T12:00:00Z",
+    "startTime": "2027-02-06T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 24,
     "competition": "Premier League",
@@ -15327,7 +15327,7 @@
   },
   {
     "id": 560781,
-    "startTime": "2027-02-06T12:00:00Z",
+    "startTime": "2027-02-06T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 24,
     "competition": "Premier League",
@@ -15391,7 +15391,7 @@
   },
   {
     "id": 560782,
-    "startTime": "2027-02-10T12:00:00Z",
+    "startTime": "2027-02-10T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 25,
     "competition": "Premier League",
@@ -15455,7 +15455,7 @@
   },
   {
     "id": 560783,
-    "startTime": "2027-02-10T12:00:00Z",
+    "startTime": "2027-02-10T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 25,
     "competition": "Premier League",
@@ -15519,7 +15519,7 @@
   },
   {
     "id": 560784,
-    "startTime": "2027-02-10T12:00:00Z",
+    "startTime": "2027-02-10T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 25,
     "competition": "Premier League",
@@ -15583,7 +15583,7 @@
   },
   {
     "id": 560785,
-    "startTime": "2027-02-10T12:00:00Z",
+    "startTime": "2027-02-10T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 25,
     "competition": "Premier League",
@@ -15647,7 +15647,7 @@
   },
   {
     "id": 560786,
-    "startTime": "2027-02-10T12:00:00Z",
+    "startTime": "2027-02-10T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 25,
     "competition": "Premier League",
@@ -15711,7 +15711,7 @@
   },
   {
     "id": 560787,
-    "startTime": "2027-02-10T12:00:00Z",
+    "startTime": "2027-02-10T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 25,
     "competition": "Premier League",
@@ -15775,7 +15775,7 @@
   },
   {
     "id": 560788,
-    "startTime": "2027-02-10T12:00:00Z",
+    "startTime": "2027-02-10T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 25,
     "competition": "Premier League",
@@ -15839,7 +15839,7 @@
   },
   {
     "id": 560789,
-    "startTime": "2027-02-10T12:00:00Z",
+    "startTime": "2027-02-10T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 25,
     "competition": "Premier League",
@@ -15903,7 +15903,7 @@
   },
   {
     "id": 560790,
-    "startTime": "2027-02-10T12:00:00Z",
+    "startTime": "2027-02-10T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 25,
     "competition": "Premier League",
@@ -15967,7 +15967,7 @@
   },
   {
     "id": 560791,
-    "startTime": "2027-02-10T12:00:00Z",
+    "startTime": "2027-02-10T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 25,
     "competition": "Premier League",
@@ -16031,7 +16031,7 @@
   },
   {
     "id": 560792,
-    "startTime": "2027-02-20T12:00:00Z",
+    "startTime": "2027-02-20T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 26,
     "competition": "Premier League",
@@ -16095,7 +16095,7 @@
   },
   {
     "id": 560793,
-    "startTime": "2027-02-20T12:00:00Z",
+    "startTime": "2027-02-20T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 26,
     "competition": "Premier League",
@@ -16159,7 +16159,7 @@
   },
   {
     "id": 560794,
-    "startTime": "2027-02-20T12:00:00Z",
+    "startTime": "2027-02-20T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 26,
     "competition": "Premier League",
@@ -16223,7 +16223,7 @@
   },
   {
     "id": 560795,
-    "startTime": "2027-02-20T12:00:00Z",
+    "startTime": "2027-02-20T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 26,
     "competition": "Premier League",
@@ -16287,7 +16287,7 @@
   },
   {
     "id": 560796,
-    "startTime": "2027-02-20T12:00:00Z",
+    "startTime": "2027-02-20T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 26,
     "competition": "Premier League",
@@ -16351,7 +16351,7 @@
   },
   {
     "id": 560797,
-    "startTime": "2027-02-20T12:00:00Z",
+    "startTime": "2027-02-20T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 26,
     "competition": "Premier League",
@@ -16415,7 +16415,7 @@
   },
   {
     "id": 560798,
-    "startTime": "2027-02-20T12:00:00Z",
+    "startTime": "2027-02-20T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 26,
     "competition": "Premier League",
@@ -16479,7 +16479,7 @@
   },
   {
     "id": 560799,
-    "startTime": "2027-02-20T12:00:00Z",
+    "startTime": "2027-02-20T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 26,
     "competition": "Premier League",
@@ -16543,7 +16543,7 @@
   },
   {
     "id": 560800,
-    "startTime": "2027-02-20T12:00:00Z",
+    "startTime": "2027-02-20T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 26,
     "competition": "Premier League",
@@ -16607,7 +16607,7 @@
   },
   {
     "id": 560801,
-    "startTime": "2027-02-20T12:00:00Z",
+    "startTime": "2027-02-20T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 26,
     "competition": "Premier League",
@@ -16671,7 +16671,7 @@
   },
   {
     "id": 560802,
-    "startTime": "2027-02-27T12:00:00Z",
+    "startTime": "2027-02-27T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 27,
     "competition": "Premier League",
@@ -16735,7 +16735,7 @@
   },
   {
     "id": 560803,
-    "startTime": "2027-02-27T12:00:00Z",
+    "startTime": "2027-02-27T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 27,
     "competition": "Premier League",
@@ -16799,7 +16799,7 @@
   },
   {
     "id": 560804,
-    "startTime": "2027-02-27T12:00:00Z",
+    "startTime": "2027-02-27T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 27,
     "competition": "Premier League",
@@ -16863,7 +16863,7 @@
   },
   {
     "id": 560805,
-    "startTime": "2027-02-27T12:00:00Z",
+    "startTime": "2027-02-27T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 27,
     "competition": "Premier League",
@@ -16927,7 +16927,7 @@
   },
   {
     "id": 560806,
-    "startTime": "2027-02-27T12:00:00Z",
+    "startTime": "2027-02-27T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 27,
     "competition": "Premier League",
@@ -16991,7 +16991,7 @@
   },
   {
     "id": 560807,
-    "startTime": "2027-02-27T12:00:00Z",
+    "startTime": "2027-02-27T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 27,
     "competition": "Premier League",
@@ -17055,7 +17055,7 @@
   },
   {
     "id": 560808,
-    "startTime": "2027-02-27T12:00:00Z",
+    "startTime": "2027-02-27T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 27,
     "competition": "Premier League",
@@ -17119,7 +17119,7 @@
   },
   {
     "id": 560809,
-    "startTime": "2027-02-27T12:00:00Z",
+    "startTime": "2027-02-27T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 27,
     "competition": "Premier League",
@@ -17183,7 +17183,7 @@
   },
   {
     "id": 560810,
-    "startTime": "2027-02-27T12:00:00Z",
+    "startTime": "2027-02-27T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 27,
     "competition": "Premier League",
@@ -17247,7 +17247,7 @@
   },
   {
     "id": 560811,
-    "startTime": "2027-02-27T12:00:00Z",
+    "startTime": "2027-02-27T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 27,
     "competition": "Premier League",
@@ -17311,7 +17311,7 @@
   },
   {
     "id": 560812,
-    "startTime": "2027-03-03T12:00:00Z",
+    "startTime": "2027-03-03T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 28,
     "competition": "Premier League",
@@ -17375,7 +17375,7 @@
   },
   {
     "id": 560813,
-    "startTime": "2027-03-03T12:00:00Z",
+    "startTime": "2027-03-03T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 28,
     "competition": "Premier League",
@@ -17439,7 +17439,7 @@
   },
   {
     "id": 560814,
-    "startTime": "2027-03-03T12:00:00Z",
+    "startTime": "2027-03-03T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 28,
     "competition": "Premier League",
@@ -17503,7 +17503,7 @@
   },
   {
     "id": 560815,
-    "startTime": "2027-03-03T12:00:00Z",
+    "startTime": "2027-03-03T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 28,
     "competition": "Premier League",
@@ -17567,7 +17567,7 @@
   },
   {
     "id": 560816,
-    "startTime": "2027-03-03T12:00:00Z",
+    "startTime": "2027-03-03T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 28,
     "competition": "Premier League",
@@ -17631,7 +17631,7 @@
   },
   {
     "id": 560817,
-    "startTime": "2027-03-03T12:00:00Z",
+    "startTime": "2027-03-03T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 28,
     "competition": "Premier League",
@@ -17695,7 +17695,7 @@
   },
   {
     "id": 560818,
-    "startTime": "2027-03-03T12:00:00Z",
+    "startTime": "2027-03-03T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 28,
     "competition": "Premier League",
@@ -17759,7 +17759,7 @@
   },
   {
     "id": 560819,
-    "startTime": "2027-03-03T12:00:00Z",
+    "startTime": "2027-03-03T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 28,
     "competition": "Premier League",
@@ -17823,7 +17823,7 @@
   },
   {
     "id": 560820,
-    "startTime": "2027-03-03T12:00:00Z",
+    "startTime": "2027-03-03T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 28,
     "competition": "Premier League",
@@ -17887,7 +17887,7 @@
   },
   {
     "id": 560821,
-    "startTime": "2027-03-03T12:00:00Z",
+    "startTime": "2027-03-03T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 28,
     "competition": "Premier League",
@@ -17951,7 +17951,7 @@
   },
   {
     "id": 560822,
-    "startTime": "2027-03-13T12:00:00Z",
+    "startTime": "2027-03-13T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 29,
     "competition": "Premier League",
@@ -18015,7 +18015,7 @@
   },
   {
     "id": 560823,
-    "startTime": "2027-03-13T12:00:00Z",
+    "startTime": "2027-03-13T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 29,
     "competition": "Premier League",
@@ -18079,7 +18079,7 @@
   },
   {
     "id": 560824,
-    "startTime": "2027-03-13T12:00:00Z",
+    "startTime": "2027-03-13T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 29,
     "competition": "Premier League",
@@ -18143,7 +18143,7 @@
   },
   {
     "id": 560825,
-    "startTime": "2027-03-13T12:00:00Z",
+    "startTime": "2027-03-13T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 29,
     "competition": "Premier League",
@@ -18207,7 +18207,7 @@
   },
   {
     "id": 560826,
-    "startTime": "2027-03-13T12:00:00Z",
+    "startTime": "2027-03-13T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 29,
     "competition": "Premier League",
@@ -18271,7 +18271,7 @@
   },
   {
     "id": 560827,
-    "startTime": "2027-03-13T12:00:00Z",
+    "startTime": "2027-03-13T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 29,
     "competition": "Premier League",
@@ -18335,7 +18335,7 @@
   },
   {
     "id": 560828,
-    "startTime": "2027-03-13T12:00:00Z",
+    "startTime": "2027-03-13T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 29,
     "competition": "Premier League",
@@ -18399,7 +18399,7 @@
   },
   {
     "id": 560829,
-    "startTime": "2027-03-13T12:00:00Z",
+    "startTime": "2027-03-13T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 29,
     "competition": "Premier League",
@@ -18463,7 +18463,7 @@
   },
   {
     "id": 560830,
-    "startTime": "2027-03-13T12:00:00Z",
+    "startTime": "2027-03-13T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 29,
     "competition": "Premier League",
@@ -18527,7 +18527,7 @@
   },
   {
     "id": 560831,
-    "startTime": "2027-03-13T12:00:00Z",
+    "startTime": "2027-03-13T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 29,
     "competition": "Premier League",
@@ -18591,7 +18591,7 @@
   },
   {
     "id": 560832,
-    "startTime": "2027-03-20T12:00:00Z",
+    "startTime": "2027-03-20T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 30,
     "competition": "Premier League",
@@ -18655,7 +18655,7 @@
   },
   {
     "id": 560833,
-    "startTime": "2027-03-20T12:00:00Z",
+    "startTime": "2027-03-20T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 30,
     "competition": "Premier League",
@@ -18719,7 +18719,7 @@
   },
   {
     "id": 560834,
-    "startTime": "2027-03-20T12:00:00Z",
+    "startTime": "2027-03-20T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 30,
     "competition": "Premier League",
@@ -18783,7 +18783,7 @@
   },
   {
     "id": 560835,
-    "startTime": "2027-03-20T12:00:00Z",
+    "startTime": "2027-03-20T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 30,
     "competition": "Premier League",
@@ -18847,7 +18847,7 @@
   },
   {
     "id": 560836,
-    "startTime": "2027-03-20T12:00:00Z",
+    "startTime": "2027-03-20T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 30,
     "competition": "Premier League",
@@ -18911,7 +18911,7 @@
   },
   {
     "id": 560837,
-    "startTime": "2027-03-20T12:00:00Z",
+    "startTime": "2027-03-20T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 30,
     "competition": "Premier League",
@@ -18975,7 +18975,7 @@
   },
   {
     "id": 560838,
-    "startTime": "2027-03-20T12:00:00Z",
+    "startTime": "2027-03-20T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 30,
     "competition": "Premier League",
@@ -19039,7 +19039,7 @@
   },
   {
     "id": 560839,
-    "startTime": "2027-03-20T12:00:00Z",
+    "startTime": "2027-03-20T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 30,
     "competition": "Premier League",
@@ -19103,7 +19103,7 @@
   },
   {
     "id": 560840,
-    "startTime": "2027-03-20T12:00:00Z",
+    "startTime": "2027-03-20T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 30,
     "competition": "Premier League",
@@ -19167,7 +19167,7 @@
   },
   {
     "id": 560841,
-    "startTime": "2027-03-20T12:00:00Z",
+    "startTime": "2027-03-20T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 30,
     "competition": "Premier League",
@@ -19231,7 +19231,7 @@
   },
   {
     "id": 560842,
-    "startTime": "2027-04-10T12:00:00Z",
+    "startTime": "2027-04-10T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 31,
     "competition": "Premier League",
@@ -19295,7 +19295,7 @@
   },
   {
     "id": 560843,
-    "startTime": "2027-04-10T12:00:00Z",
+    "startTime": "2027-04-10T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 31,
     "competition": "Premier League",
@@ -19359,7 +19359,7 @@
   },
   {
     "id": 560844,
-    "startTime": "2027-04-10T12:00:00Z",
+    "startTime": "2027-04-10T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 31,
     "competition": "Premier League",
@@ -19423,7 +19423,7 @@
   },
   {
     "id": 560845,
-    "startTime": "2027-04-10T12:00:00Z",
+    "startTime": "2027-04-10T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 31,
     "competition": "Premier League",
@@ -19487,7 +19487,7 @@
   },
   {
     "id": 560846,
-    "startTime": "2027-04-10T12:00:00Z",
+    "startTime": "2027-04-10T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 31,
     "competition": "Premier League",
@@ -19551,7 +19551,7 @@
   },
   {
     "id": 560847,
-    "startTime": "2027-04-10T12:00:00Z",
+    "startTime": "2027-04-10T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 31,
     "competition": "Premier League",
@@ -19615,7 +19615,7 @@
   },
   {
     "id": 560848,
-    "startTime": "2027-04-10T12:00:00Z",
+    "startTime": "2027-04-10T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 31,
     "competition": "Premier League",
@@ -19679,7 +19679,7 @@
   },
   {
     "id": 560849,
-    "startTime": "2027-04-10T12:00:00Z",
+    "startTime": "2027-04-10T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 31,
     "competition": "Premier League",
@@ -19743,7 +19743,7 @@
   },
   {
     "id": 560850,
-    "startTime": "2027-04-10T12:00:00Z",
+    "startTime": "2027-04-10T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 31,
     "competition": "Premier League",
@@ -19807,7 +19807,7 @@
   },
   {
     "id": 560851,
-    "startTime": "2027-04-10T12:00:00Z",
+    "startTime": "2027-04-10T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 31,
     "competition": "Premier League",
@@ -19871,7 +19871,7 @@
   },
   {
     "id": 560852,
-    "startTime": "2027-04-17T12:00:00Z",
+    "startTime": "2027-04-17T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 32,
     "competition": "Premier League",
@@ -19935,7 +19935,7 @@
   },
   {
     "id": 560853,
-    "startTime": "2027-04-17T12:00:00Z",
+    "startTime": "2027-04-17T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 32,
     "competition": "Premier League",
@@ -19999,7 +19999,7 @@
   },
   {
     "id": 560854,
-    "startTime": "2027-04-17T12:00:00Z",
+    "startTime": "2027-04-17T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 32,
     "competition": "Premier League",
@@ -20063,7 +20063,7 @@
   },
   {
     "id": 560855,
-    "startTime": "2027-04-17T12:00:00Z",
+    "startTime": "2027-04-17T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 32,
     "competition": "Premier League",
@@ -20127,7 +20127,7 @@
   },
   {
     "id": 560856,
-    "startTime": "2027-04-17T12:00:00Z",
+    "startTime": "2027-04-17T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 32,
     "competition": "Premier League",
@@ -20191,7 +20191,7 @@
   },
   {
     "id": 560857,
-    "startTime": "2027-04-17T12:00:00Z",
+    "startTime": "2027-04-17T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 32,
     "competition": "Premier League",
@@ -20255,7 +20255,7 @@
   },
   {
     "id": 560858,
-    "startTime": "2027-04-17T12:00:00Z",
+    "startTime": "2027-04-17T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 32,
     "competition": "Premier League",
@@ -20319,7 +20319,7 @@
   },
   {
     "id": 560859,
-    "startTime": "2027-04-17T12:00:00Z",
+    "startTime": "2027-04-17T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 32,
     "competition": "Premier League",
@@ -20383,7 +20383,7 @@
   },
   {
     "id": 560860,
-    "startTime": "2027-04-17T12:00:00Z",
+    "startTime": "2027-04-17T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 32,
     "competition": "Premier League",
@@ -20447,7 +20447,7 @@
   },
   {
     "id": 560861,
-    "startTime": "2027-04-17T12:00:00Z",
+    "startTime": "2027-04-17T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 32,
     "competition": "Premier League",
@@ -20511,7 +20511,7 @@
   },
   {
     "id": 560862,
-    "startTime": "2027-04-24T12:00:00Z",
+    "startTime": "2027-04-24T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 33,
     "competition": "Premier League",
@@ -20575,7 +20575,7 @@
   },
   {
     "id": 560863,
-    "startTime": "2027-04-24T12:00:00Z",
+    "startTime": "2027-04-24T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 33,
     "competition": "Premier League",
@@ -20639,7 +20639,7 @@
   },
   {
     "id": 560864,
-    "startTime": "2027-04-24T12:00:00Z",
+    "startTime": "2027-04-24T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 33,
     "competition": "Premier League",
@@ -20703,7 +20703,7 @@
   },
   {
     "id": 560865,
-    "startTime": "2027-04-24T12:00:00Z",
+    "startTime": "2027-04-24T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 33,
     "competition": "Premier League",
@@ -20767,7 +20767,7 @@
   },
   {
     "id": 560866,
-    "startTime": "2027-04-24T12:00:00Z",
+    "startTime": "2027-04-24T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 33,
     "competition": "Premier League",
@@ -20831,7 +20831,7 @@
   },
   {
     "id": 560867,
-    "startTime": "2027-04-24T12:00:00Z",
+    "startTime": "2027-04-24T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 33,
     "competition": "Premier League",
@@ -20895,7 +20895,7 @@
   },
   {
     "id": 560868,
-    "startTime": "2027-04-24T12:00:00Z",
+    "startTime": "2027-04-24T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 33,
     "competition": "Premier League",
@@ -20959,7 +20959,7 @@
   },
   {
     "id": 560869,
-    "startTime": "2027-04-24T12:00:00Z",
+    "startTime": "2027-04-24T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 33,
     "competition": "Premier League",
@@ -21023,7 +21023,7 @@
   },
   {
     "id": 560870,
-    "startTime": "2027-04-24T12:00:00Z",
+    "startTime": "2027-04-24T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 33,
     "competition": "Premier League",
@@ -21087,7 +21087,7 @@
   },
   {
     "id": 560871,
-    "startTime": "2027-04-24T12:00:00Z",
+    "startTime": "2027-04-24T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 33,
     "competition": "Premier League",
@@ -21151,7 +21151,7 @@
   },
   {
     "id": 560872,
-    "startTime": "2027-05-01T12:00:00Z",
+    "startTime": "2027-05-01T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 34,
     "competition": "Premier League",
@@ -21215,7 +21215,7 @@
   },
   {
     "id": 560873,
-    "startTime": "2027-05-01T12:00:00Z",
+    "startTime": "2027-05-01T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 34,
     "competition": "Premier League",
@@ -21279,7 +21279,7 @@
   },
   {
     "id": 560874,
-    "startTime": "2027-05-01T12:00:00Z",
+    "startTime": "2027-05-01T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 34,
     "competition": "Premier League",
@@ -21343,7 +21343,7 @@
   },
   {
     "id": 560875,
-    "startTime": "2027-05-01T12:00:00Z",
+    "startTime": "2027-05-01T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 34,
     "competition": "Premier League",
@@ -21407,7 +21407,7 @@
   },
   {
     "id": 560876,
-    "startTime": "2027-05-01T12:00:00Z",
+    "startTime": "2027-05-01T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 34,
     "competition": "Premier League",
@@ -21471,7 +21471,7 @@
   },
   {
     "id": 560877,
-    "startTime": "2027-05-01T12:00:00Z",
+    "startTime": "2027-05-01T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 34,
     "competition": "Premier League",
@@ -21535,7 +21535,7 @@
   },
   {
     "id": 560878,
-    "startTime": "2027-05-01T12:00:00Z",
+    "startTime": "2027-05-01T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 34,
     "competition": "Premier League",
@@ -21599,7 +21599,7 @@
   },
   {
     "id": 560879,
-    "startTime": "2027-05-01T12:00:00Z",
+    "startTime": "2027-05-01T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 34,
     "competition": "Premier League",
@@ -21663,7 +21663,7 @@
   },
   {
     "id": 560880,
-    "startTime": "2027-05-01T12:00:00Z",
+    "startTime": "2027-05-01T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 34,
     "competition": "Premier League",
@@ -21727,7 +21727,7 @@
   },
   {
     "id": 560881,
-    "startTime": "2027-05-01T12:00:00Z",
+    "startTime": "2027-05-01T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 34,
     "competition": "Premier League",
@@ -21791,7 +21791,7 @@
   },
   {
     "id": 560882,
-    "startTime": "2027-05-08T12:00:00Z",
+    "startTime": "2027-05-08T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 35,
     "competition": "Premier League",
@@ -21855,7 +21855,7 @@
   },
   {
     "id": 560883,
-    "startTime": "2027-05-08T12:00:00Z",
+    "startTime": "2027-05-08T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 35,
     "competition": "Premier League",
@@ -21919,7 +21919,7 @@
   },
   {
     "id": 560884,
-    "startTime": "2027-05-08T12:00:00Z",
+    "startTime": "2027-05-08T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 35,
     "competition": "Premier League",
@@ -21983,7 +21983,7 @@
   },
   {
     "id": 560885,
-    "startTime": "2027-05-08T12:00:00Z",
+    "startTime": "2027-05-08T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 35,
     "competition": "Premier League",
@@ -22047,7 +22047,7 @@
   },
   {
     "id": 560886,
-    "startTime": "2027-05-08T12:00:00Z",
+    "startTime": "2027-05-08T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 35,
     "competition": "Premier League",
@@ -22111,7 +22111,7 @@
   },
   {
     "id": 560887,
-    "startTime": "2027-05-08T12:00:00Z",
+    "startTime": "2027-05-08T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 35,
     "competition": "Premier League",
@@ -22175,7 +22175,7 @@
   },
   {
     "id": 560888,
-    "startTime": "2027-05-08T12:00:00Z",
+    "startTime": "2027-05-08T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 35,
     "competition": "Premier League",
@@ -22239,7 +22239,7 @@
   },
   {
     "id": 560889,
-    "startTime": "2027-05-08T12:00:00Z",
+    "startTime": "2027-05-08T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 35,
     "competition": "Premier League",
@@ -22303,7 +22303,7 @@
   },
   {
     "id": 560890,
-    "startTime": "2027-05-08T12:00:00Z",
+    "startTime": "2027-05-08T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 35,
     "competition": "Premier League",
@@ -22367,7 +22367,7 @@
   },
   {
     "id": 560891,
-    "startTime": "2027-05-08T12:00:00Z",
+    "startTime": "2027-05-08T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 35,
     "competition": "Premier League",
@@ -22431,7 +22431,7 @@
   },
   {
     "id": 560896,
-    "startTime": "2027-05-15T12:00:00Z",
+    "startTime": "2027-05-15T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 36,
     "competition": "Premier League",
@@ -22495,7 +22495,7 @@
   },
   {
     "id": 560897,
-    "startTime": "2027-05-15T12:00:00Z",
+    "startTime": "2027-05-15T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 36,
     "competition": "Premier League",
@@ -22559,7 +22559,7 @@
   },
   {
     "id": 560898,
-    "startTime": "2027-05-15T12:00:00Z",
+    "startTime": "2027-05-15T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 36,
     "competition": "Premier League",
@@ -22623,7 +22623,7 @@
   },
   {
     "id": 560899,
-    "startTime": "2027-05-15T12:00:00Z",
+    "startTime": "2027-05-15T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 36,
     "competition": "Premier League",
@@ -22687,7 +22687,7 @@
   },
   {
     "id": 560900,
-    "startTime": "2027-05-15T12:00:00Z",
+    "startTime": "2027-05-15T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 36,
     "competition": "Premier League",
@@ -22751,7 +22751,7 @@
   },
   {
     "id": 560901,
-    "startTime": "2027-05-15T12:00:00Z",
+    "startTime": "2027-05-15T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 36,
     "competition": "Premier League",
@@ -22815,7 +22815,7 @@
   },
   {
     "id": 560892,
-    "startTime": "2027-05-15T12:00:00Z",
+    "startTime": "2027-05-15T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 36,
     "competition": "Premier League",
@@ -22879,7 +22879,7 @@
   },
   {
     "id": 560893,
-    "startTime": "2027-05-15T12:00:00Z",
+    "startTime": "2027-05-15T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 36,
     "competition": "Premier League",
@@ -22943,7 +22943,7 @@
   },
   {
     "id": 560894,
-    "startTime": "2027-05-15T12:00:00Z",
+    "startTime": "2027-05-15T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 36,
     "competition": "Premier League",
@@ -23007,7 +23007,7 @@
   },
   {
     "id": 560895,
-    "startTime": "2027-05-15T12:00:00Z",
+    "startTime": "2027-05-15T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 36,
     "competition": "Premier League",
@@ -23071,7 +23071,7 @@
   },
   {
     "id": 560902,
-    "startTime": "2027-05-23T12:00:00Z",
+    "startTime": "2027-05-23T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 37,
     "competition": "Premier League",
@@ -23135,7 +23135,7 @@
   },
   {
     "id": 560903,
-    "startTime": "2027-05-23T12:00:00Z",
+    "startTime": "2027-05-23T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 37,
     "competition": "Premier League",
@@ -23199,7 +23199,7 @@
   },
   {
     "id": 560904,
-    "startTime": "2027-05-23T12:00:00Z",
+    "startTime": "2027-05-23T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 37,
     "competition": "Premier League",
@@ -23263,7 +23263,7 @@
   },
   {
     "id": 560905,
-    "startTime": "2027-05-23T12:00:00Z",
+    "startTime": "2027-05-23T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 37,
     "competition": "Premier League",
@@ -23327,7 +23327,7 @@
   },
   {
     "id": 560906,
-    "startTime": "2027-05-23T12:00:00Z",
+    "startTime": "2027-05-23T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 37,
     "competition": "Premier League",
@@ -23391,7 +23391,7 @@
   },
   {
     "id": 560907,
-    "startTime": "2027-05-23T12:00:00Z",
+    "startTime": "2027-05-23T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 37,
     "competition": "Premier League",
@@ -23455,7 +23455,7 @@
   },
   {
     "id": 560908,
-    "startTime": "2027-05-23T12:00:00Z",
+    "startTime": "2027-05-23T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 37,
     "competition": "Premier League",
@@ -23519,7 +23519,7 @@
   },
   {
     "id": 560909,
-    "startTime": "2027-05-23T12:00:00Z",
+    "startTime": "2027-05-23T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 37,
     "competition": "Premier League",
@@ -23583,7 +23583,7 @@
   },
   {
     "id": 560910,
-    "startTime": "2027-05-23T12:00:00Z",
+    "startTime": "2027-05-23T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 37,
     "competition": "Premier League",
@@ -23647,7 +23647,7 @@
   },
   {
     "id": 560911,
-    "startTime": "2027-05-23T12:00:00Z",
+    "startTime": "2027-05-23T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 37,
     "competition": "Premier League",
@@ -23711,7 +23711,7 @@
   },
   {
     "id": 560912,
-    "startTime": "2027-05-30T12:00:00Z",
+    "startTime": "2027-05-30T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 38,
     "competition": "Premier League",
@@ -23775,7 +23775,7 @@
   },
   {
     "id": 560913,
-    "startTime": "2027-05-30T12:00:00Z",
+    "startTime": "2027-05-30T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 38,
     "competition": "Premier League",
@@ -23839,7 +23839,7 @@
   },
   {
     "id": 560914,
-    "startTime": "2027-05-30T12:00:00Z",
+    "startTime": "2027-05-30T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 38,
     "competition": "Premier League",
@@ -23903,7 +23903,7 @@
   },
   {
     "id": 560915,
-    "startTime": "2027-05-30T12:00:00Z",
+    "startTime": "2027-05-30T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 38,
     "competition": "Premier League",
@@ -23967,7 +23967,7 @@
   },
   {
     "id": 560916,
-    "startTime": "2027-05-30T12:00:00Z",
+    "startTime": "2027-05-30T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 38,
     "competition": "Premier League",
@@ -24031,7 +24031,7 @@
   },
   {
     "id": 560917,
-    "startTime": "2027-05-30T12:00:00Z",
+    "startTime": "2027-05-30T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 38,
     "competition": "Premier League",
@@ -24095,7 +24095,7 @@
   },
   {
     "id": 560918,
-    "startTime": "2027-05-30T12:00:00Z",
+    "startTime": "2027-05-30T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 38,
     "competition": "Premier League",
@@ -24159,7 +24159,7 @@
   },
   {
     "id": 560919,
-    "startTime": "2027-05-30T12:00:00Z",
+    "startTime": "2027-05-30T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 38,
     "competition": "Premier League",
@@ -24223,7 +24223,7 @@
   },
   {
     "id": 560920,
-    "startTime": "2027-05-30T12:00:00Z",
+    "startTime": "2027-05-30T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 38,
     "competition": "Premier League",
@@ -24287,7 +24287,7 @@
   },
   {
     "id": 560921,
-    "startTime": "2027-05-30T12:00:00Z",
+    "startTime": "2027-05-30T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 38,
     "competition": "Premier League",
