@@ -354,7 +354,7 @@
     "title": "Brentford vs Tottenham",
     "description": "Matchday 1: Brentford FC vs Tottenham Hotspur FC",
     "isLive": false,
-    "broadcaster": "NBC / Universo / DirecTV Stream / Sling Blue / Peacock Premium",
+    "broadcaster": "NBC / Universo / DirecTV Stream / Sling Blue / Fubo / Peacock Premium",
     "broadcastConfirmed": true,
     "channel": {
       "number": "174",
@@ -424,7 +424,7 @@
     "title": "Man City vs Bournemouth",
     "description": "Matchday 1: Manchester City FC vs AFC Bournemouth",
     "isLive": false,
-    "broadcaster": "USA Network / Telemundo / DirecTV Stream / Sling Blue",
+    "broadcaster": "USA Network / Telemundo / DirecTV Stream / Sling Blue / Fubo",
     "broadcastConfirmed": true,
     "channel": {
       "number": "174",
@@ -552,7 +552,7 @@
     "title": "Newcastle vs Liverpool",
     "description": "Matchday 1: Newcastle United FC vs Liverpool FC",
     "isLive": false,
-    "broadcaster": "USA Network / Telemundo / DirecTV Stream / Sling Blue",
+    "broadcaster": "USA Network / Telemundo / DirecTV Stream / Sling Blue / Fubo",
     "broadcastConfirmed": true,
     "channel": {
       "number": "174",
