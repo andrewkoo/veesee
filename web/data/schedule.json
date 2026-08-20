@@ -354,7 +354,7 @@
     "title": "Brentford vs Tottenham",
     "description": "Matchday 1: Brentford FC vs Tottenham Hotspur FC",
     "isLive": false,
-    "broadcaster": "NBC / Universo / DirecTV Stream / Sling Blue / Fubo / Peacock Premium",
+    "broadcaster": "NBC / DirecTV Stream / Sling Blue / Fubo / Peacock Premium",
     "broadcastConfirmed": true,
     "channel": {
       "number": "174",
@@ -368,12 +368,6 @@
         "name": "USA Network East",
         "category": "National",
         "hasPlayback": true
-      },
-      {
-        "number": "183",
-        "name": "Univision East",
-        "category": "National",
-        "hasPlayback": false
       },
       {
         "number": "181",
@@ -686,8 +680,8 @@
     "title": "Crystal Palace vs Man City",
     "description": "Matchday 2: Crystal Palace FC vs Manchester City FC",
     "isLive": false,
-    "broadcaster": "Not yet announced",
-    "broadcastConfirmed": false,
+    "broadcaster": "USA Network",
+    "broadcastConfirmed": true,
     "channel": {
       "number": "174",
       "name": "USA Network East",
@@ -750,8 +744,8 @@
     "title": "Liverpool vs Nottingham",
     "description": "Matchday 2: Liverpool FC vs Nottingham Forest FC",
     "isLive": false,
-    "broadcaster": "Not yet announced",
-    "broadcastConfirmed": false,
+    "broadcaster": "USA Network",
+    "broadcastConfirmed": true,
     "channel": {
       "number": "174",
       "name": "USA Network East",
@@ -878,8 +872,8 @@
     "title": "Coventry City vs Hull City",
     "description": "Matchday 2: Coventry City FC vs Hull City AFC",
     "isLive": false,
-    "broadcaster": "Not yet announced",
-    "broadcastConfirmed": false,
+    "broadcaster": "USA Network",
+    "broadcastConfirmed": true,
     "channel": {
       "number": "174",
       "name": "USA Network East",
@@ -1134,8 +1128,8 @@
     "title": "Leeds United vs Brentford",
     "description": "Matchday 2: Leeds United FC vs Brentford FC",
     "isLive": false,
-    "broadcaster": "Not yet announced",
-    "broadcastConfirmed": false,
+    "broadcaster": "USA Network",
+    "broadcastConfirmed": true,
     "channel": {
       "number": "174",
       "name": "USA Network East",
@@ -1262,8 +1256,8 @@
     "title": "Aston Villa vs Arsenal",
     "description": "Matchday 2: Aston Villa FC vs Arsenal FC",
     "isLive": false,
-    "broadcaster": "Not yet announced",
-    "broadcastConfirmed": false,
+    "broadcaster": "USA Network",
+    "broadcastConfirmed": true,
     "channel": {
       "number": "174",
       "name": "USA Network East",
@@ -3230,73 +3224,9 @@
     ]
   },
   {
-    "id": 560592,
-    "startTime": "2026-10-10T00:00:00Z",
-    "status": "SCHEDULED",
-    "matchday": 6,
-    "competition": "Premier League",
-    "competitionCode": "PL",
-    "competitionCategory": "english",
-    "homeTeam": "Sunderland",
-    "homeTeamTla": "SUN",
-    "awayTeam": "Brighton Hove",
-    "awayTeamTla": "BHA",
-    "homeScore": null,
-    "awayScore": null,
-    "title": "Sunderland vs Brighton Hove",
-    "description": "Matchday 6: Sunderland AFC vs Brighton & Hove Albion FC",
-    "isLive": false,
-    "broadcaster": "Not yet announced",
-    "broadcastConfirmed": false,
-    "channel": {
-      "number": "174",
-      "name": "USA Network East",
-      "category": "National",
-      "hasPlayback": true
-    },
-    "channels": [
-      {
-        "number": "174",
-        "name": "USA Network East",
-        "category": "National",
-        "hasPlayback": true
-      },
-      {
-        "number": "181",
-        "name": "Telemundo East",
-        "category": "National",
-        "hasPlayback": false
-      },
-      {
-        "number": "870",
-        "name": "Sky Sports Premier League",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "857",
-        "name": "BT Sports 1",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "858",
-        "name": "BT Sports 2",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "828",
-        "name": "ESPN",
-        "category": "Sports",
-        "hasPlayback": true
-      }
-    ]
-  },
-  {
     "id": 560593,
-    "startTime": "2026-10-10T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-10-10T11:30:00Z",
+    "status": "TIMED",
     "matchday": 6,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -3358,21 +3288,21 @@
     ]
   },
   {
-    "id": 560594,
-    "startTime": "2026-10-10T00:00:00Z",
-    "status": "SCHEDULED",
+    "id": 560592,
+    "startTime": "2026-10-10T14:00:00Z",
+    "status": "TIMED",
     "matchday": 6,
     "competition": "Premier League",
     "competitionCode": "PL",
     "competitionCategory": "english",
-    "homeTeam": "Hull City",
-    "homeTeamTla": "HUL",
-    "awayTeam": "Everton",
-    "awayTeamTla": "EVE",
+    "homeTeam": "Sunderland",
+    "homeTeamTla": "SUN",
+    "awayTeam": "Brighton Hove",
+    "awayTeamTla": "BHA",
     "homeScore": null,
     "awayScore": null,
-    "title": "Hull City vs Everton",
-    "description": "Matchday 6: Hull City AFC vs Everton FC",
+    "title": "Sunderland vs Brighton Hove",
+    "description": "Matchday 6: Sunderland AFC vs Brighton & Hove Albion FC",
     "isLive": false,
     "broadcaster": "Not yet announced",
     "broadcastConfirmed": false,
@@ -3423,8 +3353,8 @@
   },
   {
     "id": 560595,
-    "startTime": "2026-10-10T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-10-10T14:00:00Z",
+    "status": "TIMED",
     "matchday": 6,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -3486,201 +3416,9 @@
     ]
   },
   {
-    "id": 560596,
-    "startTime": "2026-10-10T00:00:00Z",
-    "status": "SCHEDULED",
-    "matchday": 6,
-    "competition": "Premier League",
-    "competitionCode": "PL",
-    "competitionCategory": "english",
-    "homeTeam": "Crystal Palace",
-    "homeTeamTla": "CRY",
-    "awayTeam": "Nottingham",
-    "awayTeamTla": "NOT",
-    "homeScore": null,
-    "awayScore": null,
-    "title": "Crystal Palace vs Nottingham",
-    "description": "Matchday 6: Crystal Palace FC vs Nottingham Forest FC",
-    "isLive": false,
-    "broadcaster": "Not yet announced",
-    "broadcastConfirmed": false,
-    "channel": {
-      "number": "174",
-      "name": "USA Network East",
-      "category": "National",
-      "hasPlayback": true
-    },
-    "channels": [
-      {
-        "number": "174",
-        "name": "USA Network East",
-        "category": "National",
-        "hasPlayback": true
-      },
-      {
-        "number": "181",
-        "name": "Telemundo East",
-        "category": "National",
-        "hasPlayback": false
-      },
-      {
-        "number": "870",
-        "name": "Sky Sports Premier League",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "857",
-        "name": "BT Sports 1",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "858",
-        "name": "BT Sports 2",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "828",
-        "name": "ESPN",
-        "category": "Sports",
-        "hasPlayback": true
-      }
-    ]
-  },
-  {
-    "id": 560597,
-    "startTime": "2026-10-10T00:00:00Z",
-    "status": "SCHEDULED",
-    "matchday": 6,
-    "competition": "Premier League",
-    "competitionCode": "PL",
-    "competitionCategory": "english",
-    "homeTeam": "Coventry City",
-    "homeTeamTla": "COV",
-    "awayTeam": "Newcastle",
-    "awayTeamTla": "NEW",
-    "homeScore": null,
-    "awayScore": null,
-    "title": "Coventry City vs Newcastle",
-    "description": "Matchday 6: Coventry City FC vs Newcastle United FC",
-    "isLive": false,
-    "broadcaster": "Not yet announced",
-    "broadcastConfirmed": false,
-    "channel": {
-      "number": "174",
-      "name": "USA Network East",
-      "category": "National",
-      "hasPlayback": true
-    },
-    "channels": [
-      {
-        "number": "174",
-        "name": "USA Network East",
-        "category": "National",
-        "hasPlayback": true
-      },
-      {
-        "number": "181",
-        "name": "Telemundo East",
-        "category": "National",
-        "hasPlayback": false
-      },
-      {
-        "number": "870",
-        "name": "Sky Sports Premier League",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "857",
-        "name": "BT Sports 1",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "858",
-        "name": "BT Sports 2",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "828",
-        "name": "ESPN",
-        "category": "Sports",
-        "hasPlayback": true
-      }
-    ]
-  },
-  {
-    "id": 560598,
-    "startTime": "2026-10-10T00:00:00Z",
-    "status": "SCHEDULED",
-    "matchday": 6,
-    "competition": "Premier League",
-    "competitionCode": "PL",
-    "competitionCategory": "english",
-    "homeTeam": "Liverpool",
-    "homeTeamTla": "LIV",
-    "awayTeam": "Man City",
-    "awayTeamTla": "MCI",
-    "homeScore": null,
-    "awayScore": null,
-    "title": "Liverpool vs Man City",
-    "description": "Matchday 6: Liverpool FC vs Manchester City FC",
-    "isLive": false,
-    "broadcaster": "Not yet announced",
-    "broadcastConfirmed": false,
-    "channel": {
-      "number": "174",
-      "name": "USA Network East",
-      "category": "National",
-      "hasPlayback": true
-    },
-    "channels": [
-      {
-        "number": "174",
-        "name": "USA Network East",
-        "category": "National",
-        "hasPlayback": true
-      },
-      {
-        "number": "181",
-        "name": "Telemundo East",
-        "category": "National",
-        "hasPlayback": false
-      },
-      {
-        "number": "870",
-        "name": "Sky Sports Premier League",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "857",
-        "name": "BT Sports 1",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "858",
-        "name": "BT Sports 2",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "828",
-        "name": "ESPN",
-        "category": "Sports",
-        "hasPlayback": true
-      }
-    ]
-  },
-  {
     "id": 560599,
-    "startTime": "2026-10-10T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-10-10T14:00:00Z",
+    "status": "TIMED",
     "matchday": 6,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -3742,73 +3480,9 @@
     ]
   },
   {
-    "id": 560600,
-    "startTime": "2026-10-10T00:00:00Z",
-    "status": "SCHEDULED",
-    "matchday": 6,
-    "competition": "Premier League",
-    "competitionCode": "PL",
-    "competitionCategory": "english",
-    "homeTeam": "Man United",
-    "homeTeamTla": "MUN",
-    "awayTeam": "Tottenham",
-    "awayTeamTla": "TOT",
-    "homeScore": null,
-    "awayScore": null,
-    "title": "Man United vs Tottenham",
-    "description": "Matchday 6: Manchester United FC vs Tottenham Hotspur FC",
-    "isLive": false,
-    "broadcaster": "Not yet announced",
-    "broadcastConfirmed": false,
-    "channel": {
-      "number": "174",
-      "name": "USA Network East",
-      "category": "National",
-      "hasPlayback": true
-    },
-    "channels": [
-      {
-        "number": "174",
-        "name": "USA Network East",
-        "category": "National",
-        "hasPlayback": true
-      },
-      {
-        "number": "181",
-        "name": "Telemundo East",
-        "category": "National",
-        "hasPlayback": false
-      },
-      {
-        "number": "870",
-        "name": "Sky Sports Premier League",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "857",
-        "name": "BT Sports 1",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "858",
-        "name": "BT Sports 2",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "828",
-        "name": "ESPN",
-        "category": "Sports",
-        "hasPlayback": true
-      }
-    ]
-  },
-  {
     "id": 560601,
-    "startTime": "2026-10-10T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-10-10T14:00:00Z",
+    "status": "TIMED",
     "matchday": 6,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -3870,21 +3544,277 @@
     ]
   },
   {
-    "id": 560602,
-    "startTime": "2026-10-17T00:00:00Z",
-    "status": "SCHEDULED",
-    "matchday": 7,
+    "id": 560600,
+    "startTime": "2026-10-10T16:30:00Z",
+    "status": "TIMED",
+    "matchday": 6,
     "competition": "Premier League",
     "competitionCode": "PL",
     "competitionCategory": "english",
-    "homeTeam": "Fulham",
-    "homeTeamTla": "FUL",
-    "awayTeam": "Hull City",
-    "awayTeamTla": "HUL",
+    "homeTeam": "Man United",
+    "homeTeamTla": "MUN",
+    "awayTeam": "Tottenham",
+    "awayTeamTla": "TOT",
     "homeScore": null,
     "awayScore": null,
-    "title": "Fulham vs Hull City",
-    "description": "Matchday 7: Fulham FC vs Hull City AFC",
+    "title": "Man United vs Tottenham",
+    "description": "Matchday 6: Manchester United FC vs Tottenham Hotspur FC",
+    "isLive": false,
+    "broadcaster": "Not yet announced",
+    "broadcastConfirmed": false,
+    "channel": {
+      "number": "174",
+      "name": "USA Network East",
+      "category": "National",
+      "hasPlayback": true
+    },
+    "channels": [
+      {
+        "number": "174",
+        "name": "USA Network East",
+        "category": "National",
+        "hasPlayback": true
+      },
+      {
+        "number": "181",
+        "name": "Telemundo East",
+        "category": "National",
+        "hasPlayback": false
+      },
+      {
+        "number": "870",
+        "name": "Sky Sports Premier League",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "857",
+        "name": "BT Sports 1",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "858",
+        "name": "BT Sports 2",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "828",
+        "name": "ESPN",
+        "category": "Sports",
+        "hasPlayback": true
+      }
+    ]
+  },
+  {
+    "id": 560594,
+    "startTime": "2026-10-11T13:00:00Z",
+    "status": "TIMED",
+    "matchday": 6,
+    "competition": "Premier League",
+    "competitionCode": "PL",
+    "competitionCategory": "english",
+    "homeTeam": "Hull City",
+    "homeTeamTla": "HUL",
+    "awayTeam": "Everton",
+    "awayTeamTla": "EVE",
+    "homeScore": null,
+    "awayScore": null,
+    "title": "Hull City vs Everton",
+    "description": "Matchday 6: Hull City AFC vs Everton FC",
+    "isLive": false,
+    "broadcaster": "Not yet announced",
+    "broadcastConfirmed": false,
+    "channel": {
+      "number": "174",
+      "name": "USA Network East",
+      "category": "National",
+      "hasPlayback": true
+    },
+    "channels": [
+      {
+        "number": "174",
+        "name": "USA Network East",
+        "category": "National",
+        "hasPlayback": true
+      },
+      {
+        "number": "181",
+        "name": "Telemundo East",
+        "category": "National",
+        "hasPlayback": false
+      },
+      {
+        "number": "870",
+        "name": "Sky Sports Premier League",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "857",
+        "name": "BT Sports 1",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "858",
+        "name": "BT Sports 2",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "828",
+        "name": "ESPN",
+        "category": "Sports",
+        "hasPlayback": true
+      }
+    ]
+  },
+  {
+    "id": 560596,
+    "startTime": "2026-10-11T13:00:00Z",
+    "status": "TIMED",
+    "matchday": 6,
+    "competition": "Premier League",
+    "competitionCode": "PL",
+    "competitionCategory": "english",
+    "homeTeam": "Crystal Palace",
+    "homeTeamTla": "CRY",
+    "awayTeam": "Nottingham",
+    "awayTeamTla": "NOT",
+    "homeScore": null,
+    "awayScore": null,
+    "title": "Crystal Palace vs Nottingham",
+    "description": "Matchday 6: Crystal Palace FC vs Nottingham Forest FC",
+    "isLive": false,
+    "broadcaster": "Not yet announced",
+    "broadcastConfirmed": false,
+    "channel": {
+      "number": "174",
+      "name": "USA Network East",
+      "category": "National",
+      "hasPlayback": true
+    },
+    "channels": [
+      {
+        "number": "174",
+        "name": "USA Network East",
+        "category": "National",
+        "hasPlayback": true
+      },
+      {
+        "number": "181",
+        "name": "Telemundo East",
+        "category": "National",
+        "hasPlayback": false
+      },
+      {
+        "number": "870",
+        "name": "Sky Sports Premier League",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "857",
+        "name": "BT Sports 1",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "858",
+        "name": "BT Sports 2",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "828",
+        "name": "ESPN",
+        "category": "Sports",
+        "hasPlayback": true
+      }
+    ]
+  },
+  {
+    "id": 560598,
+    "startTime": "2026-10-11T15:30:00Z",
+    "status": "TIMED",
+    "matchday": 6,
+    "competition": "Premier League",
+    "competitionCode": "PL",
+    "competitionCategory": "english",
+    "homeTeam": "Liverpool",
+    "homeTeamTla": "LIV",
+    "awayTeam": "Man City",
+    "awayTeamTla": "MCI",
+    "homeScore": null,
+    "awayScore": null,
+    "title": "Liverpool vs Man City",
+    "description": "Matchday 6: Liverpool FC vs Manchester City FC",
+    "isLive": false,
+    "broadcaster": "Not yet announced",
+    "broadcastConfirmed": false,
+    "channel": {
+      "number": "174",
+      "name": "USA Network East",
+      "category": "National",
+      "hasPlayback": true
+    },
+    "channels": [
+      {
+        "number": "174",
+        "name": "USA Network East",
+        "category": "National",
+        "hasPlayback": true
+      },
+      {
+        "number": "181",
+        "name": "Telemundo East",
+        "category": "National",
+        "hasPlayback": false
+      },
+      {
+        "number": "870",
+        "name": "Sky Sports Premier League",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "857",
+        "name": "BT Sports 1",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "858",
+        "name": "BT Sports 2",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "828",
+        "name": "ESPN",
+        "category": "Sports",
+        "hasPlayback": true
+      }
+    ]
+  },
+  {
+    "id": 560597,
+    "startTime": "2026-10-12T19:00:00Z",
+    "status": "TIMED",
+    "matchday": 6,
+    "competition": "Premier League",
+    "competitionCode": "PL",
+    "competitionCategory": "english",
+    "homeTeam": "Coventry City",
+    "homeTeamTla": "COV",
+    "awayTeam": "Newcastle",
+    "awayTeamTla": "NEW",
+    "homeScore": null,
+    "awayScore": null,
+    "title": "Coventry City vs Newcastle",
+    "description": "Matchday 6: Coventry City FC vs Newcastle United FC",
     "isLive": false,
     "broadcaster": "Not yet announced",
     "broadcastConfirmed": false,
@@ -3935,8 +3865,8 @@
   },
   {
     "id": 560603,
-    "startTime": "2026-10-17T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-10-17T11:30:00Z",
+    "status": "TIMED",
     "matchday": 7,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -3998,341 +3928,21 @@
     ]
   },
   {
-    "id": 560604,
-    "startTime": "2026-10-17T00:00:00Z",
-    "status": "SCHEDULED",
+    "id": 560602,
+    "startTime": "2026-10-17T14:00:00Z",
+    "status": "TIMED",
     "matchday": 7,
     "competition": "Premier League",
     "competitionCode": "PL",
     "competitionCategory": "english",
-    "homeTeam": "Bournemouth",
-    "homeTeamTla": "BOU",
-    "awayTeam": "Sunderland",
-    "awayTeamTla": "SUN",
+    "homeTeam": "Fulham",
+    "homeTeamTla": "FUL",
+    "awayTeam": "Hull City",
+    "awayTeamTla": "HUL",
     "homeScore": null,
     "awayScore": null,
-    "title": "Bournemouth vs Sunderland",
-    "description": "Matchday 7: AFC Bournemouth vs Sunderland AFC",
-    "isLive": false,
-    "broadcaster": "Not yet announced",
-    "broadcastConfirmed": false,
-    "channel": {
-      "number": "174",
-      "name": "USA Network East",
-      "category": "National",
-      "hasPlayback": true
-    },
-    "channels": [
-      {
-        "number": "174",
-        "name": "USA Network East",
-        "category": "National",
-        "hasPlayback": true
-      },
-      {
-        "number": "181",
-        "name": "Telemundo East",
-        "category": "National",
-        "hasPlayback": false
-      },
-      {
-        "number": "870",
-        "name": "Sky Sports Premier League",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "857",
-        "name": "BT Sports 1",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "858",
-        "name": "BT Sports 2",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "828",
-        "name": "ESPN",
-        "category": "Sports",
-        "hasPlayback": true
-      }
-    ]
-  },
-  {
-    "id": 560605,
-    "startTime": "2026-10-17T00:00:00Z",
-    "status": "SCHEDULED",
-    "matchday": 7,
-    "competition": "Premier League",
-    "competitionCode": "PL",
-    "competitionCategory": "english",
-    "homeTeam": "Leeds United",
-    "homeTeamTla": "LEE",
-    "awayTeam": "Man United",
-    "awayTeamTla": "MUN",
-    "homeScore": null,
-    "awayScore": null,
-    "title": "Leeds United vs Man United",
-    "description": "Matchday 7: Leeds United FC vs Manchester United FC",
-    "isLive": false,
-    "broadcaster": "Not yet announced",
-    "broadcastConfirmed": false,
-    "channel": {
-      "number": "174",
-      "name": "USA Network East",
-      "category": "National",
-      "hasPlayback": true
-    },
-    "channels": [
-      {
-        "number": "174",
-        "name": "USA Network East",
-        "category": "National",
-        "hasPlayback": true
-      },
-      {
-        "number": "181",
-        "name": "Telemundo East",
-        "category": "National",
-        "hasPlayback": false
-      },
-      {
-        "number": "870",
-        "name": "Sky Sports Premier League",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "857",
-        "name": "BT Sports 1",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "858",
-        "name": "BT Sports 2",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "828",
-        "name": "ESPN",
-        "category": "Sports",
-        "hasPlayback": true
-      }
-    ]
-  },
-  {
-    "id": 560606,
-    "startTime": "2026-10-17T00:00:00Z",
-    "status": "SCHEDULED",
-    "matchday": 7,
-    "competition": "Premier League",
-    "competitionCode": "PL",
-    "competitionCategory": "english",
-    "homeTeam": "Tottenham",
-    "homeTeamTla": "TOT",
-    "awayTeam": "Coventry City",
-    "awayTeamTla": "COV",
-    "homeScore": null,
-    "awayScore": null,
-    "title": "Tottenham vs Coventry City",
-    "description": "Matchday 7: Tottenham Hotspur FC vs Coventry City FC",
-    "isLive": false,
-    "broadcaster": "Not yet announced",
-    "broadcastConfirmed": false,
-    "channel": {
-      "number": "174",
-      "name": "USA Network East",
-      "category": "National",
-      "hasPlayback": true
-    },
-    "channels": [
-      {
-        "number": "174",
-        "name": "USA Network East",
-        "category": "National",
-        "hasPlayback": true
-      },
-      {
-        "number": "181",
-        "name": "Telemundo East",
-        "category": "National",
-        "hasPlayback": false
-      },
-      {
-        "number": "870",
-        "name": "Sky Sports Premier League",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "857",
-        "name": "BT Sports 1",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "858",
-        "name": "BT Sports 2",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "828",
-        "name": "ESPN",
-        "category": "Sports",
-        "hasPlayback": true
-      }
-    ]
-  },
-  {
-    "id": 560607,
-    "startTime": "2026-10-17T00:00:00Z",
-    "status": "SCHEDULED",
-    "matchday": 7,
-    "competition": "Premier League",
-    "competitionCode": "PL",
-    "competitionCategory": "english",
-    "homeTeam": "Newcastle",
-    "homeTeamTla": "NEW",
-    "awayTeam": "Aston Villa",
-    "awayTeamTla": "AVL",
-    "homeScore": null,
-    "awayScore": null,
-    "title": "Newcastle vs Aston Villa",
-    "description": "Matchday 7: Newcastle United FC vs Aston Villa FC",
-    "isLive": false,
-    "broadcaster": "Not yet announced",
-    "broadcastConfirmed": false,
-    "channel": {
-      "number": "174",
-      "name": "USA Network East",
-      "category": "National",
-      "hasPlayback": true
-    },
-    "channels": [
-      {
-        "number": "174",
-        "name": "USA Network East",
-        "category": "National",
-        "hasPlayback": true
-      },
-      {
-        "number": "181",
-        "name": "Telemundo East",
-        "category": "National",
-        "hasPlayback": false
-      },
-      {
-        "number": "870",
-        "name": "Sky Sports Premier League",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "857",
-        "name": "BT Sports 1",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "858",
-        "name": "BT Sports 2",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "828",
-        "name": "ESPN",
-        "category": "Sports",
-        "hasPlayback": true
-      }
-    ]
-  },
-  {
-    "id": 560608,
-    "startTime": "2026-10-17T00:00:00Z",
-    "status": "SCHEDULED",
-    "matchday": 7,
-    "competition": "Premier League",
-    "competitionCode": "PL",
-    "competitionCategory": "english",
-    "homeTeam": "Nottingham",
-    "homeTeamTla": "NOT",
-    "awayTeam": "Arsenal",
-    "awayTeamTla": "ARS",
-    "homeScore": null,
-    "awayScore": null,
-    "title": "Nottingham vs Arsenal",
-    "description": "Matchday 7: Nottingham Forest FC vs Arsenal FC",
-    "isLive": false,
-    "broadcaster": "Not yet announced",
-    "broadcastConfirmed": false,
-    "channel": {
-      "number": "174",
-      "name": "USA Network East",
-      "category": "National",
-      "hasPlayback": true
-    },
-    "channels": [
-      {
-        "number": "174",
-        "name": "USA Network East",
-        "category": "National",
-        "hasPlayback": true
-      },
-      {
-        "number": "181",
-        "name": "Telemundo East",
-        "category": "National",
-        "hasPlayback": false
-      },
-      {
-        "number": "870",
-        "name": "Sky Sports Premier League",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "857",
-        "name": "BT Sports 1",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "858",
-        "name": "BT Sports 2",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "828",
-        "name": "ESPN",
-        "category": "Sports",
-        "hasPlayback": true
-      }
-    ]
-  },
-  {
-    "id": 560609,
-    "startTime": "2026-10-17T00:00:00Z",
-    "status": "SCHEDULED",
-    "matchday": 7,
-    "competition": "Premier League",
-    "competitionCode": "PL",
-    "competitionCategory": "english",
-    "homeTeam": "Brighton Hove",
-    "homeTeamTla": "BHA",
-    "awayTeam": "Crystal Palace",
-    "awayTeamTla": "CRY",
-    "homeScore": null,
-    "awayScore": null,
-    "title": "Brighton Hove vs Crystal Palace",
-    "description": "Matchday 7: Brighton & Hove Albion FC vs Crystal Palace FC",
+    "title": "Fulham vs Hull City",
+    "description": "Matchday 7: Fulham FC vs Hull City AFC",
     "isLive": false,
     "broadcaster": "Not yet announced",
     "broadcastConfirmed": false,
@@ -4383,8 +3993,8 @@
   },
   {
     "id": 560610,
-    "startTime": "2026-10-17T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-10-17T14:00:00Z",
+    "status": "TIMED",
     "matchday": 7,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -4447,8 +4057,8 @@
   },
   {
     "id": 560611,
-    "startTime": "2026-10-17T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-10-17T14:00:00Z",
+    "status": "TIMED",
     "matchday": 7,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -4510,21 +4120,21 @@
     ]
   },
   {
-    "id": 560612,
-    "startTime": "2026-10-24T00:00:00Z",
-    "status": "SCHEDULED",
-    "matchday": 8,
+    "id": 560607,
+    "startTime": "2026-10-17T16:30:00Z",
+    "status": "TIMED",
+    "matchday": 7,
     "competition": "Premier League",
     "competitionCode": "PL",
     "competitionCategory": "english",
-    "homeTeam": "Liverpool",
-    "homeTeamTla": "LIV",
-    "awayTeam": "Brighton Hove",
-    "awayTeamTla": "BHA",
+    "homeTeam": "Newcastle",
+    "homeTeamTla": "NEW",
+    "awayTeam": "Aston Villa",
+    "awayTeamTla": "AVL",
     "homeScore": null,
     "awayScore": null,
-    "title": "Liverpool vs Brighton Hove",
-    "description": "Matchday 8: Liverpool FC vs Brighton & Hove Albion FC",
+    "title": "Newcastle vs Aston Villa",
+    "description": "Matchday 7: Newcastle United FC vs Aston Villa FC",
     "isLive": false,
     "broadcaster": "Not yet announced",
     "broadcastConfirmed": false,
@@ -4574,21 +4184,21 @@
     ]
   },
   {
-    "id": 560613,
-    "startTime": "2026-10-24T00:00:00Z",
-    "status": "SCHEDULED",
-    "matchday": 8,
+    "id": 560604,
+    "startTime": "2026-10-18T13:00:00Z",
+    "status": "TIMED",
+    "matchday": 7,
     "competition": "Premier League",
     "competitionCode": "PL",
     "competitionCategory": "english",
-    "homeTeam": "Crystal Palace",
-    "homeTeamTla": "CRY",
-    "awayTeam": "Newcastle",
-    "awayTeamTla": "NEW",
+    "homeTeam": "Bournemouth",
+    "homeTeamTla": "BOU",
+    "awayTeam": "Sunderland",
+    "awayTeamTla": "SUN",
     "homeScore": null,
     "awayScore": null,
-    "title": "Crystal Palace vs Newcastle",
-    "description": "Matchday 8: Crystal Palace FC vs Newcastle United FC",
+    "title": "Bournemouth vs Sunderland",
+    "description": "Matchday 7: AFC Bournemouth vs Sunderland AFC",
     "isLive": false,
     "broadcaster": "Not yet announced",
     "broadcastConfirmed": false,
@@ -4638,21 +4248,21 @@
     ]
   },
   {
-    "id": 560614,
-    "startTime": "2026-10-24T00:00:00Z",
-    "status": "SCHEDULED",
-    "matchday": 8,
+    "id": 560605,
+    "startTime": "2026-10-18T13:00:00Z",
+    "status": "TIMED",
+    "matchday": 7,
     "competition": "Premier League",
     "competitionCode": "PL",
     "competitionCategory": "english",
-    "homeTeam": "Aston Villa",
-    "homeTeamTla": "AVL",
-    "awayTeam": "Man City",
-    "awayTeamTla": "MCI",
+    "homeTeam": "Leeds United",
+    "homeTeamTla": "LEE",
+    "awayTeam": "Man United",
+    "awayTeamTla": "MUN",
     "homeScore": null,
     "awayScore": null,
-    "title": "Aston Villa vs Man City",
-    "description": "Matchday 8: Aston Villa FC vs Manchester City FC",
+    "title": "Leeds United vs Man United",
+    "description": "Matchday 7: Leeds United FC vs Manchester United FC",
     "isLive": false,
     "broadcaster": "Not yet announced",
     "broadcastConfirmed": false,
@@ -4702,21 +4312,21 @@
     ]
   },
   {
-    "id": 560615,
-    "startTime": "2026-10-24T00:00:00Z",
-    "status": "SCHEDULED",
-    "matchday": 8,
+    "id": 560609,
+    "startTime": "2026-10-18T13:00:00Z",
+    "status": "TIMED",
+    "matchday": 7,
     "competition": "Premier League",
     "competitionCode": "PL",
     "competitionCategory": "english",
-    "homeTeam": "Man United",
-    "homeTeamTla": "MUN",
-    "awayTeam": "Bournemouth",
-    "awayTeamTla": "BOU",
+    "homeTeam": "Brighton Hove",
+    "homeTeamTla": "BHA",
+    "awayTeam": "Crystal Palace",
+    "awayTeamTla": "CRY",
     "homeScore": null,
     "awayScore": null,
-    "title": "Man United vs Bournemouth",
-    "description": "Matchday 8: Manchester United FC vs AFC Bournemouth",
+    "title": "Brighton Hove vs Crystal Palace",
+    "description": "Matchday 7: Brighton & Hove Albion FC vs Crystal Palace FC",
     "isLive": false,
     "broadcaster": "Not yet announced",
     "broadcastConfirmed": false,
@@ -4766,21 +4376,21 @@
     ]
   },
   {
-    "id": 560616,
-    "startTime": "2026-10-24T00:00:00Z",
-    "status": "SCHEDULED",
-    "matchday": 8,
+    "id": 560608,
+    "startTime": "2026-10-18T15:30:00Z",
+    "status": "TIMED",
+    "matchday": 7,
     "competition": "Premier League",
     "competitionCode": "PL",
     "competitionCategory": "english",
-    "homeTeam": "Arsenal",
-    "homeTeamTla": "ARS",
-    "awayTeam": "Everton",
-    "awayTeamTla": "EVE",
+    "homeTeam": "Nottingham",
+    "homeTeamTla": "NOT",
+    "awayTeam": "Arsenal",
+    "awayTeamTla": "ARS",
     "homeScore": null,
     "awayScore": null,
-    "title": "Arsenal vs Everton",
-    "description": "Matchday 8: Arsenal FC vs Everton FC",
+    "title": "Nottingham vs Arsenal",
+    "description": "Matchday 7: Nottingham Forest FC vs Arsenal FC",
     "isLive": false,
     "broadcaster": "Not yet announced",
     "broadcastConfirmed": false,
@@ -4830,149 +4440,21 @@
     ]
   },
   {
-    "id": 560617,
-    "startTime": "2026-10-24T00:00:00Z",
-    "status": "SCHEDULED",
-    "matchday": 8,
+    "id": 560606,
+    "startTime": "2026-10-19T19:00:00Z",
+    "status": "TIMED",
+    "matchday": 7,
     "competition": "Premier League",
     "competitionCode": "PL",
     "competitionCategory": "english",
-    "homeTeam": "Chelsea",
-    "homeTeamTla": "CHE",
-    "awayTeam": "Tottenham",
-    "awayTeamTla": "TOT",
+    "homeTeam": "Tottenham",
+    "homeTeamTla": "TOT",
+    "awayTeam": "Coventry City",
+    "awayTeamTla": "COV",
     "homeScore": null,
     "awayScore": null,
-    "title": "Chelsea vs Tottenham",
-    "description": "Matchday 8: Chelsea FC vs Tottenham Hotspur FC",
-    "isLive": false,
-    "broadcaster": "Not yet announced",
-    "broadcastConfirmed": false,
-    "channel": {
-      "number": "174",
-      "name": "USA Network East",
-      "category": "National",
-      "hasPlayback": true
-    },
-    "channels": [
-      {
-        "number": "174",
-        "name": "USA Network East",
-        "category": "National",
-        "hasPlayback": true
-      },
-      {
-        "number": "181",
-        "name": "Telemundo East",
-        "category": "National",
-        "hasPlayback": false
-      },
-      {
-        "number": "870",
-        "name": "Sky Sports Premier League",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "857",
-        "name": "BT Sports 1",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "858",
-        "name": "BT Sports 2",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "828",
-        "name": "ESPN",
-        "category": "Sports",
-        "hasPlayback": true
-      }
-    ]
-  },
-  {
-    "id": 560618,
-    "startTime": "2026-10-24T00:00:00Z",
-    "status": "SCHEDULED",
-    "matchday": 8,
-    "competition": "Premier League",
-    "competitionCode": "PL",
-    "competitionCategory": "english",
-    "homeTeam": "Coventry City",
-    "homeTeamTla": "COV",
-    "awayTeam": "Fulham",
-    "awayTeamTla": "FUL",
-    "homeScore": null,
-    "awayScore": null,
-    "title": "Coventry City vs Fulham",
-    "description": "Matchday 8: Coventry City FC vs Fulham FC",
-    "isLive": false,
-    "broadcaster": "Not yet announced",
-    "broadcastConfirmed": false,
-    "channel": {
-      "number": "174",
-      "name": "USA Network East",
-      "category": "National",
-      "hasPlayback": true
-    },
-    "channels": [
-      {
-        "number": "174",
-        "name": "USA Network East",
-        "category": "National",
-        "hasPlayback": true
-      },
-      {
-        "number": "181",
-        "name": "Telemundo East",
-        "category": "National",
-        "hasPlayback": false
-      },
-      {
-        "number": "870",
-        "name": "Sky Sports Premier League",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "857",
-        "name": "BT Sports 1",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "858",
-        "name": "BT Sports 2",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "828",
-        "name": "ESPN",
-        "category": "Sports",
-        "hasPlayback": true
-      }
-    ]
-  },
-  {
-    "id": 560619,
-    "startTime": "2026-10-24T00:00:00Z",
-    "status": "SCHEDULED",
-    "matchday": 8,
-    "competition": "Premier League",
-    "competitionCode": "PL",
-    "competitionCategory": "english",
-    "homeTeam": "Hull City",
-    "homeTeamTla": "HUL",
-    "awayTeam": "Brentford",
-    "awayTeamTla": "BRE",
-    "homeScore": null,
-    "awayScore": null,
-    "title": "Hull City vs Brentford",
-    "description": "Matchday 8: Hull City AFC vs Brentford FC",
+    "title": "Tottenham vs Coventry City",
+    "description": "Matchday 7: Tottenham Hotspur FC vs Coventry City FC",
     "isLive": false,
     "broadcaster": "Not yet announced",
     "broadcastConfirmed": false,
@@ -5023,8 +4505,8 @@
   },
   {
     "id": 560620,
-    "startTime": "2026-10-24T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-10-23T19:00:00Z",
+    "status": "TIMED",
     "matchday": 8,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -5086,9 +4568,521 @@
     ]
   },
   {
+    "id": 560614,
+    "startTime": "2026-10-24T11:30:00Z",
+    "status": "TIMED",
+    "matchday": 8,
+    "competition": "Premier League",
+    "competitionCode": "PL",
+    "competitionCategory": "english",
+    "homeTeam": "Aston Villa",
+    "homeTeamTla": "AVL",
+    "awayTeam": "Man City",
+    "awayTeamTla": "MCI",
+    "homeScore": null,
+    "awayScore": null,
+    "title": "Aston Villa vs Man City",
+    "description": "Matchday 8: Aston Villa FC vs Manchester City FC",
+    "isLive": false,
+    "broadcaster": "Not yet announced",
+    "broadcastConfirmed": false,
+    "channel": {
+      "number": "174",
+      "name": "USA Network East",
+      "category": "National",
+      "hasPlayback": true
+    },
+    "channels": [
+      {
+        "number": "174",
+        "name": "USA Network East",
+        "category": "National",
+        "hasPlayback": true
+      },
+      {
+        "number": "181",
+        "name": "Telemundo East",
+        "category": "National",
+        "hasPlayback": false
+      },
+      {
+        "number": "870",
+        "name": "Sky Sports Premier League",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "857",
+        "name": "BT Sports 1",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "858",
+        "name": "BT Sports 2",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "828",
+        "name": "ESPN",
+        "category": "Sports",
+        "hasPlayback": true
+      }
+    ]
+  },
+  {
+    "id": 560612,
+    "startTime": "2026-10-24T14:00:00Z",
+    "status": "TIMED",
+    "matchday": 8,
+    "competition": "Premier League",
+    "competitionCode": "PL",
+    "competitionCategory": "english",
+    "homeTeam": "Liverpool",
+    "homeTeamTla": "LIV",
+    "awayTeam": "Brighton Hove",
+    "awayTeamTla": "BHA",
+    "homeScore": null,
+    "awayScore": null,
+    "title": "Liverpool vs Brighton Hove",
+    "description": "Matchday 8: Liverpool FC vs Brighton & Hove Albion FC",
+    "isLive": false,
+    "broadcaster": "Not yet announced",
+    "broadcastConfirmed": false,
+    "channel": {
+      "number": "174",
+      "name": "USA Network East",
+      "category": "National",
+      "hasPlayback": true
+    },
+    "channels": [
+      {
+        "number": "174",
+        "name": "USA Network East",
+        "category": "National",
+        "hasPlayback": true
+      },
+      {
+        "number": "181",
+        "name": "Telemundo East",
+        "category": "National",
+        "hasPlayback": false
+      },
+      {
+        "number": "870",
+        "name": "Sky Sports Premier League",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "857",
+        "name": "BT Sports 1",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "858",
+        "name": "BT Sports 2",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "828",
+        "name": "ESPN",
+        "category": "Sports",
+        "hasPlayback": true
+      }
+    ]
+  },
+  {
+    "id": 560616,
+    "startTime": "2026-10-24T14:00:00Z",
+    "status": "TIMED",
+    "matchday": 8,
+    "competition": "Premier League",
+    "competitionCode": "PL",
+    "competitionCategory": "english",
+    "homeTeam": "Arsenal",
+    "homeTeamTla": "ARS",
+    "awayTeam": "Everton",
+    "awayTeamTla": "EVE",
+    "homeScore": null,
+    "awayScore": null,
+    "title": "Arsenal vs Everton",
+    "description": "Matchday 8: Arsenal FC vs Everton FC",
+    "isLive": false,
+    "broadcaster": "Not yet announced",
+    "broadcastConfirmed": false,
+    "channel": {
+      "number": "174",
+      "name": "USA Network East",
+      "category": "National",
+      "hasPlayback": true
+    },
+    "channels": [
+      {
+        "number": "174",
+        "name": "USA Network East",
+        "category": "National",
+        "hasPlayback": true
+      },
+      {
+        "number": "181",
+        "name": "Telemundo East",
+        "category": "National",
+        "hasPlayback": false
+      },
+      {
+        "number": "870",
+        "name": "Sky Sports Premier League",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "857",
+        "name": "BT Sports 1",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "858",
+        "name": "BT Sports 2",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "828",
+        "name": "ESPN",
+        "category": "Sports",
+        "hasPlayback": true
+      }
+    ]
+  },
+  {
+    "id": 560618,
+    "startTime": "2026-10-24T14:00:00Z",
+    "status": "TIMED",
+    "matchday": 8,
+    "competition": "Premier League",
+    "competitionCode": "PL",
+    "competitionCategory": "english",
+    "homeTeam": "Coventry City",
+    "homeTeamTla": "COV",
+    "awayTeam": "Fulham",
+    "awayTeamTla": "FUL",
+    "homeScore": null,
+    "awayScore": null,
+    "title": "Coventry City vs Fulham",
+    "description": "Matchday 8: Coventry City FC vs Fulham FC",
+    "isLive": false,
+    "broadcaster": "Not yet announced",
+    "broadcastConfirmed": false,
+    "channel": {
+      "number": "174",
+      "name": "USA Network East",
+      "category": "National",
+      "hasPlayback": true
+    },
+    "channels": [
+      {
+        "number": "174",
+        "name": "USA Network East",
+        "category": "National",
+        "hasPlayback": true
+      },
+      {
+        "number": "181",
+        "name": "Telemundo East",
+        "category": "National",
+        "hasPlayback": false
+      },
+      {
+        "number": "870",
+        "name": "Sky Sports Premier League",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "857",
+        "name": "BT Sports 1",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "858",
+        "name": "BT Sports 2",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "828",
+        "name": "ESPN",
+        "category": "Sports",
+        "hasPlayback": true
+      }
+    ]
+  },
+  {
+    "id": 560617,
+    "startTime": "2026-10-24T16:30:00Z",
+    "status": "TIMED",
+    "matchday": 8,
+    "competition": "Premier League",
+    "competitionCode": "PL",
+    "competitionCategory": "english",
+    "homeTeam": "Chelsea",
+    "homeTeamTla": "CHE",
+    "awayTeam": "Tottenham",
+    "awayTeamTla": "TOT",
+    "homeScore": null,
+    "awayScore": null,
+    "title": "Chelsea vs Tottenham",
+    "description": "Matchday 8: Chelsea FC vs Tottenham Hotspur FC",
+    "isLive": false,
+    "broadcaster": "Not yet announced",
+    "broadcastConfirmed": false,
+    "channel": {
+      "number": "174",
+      "name": "USA Network East",
+      "category": "National",
+      "hasPlayback": true
+    },
+    "channels": [
+      {
+        "number": "174",
+        "name": "USA Network East",
+        "category": "National",
+        "hasPlayback": true
+      },
+      {
+        "number": "181",
+        "name": "Telemundo East",
+        "category": "National",
+        "hasPlayback": false
+      },
+      {
+        "number": "870",
+        "name": "Sky Sports Premier League",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "857",
+        "name": "BT Sports 1",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "858",
+        "name": "BT Sports 2",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "828",
+        "name": "ESPN",
+        "category": "Sports",
+        "hasPlayback": true
+      }
+    ]
+  },
+  {
+    "id": 560613,
+    "startTime": "2026-10-25T14:00:00Z",
+    "status": "TIMED",
+    "matchday": 8,
+    "competition": "Premier League",
+    "competitionCode": "PL",
+    "competitionCategory": "english",
+    "homeTeam": "Crystal Palace",
+    "homeTeamTla": "CRY",
+    "awayTeam": "Newcastle",
+    "awayTeamTla": "NEW",
+    "homeScore": null,
+    "awayScore": null,
+    "title": "Crystal Palace vs Newcastle",
+    "description": "Matchday 8: Crystal Palace FC vs Newcastle United FC",
+    "isLive": false,
+    "broadcaster": "Not yet announced",
+    "broadcastConfirmed": false,
+    "channel": {
+      "number": "174",
+      "name": "USA Network East",
+      "category": "National",
+      "hasPlayback": true
+    },
+    "channels": [
+      {
+        "number": "174",
+        "name": "USA Network East",
+        "category": "National",
+        "hasPlayback": true
+      },
+      {
+        "number": "181",
+        "name": "Telemundo East",
+        "category": "National",
+        "hasPlayback": false
+      },
+      {
+        "number": "870",
+        "name": "Sky Sports Premier League",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "857",
+        "name": "BT Sports 1",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "858",
+        "name": "BT Sports 2",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "828",
+        "name": "ESPN",
+        "category": "Sports",
+        "hasPlayback": true
+      }
+    ]
+  },
+  {
+    "id": 560615,
+    "startTime": "2026-10-25T14:00:00Z",
+    "status": "TIMED",
+    "matchday": 8,
+    "competition": "Premier League",
+    "competitionCode": "PL",
+    "competitionCategory": "english",
+    "homeTeam": "Man United",
+    "homeTeamTla": "MUN",
+    "awayTeam": "Bournemouth",
+    "awayTeamTla": "BOU",
+    "homeScore": null,
+    "awayScore": null,
+    "title": "Man United vs Bournemouth",
+    "description": "Matchday 8: Manchester United FC vs AFC Bournemouth",
+    "isLive": false,
+    "broadcaster": "Not yet announced",
+    "broadcastConfirmed": false,
+    "channel": {
+      "number": "174",
+      "name": "USA Network East",
+      "category": "National",
+      "hasPlayback": true
+    },
+    "channels": [
+      {
+        "number": "174",
+        "name": "USA Network East",
+        "category": "National",
+        "hasPlayback": true
+      },
+      {
+        "number": "181",
+        "name": "Telemundo East",
+        "category": "National",
+        "hasPlayback": false
+      },
+      {
+        "number": "870",
+        "name": "Sky Sports Premier League",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "857",
+        "name": "BT Sports 1",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "858",
+        "name": "BT Sports 2",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "828",
+        "name": "ESPN",
+        "category": "Sports",
+        "hasPlayback": true
+      }
+    ]
+  },
+  {
+    "id": 560619,
+    "startTime": "2026-10-25T14:00:00Z",
+    "status": "TIMED",
+    "matchday": 8,
+    "competition": "Premier League",
+    "competitionCode": "PL",
+    "competitionCategory": "english",
+    "homeTeam": "Hull City",
+    "homeTeamTla": "HUL",
+    "awayTeam": "Brentford",
+    "awayTeamTla": "BRE",
+    "homeScore": null,
+    "awayScore": null,
+    "title": "Hull City vs Brentford",
+    "description": "Matchday 8: Hull City AFC vs Brentford FC",
+    "isLive": false,
+    "broadcaster": "Not yet announced",
+    "broadcastConfirmed": false,
+    "channel": {
+      "number": "174",
+      "name": "USA Network East",
+      "category": "National",
+      "hasPlayback": true
+    },
+    "channels": [
+      {
+        "number": "174",
+        "name": "USA Network East",
+        "category": "National",
+        "hasPlayback": true
+      },
+      {
+        "number": "181",
+        "name": "Telemundo East",
+        "category": "National",
+        "hasPlayback": false
+      },
+      {
+        "number": "870",
+        "name": "Sky Sports Premier League",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "857",
+        "name": "BT Sports 1",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "858",
+        "name": "BT Sports 2",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "828",
+        "name": "ESPN",
+        "category": "Sports",
+        "hasPlayback": true
+      }
+    ]
+  },
+  {
     "id": 560621,
-    "startTime": "2026-10-24T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-10-25T16:30:00Z",
+    "status": "TIMED",
     "matchday": 8,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -5150,21 +5144,21 @@
     ]
   },
   {
-    "id": 560622,
-    "startTime": "2026-10-31T00:00:00Z",
-    "status": "SCHEDULED",
+    "id": 560626,
+    "startTime": "2026-10-31T12:30:00Z",
+    "status": "TIMED",
     "matchday": 9,
     "competition": "Premier League",
     "competitionCode": "PL",
     "competitionCategory": "english",
-    "homeTeam": "Newcastle",
-    "homeTeamTla": "NEW",
-    "awayTeam": "Everton",
-    "awayTeamTla": "EVE",
+    "homeTeam": "Chelsea",
+    "homeTeamTla": "CHE",
+    "awayTeam": "Man United",
+    "awayTeamTla": "MUN",
     "homeScore": null,
     "awayScore": null,
-    "title": "Newcastle vs Everton",
-    "description": "Matchday 9: Newcastle United FC vs Everton FC",
+    "title": "Chelsea vs Man United",
+    "description": "Matchday 9: Chelsea FC vs Manchester United FC",
     "isLive": false,
     "broadcaster": "Not yet announced",
     "broadcastConfirmed": false,
@@ -5215,8 +5209,8 @@
   },
   {
     "id": 560623,
-    "startTime": "2026-10-31T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-10-31T15:00:00Z",
+    "status": "TIMED",
     "matchday": 9,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -5279,8 +5273,8 @@
   },
   {
     "id": 560624,
-    "startTime": "2026-10-31T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-10-31T15:00:00Z",
+    "status": "TIMED",
     "matchday": 9,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -5343,8 +5337,8 @@
   },
   {
     "id": 560625,
-    "startTime": "2026-10-31T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-10-31T15:00:00Z",
+    "status": "TIMED",
     "matchday": 9,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -5406,201 +5400,9 @@
     ]
   },
   {
-    "id": 560626,
-    "startTime": "2026-10-31T00:00:00Z",
-    "status": "SCHEDULED",
-    "matchday": 9,
-    "competition": "Premier League",
-    "competitionCode": "PL",
-    "competitionCategory": "english",
-    "homeTeam": "Chelsea",
-    "homeTeamTla": "CHE",
-    "awayTeam": "Man United",
-    "awayTeamTla": "MUN",
-    "homeScore": null,
-    "awayScore": null,
-    "title": "Chelsea vs Man United",
-    "description": "Matchday 9: Chelsea FC vs Manchester United FC",
-    "isLive": false,
-    "broadcaster": "Not yet announced",
-    "broadcastConfirmed": false,
-    "channel": {
-      "number": "174",
-      "name": "USA Network East",
-      "category": "National",
-      "hasPlayback": true
-    },
-    "channels": [
-      {
-        "number": "174",
-        "name": "USA Network East",
-        "category": "National",
-        "hasPlayback": true
-      },
-      {
-        "number": "181",
-        "name": "Telemundo East",
-        "category": "National",
-        "hasPlayback": false
-      },
-      {
-        "number": "870",
-        "name": "Sky Sports Premier League",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "857",
-        "name": "BT Sports 1",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "858",
-        "name": "BT Sports 2",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "828",
-        "name": "ESPN",
-        "category": "Sports",
-        "hasPlayback": true
-      }
-    ]
-  },
-  {
-    "id": 560627,
-    "startTime": "2026-10-31T00:00:00Z",
-    "status": "SCHEDULED",
-    "matchday": 9,
-    "competition": "Premier League",
-    "competitionCode": "PL",
-    "competitionCategory": "english",
-    "homeTeam": "Tottenham",
-    "homeTeamTla": "TOT",
-    "awayTeam": "Crystal Palace",
-    "awayTeamTla": "CRY",
-    "homeScore": null,
-    "awayScore": null,
-    "title": "Tottenham vs Crystal Palace",
-    "description": "Matchday 9: Tottenham Hotspur FC vs Crystal Palace FC",
-    "isLive": false,
-    "broadcaster": "Not yet announced",
-    "broadcastConfirmed": false,
-    "channel": {
-      "number": "174",
-      "name": "USA Network East",
-      "category": "National",
-      "hasPlayback": true
-    },
-    "channels": [
-      {
-        "number": "174",
-        "name": "USA Network East",
-        "category": "National",
-        "hasPlayback": true
-      },
-      {
-        "number": "181",
-        "name": "Telemundo East",
-        "category": "National",
-        "hasPlayback": false
-      },
-      {
-        "number": "870",
-        "name": "Sky Sports Premier League",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "857",
-        "name": "BT Sports 1",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "858",
-        "name": "BT Sports 2",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "828",
-        "name": "ESPN",
-        "category": "Sports",
-        "hasPlayback": true
-      }
-    ]
-  },
-  {
-    "id": 560628,
-    "startTime": "2026-10-31T00:00:00Z",
-    "status": "SCHEDULED",
-    "matchday": 9,
-    "competition": "Premier League",
-    "competitionCode": "PL",
-    "competitionCategory": "english",
-    "homeTeam": "Aston Villa",
-    "homeTeamTla": "AVL",
-    "awayTeam": "Fulham",
-    "awayTeamTla": "FUL",
-    "homeScore": null,
-    "awayScore": null,
-    "title": "Aston Villa vs Fulham",
-    "description": "Matchday 9: Aston Villa FC vs Fulham FC",
-    "isLive": false,
-    "broadcaster": "Not yet announced",
-    "broadcastConfirmed": false,
-    "channel": {
-      "number": "174",
-      "name": "USA Network East",
-      "category": "National",
-      "hasPlayback": true
-    },
-    "channels": [
-      {
-        "number": "174",
-        "name": "USA Network East",
-        "category": "National",
-        "hasPlayback": true
-      },
-      {
-        "number": "181",
-        "name": "Telemundo East",
-        "category": "National",
-        "hasPlayback": false
-      },
-      {
-        "number": "870",
-        "name": "Sky Sports Premier League",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "857",
-        "name": "BT Sports 1",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "858",
-        "name": "BT Sports 2",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "828",
-        "name": "ESPN",
-        "category": "Sports",
-        "hasPlayback": true
-      }
-    ]
-  },
-  {
     "id": 560629,
-    "startTime": "2026-10-31T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-10-31T15:00:00Z",
+    "status": "TIMED",
     "matchday": 9,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -5663,8 +5465,8 @@
   },
   {
     "id": 560630,
-    "startTime": "2026-10-31T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-10-31T15:00:00Z",
+    "status": "TIMED",
     "matchday": 9,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -5726,9 +5528,137 @@
     ]
   },
   {
+    "id": 560627,
+    "startTime": "2026-10-31T17:30:00Z",
+    "status": "TIMED",
+    "matchday": 9,
+    "competition": "Premier League",
+    "competitionCode": "PL",
+    "competitionCategory": "english",
+    "homeTeam": "Tottenham",
+    "homeTeamTla": "TOT",
+    "awayTeam": "Crystal Palace",
+    "awayTeamTla": "CRY",
+    "homeScore": null,
+    "awayScore": null,
+    "title": "Tottenham vs Crystal Palace",
+    "description": "Matchday 9: Tottenham Hotspur FC vs Crystal Palace FC",
+    "isLive": false,
+    "broadcaster": "Not yet announced",
+    "broadcastConfirmed": false,
+    "channel": {
+      "number": "174",
+      "name": "USA Network East",
+      "category": "National",
+      "hasPlayback": true
+    },
+    "channels": [
+      {
+        "number": "174",
+        "name": "USA Network East",
+        "category": "National",
+        "hasPlayback": true
+      },
+      {
+        "number": "181",
+        "name": "Telemundo East",
+        "category": "National",
+        "hasPlayback": false
+      },
+      {
+        "number": "870",
+        "name": "Sky Sports Premier League",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "857",
+        "name": "BT Sports 1",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "858",
+        "name": "BT Sports 2",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "828",
+        "name": "ESPN",
+        "category": "Sports",
+        "hasPlayback": true
+      }
+    ]
+  },
+  {
+    "id": 560628,
+    "startTime": "2026-11-01T14:00:00Z",
+    "status": "TIMED",
+    "matchday": 9,
+    "competition": "Premier League",
+    "competitionCode": "PL",
+    "competitionCategory": "english",
+    "homeTeam": "Aston Villa",
+    "homeTeamTla": "AVL",
+    "awayTeam": "Fulham",
+    "awayTeamTla": "FUL",
+    "homeScore": null,
+    "awayScore": null,
+    "title": "Aston Villa vs Fulham",
+    "description": "Matchday 9: Aston Villa FC vs Fulham FC",
+    "isLive": false,
+    "broadcaster": "Not yet announced",
+    "broadcastConfirmed": false,
+    "channel": {
+      "number": "174",
+      "name": "USA Network East",
+      "category": "National",
+      "hasPlayback": true
+    },
+    "channels": [
+      {
+        "number": "174",
+        "name": "USA Network East",
+        "category": "National",
+        "hasPlayback": true
+      },
+      {
+        "number": "181",
+        "name": "Telemundo East",
+        "category": "National",
+        "hasPlayback": false
+      },
+      {
+        "number": "870",
+        "name": "Sky Sports Premier League",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "857",
+        "name": "BT Sports 1",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "858",
+        "name": "BT Sports 2",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "828",
+        "name": "ESPN",
+        "category": "Sports",
+        "hasPlayback": true
+      }
+    ]
+  },
+  {
     "id": 560631,
-    "startTime": "2026-10-31T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-11-01T16:30:00Z",
+    "status": "TIMED",
     "matchday": 9,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -5790,9 +5720,73 @@
     ]
   },
   {
+    "id": 560622,
+    "startTime": "2026-11-02T20:00:00Z",
+    "status": "TIMED",
+    "matchday": 9,
+    "competition": "Premier League",
+    "competitionCode": "PL",
+    "competitionCategory": "english",
+    "homeTeam": "Newcastle",
+    "homeTeamTla": "NEW",
+    "awayTeam": "Everton",
+    "awayTeamTla": "EVE",
+    "homeScore": null,
+    "awayScore": null,
+    "title": "Newcastle vs Everton",
+    "description": "Matchday 9: Newcastle United FC vs Everton FC",
+    "isLive": false,
+    "broadcaster": "Not yet announced",
+    "broadcastConfirmed": false,
+    "channel": {
+      "number": "174",
+      "name": "USA Network East",
+      "category": "National",
+      "hasPlayback": true
+    },
+    "channels": [
+      {
+        "number": "174",
+        "name": "USA Network East",
+        "category": "National",
+        "hasPlayback": true
+      },
+      {
+        "number": "181",
+        "name": "Telemundo East",
+        "category": "National",
+        "hasPlayback": false
+      },
+      {
+        "number": "870",
+        "name": "Sky Sports Premier League",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "857",
+        "name": "BT Sports 1",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "858",
+        "name": "BT Sports 2",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "828",
+        "name": "ESPN",
+        "category": "Sports",
+        "hasPlayback": true
+      }
+    ]
+  },
+  {
     "id": 560640,
-    "startTime": "2026-11-07T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-11-07T15:00:00Z",
+    "status": "TIMED",
     "matchday": 10,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -5855,8 +5849,8 @@
   },
   {
     "id": 560641,
-    "startTime": "2026-11-07T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-11-07T15:00:00Z",
+    "status": "TIMED",
     "matchday": 10,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -5919,8 +5913,8 @@
   },
   {
     "id": 560632,
-    "startTime": "2026-11-07T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-11-07T15:00:00Z",
+    "status": "TIMED",
     "matchday": 10,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -5983,8 +5977,8 @@
   },
   {
     "id": 560633,
-    "startTime": "2026-11-07T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-11-07T15:00:00Z",
+    "status": "TIMED",
     "matchday": 10,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -6047,8 +6041,8 @@
   },
   {
     "id": 560634,
-    "startTime": "2026-11-07T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-11-07T15:00:00Z",
+    "status": "TIMED",
     "matchday": 10,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -6111,8 +6105,8 @@
   },
   {
     "id": 560635,
-    "startTime": "2026-11-07T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-11-07T15:00:00Z",
+    "status": "TIMED",
     "matchday": 10,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -6175,8 +6169,8 @@
   },
   {
     "id": 560636,
-    "startTime": "2026-11-07T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-11-07T15:00:00Z",
+    "status": "TIMED",
     "matchday": 10,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -6239,8 +6233,8 @@
   },
   {
     "id": 560637,
-    "startTime": "2026-11-07T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-11-07T15:00:00Z",
+    "status": "TIMED",
     "matchday": 10,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -6303,8 +6297,8 @@
   },
   {
     "id": 560638,
-    "startTime": "2026-11-07T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-11-07T15:00:00Z",
+    "status": "TIMED",
     "matchday": 10,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -6367,8 +6361,8 @@
   },
   {
     "id": 560639,
-    "startTime": "2026-11-07T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-11-07T15:00:00Z",
+    "status": "TIMED",
     "matchday": 10,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -6431,8 +6425,8 @@
   },
   {
     "id": 560642,
-    "startTime": "2026-11-21T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-11-21T15:00:00Z",
+    "status": "TIMED",
     "matchday": 11,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -6495,8 +6489,8 @@
   },
   {
     "id": 560643,
-    "startTime": "2026-11-21T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-11-21T15:00:00Z",
+    "status": "TIMED",
     "matchday": 11,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -6559,8 +6553,8 @@
   },
   {
     "id": 560644,
-    "startTime": "2026-11-21T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-11-21T15:00:00Z",
+    "status": "TIMED",
     "matchday": 11,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -6623,8 +6617,8 @@
   },
   {
     "id": 560645,
-    "startTime": "2026-11-21T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-11-21T15:00:00Z",
+    "status": "TIMED",
     "matchday": 11,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -6687,8 +6681,8 @@
   },
   {
     "id": 560646,
-    "startTime": "2026-11-21T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-11-21T15:00:00Z",
+    "status": "TIMED",
     "matchday": 11,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -6751,8 +6745,8 @@
   },
   {
     "id": 560647,
-    "startTime": "2026-11-21T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-11-21T15:00:00Z",
+    "status": "TIMED",
     "matchday": 11,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -6815,8 +6809,8 @@
   },
   {
     "id": 560648,
-    "startTime": "2026-11-21T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-11-21T15:00:00Z",
+    "status": "TIMED",
     "matchday": 11,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -6879,8 +6873,8 @@
   },
   {
     "id": 560649,
-    "startTime": "2026-11-21T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-11-21T15:00:00Z",
+    "status": "TIMED",
     "matchday": 11,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -6943,8 +6937,8 @@
   },
   {
     "id": 560650,
-    "startTime": "2026-11-21T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-11-21T15:00:00Z",
+    "status": "TIMED",
     "matchday": 11,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -7007,8 +7001,8 @@
   },
   {
     "id": 560651,
-    "startTime": "2026-11-21T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-11-21T15:00:00Z",
+    "status": "TIMED",
     "matchday": 11,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -7071,8 +7065,8 @@
   },
   {
     "id": 560652,
-    "startTime": "2026-11-28T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-11-28T15:00:00Z",
+    "status": "TIMED",
     "matchday": 12,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -7135,8 +7129,8 @@
   },
   {
     "id": 560653,
-    "startTime": "2026-11-28T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-11-28T15:00:00Z",
+    "status": "TIMED",
     "matchday": 12,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -7199,8 +7193,8 @@
   },
   {
     "id": 560654,
-    "startTime": "2026-11-28T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-11-28T15:00:00Z",
+    "status": "TIMED",
     "matchday": 12,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -7263,8 +7257,8 @@
   },
   {
     "id": 560655,
-    "startTime": "2026-11-28T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-11-28T15:00:00Z",
+    "status": "TIMED",
     "matchday": 12,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -7327,8 +7321,8 @@
   },
   {
     "id": 560656,
-    "startTime": "2026-11-28T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-11-28T15:00:00Z",
+    "status": "TIMED",
     "matchday": 12,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -7391,8 +7385,8 @@
   },
   {
     "id": 560657,
-    "startTime": "2026-11-28T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-11-28T15:00:00Z",
+    "status": "TIMED",
     "matchday": 12,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -7455,8 +7449,8 @@
   },
   {
     "id": 560658,
-    "startTime": "2026-11-28T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-11-28T15:00:00Z",
+    "status": "TIMED",
     "matchday": 12,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -7519,8 +7513,8 @@
   },
   {
     "id": 560659,
-    "startTime": "2026-11-28T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-11-28T15:00:00Z",
+    "status": "TIMED",
     "matchday": 12,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -7583,8 +7577,8 @@
   },
   {
     "id": 560660,
-    "startTime": "2026-11-28T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-11-28T15:00:00Z",
+    "status": "TIMED",
     "matchday": 12,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -7647,8 +7641,8 @@
   },
   {
     "id": 560661,
-    "startTime": "2026-11-28T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-11-28T15:00:00Z",
+    "status": "TIMED",
     "matchday": 12,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -7711,8 +7705,8 @@
   },
   {
     "id": 560662,
-    "startTime": "2026-12-02T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-12-02T20:00:00Z",
+    "status": "TIMED",
     "matchday": 13,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -7775,8 +7769,8 @@
   },
   {
     "id": 560663,
-    "startTime": "2026-12-02T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-12-02T20:00:00Z",
+    "status": "TIMED",
     "matchday": 13,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -7839,8 +7833,8 @@
   },
   {
     "id": 560664,
-    "startTime": "2026-12-02T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-12-02T20:00:00Z",
+    "status": "TIMED",
     "matchday": 13,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -7903,8 +7897,8 @@
   },
   {
     "id": 560665,
-    "startTime": "2026-12-02T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-12-02T20:00:00Z",
+    "status": "TIMED",
     "matchday": 13,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -7967,8 +7961,8 @@
   },
   {
     "id": 560666,
-    "startTime": "2026-12-02T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-12-02T20:00:00Z",
+    "status": "TIMED",
     "matchday": 13,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -8031,8 +8025,8 @@
   },
   {
     "id": 560667,
-    "startTime": "2026-12-02T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-12-02T20:00:00Z",
+    "status": "TIMED",
     "matchday": 13,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -8095,8 +8089,8 @@
   },
   {
     "id": 560668,
-    "startTime": "2026-12-02T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-12-02T20:00:00Z",
+    "status": "TIMED",
     "matchday": 13,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -8159,8 +8153,8 @@
   },
   {
     "id": 560669,
-    "startTime": "2026-12-02T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-12-02T20:00:00Z",
+    "status": "TIMED",
     "matchday": 13,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -8223,8 +8217,8 @@
   },
   {
     "id": 560670,
-    "startTime": "2026-12-02T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-12-02T20:00:00Z",
+    "status": "TIMED",
     "matchday": 13,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -8287,8 +8281,8 @@
   },
   {
     "id": 560671,
-    "startTime": "2026-12-02T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-12-02T20:00:00Z",
+    "status": "TIMED",
     "matchday": 13,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -8351,8 +8345,8 @@
   },
   {
     "id": 560672,
-    "startTime": "2026-12-05T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-12-05T15:00:00Z",
+    "status": "TIMED",
     "matchday": 14,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -8415,8 +8409,8 @@
   },
   {
     "id": 560673,
-    "startTime": "2026-12-05T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-12-05T15:00:00Z",
+    "status": "TIMED",
     "matchday": 14,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -8479,8 +8473,8 @@
   },
   {
     "id": 560674,
-    "startTime": "2026-12-05T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-12-05T15:00:00Z",
+    "status": "TIMED",
     "matchday": 14,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -8543,8 +8537,8 @@
   },
   {
     "id": 560675,
-    "startTime": "2026-12-05T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-12-05T15:00:00Z",
+    "status": "TIMED",
     "matchday": 14,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -8607,8 +8601,8 @@
   },
   {
     "id": 560676,
-    "startTime": "2026-12-05T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-12-05T15:00:00Z",
+    "status": "TIMED",
     "matchday": 14,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -8671,8 +8665,8 @@
   },
   {
     "id": 560677,
-    "startTime": "2026-12-05T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-12-05T15:00:00Z",
+    "status": "TIMED",
     "matchday": 14,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -8735,8 +8729,8 @@
   },
   {
     "id": 560678,
-    "startTime": "2026-12-05T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-12-05T15:00:00Z",
+    "status": "TIMED",
     "matchday": 14,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -8799,8 +8793,8 @@
   },
   {
     "id": 560679,
-    "startTime": "2026-12-05T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-12-05T15:00:00Z",
+    "status": "TIMED",
     "matchday": 14,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -8863,8 +8857,8 @@
   },
   {
     "id": 560680,
-    "startTime": "2026-12-05T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-12-05T15:00:00Z",
+    "status": "TIMED",
     "matchday": 14,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -8927,8 +8921,8 @@
   },
   {
     "id": 560681,
-    "startTime": "2026-12-05T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-12-05T15:00:00Z",
+    "status": "TIMED",
     "matchday": 14,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -8991,8 +8985,8 @@
   },
   {
     "id": 560682,
-    "startTime": "2026-12-12T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-12-12T15:00:00Z",
+    "status": "TIMED",
     "matchday": 15,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -9055,8 +9049,8 @@
   },
   {
     "id": 560683,
-    "startTime": "2026-12-12T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-12-12T15:00:00Z",
+    "status": "TIMED",
     "matchday": 15,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -9119,8 +9113,8 @@
   },
   {
     "id": 560684,
-    "startTime": "2026-12-12T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-12-12T15:00:00Z",
+    "status": "TIMED",
     "matchday": 15,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -9183,8 +9177,8 @@
   },
   {
     "id": 560685,
-    "startTime": "2026-12-12T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-12-12T15:00:00Z",
+    "status": "TIMED",
     "matchday": 15,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -9247,8 +9241,8 @@
   },
   {
     "id": 560686,
-    "startTime": "2026-12-12T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-12-12T15:00:00Z",
+    "status": "TIMED",
     "matchday": 15,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -9311,8 +9305,8 @@
   },
   {
     "id": 560687,
-    "startTime": "2026-12-12T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-12-12T15:00:00Z",
+    "status": "TIMED",
     "matchday": 15,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -9375,8 +9369,8 @@
   },
   {
     "id": 560688,
-    "startTime": "2026-12-12T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-12-12T15:00:00Z",
+    "status": "TIMED",
     "matchday": 15,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -9439,8 +9433,8 @@
   },
   {
     "id": 560689,
-    "startTime": "2026-12-12T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-12-12T15:00:00Z",
+    "status": "TIMED",
     "matchday": 15,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -9503,8 +9497,8 @@
   },
   {
     "id": 560690,
-    "startTime": "2026-12-12T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-12-12T15:00:00Z",
+    "status": "TIMED",
     "matchday": 15,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -9567,8 +9561,8 @@
   },
   {
     "id": 560691,
-    "startTime": "2026-12-12T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-12-12T15:00:00Z",
+    "status": "TIMED",
     "matchday": 15,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -9631,8 +9625,8 @@
   },
   {
     "id": 560692,
-    "startTime": "2026-12-19T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-12-19T15:00:00Z",
+    "status": "TIMED",
     "matchday": 16,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -9695,8 +9689,8 @@
   },
   {
     "id": 560693,
-    "startTime": "2026-12-19T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-12-19T15:00:00Z",
+    "status": "TIMED",
     "matchday": 16,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -9759,8 +9753,8 @@
   },
   {
     "id": 560694,
-    "startTime": "2026-12-19T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-12-19T15:00:00Z",
+    "status": "TIMED",
     "matchday": 16,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -9823,8 +9817,8 @@
   },
   {
     "id": 560695,
-    "startTime": "2026-12-19T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-12-19T15:00:00Z",
+    "status": "TIMED",
     "matchday": 16,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -9887,8 +9881,8 @@
   },
   {
     "id": 560696,
-    "startTime": "2026-12-19T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-12-19T15:00:00Z",
+    "status": "TIMED",
     "matchday": 16,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -9951,8 +9945,8 @@
   },
   {
     "id": 560697,
-    "startTime": "2026-12-19T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-12-19T15:00:00Z",
+    "status": "TIMED",
     "matchday": 16,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -10015,8 +10009,8 @@
   },
   {
     "id": 560698,
-    "startTime": "2026-12-19T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-12-19T15:00:00Z",
+    "status": "TIMED",
     "matchday": 16,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -10079,8 +10073,8 @@
   },
   {
     "id": 560699,
-    "startTime": "2026-12-19T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-12-19T15:00:00Z",
+    "status": "TIMED",
     "matchday": 16,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -10143,8 +10137,8 @@
   },
   {
     "id": 560700,
-    "startTime": "2026-12-19T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-12-19T15:00:00Z",
+    "status": "TIMED",
     "matchday": 16,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -10207,8 +10201,8 @@
   },
   {
     "id": 560701,
-    "startTime": "2026-12-19T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-12-19T15:00:00Z",
+    "status": "TIMED",
     "matchday": 16,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -10271,8 +10265,8 @@
   },
   {
     "id": 560702,
-    "startTime": "2026-12-26T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-12-26T15:00:00Z",
+    "status": "TIMED",
     "matchday": 17,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -10335,8 +10329,8 @@
   },
   {
     "id": 560703,
-    "startTime": "2026-12-26T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-12-26T15:00:00Z",
+    "status": "TIMED",
     "matchday": 17,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -10399,8 +10393,8 @@
   },
   {
     "id": 560704,
-    "startTime": "2026-12-26T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-12-26T15:00:00Z",
+    "status": "TIMED",
     "matchday": 17,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -10463,8 +10457,8 @@
   },
   {
     "id": 560705,
-    "startTime": "2026-12-26T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-12-26T15:00:00Z",
+    "status": "TIMED",
     "matchday": 17,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -10527,8 +10521,8 @@
   },
   {
     "id": 560706,
-    "startTime": "2026-12-26T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-12-26T15:00:00Z",
+    "status": "TIMED",
     "matchday": 17,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -10591,8 +10585,8 @@
   },
   {
     "id": 560707,
-    "startTime": "2026-12-26T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-12-26T15:00:00Z",
+    "status": "TIMED",
     "matchday": 17,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -10655,8 +10649,8 @@
   },
   {
     "id": 560708,
-    "startTime": "2026-12-26T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-12-26T15:00:00Z",
+    "status": "TIMED",
     "matchday": 17,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -10719,8 +10713,8 @@
   },
   {
     "id": 560709,
-    "startTime": "2026-12-26T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-12-26T15:00:00Z",
+    "status": "TIMED",
     "matchday": 17,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -10783,8 +10777,8 @@
   },
   {
     "id": 560710,
-    "startTime": "2026-12-26T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-12-26T15:00:00Z",
+    "status": "TIMED",
     "matchday": 17,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -10847,8 +10841,8 @@
   },
   {
     "id": 560711,
-    "startTime": "2026-12-26T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-12-26T15:00:00Z",
+    "status": "TIMED",
     "matchday": 17,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -10911,8 +10905,8 @@
   },
   {
     "id": 560712,
-    "startTime": "2026-12-30T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-12-30T20:00:00Z",
+    "status": "TIMED",
     "matchday": 18,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -10975,8 +10969,8 @@
   },
   {
     "id": 560713,
-    "startTime": "2026-12-30T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-12-30T20:00:00Z",
+    "status": "TIMED",
     "matchday": 18,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -11039,8 +11033,8 @@
   },
   {
     "id": 560714,
-    "startTime": "2026-12-30T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-12-30T20:00:00Z",
+    "status": "TIMED",
     "matchday": 18,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -11103,8 +11097,8 @@
   },
   {
     "id": 560715,
-    "startTime": "2026-12-30T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-12-30T20:00:00Z",
+    "status": "TIMED",
     "matchday": 18,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -11167,8 +11161,8 @@
   },
   {
     "id": 560716,
-    "startTime": "2026-12-30T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-12-30T20:00:00Z",
+    "status": "TIMED",
     "matchday": 18,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -11231,8 +11225,8 @@
   },
   {
     "id": 560717,
-    "startTime": "2026-12-30T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-12-30T20:00:00Z",
+    "status": "TIMED",
     "matchday": 18,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -11295,8 +11289,8 @@
   },
   {
     "id": 560718,
-    "startTime": "2026-12-30T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-12-30T20:00:00Z",
+    "status": "TIMED",
     "matchday": 18,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -11359,8 +11353,8 @@
   },
   {
     "id": 560719,
-    "startTime": "2026-12-30T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-12-30T20:00:00Z",
+    "status": "TIMED",
     "matchday": 18,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -11423,8 +11417,8 @@
   },
   {
     "id": 560720,
-    "startTime": "2026-12-30T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-12-30T20:00:00Z",
+    "status": "TIMED",
     "matchday": 18,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -11487,8 +11481,8 @@
   },
   {
     "id": 560721,
-    "startTime": "2026-12-30T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2026-12-30T20:00:00Z",
+    "status": "TIMED",
     "matchday": 18,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -11551,8 +11545,8 @@
   },
   {
     "id": 560722,
-    "startTime": "2027-01-02T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-01-02T15:00:00Z",
+    "status": "TIMED",
     "matchday": 19,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -11615,8 +11609,8 @@
   },
   {
     "id": 560723,
-    "startTime": "2027-01-02T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-01-02T15:00:00Z",
+    "status": "TIMED",
     "matchday": 19,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -11679,8 +11673,8 @@
   },
   {
     "id": 560724,
-    "startTime": "2027-01-02T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-01-02T15:00:00Z",
+    "status": "TIMED",
     "matchday": 19,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -11743,8 +11737,8 @@
   },
   {
     "id": 560725,
-    "startTime": "2027-01-02T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-01-02T15:00:00Z",
+    "status": "TIMED",
     "matchday": 19,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -11807,8 +11801,8 @@
   },
   {
     "id": 560726,
-    "startTime": "2027-01-02T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-01-02T15:00:00Z",
+    "status": "TIMED",
     "matchday": 19,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -11871,8 +11865,8 @@
   },
   {
     "id": 560727,
-    "startTime": "2027-01-02T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-01-02T15:00:00Z",
+    "status": "TIMED",
     "matchday": 19,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -11935,8 +11929,8 @@
   },
   {
     "id": 560728,
-    "startTime": "2027-01-02T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-01-02T15:00:00Z",
+    "status": "TIMED",
     "matchday": 19,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -11999,8 +11993,8 @@
   },
   {
     "id": 560729,
-    "startTime": "2027-01-02T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-01-02T15:00:00Z",
+    "status": "TIMED",
     "matchday": 19,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -12063,8 +12057,8 @@
   },
   {
     "id": 560730,
-    "startTime": "2027-01-02T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-01-02T15:00:00Z",
+    "status": "TIMED",
     "matchday": 19,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -12127,8 +12121,8 @@
   },
   {
     "id": 560731,
-    "startTime": "2027-01-02T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-01-02T15:00:00Z",
+    "status": "TIMED",
     "matchday": 19,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -12191,8 +12185,8 @@
   },
   {
     "id": 560732,
-    "startTime": "2027-01-06T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-01-06T20:00:00Z",
+    "status": "TIMED",
     "matchday": 20,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -12255,8 +12249,8 @@
   },
   {
     "id": 560733,
-    "startTime": "2027-01-06T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-01-06T20:00:00Z",
+    "status": "TIMED",
     "matchday": 20,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -12319,8 +12313,8 @@
   },
   {
     "id": 560734,
-    "startTime": "2027-01-06T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-01-06T20:00:00Z",
+    "status": "TIMED",
     "matchday": 20,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -12383,8 +12377,8 @@
   },
   {
     "id": 560735,
-    "startTime": "2027-01-06T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-01-06T20:00:00Z",
+    "status": "TIMED",
     "matchday": 20,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -12447,8 +12441,8 @@
   },
   {
     "id": 560736,
-    "startTime": "2027-01-06T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-01-06T20:00:00Z",
+    "status": "TIMED",
     "matchday": 20,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -12511,8 +12505,8 @@
   },
   {
     "id": 560737,
-    "startTime": "2027-01-06T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-01-06T20:00:00Z",
+    "status": "TIMED",
     "matchday": 20,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -12575,8 +12569,8 @@
   },
   {
     "id": 560738,
-    "startTime": "2027-01-06T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-01-06T20:00:00Z",
+    "status": "TIMED",
     "matchday": 20,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -12639,8 +12633,8 @@
   },
   {
     "id": 560739,
-    "startTime": "2027-01-06T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-01-06T20:00:00Z",
+    "status": "TIMED",
     "matchday": 20,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -12703,8 +12697,8 @@
   },
   {
     "id": 560740,
-    "startTime": "2027-01-06T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-01-06T20:00:00Z",
+    "status": "TIMED",
     "matchday": 20,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -12767,8 +12761,8 @@
   },
   {
     "id": 560741,
-    "startTime": "2027-01-06T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-01-06T20:00:00Z",
+    "status": "TIMED",
     "matchday": 20,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -12831,8 +12825,8 @@
   },
   {
     "id": 560742,
-    "startTime": "2027-01-16T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-01-16T15:00:00Z",
+    "status": "TIMED",
     "matchday": 21,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -12895,8 +12889,8 @@
   },
   {
     "id": 560743,
-    "startTime": "2027-01-16T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-01-16T15:00:00Z",
+    "status": "TIMED",
     "matchday": 21,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -12959,8 +12953,8 @@
   },
   {
     "id": 560744,
-    "startTime": "2027-01-16T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-01-16T15:00:00Z",
+    "status": "TIMED",
     "matchday": 21,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -13023,8 +13017,8 @@
   },
   {
     "id": 560745,
-    "startTime": "2027-01-16T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-01-16T15:00:00Z",
+    "status": "TIMED",
     "matchday": 21,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -13087,8 +13081,8 @@
   },
   {
     "id": 560746,
-    "startTime": "2027-01-16T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-01-16T15:00:00Z",
+    "status": "TIMED",
     "matchday": 21,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -13151,8 +13145,8 @@
   },
   {
     "id": 560747,
-    "startTime": "2027-01-16T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-01-16T15:00:00Z",
+    "status": "TIMED",
     "matchday": 21,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -13215,8 +13209,8 @@
   },
   {
     "id": 560748,
-    "startTime": "2027-01-16T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-01-16T15:00:00Z",
+    "status": "TIMED",
     "matchday": 21,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -13279,8 +13273,8 @@
   },
   {
     "id": 560749,
-    "startTime": "2027-01-16T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-01-16T15:00:00Z",
+    "status": "TIMED",
     "matchday": 21,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -13343,8 +13337,8 @@
   },
   {
     "id": 560750,
-    "startTime": "2027-01-16T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-01-16T15:00:00Z",
+    "status": "TIMED",
     "matchday": 21,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -13407,8 +13401,8 @@
   },
   {
     "id": 560751,
-    "startTime": "2027-01-16T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-01-16T15:00:00Z",
+    "status": "TIMED",
     "matchday": 21,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -13471,8 +13465,8 @@
   },
   {
     "id": 560752,
-    "startTime": "2027-01-23T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-01-23T15:00:00Z",
+    "status": "TIMED",
     "matchday": 22,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -13535,8 +13529,8 @@
   },
   {
     "id": 560753,
-    "startTime": "2027-01-23T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-01-23T15:00:00Z",
+    "status": "TIMED",
     "matchday": 22,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -13599,8 +13593,8 @@
   },
   {
     "id": 560754,
-    "startTime": "2027-01-23T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-01-23T15:00:00Z",
+    "status": "TIMED",
     "matchday": 22,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -13663,8 +13657,8 @@
   },
   {
     "id": 560755,
-    "startTime": "2027-01-23T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-01-23T15:00:00Z",
+    "status": "TIMED",
     "matchday": 22,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -13727,8 +13721,8 @@
   },
   {
     "id": 560756,
-    "startTime": "2027-01-23T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-01-23T15:00:00Z",
+    "status": "TIMED",
     "matchday": 22,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -13791,8 +13785,8 @@
   },
   {
     "id": 560757,
-    "startTime": "2027-01-23T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-01-23T15:00:00Z",
+    "status": "TIMED",
     "matchday": 22,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -13855,8 +13849,8 @@
   },
   {
     "id": 560758,
-    "startTime": "2027-01-23T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-01-23T15:00:00Z",
+    "status": "TIMED",
     "matchday": 22,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -13919,8 +13913,8 @@
   },
   {
     "id": 560759,
-    "startTime": "2027-01-23T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-01-23T15:00:00Z",
+    "status": "TIMED",
     "matchday": 22,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -13983,8 +13977,8 @@
   },
   {
     "id": 560760,
-    "startTime": "2027-01-23T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-01-23T15:00:00Z",
+    "status": "TIMED",
     "matchday": 22,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -14047,8 +14041,8 @@
   },
   {
     "id": 560761,
-    "startTime": "2027-01-23T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-01-23T15:00:00Z",
+    "status": "TIMED",
     "matchday": 22,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -14111,8 +14105,8 @@
   },
   {
     "id": 560762,
-    "startTime": "2027-01-30T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-01-30T15:00:00Z",
+    "status": "TIMED",
     "matchday": 23,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -14175,8 +14169,8 @@
   },
   {
     "id": 560763,
-    "startTime": "2027-01-30T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-01-30T15:00:00Z",
+    "status": "TIMED",
     "matchday": 23,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -14239,8 +14233,8 @@
   },
   {
     "id": 560764,
-    "startTime": "2027-01-30T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-01-30T15:00:00Z",
+    "status": "TIMED",
     "matchday": 23,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -14303,8 +14297,8 @@
   },
   {
     "id": 560765,
-    "startTime": "2027-01-30T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-01-30T15:00:00Z",
+    "status": "TIMED",
     "matchday": 23,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -14367,8 +14361,8 @@
   },
   {
     "id": 560766,
-    "startTime": "2027-01-30T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-01-30T15:00:00Z",
+    "status": "TIMED",
     "matchday": 23,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -14431,8 +14425,8 @@
   },
   {
     "id": 560767,
-    "startTime": "2027-01-30T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-01-30T15:00:00Z",
+    "status": "TIMED",
     "matchday": 23,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -14495,8 +14489,8 @@
   },
   {
     "id": 560768,
-    "startTime": "2027-01-30T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-01-30T15:00:00Z",
+    "status": "TIMED",
     "matchday": 23,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -14559,8 +14553,8 @@
   },
   {
     "id": 560769,
-    "startTime": "2027-01-30T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-01-30T15:00:00Z",
+    "status": "TIMED",
     "matchday": 23,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -14623,8 +14617,8 @@
   },
   {
     "id": 560770,
-    "startTime": "2027-01-30T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-01-30T15:00:00Z",
+    "status": "TIMED",
     "matchday": 23,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -14687,8 +14681,8 @@
   },
   {
     "id": 560771,
-    "startTime": "2027-01-30T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-01-30T15:00:00Z",
+    "status": "TIMED",
     "matchday": 23,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -14751,8 +14745,8 @@
   },
   {
     "id": 560772,
-    "startTime": "2027-02-06T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-02-06T15:00:00Z",
+    "status": "TIMED",
     "matchday": 24,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -14815,8 +14809,8 @@
   },
   {
     "id": 560773,
-    "startTime": "2027-02-06T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-02-06T15:00:00Z",
+    "status": "TIMED",
     "matchday": 24,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -14879,8 +14873,8 @@
   },
   {
     "id": 560774,
-    "startTime": "2027-02-06T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-02-06T15:00:00Z",
+    "status": "TIMED",
     "matchday": 24,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -14943,8 +14937,8 @@
   },
   {
     "id": 560775,
-    "startTime": "2027-02-06T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-02-06T15:00:00Z",
+    "status": "TIMED",
     "matchday": 24,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -15007,8 +15001,8 @@
   },
   {
     "id": 560776,
-    "startTime": "2027-02-06T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-02-06T15:00:00Z",
+    "status": "TIMED",
     "matchday": 24,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -15071,8 +15065,8 @@
   },
   {
     "id": 560777,
-    "startTime": "2027-02-06T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-02-06T15:00:00Z",
+    "status": "TIMED",
     "matchday": 24,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -15135,8 +15129,8 @@
   },
   {
     "id": 560778,
-    "startTime": "2027-02-06T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-02-06T15:00:00Z",
+    "status": "TIMED",
     "matchday": 24,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -15199,8 +15193,8 @@
   },
   {
     "id": 560779,
-    "startTime": "2027-02-06T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-02-06T15:00:00Z",
+    "status": "TIMED",
     "matchday": 24,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -15263,8 +15257,8 @@
   },
   {
     "id": 560780,
-    "startTime": "2027-02-06T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-02-06T15:00:00Z",
+    "status": "TIMED",
     "matchday": 24,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -15327,8 +15321,8 @@
   },
   {
     "id": 560781,
-    "startTime": "2027-02-06T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-02-06T15:00:00Z",
+    "status": "TIMED",
     "matchday": 24,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -15391,8 +15385,8 @@
   },
   {
     "id": 560782,
-    "startTime": "2027-02-10T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-02-10T20:00:00Z",
+    "status": "TIMED",
     "matchday": 25,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -15455,8 +15449,8 @@
   },
   {
     "id": 560783,
-    "startTime": "2027-02-10T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-02-10T20:00:00Z",
+    "status": "TIMED",
     "matchday": 25,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -15519,8 +15513,8 @@
   },
   {
     "id": 560784,
-    "startTime": "2027-02-10T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-02-10T20:00:00Z",
+    "status": "TIMED",
     "matchday": 25,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -15583,8 +15577,8 @@
   },
   {
     "id": 560785,
-    "startTime": "2027-02-10T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-02-10T20:00:00Z",
+    "status": "TIMED",
     "matchday": 25,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -15647,8 +15641,8 @@
   },
   {
     "id": 560786,
-    "startTime": "2027-02-10T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-02-10T20:00:00Z",
+    "status": "TIMED",
     "matchday": 25,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -15711,8 +15705,8 @@
   },
   {
     "id": 560787,
-    "startTime": "2027-02-10T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-02-10T20:00:00Z",
+    "status": "TIMED",
     "matchday": 25,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -15775,8 +15769,8 @@
   },
   {
     "id": 560788,
-    "startTime": "2027-02-10T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-02-10T20:00:00Z",
+    "status": "TIMED",
     "matchday": 25,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -15839,8 +15833,8 @@
   },
   {
     "id": 560789,
-    "startTime": "2027-02-10T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-02-10T20:00:00Z",
+    "status": "TIMED",
     "matchday": 25,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -15903,8 +15897,8 @@
   },
   {
     "id": 560790,
-    "startTime": "2027-02-10T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-02-10T20:00:00Z",
+    "status": "TIMED",
     "matchday": 25,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -15967,8 +15961,8 @@
   },
   {
     "id": 560791,
-    "startTime": "2027-02-10T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-02-10T20:00:00Z",
+    "status": "TIMED",
     "matchday": 25,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -16031,8 +16025,8 @@
   },
   {
     "id": 560792,
-    "startTime": "2027-02-20T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-02-20T15:00:00Z",
+    "status": "TIMED",
     "matchday": 26,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -16095,8 +16089,8 @@
   },
   {
     "id": 560793,
-    "startTime": "2027-02-20T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-02-20T15:00:00Z",
+    "status": "TIMED",
     "matchday": 26,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -16159,8 +16153,8 @@
   },
   {
     "id": 560794,
-    "startTime": "2027-02-20T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-02-20T15:00:00Z",
+    "status": "TIMED",
     "matchday": 26,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -16223,8 +16217,8 @@
   },
   {
     "id": 560795,
-    "startTime": "2027-02-20T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-02-20T15:00:00Z",
+    "status": "TIMED",
     "matchday": 26,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -16287,8 +16281,8 @@
   },
   {
     "id": 560796,
-    "startTime": "2027-02-20T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-02-20T15:00:00Z",
+    "status": "TIMED",
     "matchday": 26,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -16351,8 +16345,8 @@
   },
   {
     "id": 560797,
-    "startTime": "2027-02-20T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-02-20T15:00:00Z",
+    "status": "TIMED",
     "matchday": 26,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -16415,8 +16409,8 @@
   },
   {
     "id": 560798,
-    "startTime": "2027-02-20T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-02-20T15:00:00Z",
+    "status": "TIMED",
     "matchday": 26,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -16479,8 +16473,8 @@
   },
   {
     "id": 560799,
-    "startTime": "2027-02-20T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-02-20T15:00:00Z",
+    "status": "TIMED",
     "matchday": 26,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -16543,8 +16537,8 @@
   },
   {
     "id": 560800,
-    "startTime": "2027-02-20T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-02-20T15:00:00Z",
+    "status": "TIMED",
     "matchday": 26,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -16607,8 +16601,8 @@
   },
   {
     "id": 560801,
-    "startTime": "2027-02-20T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-02-20T15:00:00Z",
+    "status": "TIMED",
     "matchday": 26,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -16671,8 +16665,8 @@
   },
   {
     "id": 560802,
-    "startTime": "2027-02-27T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-02-27T15:00:00Z",
+    "status": "TIMED",
     "matchday": 27,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -16735,8 +16729,8 @@
   },
   {
     "id": 560803,
-    "startTime": "2027-02-27T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-02-27T15:00:00Z",
+    "status": "TIMED",
     "matchday": 27,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -16799,8 +16793,8 @@
   },
   {
     "id": 560804,
-    "startTime": "2027-02-27T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-02-27T15:00:00Z",
+    "status": "TIMED",
     "matchday": 27,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -16863,8 +16857,8 @@
   },
   {
     "id": 560805,
-    "startTime": "2027-02-27T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-02-27T15:00:00Z",
+    "status": "TIMED",
     "matchday": 27,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -16927,8 +16921,8 @@
   },
   {
     "id": 560806,
-    "startTime": "2027-02-27T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-02-27T15:00:00Z",
+    "status": "TIMED",
     "matchday": 27,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -16991,8 +16985,8 @@
   },
   {
     "id": 560807,
-    "startTime": "2027-02-27T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-02-27T15:00:00Z",
+    "status": "TIMED",
     "matchday": 27,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -17055,8 +17049,8 @@
   },
   {
     "id": 560808,
-    "startTime": "2027-02-27T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-02-27T15:00:00Z",
+    "status": "TIMED",
     "matchday": 27,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -17119,8 +17113,8 @@
   },
   {
     "id": 560809,
-    "startTime": "2027-02-27T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-02-27T15:00:00Z",
+    "status": "TIMED",
     "matchday": 27,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -17183,8 +17177,8 @@
   },
   {
     "id": 560810,
-    "startTime": "2027-02-27T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-02-27T15:00:00Z",
+    "status": "TIMED",
     "matchday": 27,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -17247,8 +17241,8 @@
   },
   {
     "id": 560811,
-    "startTime": "2027-02-27T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-02-27T15:00:00Z",
+    "status": "TIMED",
     "matchday": 27,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -17311,8 +17305,8 @@
   },
   {
     "id": 560812,
-    "startTime": "2027-03-03T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-03-03T20:00:00Z",
+    "status": "TIMED",
     "matchday": 28,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -17375,8 +17369,8 @@
   },
   {
     "id": 560813,
-    "startTime": "2027-03-03T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-03-03T20:00:00Z",
+    "status": "TIMED",
     "matchday": 28,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -17439,8 +17433,8 @@
   },
   {
     "id": 560814,
-    "startTime": "2027-03-03T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-03-03T20:00:00Z",
+    "status": "TIMED",
     "matchday": 28,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -17503,8 +17497,8 @@
   },
   {
     "id": 560815,
-    "startTime": "2027-03-03T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-03-03T20:00:00Z",
+    "status": "TIMED",
     "matchday": 28,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -17567,8 +17561,8 @@
   },
   {
     "id": 560816,
-    "startTime": "2027-03-03T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-03-03T20:00:00Z",
+    "status": "TIMED",
     "matchday": 28,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -17631,8 +17625,8 @@
   },
   {
     "id": 560817,
-    "startTime": "2027-03-03T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-03-03T20:00:00Z",
+    "status": "TIMED",
     "matchday": 28,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -17695,8 +17689,8 @@
   },
   {
     "id": 560818,
-    "startTime": "2027-03-03T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-03-03T20:00:00Z",
+    "status": "TIMED",
     "matchday": 28,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -17759,8 +17753,8 @@
   },
   {
     "id": 560819,
-    "startTime": "2027-03-03T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-03-03T20:00:00Z",
+    "status": "TIMED",
     "matchday": 28,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -17823,8 +17817,8 @@
   },
   {
     "id": 560820,
-    "startTime": "2027-03-03T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-03-03T20:00:00Z",
+    "status": "TIMED",
     "matchday": 28,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -17887,8 +17881,8 @@
   },
   {
     "id": 560821,
-    "startTime": "2027-03-03T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-03-03T20:00:00Z",
+    "status": "TIMED",
     "matchday": 28,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -17951,8 +17945,8 @@
   },
   {
     "id": 560822,
-    "startTime": "2027-03-13T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-03-13T15:00:00Z",
+    "status": "TIMED",
     "matchday": 29,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -18015,8 +18009,8 @@
   },
   {
     "id": 560823,
-    "startTime": "2027-03-13T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-03-13T15:00:00Z",
+    "status": "TIMED",
     "matchday": 29,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -18079,8 +18073,8 @@
   },
   {
     "id": 560824,
-    "startTime": "2027-03-13T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-03-13T15:00:00Z",
+    "status": "TIMED",
     "matchday": 29,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -18143,8 +18137,8 @@
   },
   {
     "id": 560825,
-    "startTime": "2027-03-13T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-03-13T15:00:00Z",
+    "status": "TIMED",
     "matchday": 29,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -18207,8 +18201,8 @@
   },
   {
     "id": 560826,
-    "startTime": "2027-03-13T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-03-13T15:00:00Z",
+    "status": "TIMED",
     "matchday": 29,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -18271,8 +18265,8 @@
   },
   {
     "id": 560827,
-    "startTime": "2027-03-13T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-03-13T15:00:00Z",
+    "status": "TIMED",
     "matchday": 29,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -18335,8 +18329,8 @@
   },
   {
     "id": 560828,
-    "startTime": "2027-03-13T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-03-13T15:00:00Z",
+    "status": "TIMED",
     "matchday": 29,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -18399,8 +18393,8 @@
   },
   {
     "id": 560829,
-    "startTime": "2027-03-13T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-03-13T15:00:00Z",
+    "status": "TIMED",
     "matchday": 29,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -18463,8 +18457,8 @@
   },
   {
     "id": 560830,
-    "startTime": "2027-03-13T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-03-13T15:00:00Z",
+    "status": "TIMED",
     "matchday": 29,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -18527,8 +18521,8 @@
   },
   {
     "id": 560831,
-    "startTime": "2027-03-13T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-03-13T15:00:00Z",
+    "status": "TIMED",
     "matchday": 29,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -18591,8 +18585,8 @@
   },
   {
     "id": 560832,
-    "startTime": "2027-03-20T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-03-20T15:00:00Z",
+    "status": "TIMED",
     "matchday": 30,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -18655,8 +18649,8 @@
   },
   {
     "id": 560833,
-    "startTime": "2027-03-20T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-03-20T15:00:00Z",
+    "status": "TIMED",
     "matchday": 30,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -18719,8 +18713,8 @@
   },
   {
     "id": 560834,
-    "startTime": "2027-03-20T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-03-20T15:00:00Z",
+    "status": "TIMED",
     "matchday": 30,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -18783,8 +18777,8 @@
   },
   {
     "id": 560835,
-    "startTime": "2027-03-20T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-03-20T15:00:00Z",
+    "status": "TIMED",
     "matchday": 30,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -18847,8 +18841,8 @@
   },
   {
     "id": 560836,
-    "startTime": "2027-03-20T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-03-20T15:00:00Z",
+    "status": "TIMED",
     "matchday": 30,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -18911,8 +18905,8 @@
   },
   {
     "id": 560837,
-    "startTime": "2027-03-20T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-03-20T15:00:00Z",
+    "status": "TIMED",
     "matchday": 30,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -18975,8 +18969,8 @@
   },
   {
     "id": 560838,
-    "startTime": "2027-03-20T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-03-20T15:00:00Z",
+    "status": "TIMED",
     "matchday": 30,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -19039,8 +19033,8 @@
   },
   {
     "id": 560839,
-    "startTime": "2027-03-20T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-03-20T15:00:00Z",
+    "status": "TIMED",
     "matchday": 30,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -19103,8 +19097,8 @@
   },
   {
     "id": 560840,
-    "startTime": "2027-03-20T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-03-20T15:00:00Z",
+    "status": "TIMED",
     "matchday": 30,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -19167,8 +19161,8 @@
   },
   {
     "id": 560841,
-    "startTime": "2027-03-20T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-03-20T15:00:00Z",
+    "status": "TIMED",
     "matchday": 30,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -19231,8 +19225,8 @@
   },
   {
     "id": 560842,
-    "startTime": "2027-04-10T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-04-10T14:00:00Z",
+    "status": "TIMED",
     "matchday": 31,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -19295,8 +19289,8 @@
   },
   {
     "id": 560843,
-    "startTime": "2027-04-10T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-04-10T14:00:00Z",
+    "status": "TIMED",
     "matchday": 31,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -19359,8 +19353,8 @@
   },
   {
     "id": 560844,
-    "startTime": "2027-04-10T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-04-10T14:00:00Z",
+    "status": "TIMED",
     "matchday": 31,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -19423,8 +19417,8 @@
   },
   {
     "id": 560845,
-    "startTime": "2027-04-10T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-04-10T14:00:00Z",
+    "status": "TIMED",
     "matchday": 31,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -19487,8 +19481,8 @@
   },
   {
     "id": 560846,
-    "startTime": "2027-04-10T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-04-10T14:00:00Z",
+    "status": "TIMED",
     "matchday": 31,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -19551,8 +19545,8 @@
   },
   {
     "id": 560847,
-    "startTime": "2027-04-10T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-04-10T14:00:00Z",
+    "status": "TIMED",
     "matchday": 31,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -19615,8 +19609,8 @@
   },
   {
     "id": 560848,
-    "startTime": "2027-04-10T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-04-10T14:00:00Z",
+    "status": "TIMED",
     "matchday": 31,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -19679,8 +19673,8 @@
   },
   {
     "id": 560849,
-    "startTime": "2027-04-10T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-04-10T14:00:00Z",
+    "status": "TIMED",
     "matchday": 31,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -19743,8 +19737,8 @@
   },
   {
     "id": 560850,
-    "startTime": "2027-04-10T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-04-10T14:00:00Z",
+    "status": "TIMED",
     "matchday": 31,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -19807,8 +19801,8 @@
   },
   {
     "id": 560851,
-    "startTime": "2027-04-10T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-04-10T14:00:00Z",
+    "status": "TIMED",
     "matchday": 31,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -19871,8 +19865,8 @@
   },
   {
     "id": 560852,
-    "startTime": "2027-04-17T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-04-17T14:00:00Z",
+    "status": "TIMED",
     "matchday": 32,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -19935,8 +19929,8 @@
   },
   {
     "id": 560853,
-    "startTime": "2027-04-17T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-04-17T14:00:00Z",
+    "status": "TIMED",
     "matchday": 32,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -19999,8 +19993,8 @@
   },
   {
     "id": 560854,
-    "startTime": "2027-04-17T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-04-17T14:00:00Z",
+    "status": "TIMED",
     "matchday": 32,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -20063,8 +20057,8 @@
   },
   {
     "id": 560855,
-    "startTime": "2027-04-17T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-04-17T14:00:00Z",
+    "status": "TIMED",
     "matchday": 32,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -20127,8 +20121,8 @@
   },
   {
     "id": 560856,
-    "startTime": "2027-04-17T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-04-17T14:00:00Z",
+    "status": "TIMED",
     "matchday": 32,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -20191,8 +20185,8 @@
   },
   {
     "id": 560857,
-    "startTime": "2027-04-17T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-04-17T14:00:00Z",
+    "status": "TIMED",
     "matchday": 32,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -20255,8 +20249,8 @@
   },
   {
     "id": 560858,
-    "startTime": "2027-04-17T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-04-17T14:00:00Z",
+    "status": "TIMED",
     "matchday": 32,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -20319,8 +20313,8 @@
   },
   {
     "id": 560859,
-    "startTime": "2027-04-17T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-04-17T14:00:00Z",
+    "status": "TIMED",
     "matchday": 32,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -20383,8 +20377,8 @@
   },
   {
     "id": 560860,
-    "startTime": "2027-04-17T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-04-17T14:00:00Z",
+    "status": "TIMED",
     "matchday": 32,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -20447,8 +20441,8 @@
   },
   {
     "id": 560861,
-    "startTime": "2027-04-17T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-04-17T14:00:00Z",
+    "status": "TIMED",
     "matchday": 32,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -20511,8 +20505,8 @@
   },
   {
     "id": 560862,
-    "startTime": "2027-04-24T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-04-24T14:00:00Z",
+    "status": "TIMED",
     "matchday": 33,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -20575,8 +20569,8 @@
   },
   {
     "id": 560863,
-    "startTime": "2027-04-24T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-04-24T14:00:00Z",
+    "status": "TIMED",
     "matchday": 33,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -20639,8 +20633,8 @@
   },
   {
     "id": 560864,
-    "startTime": "2027-04-24T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-04-24T14:00:00Z",
+    "status": "TIMED",
     "matchday": 33,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -20703,8 +20697,8 @@
   },
   {
     "id": 560865,
-    "startTime": "2027-04-24T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-04-24T14:00:00Z",
+    "status": "TIMED",
     "matchday": 33,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -20767,8 +20761,8 @@
   },
   {
     "id": 560866,
-    "startTime": "2027-04-24T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-04-24T14:00:00Z",
+    "status": "TIMED",
     "matchday": 33,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -20831,8 +20825,8 @@
   },
   {
     "id": 560867,
-    "startTime": "2027-04-24T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-04-24T14:00:00Z",
+    "status": "TIMED",
     "matchday": 33,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -20895,8 +20889,8 @@
   },
   {
     "id": 560868,
-    "startTime": "2027-04-24T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-04-24T14:00:00Z",
+    "status": "TIMED",
     "matchday": 33,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -20959,8 +20953,8 @@
   },
   {
     "id": 560869,
-    "startTime": "2027-04-24T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-04-24T14:00:00Z",
+    "status": "TIMED",
     "matchday": 33,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -21023,8 +21017,8 @@
   },
   {
     "id": 560870,
-    "startTime": "2027-04-24T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-04-24T14:00:00Z",
+    "status": "TIMED",
     "matchday": 33,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -21087,8 +21081,8 @@
   },
   {
     "id": 560871,
-    "startTime": "2027-04-24T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-04-24T14:00:00Z",
+    "status": "TIMED",
     "matchday": 33,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -21151,8 +21145,8 @@
   },
   {
     "id": 560872,
-    "startTime": "2027-05-01T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-05-01T14:00:00Z",
+    "status": "TIMED",
     "matchday": 34,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -21215,8 +21209,8 @@
   },
   {
     "id": 560873,
-    "startTime": "2027-05-01T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-05-01T14:00:00Z",
+    "status": "TIMED",
     "matchday": 34,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -21279,8 +21273,8 @@
   },
   {
     "id": 560874,
-    "startTime": "2027-05-01T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-05-01T14:00:00Z",
+    "status": "TIMED",
     "matchday": 34,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -21343,8 +21337,8 @@
   },
   {
     "id": 560875,
-    "startTime": "2027-05-01T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-05-01T14:00:00Z",
+    "status": "TIMED",
     "matchday": 34,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -21407,8 +21401,8 @@
   },
   {
     "id": 560876,
-    "startTime": "2027-05-01T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-05-01T14:00:00Z",
+    "status": "TIMED",
     "matchday": 34,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -21471,8 +21465,8 @@
   },
   {
     "id": 560877,
-    "startTime": "2027-05-01T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-05-01T14:00:00Z",
+    "status": "TIMED",
     "matchday": 34,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -21535,8 +21529,8 @@
   },
   {
     "id": 560878,
-    "startTime": "2027-05-01T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-05-01T14:00:00Z",
+    "status": "TIMED",
     "matchday": 34,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -21599,8 +21593,8 @@
   },
   {
     "id": 560879,
-    "startTime": "2027-05-01T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-05-01T14:00:00Z",
+    "status": "TIMED",
     "matchday": 34,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -21663,8 +21657,8 @@
   },
   {
     "id": 560880,
-    "startTime": "2027-05-01T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-05-01T14:00:00Z",
+    "status": "TIMED",
     "matchday": 34,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -21727,8 +21721,8 @@
   },
   {
     "id": 560881,
-    "startTime": "2027-05-01T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-05-01T14:00:00Z",
+    "status": "TIMED",
     "matchday": 34,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -21791,8 +21785,8 @@
   },
   {
     "id": 560882,
-    "startTime": "2027-05-08T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-05-08T14:00:00Z",
+    "status": "TIMED",
     "matchday": 35,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -21855,8 +21849,8 @@
   },
   {
     "id": 560883,
-    "startTime": "2027-05-08T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-05-08T14:00:00Z",
+    "status": "TIMED",
     "matchday": 35,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -21919,8 +21913,8 @@
   },
   {
     "id": 560884,
-    "startTime": "2027-05-08T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-05-08T14:00:00Z",
+    "status": "TIMED",
     "matchday": 35,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -21983,8 +21977,8 @@
   },
   {
     "id": 560885,
-    "startTime": "2027-05-08T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-05-08T14:00:00Z",
+    "status": "TIMED",
     "matchday": 35,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -22047,8 +22041,8 @@
   },
   {
     "id": 560886,
-    "startTime": "2027-05-08T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-05-08T14:00:00Z",
+    "status": "TIMED",
     "matchday": 35,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -22111,8 +22105,8 @@
   },
   {
     "id": 560887,
-    "startTime": "2027-05-08T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-05-08T14:00:00Z",
+    "status": "TIMED",
     "matchday": 35,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -22175,8 +22169,8 @@
   },
   {
     "id": 560888,
-    "startTime": "2027-05-08T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-05-08T14:00:00Z",
+    "status": "TIMED",
     "matchday": 35,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -22239,8 +22233,8 @@
   },
   {
     "id": 560889,
-    "startTime": "2027-05-08T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-05-08T14:00:00Z",
+    "status": "TIMED",
     "matchday": 35,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -22303,8 +22297,8 @@
   },
   {
     "id": 560890,
-    "startTime": "2027-05-08T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-05-08T14:00:00Z",
+    "status": "TIMED",
     "matchday": 35,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -22367,8 +22361,8 @@
   },
   {
     "id": 560891,
-    "startTime": "2027-05-08T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-05-08T14:00:00Z",
+    "status": "TIMED",
     "matchday": 35,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -22431,8 +22425,8 @@
   },
   {
     "id": 560896,
-    "startTime": "2027-05-15T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-05-15T14:00:00Z",
+    "status": "TIMED",
     "matchday": 36,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -22495,8 +22489,8 @@
   },
   {
     "id": 560897,
-    "startTime": "2027-05-15T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-05-15T14:00:00Z",
+    "status": "TIMED",
     "matchday": 36,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -22559,8 +22553,8 @@
   },
   {
     "id": 560898,
-    "startTime": "2027-05-15T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-05-15T14:00:00Z",
+    "status": "TIMED",
     "matchday": 36,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -22623,8 +22617,8 @@
   },
   {
     "id": 560899,
-    "startTime": "2027-05-15T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-05-15T14:00:00Z",
+    "status": "TIMED",
     "matchday": 36,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -22687,8 +22681,8 @@
   },
   {
     "id": 560900,
-    "startTime": "2027-05-15T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-05-15T14:00:00Z",
+    "status": "TIMED",
     "matchday": 36,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -22751,8 +22745,8 @@
   },
   {
     "id": 560901,
-    "startTime": "2027-05-15T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-05-15T14:00:00Z",
+    "status": "TIMED",
     "matchday": 36,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -22815,8 +22809,8 @@
   },
   {
     "id": 560892,
-    "startTime": "2027-05-15T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-05-15T14:00:00Z",
+    "status": "TIMED",
     "matchday": 36,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -22879,8 +22873,8 @@
   },
   {
     "id": 560893,
-    "startTime": "2027-05-15T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-05-15T14:00:00Z",
+    "status": "TIMED",
     "matchday": 36,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -22943,8 +22937,8 @@
   },
   {
     "id": 560894,
-    "startTime": "2027-05-15T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-05-15T14:00:00Z",
+    "status": "TIMED",
     "matchday": 36,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -23007,8 +23001,8 @@
   },
   {
     "id": 560895,
-    "startTime": "2027-05-15T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-05-15T14:00:00Z",
+    "status": "TIMED",
     "matchday": 36,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -23071,8 +23065,8 @@
   },
   {
     "id": 560902,
-    "startTime": "2027-05-23T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-05-23T14:00:00Z",
+    "status": "TIMED",
     "matchday": 37,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -23135,8 +23129,8 @@
   },
   {
     "id": 560903,
-    "startTime": "2027-05-23T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-05-23T14:00:00Z",
+    "status": "TIMED",
     "matchday": 37,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -23199,8 +23193,8 @@
   },
   {
     "id": 560904,
-    "startTime": "2027-05-23T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-05-23T14:00:00Z",
+    "status": "TIMED",
     "matchday": 37,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -23263,8 +23257,8 @@
   },
   {
     "id": 560905,
-    "startTime": "2027-05-23T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-05-23T14:00:00Z",
+    "status": "TIMED",
     "matchday": 37,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -23327,8 +23321,8 @@
   },
   {
     "id": 560906,
-    "startTime": "2027-05-23T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-05-23T14:00:00Z",
+    "status": "TIMED",
     "matchday": 37,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -23391,8 +23385,8 @@
   },
   {
     "id": 560907,
-    "startTime": "2027-05-23T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-05-23T14:00:00Z",
+    "status": "TIMED",
     "matchday": 37,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -23455,8 +23449,8 @@
   },
   {
     "id": 560908,
-    "startTime": "2027-05-23T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-05-23T14:00:00Z",
+    "status": "TIMED",
     "matchday": 37,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -23519,8 +23513,8 @@
   },
   {
     "id": 560909,
-    "startTime": "2027-05-23T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-05-23T14:00:00Z",
+    "status": "TIMED",
     "matchday": 37,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -23583,8 +23577,8 @@
   },
   {
     "id": 560910,
-    "startTime": "2027-05-23T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-05-23T14:00:00Z",
+    "status": "TIMED",
     "matchday": 37,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -23647,8 +23641,8 @@
   },
   {
     "id": 560911,
-    "startTime": "2027-05-23T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-05-23T14:00:00Z",
+    "status": "TIMED",
     "matchday": 37,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -23711,8 +23705,8 @@
   },
   {
     "id": 560912,
-    "startTime": "2027-05-30T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-05-30T15:00:00Z",
+    "status": "TIMED",
     "matchday": 38,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -23775,8 +23769,8 @@
   },
   {
     "id": 560913,
-    "startTime": "2027-05-30T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-05-30T15:00:00Z",
+    "status": "TIMED",
     "matchday": 38,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -23839,8 +23833,8 @@
   },
   {
     "id": 560914,
-    "startTime": "2027-05-30T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-05-30T15:00:00Z",
+    "status": "TIMED",
     "matchday": 38,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -23903,8 +23897,8 @@
   },
   {
     "id": 560915,
-    "startTime": "2027-05-30T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-05-30T15:00:00Z",
+    "status": "TIMED",
     "matchday": 38,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -23967,8 +23961,8 @@
   },
   {
     "id": 560916,
-    "startTime": "2027-05-30T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-05-30T15:00:00Z",
+    "status": "TIMED",
     "matchday": 38,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -24031,8 +24025,8 @@
   },
   {
     "id": 560917,
-    "startTime": "2027-05-30T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-05-30T15:00:00Z",
+    "status": "TIMED",
     "matchday": 38,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -24095,8 +24089,8 @@
   },
   {
     "id": 560918,
-    "startTime": "2027-05-30T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-05-30T15:00:00Z",
+    "status": "TIMED",
     "matchday": 38,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -24159,8 +24153,8 @@
   },
   {
     "id": 560919,
-    "startTime": "2027-05-30T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-05-30T15:00:00Z",
+    "status": "TIMED",
     "matchday": 38,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -24223,8 +24217,8 @@
   },
   {
     "id": 560920,
-    "startTime": "2027-05-30T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-05-30T15:00:00Z",
+    "status": "TIMED",
     "matchday": 38,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -24287,8 +24281,8 @@
   },
   {
     "id": 560921,
-    "startTime": "2027-05-30T00:00:00Z",
-    "status": "SCHEDULED",
+    "startTime": "2027-05-30T15:00:00Z",
+    "status": "TIMED",
     "matchday": 38,
     "competition": "Premier League",
     "competitionCode": "PL",
