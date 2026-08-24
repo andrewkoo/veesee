@@ -2,7 +2,7 @@
   {
     "id": 560542,
     "startTime": "2026-08-21T19:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 1,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -11,13 +11,13 @@
     "homeTeamTla": "ARS",
     "awayTeam": "Coventry City",
     "awayTeamTla": "COV",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 3,
+    "awayScore": 0,
     "title": "Arsenal vs Coventry City",
     "description": "Matchday 1: Arsenal FC vs Coventry City FC",
     "isLive": false,
-    "broadcaster": "USA Network / Universo / DirecTV Stream / Sling Blue",
-    "broadcastConfirmed": true,
+    "broadcaster": "Not yet announced",
+    "broadcastConfirmed": false,
     "channel": {
       "number": "174",
       "name": "USA Network East",
@@ -30,12 +30,6 @@
         "name": "USA Network East",
         "category": "National",
         "hasPlayback": true
-      },
-      {
-        "number": "183",
-        "name": "Univision East",
-        "category": "National",
-        "hasPlayback": false
       },
       {
         "number": "181",
@@ -72,7 +66,7 @@
   {
     "id": 560543,
     "startTime": "2026-08-22T11:30:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 1,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -81,13 +75,13 @@
     "homeTeamTla": "HUL",
     "awayTeam": "Man United",
     "awayTeamTla": "MUN",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 2,
+    "awayScore": 0,
     "title": "Hull City vs Man United",
     "description": "Matchday 1: Hull City AFC vs Manchester United FC",
     "isLive": false,
-    "broadcaster": "USA Network / Universo / DirecTV Stream / Sling Blue",
-    "broadcastConfirmed": true,
+    "broadcaster": "Not yet announced",
+    "broadcastConfirmed": false,
     "channel": {
       "number": "174",
       "name": "USA Network East",
@@ -100,12 +94,6 @@
         "name": "USA Network East",
         "category": "National",
         "hasPlayback": true
-      },
-      {
-        "number": "183",
-        "name": "Univision East",
-        "category": "National",
-        "hasPlayback": false
       },
       {
         "number": "181",
@@ -142,7 +130,7 @@
   {
     "id": 560544,
     "startTime": "2026-08-22T14:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 1,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -151,8 +139,8 @@
     "homeTeamTla": "IPS",
     "awayTeam": "Sunderland",
     "awayTeamTla": "SUN",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 2,
+    "awayScore": 1,
     "title": "Ipswich Town vs Sunderland",
     "description": "Matchday 1: Ipswich Town FC vs Sunderland AFC",
     "isLive": false,
@@ -206,7 +194,7 @@
   {
     "id": 560545,
     "startTime": "2026-08-22T14:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 1,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -215,12 +203,12 @@
     "homeTeamTla": "NOT",
     "awayTeam": "Leeds United",
     "awayTeamTla": "LEE",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 0,
+    "awayScore": 1,
     "title": "Nottingham vs Leeds United",
     "description": "Matchday 1: Nottingham Forest FC vs Leeds United FC",
     "isLive": false,
-    "broadcaster": "Peacock Premium",
+    "broadcaster": "Not yet announced",
     "broadcastConfirmed": false,
     "channel": {
       "number": "174",
@@ -270,7 +258,7 @@
   {
     "id": 560546,
     "startTime": "2026-08-22T14:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 1,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -279,13 +267,13 @@
     "homeTeamTla": "EVE",
     "awayTeam": "Crystal Palace",
     "awayTeamTla": "CRY",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 2,
+    "awayScore": 0,
     "title": "Everton vs Crystal Palace",
     "description": "Matchday 1: Everton FC vs Crystal Palace FC",
     "isLive": false,
-    "broadcaster": "USA Network / Universo / DirecTV Stream / Sling Blue",
-    "broadcastConfirmed": true,
+    "broadcaster": "Not yet announced",
+    "broadcastConfirmed": false,
     "channel": {
       "number": "174",
       "name": "USA Network East",
@@ -298,12 +286,6 @@
         "name": "USA Network East",
         "category": "National",
         "hasPlayback": true
-      },
-      {
-        "number": "183",
-        "name": "Univision East",
-        "category": "National",
-        "hasPlayback": false
       },
       {
         "number": "181",
@@ -340,7 +322,7 @@
   {
     "id": 560547,
     "startTime": "2026-08-22T16:30:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 1,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -349,13 +331,13 @@
     "homeTeamTla": "BRE",
     "awayTeam": "Tottenham",
     "awayTeamTla": "TOT",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 3,
+    "awayScore": 0,
     "title": "Brentford vs Tottenham",
     "description": "Matchday 1: Brentford FC vs Tottenham Hotspur FC",
     "isLive": false,
-    "broadcaster": "NBC / DirecTV Stream / Sling Blue / Fubo / Peacock Premium",
-    "broadcastConfirmed": true,
+    "broadcaster": "Not yet announced",
+    "broadcastConfirmed": false,
     "channel": {
       "number": "174",
       "name": "USA Network East",
@@ -404,7 +386,7 @@
   {
     "id": 560548,
     "startTime": "2026-08-23T13:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 1,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -413,13 +395,13 @@
     "homeTeamTla": "MCI",
     "awayTeam": "Bournemouth",
     "awayTeamTla": "BOU",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 2,
+    "awayScore": 1,
     "title": "Man City vs Bournemouth",
     "description": "Matchday 1: Manchester City FC vs AFC Bournemouth",
     "isLive": false,
-    "broadcaster": "USA Network / Telemundo / DirecTV Stream / Sling Blue / Fubo",
-    "broadcastConfirmed": true,
+    "broadcaster": "Not yet announced",
+    "broadcastConfirmed": false,
     "channel": {
       "number": "174",
       "name": "USA Network East",
@@ -468,7 +450,7 @@
   {
     "id": 560549,
     "startTime": "2026-08-23T13:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 1,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -477,12 +459,12 @@
     "homeTeamTla": "BHA",
     "awayTeam": "Aston Villa",
     "awayTeamTla": "AVL",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 4,
+    "awayScore": 0,
     "title": "Brighton Hove vs Aston Villa",
     "description": "Matchday 1: Brighton & Hove Albion FC vs Aston Villa FC",
     "isLive": false,
-    "broadcaster": "Peacock Premium",
+    "broadcaster": "Not yet announced",
     "broadcastConfirmed": false,
     "channel": {
       "number": "174",
@@ -532,7 +514,7 @@
   {
     "id": 560550,
     "startTime": "2026-08-23T15:30:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 1,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -541,13 +523,13 @@
     "homeTeamTla": "NEW",
     "awayTeam": "Liverpool",
     "awayTeamTla": "LIV",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 2,
+    "awayScore": 2,
     "title": "Newcastle vs Liverpool",
     "description": "Matchday 1: Newcastle United FC vs Liverpool FC",
     "isLive": false,
-    "broadcaster": "USA Network / Telemundo / DirecTV Stream / Sling Blue / Fubo",
-    "broadcastConfirmed": true,
+    "broadcaster": "Not yet announced",
+    "broadcastConfirmed": false,
     "channel": {
       "number": "174",
       "name": "USA Network East",
@@ -680,7 +662,7 @@
     "title": "Crystal Palace vs Man City",
     "description": "Matchday 2: Crystal Palace FC vs Manchester City FC",
     "isLive": false,
-    "broadcaster": "USA Network",
+    "broadcaster": "USA Network / DirecTV Stream / Sling Blue",
     "broadcastConfirmed": true,
     "channel": {
       "number": "174",
@@ -744,7 +726,7 @@
     "title": "Liverpool vs Nottingham",
     "description": "Matchday 2: Liverpool FC vs Nottingham Forest FC",
     "isLive": false,
-    "broadcaster": "USA Network",
+    "broadcaster": "USA Network / DirecTV Stream / Sling Blue",
     "broadcastConfirmed": true,
     "channel": {
       "number": "174",
@@ -808,7 +790,7 @@
     "title": "Bournemouth vs Everton",
     "description": "Matchday 2: AFC Bournemouth vs Everton FC",
     "isLive": false,
-    "broadcaster": "Not yet announced",
+    "broadcaster": "Peacock Premium / Fubo",
     "broadcastConfirmed": false,
     "channel": {
       "number": "174",
@@ -872,7 +854,7 @@
     "title": "Coventry City vs Hull City",
     "description": "Matchday 2: Coventry City FC vs Hull City AFC",
     "isLive": false,
-    "broadcaster": "USA Network",
+    "broadcaster": "USA Network / Universo / DirecTV Stream / Sling Blue",
     "broadcastConfirmed": true,
     "channel": {
       "number": "174",
@@ -886,6 +868,12 @@
         "name": "USA Network East",
         "category": "National",
         "hasPlayback": true
+      },
+      {
+        "number": "183",
+        "name": "Univision East",
+        "category": "National",
+        "hasPlayback": false
       },
       {
         "number": "181",
@@ -936,8 +924,8 @@
     "title": "Tottenham vs Newcastle",
     "description": "Matchday 2: Tottenham Hotspur FC vs Newcastle United FC",
     "isLive": false,
-    "broadcaster": "Not yet announced",
-    "broadcastConfirmed": false,
+    "broadcaster": "NBC / Universo / Fubo / DirecTV Stream / Peacock Premium",
+    "broadcastConfirmed": true,
     "channel": {
       "number": "174",
       "name": "USA Network East",
@@ -950,6 +938,12 @@
         "name": "USA Network East",
         "category": "National",
         "hasPlayback": true
+      },
+      {
+        "number": "183",
+        "name": "Univision East",
+        "category": "National",
+        "hasPlayback": false
       },
       {
         "number": "181",
@@ -1000,7 +994,7 @@
     "title": "Sunderland vs Fulham",
     "description": "Matchday 2: Sunderland AFC vs Fulham FC",
     "isLive": false,
-    "broadcaster": "Not yet announced",
+    "broadcaster": "Peacock Premium / Fubo",
     "broadcastConfirmed": false,
     "channel": {
       "number": "174",
@@ -1064,7 +1058,7 @@
     "title": "Chelsea vs Brighton Hove",
     "description": "Matchday 2: Chelsea FC vs Brighton & Hove Albion FC",
     "isLive": false,
-    "broadcaster": "Not yet announced",
+    "broadcaster": "Peacock Premium / Fubo",
     "broadcastConfirmed": false,
     "channel": {
       "number": "174",
@@ -1128,7 +1122,7 @@
     "title": "Leeds United vs Brentford",
     "description": "Matchday 2: Leeds United FC vs Brentford FC",
     "isLive": false,
-    "broadcaster": "USA Network",
+    "broadcaster": "USA Network / Telemundo / DirecTV Stream / Sling Blue / Fubo",
     "broadcastConfirmed": true,
     "channel": {
       "number": "174",
@@ -1256,7 +1250,7 @@
     "title": "Aston Villa vs Arsenal",
     "description": "Matchday 2: Aston Villa FC vs Arsenal FC",
     "isLive": false,
-    "broadcaster": "USA Network",
+    "broadcaster": "USA Network / Universo / DirecTV Stream / Sling Blue",
     "broadcastConfirmed": true,
     "channel": {
       "number": "174",
@@ -1270,6 +1264,12 @@
         "name": "USA Network East",
         "category": "National",
         "hasPlayback": true
+      },
+      {
+        "number": "183",
+        "name": "Univision East",
+        "category": "National",
+        "hasPlayback": false
       },
       {
         "number": "181",
