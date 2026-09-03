@@ -1218,7 +1218,7 @@
   {
     "id": 560557,
     "startTime": "2026-08-31T19:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 2,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -1227,13 +1227,13 @@
     "homeTeamTla": "AVL",
     "awayTeam": "Arsenal",
     "awayTeamTla": "ARS",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 0,
+    "awayScore": 1,
     "title": "Aston Villa vs Arsenal",
     "description": "Matchday 2: Aston Villa FC vs Arsenal FC",
     "isLive": false,
-    "broadcaster": "USA Network / Universo / DirecTV Stream / Sling Blue",
-    "broadcastConfirmed": true,
+    "broadcaster": "Not yet announced",
+    "broadcastConfirmed": false,
     "channel": {
       "number": "174",
       "name": "USA Network East",
@@ -1246,12 +1246,6 @@
         "name": "USA Network East",
         "category": "National",
         "hasPlayback": true
-      },
-      {
-        "number": "183",
-        "name": "Univision East",
-        "category": "National",
-        "hasPlayback": false
       },
       {
         "number": "181",
@@ -2764,70 +2758,6 @@
     ]
   },
   {
-    "id": 560585,
-    "startTime": "2026-09-19T14:00:00Z",
-    "status": "TIMED",
-    "matchday": 5,
-    "competition": "Premier League",
-    "competitionCode": "PL",
-    "competitionCategory": "english",
-    "homeTeam": "Leeds United",
-    "homeTeamTla": "LEE",
-    "awayTeam": "Crystal Palace",
-    "awayTeamTla": "CRY",
-    "homeScore": null,
-    "awayScore": null,
-    "title": "Leeds United vs Crystal Palace",
-    "description": "Matchday 5: Leeds United FC vs Crystal Palace FC",
-    "isLive": false,
-    "broadcaster": "Not yet announced",
-    "broadcastConfirmed": false,
-    "channel": {
-      "number": "174",
-      "name": "USA Network East",
-      "category": "National",
-      "hasPlayback": true
-    },
-    "channels": [
-      {
-        "number": "174",
-        "name": "USA Network East",
-        "category": "National",
-        "hasPlayback": true
-      },
-      {
-        "number": "181",
-        "name": "Telemundo East",
-        "category": "National",
-        "hasPlayback": false
-      },
-      {
-        "number": "870",
-        "name": "Sky Sports Premier League",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "857",
-        "name": "BT Sports 1",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "858",
-        "name": "BT Sports 2",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "828",
-        "name": "ESPN",
-        "category": "Sports",
-        "hasPlayback": true
-      }
-    ]
-  },
-  {
     "id": 560586,
     "startTime": "2026-09-19T14:00:00Z",
     "status": "TIMED",
@@ -3035,6 +2965,70 @@
     "awayScore": null,
     "title": "Bournemouth vs Liverpool",
     "description": "Matchday 5: AFC Bournemouth vs Liverpool FC",
+    "isLive": false,
+    "broadcaster": "Not yet announced",
+    "broadcastConfirmed": false,
+    "channel": {
+      "number": "174",
+      "name": "USA Network East",
+      "category": "National",
+      "hasPlayback": true
+    },
+    "channels": [
+      {
+        "number": "174",
+        "name": "USA Network East",
+        "category": "National",
+        "hasPlayback": true
+      },
+      {
+        "number": "181",
+        "name": "Telemundo East",
+        "category": "National",
+        "hasPlayback": false
+      },
+      {
+        "number": "870",
+        "name": "Sky Sports Premier League",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "857",
+        "name": "BT Sports 1",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "858",
+        "name": "BT Sports 2",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "828",
+        "name": "ESPN",
+        "category": "Sports",
+        "hasPlayback": true
+      }
+    ]
+  },
+  {
+    "id": 560585,
+    "startTime": "2026-09-20T13:00:00Z",
+    "status": "TIMED",
+    "matchday": 5,
+    "competition": "Premier League",
+    "competitionCode": "PL",
+    "competitionCategory": "english",
+    "homeTeam": "Leeds United",
+    "homeTeamTla": "LEE",
+    "awayTeam": "Crystal Palace",
+    "awayTeamTla": "CRY",
+    "homeScore": null,
+    "awayScore": null,
+    "title": "Leeds United vs Crystal Palace",
+    "description": "Matchday 5: Leeds United FC vs Crystal Palace FC",
     "isLive": false,
     "broadcaster": "Not yet announced",
     "broadcastConfirmed": false,
@@ -4620,70 +4614,6 @@
     ]
   },
   {
-    "id": 560612,
-    "startTime": "2026-10-24T14:00:00Z",
-    "status": "TIMED",
-    "matchday": 8,
-    "competition": "Premier League",
-    "competitionCode": "PL",
-    "competitionCategory": "english",
-    "homeTeam": "Liverpool",
-    "homeTeamTla": "LIV",
-    "awayTeam": "Brighton Hove",
-    "awayTeamTla": "BHA",
-    "homeScore": null,
-    "awayScore": null,
-    "title": "Liverpool vs Brighton Hove",
-    "description": "Matchday 8: Liverpool FC vs Brighton & Hove Albion FC",
-    "isLive": false,
-    "broadcaster": "Not yet announced",
-    "broadcastConfirmed": false,
-    "channel": {
-      "number": "174",
-      "name": "USA Network East",
-      "category": "National",
-      "hasPlayback": true
-    },
-    "channels": [
-      {
-        "number": "174",
-        "name": "USA Network East",
-        "category": "National",
-        "hasPlayback": true
-      },
-      {
-        "number": "181",
-        "name": "Telemundo East",
-        "category": "National",
-        "hasPlayback": false
-      },
-      {
-        "number": "870",
-        "name": "Sky Sports Premier League",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "857",
-        "name": "BT Sports 1",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "858",
-        "name": "BT Sports 2",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "828",
-        "name": "ESPN",
-        "category": "Sports",
-        "hasPlayback": true
-      }
-    ]
-  },
-  {
     "id": 560616,
     "startTime": "2026-10-24T14:00:00Z",
     "status": "TIMED",
@@ -4827,6 +4757,70 @@
     "awayScore": null,
     "title": "Chelsea vs Tottenham",
     "description": "Matchday 8: Chelsea FC vs Tottenham Hotspur FC",
+    "isLive": false,
+    "broadcaster": "Not yet announced",
+    "broadcastConfirmed": false,
+    "channel": {
+      "number": "174",
+      "name": "USA Network East",
+      "category": "National",
+      "hasPlayback": true
+    },
+    "channels": [
+      {
+        "number": "174",
+        "name": "USA Network East",
+        "category": "National",
+        "hasPlayback": true
+      },
+      {
+        "number": "181",
+        "name": "Telemundo East",
+        "category": "National",
+        "hasPlayback": false
+      },
+      {
+        "number": "870",
+        "name": "Sky Sports Premier League",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "857",
+        "name": "BT Sports 1",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "858",
+        "name": "BT Sports 2",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "828",
+        "name": "ESPN",
+        "category": "Sports",
+        "hasPlayback": true
+      }
+    ]
+  },
+  {
+    "id": 560612,
+    "startTime": "2026-10-25T14:00:00Z",
+    "status": "TIMED",
+    "matchday": 8,
+    "competition": "Premier League",
+    "competitionCode": "PL",
+    "competitionCategory": "english",
+    "homeTeam": "Liverpool",
+    "homeTeamTla": "LIV",
+    "awayTeam": "Brighton Hove",
+    "awayTeamTla": "BHA",
+    "homeScore": null,
+    "awayScore": null,
+    "title": "Liverpool vs Brighton Hove",
+    "description": "Matchday 8: Liverpool FC vs Brighton & Hove Albion FC",
     "isLive": false,
     "broadcaster": "Not yet announced",
     "broadcastConfirmed": false,
@@ -5581,7 +5575,7 @@
   },
   {
     "id": 560628,
-    "startTime": "2026-11-01T14:00:00Z",
+    "startTime": "2026-10-31T20:00:00Z",
     "status": "TIMED",
     "matchday": 9,
     "competition": "Premier League",
