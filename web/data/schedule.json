@@ -2000,7 +2000,7 @@
     "title": "Liverpool vs Fulham",
     "description": "Matchday 4: Liverpool FC vs Fulham FC",
     "isLive": false,
-    "broadcaster": "Not yet announced",
+    "broadcaster": "Fubo / Peacock Premium",
     "broadcastConfirmed": false,
     "channel": {
       "number": "174",
@@ -2064,7 +2064,7 @@
     "title": "Aston Villa vs Nottingham",
     "description": "Matchday 4: Aston Villa FC vs Nottingham Forest FC",
     "isLive": false,
-    "broadcaster": "Not yet announced",
+    "broadcaster": "Fubo / Peacock Premium",
     "broadcastConfirmed": false,
     "channel": {
       "number": "174",
@@ -2128,7 +2128,7 @@
     "title": "Bournemouth vs Brentford",
     "description": "Matchday 4: AFC Bournemouth vs Brentford FC",
     "isLive": false,
-    "broadcaster": "Not yet announced",
+    "broadcaster": "Fubo / Peacock Premium",
     "broadcastConfirmed": false,
     "channel": {
       "number": "174",
@@ -2192,7 +2192,7 @@
     "title": "Chelsea vs Hull City",
     "description": "Matchday 4: Chelsea FC vs Hull City AFC",
     "isLive": false,
-    "broadcaster": "USA Network / UNIVERSO",
+    "broadcaster": "USA Network / Universo / DirecTV Stream / Sling Blue",
     "broadcastConfirmed": true,
     "channel": {
       "number": "174",
@@ -2262,7 +2262,7 @@
     "title": "Tottenham vs Everton",
     "description": "Matchday 4: Tottenham Hotspur FC vs Everton FC",
     "isLive": false,
-    "broadcaster": "NBC / UNIVERSO",
+    "broadcaster": "NBC / Universo / Fubo / DirecTV Stream / Peacock Premium",
     "broadcastConfirmed": true,
     "channel": {
       "number": "174",
@@ -2332,7 +2332,7 @@
     "title": "Sunderland vs Arsenal",
     "description": "Matchday 4: Sunderland AFC vs Arsenal FC",
     "isLive": false,
-    "broadcaster": "USA Network / Telemundo",
+    "broadcaster": "USA Network / Telemundo / DirecTV Stream / Sling Blue / Fubo",
     "broadcastConfirmed": true,
     "channel": {
       "number": "174",
@@ -2396,7 +2396,7 @@
     "title": "Coventry City vs Brighton Hove",
     "description": "Matchday 4: Coventry City FC vs Brighton & Hove Albion FC",
     "isLive": false,
-    "broadcaster": "USA Network",
+    "broadcaster": "USA Network / DirecTV Stream / Sling Blue",
     "broadcastConfirmed": true,
     "channel": {
       "number": "174",
@@ -2460,7 +2460,7 @@
     "title": "Man United vs Man City",
     "description": "Matchday 4: Manchester United FC vs Manchester City FC",
     "isLive": false,
-    "broadcaster": "Telemundo",
+    "broadcaster": "Telemundo / Fubo / DirecTV Stream / Peacock Premium",
     "broadcastConfirmed": true,
     "channel": {
       "number": "181",
@@ -2524,7 +2524,7 @@
     "title": "Leeds United vs Newcastle",
     "description": "Matchday 4: Leeds United FC vs Newcastle United FC",
     "isLive": false,
-    "broadcaster": "USA Network",
+    "broadcaster": "USA Network / DirecTV Stream / Sling Blue",
     "broadcastConfirmed": true,
     "channel": {
       "number": "174",
@@ -2588,7 +2588,7 @@
     "title": "Brentford vs Chelsea",
     "description": "Matchday 5: Brentford FC vs Chelsea FC",
     "isLive": false,
-    "broadcaster": "USA Network",
+    "broadcaster": "USA Network / DirecTV Stream / Sling Blue",
     "broadcastConfirmed": true,
     "channel": {
       "number": "174",
@@ -2652,7 +2652,7 @@
     "title": "Tottenham vs Aston Villa",
     "description": "Matchday 5: Tottenham Hotspur FC vs Aston Villa FC",
     "isLive": false,
-    "broadcaster": "USA Network",
+    "broadcaster": "USA Network / Universo / DirecTV Stream / Sling Blue",
     "broadcastConfirmed": true,
     "channel": {
       "number": "174",
@@ -2666,6 +2666,12 @@
         "name": "USA Network East",
         "category": "National",
         "hasPlayback": true
+      },
+      {
+        "number": "183",
+        "name": "Univision East",
+        "category": "National",
+        "hasPlayback": false
       },
       {
         "number": "181",
@@ -2780,7 +2786,7 @@
     "title": "Brighton Hove vs Arsenal",
     "description": "Matchday 5: Brighton & Hove Albion FC vs Arsenal FC",
     "isLive": false,
-    "broadcaster": "USA Network",
+    "broadcaster": "USA Network / Telemundo / DirecTV Stream / Sling Blue / Fubo",
     "broadcastConfirmed": true,
     "channel": {
       "number": "174",
@@ -2844,7 +2850,7 @@
     "title": "Newcastle vs Hull City",
     "description": "Matchday 5: Newcastle United FC vs Hull City AFC",
     "isLive": false,
-    "broadcaster": "Not yet announced",
+    "broadcaster": "Fubo / Peacock Premium",
     "broadcastConfirmed": false,
     "channel": {
       "number": "174",
@@ -2908,8 +2914,8 @@
     "title": "Nottingham vs Coventry City",
     "description": "Matchday 5: Nottingham Forest FC vs Coventry City FC",
     "isLive": false,
-    "broadcaster": "Not yet announced",
-    "broadcastConfirmed": false,
+    "broadcaster": "NBC / Fubo / DirecTV Stream / Peacock Premium",
+    "broadcastConfirmed": true,
     "channel": {
       "number": "174",
       "name": "USA Network East",
@@ -3036,7 +3042,7 @@
     "title": "Leeds United vs Crystal Palace",
     "description": "Matchday 5: Leeds United FC vs Crystal Palace FC",
     "isLive": false,
-    "broadcaster": "Not yet announced",
+    "broadcaster": "Peacock",
     "broadcastConfirmed": false,
     "channel": {
       "number": "174",
@@ -3100,7 +3106,7 @@
     "title": "Man City vs Sunderland",
     "description": "Matchday 5: Manchester City FC vs Sunderland AFC",
     "isLive": false,
-    "broadcaster": "Not yet announced",
+    "broadcaster": "Peacock",
     "broadcastConfirmed": false,
     "channel": {
       "number": "174",
