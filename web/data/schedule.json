@@ -1922,7 +1922,7 @@
   {
     "id": 560572,
     "startTime": "2026-09-12T14:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 4,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -1931,8 +1931,8 @@
     "homeTeamTla": "CRY",
     "awayTeam": "Ipswich Town",
     "awayTeamTla": "IPS",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 2,
+    "awayScore": 3,
     "title": "Crystal Palace vs Ipswich Town",
     "description": "Matchday 4: Crystal Palace FC vs Ipswich Town FC",
     "isLive": false,
@@ -1986,7 +1986,7 @@
   {
     "id": 560573,
     "startTime": "2026-09-12T14:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 4,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -1995,12 +1995,12 @@
     "homeTeamTla": "LIV",
     "awayTeam": "Fulham",
     "awayTeamTla": "FUL",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 0,
+    "awayScore": 0,
     "title": "Liverpool vs Fulham",
     "description": "Matchday 4: Liverpool FC vs Fulham FC",
     "isLive": false,
-    "broadcaster": "Fubo / Peacock Premium",
+    "broadcaster": "Not yet announced",
     "broadcastConfirmed": false,
     "channel": {
       "number": "174",
@@ -2050,7 +2050,7 @@
   {
     "id": 560574,
     "startTime": "2026-09-12T14:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 4,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -2059,12 +2059,12 @@
     "homeTeamTla": "AVL",
     "awayTeam": "Nottingham",
     "awayTeamTla": "NOT",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 1,
+    "awayScore": 2,
     "title": "Aston Villa vs Nottingham",
     "description": "Matchday 4: Aston Villa FC vs Nottingham Forest FC",
     "isLive": false,
-    "broadcaster": "Fubo / Peacock Premium",
+    "broadcaster": "Not yet announced",
     "broadcastConfirmed": false,
     "channel": {
       "number": "174",
@@ -2114,7 +2114,7 @@
   {
     "id": 560576,
     "startTime": "2026-09-12T14:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 4,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -2123,12 +2123,12 @@
     "homeTeamTla": "BOU",
     "awayTeam": "Brentford",
     "awayTeamTla": "BRE",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 2,
+    "awayScore": 2,
     "title": "Bournemouth vs Brentford",
     "description": "Matchday 4: AFC Bournemouth vs Brentford FC",
     "isLive": false,
-    "broadcaster": "Fubo / Peacock Premium",
+    "broadcaster": "Not yet announced",
     "broadcastConfirmed": false,
     "channel": {
       "number": "174",
@@ -2178,7 +2178,7 @@
   {
     "id": 560581,
     "startTime": "2026-09-12T14:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 4,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -2187,13 +2187,13 @@
     "homeTeamTla": "CHE",
     "awayTeam": "Hull City",
     "awayTeamTla": "HUL",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 2,
+    "awayScore": 2,
     "title": "Chelsea vs Hull City",
     "description": "Matchday 4: Chelsea FC vs Hull City AFC",
     "isLive": false,
-    "broadcaster": "USA Network / Universo / DirecTV Stream / Sling Blue",
-    "broadcastConfirmed": true,
+    "broadcaster": "Not yet announced",
+    "broadcastConfirmed": false,
     "channel": {
       "number": "174",
       "name": "USA Network East",
@@ -2206,12 +2206,6 @@
         "name": "USA Network East",
         "category": "National",
         "hasPlayback": true
-      },
-      {
-        "number": "183",
-        "name": "Univision East",
-        "category": "National",
-        "hasPlayback": false
       },
       {
         "number": "181",
@@ -2248,7 +2242,7 @@
   {
     "id": 560575,
     "startTime": "2026-09-12T16:30:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 4,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -2257,13 +2251,13 @@
     "homeTeamTla": "TOT",
     "awayTeam": "Everton",
     "awayTeamTla": "EVE",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 0,
+    "awayScore": 0,
     "title": "Tottenham vs Everton",
     "description": "Matchday 4: Tottenham Hotspur FC vs Everton FC",
     "isLive": false,
-    "broadcaster": "NBC / Universo / Fubo / DirecTV Stream / Peacock Premium",
-    "broadcastConfirmed": true,
+    "broadcaster": "Not yet announced",
+    "broadcastConfirmed": false,
     "channel": {
       "number": "174",
       "name": "USA Network East",
@@ -2276,12 +2270,6 @@
         "name": "USA Network East",
         "category": "National",
         "hasPlayback": true
-      },
-      {
-        "number": "183",
-        "name": "Univision East",
-        "category": "National",
-        "hasPlayback": false
       },
       {
         "number": "181",
@@ -2318,7 +2306,7 @@
   {
     "id": 560577,
     "startTime": "2026-09-12T19:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 4,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -2327,13 +2315,13 @@
     "homeTeamTla": "SUN",
     "awayTeam": "Arsenal",
     "awayTeamTla": "ARS",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 0,
+    "awayScore": 2,
     "title": "Sunderland vs Arsenal",
     "description": "Matchday 4: Sunderland AFC vs Arsenal FC",
     "isLive": false,
-    "broadcaster": "USA Network / Telemundo / DirecTV Stream / Sling Blue / Fubo",
-    "broadcastConfirmed": true,
+    "broadcaster": "Not yet announced",
+    "broadcastConfirmed": false,
     "channel": {
       "number": "174",
       "name": "USA Network East",
@@ -2382,7 +2370,7 @@
   {
     "id": 560578,
     "startTime": "2026-09-13T13:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 4,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -2391,13 +2379,13 @@
     "homeTeamTla": "COV",
     "awayTeam": "Brighton Hove",
     "awayTeamTla": "BHA",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 0,
+    "awayScore": 5,
     "title": "Coventry City vs Brighton Hove",
     "description": "Matchday 4: Coventry City FC vs Brighton & Hove Albion FC",
     "isLive": false,
-    "broadcaster": "USA Network / DirecTV Stream / Sling Blue",
-    "broadcastConfirmed": true,
+    "broadcaster": "Not yet announced",
+    "broadcastConfirmed": false,
     "channel": {
       "number": "174",
       "name": "USA Network East",
@@ -2446,7 +2434,7 @@
   {
     "id": 560580,
     "startTime": "2026-09-13T15:30:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 4,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -2455,31 +2443,31 @@
     "homeTeamTla": "MUN",
     "awayTeam": "Man City",
     "awayTeamTla": "MCI",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 0,
+    "awayScore": 1,
     "title": "Man United vs Man City",
     "description": "Matchday 4: Manchester United FC vs Manchester City FC",
     "isLive": false,
-    "broadcaster": "Telemundo / Fubo / DirecTV Stream / Peacock Premium",
-    "broadcastConfirmed": true,
+    "broadcaster": "Not yet announced",
+    "broadcastConfirmed": false,
     "channel": {
-      "number": "181",
-      "name": "Telemundo East",
+      "number": "174",
+      "name": "USA Network East",
       "category": "National",
-      "hasPlayback": false
+      "hasPlayback": true
     },
     "channels": [
-      {
-        "number": "181",
-        "name": "Telemundo East",
-        "category": "National",
-        "hasPlayback": false
-      },
       {
         "number": "174",
         "name": "USA Network East",
         "category": "National",
         "hasPlayback": true
+      },
+      {
+        "number": "181",
+        "name": "Telemundo East",
+        "category": "National",
+        "hasPlayback": false
       },
       {
         "number": "870",
@@ -2978,7 +2966,7 @@
     "title": "Bournemouth vs Liverpool",
     "description": "Matchday 5: AFC Bournemouth vs Liverpool FC",
     "isLive": false,
-    "broadcaster": "USA Network",
+    "broadcaster": "USA Network / Telemundo",
     "broadcastConfirmed": true,
     "channel": {
       "number": "174",
@@ -3170,8 +3158,8 @@
     "title": "Fulham vs Man United",
     "description": "Matchday 5: Fulham FC vs Manchester United FC",
     "isLive": false,
-    "broadcaster": "Not yet announced",
-    "broadcastConfirmed": false,
+    "broadcaster": "NBC / Telemundo",
+    "broadcastConfirmed": true,
     "channel": {
       "number": "174",
       "name": "USA Network East",
@@ -10259,7 +10247,7 @@
   },
   {
     "id": 560702,
-    "startTime": "2026-12-26T15:00:00Z",
+    "startTime": "2026-12-26T12:30:00Z",
     "status": "TIMED",
     "matchday": 17,
     "competition": "Premier League",
@@ -10273,134 +10261,6 @@
     "awayScore": null,
     "title": "Aston Villa vs Leeds United",
     "description": "Matchday 17: Aston Villa FC vs Leeds United FC",
-    "isLive": false,
-    "broadcaster": "Not yet announced",
-    "broadcastConfirmed": false,
-    "channel": {
-      "number": "174",
-      "name": "USA Network East",
-      "category": "National",
-      "hasPlayback": true
-    },
-    "channels": [
-      {
-        "number": "174",
-        "name": "USA Network East",
-        "category": "National",
-        "hasPlayback": true
-      },
-      {
-        "number": "181",
-        "name": "Telemundo East",
-        "category": "National",
-        "hasPlayback": false
-      },
-      {
-        "number": "870",
-        "name": "Sky Sports Premier League",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "857",
-        "name": "BT Sports 1",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "858",
-        "name": "BT Sports 2",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "828",
-        "name": "ESPN",
-        "category": "Sports",
-        "hasPlayback": true
-      }
-    ]
-  },
-  {
-    "id": 560703,
-    "startTime": "2026-12-26T15:00:00Z",
-    "status": "TIMED",
-    "matchday": 17,
-    "competition": "Premier League",
-    "competitionCode": "PL",
-    "competitionCategory": "english",
-    "homeTeam": "Man United",
-    "homeTeamTla": "MUN",
-    "awayTeam": "Nottingham",
-    "awayTeamTla": "NOT",
-    "homeScore": null,
-    "awayScore": null,
-    "title": "Man United vs Nottingham",
-    "description": "Matchday 17: Manchester United FC vs Nottingham Forest FC",
-    "isLive": false,
-    "broadcaster": "Not yet announced",
-    "broadcastConfirmed": false,
-    "channel": {
-      "number": "174",
-      "name": "USA Network East",
-      "category": "National",
-      "hasPlayback": true
-    },
-    "channels": [
-      {
-        "number": "174",
-        "name": "USA Network East",
-        "category": "National",
-        "hasPlayback": true
-      },
-      {
-        "number": "181",
-        "name": "Telemundo East",
-        "category": "National",
-        "hasPlayback": false
-      },
-      {
-        "number": "870",
-        "name": "Sky Sports Premier League",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "857",
-        "name": "BT Sports 1",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "858",
-        "name": "BT Sports 2",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "828",
-        "name": "ESPN",
-        "category": "Sports",
-        "hasPlayback": true
-      }
-    ]
-  },
-  {
-    "id": 560704,
-    "startTime": "2026-12-26T15:00:00Z",
-    "status": "TIMED",
-    "matchday": 17,
-    "competition": "Premier League",
-    "competitionCode": "PL",
-    "competitionCategory": "english",
-    "homeTeam": "Crystal Palace",
-    "homeTeamTla": "CRY",
-    "awayTeam": "Arsenal",
-    "awayTeamTla": "ARS",
-    "homeScore": null,
-    "awayScore": null,
-    "title": "Crystal Palace vs Arsenal",
-    "description": "Matchday 17: Crystal Palace FC vs Arsenal FC",
     "isLive": false,
     "broadcaster": "Not yet announced",
     "broadcastConfirmed": false,
@@ -10465,134 +10325,6 @@
     "awayScore": null,
     "title": "Everton vs Sunderland",
     "description": "Matchday 17: Everton FC vs Sunderland AFC",
-    "isLive": false,
-    "broadcaster": "Not yet announced",
-    "broadcastConfirmed": false,
-    "channel": {
-      "number": "174",
-      "name": "USA Network East",
-      "category": "National",
-      "hasPlayback": true
-    },
-    "channels": [
-      {
-        "number": "174",
-        "name": "USA Network East",
-        "category": "National",
-        "hasPlayback": true
-      },
-      {
-        "number": "181",
-        "name": "Telemundo East",
-        "category": "National",
-        "hasPlayback": false
-      },
-      {
-        "number": "870",
-        "name": "Sky Sports Premier League",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "857",
-        "name": "BT Sports 1",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "858",
-        "name": "BT Sports 2",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "828",
-        "name": "ESPN",
-        "category": "Sports",
-        "hasPlayback": true
-      }
-    ]
-  },
-  {
-    "id": 560706,
-    "startTime": "2026-12-26T15:00:00Z",
-    "status": "TIMED",
-    "matchday": 17,
-    "competition": "Premier League",
-    "competitionCode": "PL",
-    "competitionCategory": "english",
-    "homeTeam": "Coventry City",
-    "homeTeamTla": "COV",
-    "awayTeam": "Chelsea",
-    "awayTeamTla": "CHE",
-    "homeScore": null,
-    "awayScore": null,
-    "title": "Coventry City vs Chelsea",
-    "description": "Matchday 17: Coventry City FC vs Chelsea FC",
-    "isLive": false,
-    "broadcaster": "Not yet announced",
-    "broadcastConfirmed": false,
-    "channel": {
-      "number": "174",
-      "name": "USA Network East",
-      "category": "National",
-      "hasPlayback": true
-    },
-    "channels": [
-      {
-        "number": "174",
-        "name": "USA Network East",
-        "category": "National",
-        "hasPlayback": true
-      },
-      {
-        "number": "181",
-        "name": "Telemundo East",
-        "category": "National",
-        "hasPlayback": false
-      },
-      {
-        "number": "870",
-        "name": "Sky Sports Premier League",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "857",
-        "name": "BT Sports 1",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "858",
-        "name": "BT Sports 2",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "828",
-        "name": "ESPN",
-        "category": "Sports",
-        "hasPlayback": true
-      }
-    ]
-  },
-  {
-    "id": 560707,
-    "startTime": "2026-12-26T15:00:00Z",
-    "status": "TIMED",
-    "matchday": 17,
-    "competition": "Premier League",
-    "competitionCode": "PL",
-    "competitionCategory": "english",
-    "homeTeam": "Newcastle",
-    "homeTeamTla": "NEW",
-    "awayTeam": "Man City",
-    "awayTeamTla": "MCI",
-    "homeScore": null,
-    "awayScore": null,
-    "title": "Newcastle vs Man City",
-    "description": "Matchday 17: Newcastle United FC vs Manchester City FC",
     "isLive": false,
     "broadcaster": "Not yet announced",
     "broadcastConfirmed": false,
@@ -10770,70 +10502,6 @@
     ]
   },
   {
-    "id": 560710,
-    "startTime": "2026-12-26T15:00:00Z",
-    "status": "TIMED",
-    "matchday": 17,
-    "competition": "Premier League",
-    "competitionCode": "PL",
-    "competitionCategory": "english",
-    "homeTeam": "Hull City",
-    "homeTeamTla": "HUL",
-    "awayTeam": "Liverpool",
-    "awayTeamTla": "LIV",
-    "homeScore": null,
-    "awayScore": null,
-    "title": "Hull City vs Liverpool",
-    "description": "Matchday 17: Hull City AFC vs Liverpool FC",
-    "isLive": false,
-    "broadcaster": "Not yet announced",
-    "broadcastConfirmed": false,
-    "channel": {
-      "number": "174",
-      "name": "USA Network East",
-      "category": "National",
-      "hasPlayback": true
-    },
-    "channels": [
-      {
-        "number": "174",
-        "name": "USA Network East",
-        "category": "National",
-        "hasPlayback": true
-      },
-      {
-        "number": "181",
-        "name": "Telemundo East",
-        "category": "National",
-        "hasPlayback": false
-      },
-      {
-        "number": "870",
-        "name": "Sky Sports Premier League",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "857",
-        "name": "BT Sports 1",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "858",
-        "name": "BT Sports 2",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "828",
-        "name": "ESPN",
-        "category": "Sports",
-        "hasPlayback": true
-      }
-    ]
-  },
-  {
     "id": 560711,
     "startTime": "2026-12-26T15:00:00Z",
     "status": "TIMED",
@@ -10898,149 +10566,21 @@
     ]
   },
   {
-    "id": 560712,
-    "startTime": "2026-12-30T20:00:00Z",
+    "id": 560710,
+    "startTime": "2026-12-26T17:30:00Z",
     "status": "TIMED",
-    "matchday": 18,
+    "matchday": 17,
     "competition": "Premier League",
     "competitionCode": "PL",
     "competitionCategory": "english",
-    "homeTeam": "Fulham",
-    "homeTeamTla": "FUL",
-    "awayTeam": "Arsenal",
-    "awayTeamTla": "ARS",
-    "homeScore": null,
-    "awayScore": null,
-    "title": "Fulham vs Arsenal",
-    "description": "Matchday 18: Fulham FC vs Arsenal FC",
-    "isLive": false,
-    "broadcaster": "Not yet announced",
-    "broadcastConfirmed": false,
-    "channel": {
-      "number": "174",
-      "name": "USA Network East",
-      "category": "National",
-      "hasPlayback": true
-    },
-    "channels": [
-      {
-        "number": "174",
-        "name": "USA Network East",
-        "category": "National",
-        "hasPlayback": true
-      },
-      {
-        "number": "181",
-        "name": "Telemundo East",
-        "category": "National",
-        "hasPlayback": false
-      },
-      {
-        "number": "870",
-        "name": "Sky Sports Premier League",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "857",
-        "name": "BT Sports 1",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "858",
-        "name": "BT Sports 2",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "828",
-        "name": "ESPN",
-        "category": "Sports",
-        "hasPlayback": true
-      }
-    ]
-  },
-  {
-    "id": 560713,
-    "startTime": "2026-12-30T20:00:00Z",
-    "status": "TIMED",
-    "matchday": 18,
-    "competition": "Premier League",
-    "competitionCode": "PL",
-    "competitionCategory": "english",
-    "homeTeam": "Coventry City",
-    "homeTeamTla": "COV",
-    "awayTeam": "Brentford",
-    "awayTeamTla": "BRE",
-    "homeScore": null,
-    "awayScore": null,
-    "title": "Coventry City vs Brentford",
-    "description": "Matchday 18: Coventry City FC vs Brentford FC",
-    "isLive": false,
-    "broadcaster": "Not yet announced",
-    "broadcastConfirmed": false,
-    "channel": {
-      "number": "174",
-      "name": "USA Network East",
-      "category": "National",
-      "hasPlayback": true
-    },
-    "channels": [
-      {
-        "number": "174",
-        "name": "USA Network East",
-        "category": "National",
-        "hasPlayback": true
-      },
-      {
-        "number": "181",
-        "name": "Telemundo East",
-        "category": "National",
-        "hasPlayback": false
-      },
-      {
-        "number": "870",
-        "name": "Sky Sports Premier League",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "857",
-        "name": "BT Sports 1",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "858",
-        "name": "BT Sports 2",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "828",
-        "name": "ESPN",
-        "category": "Sports",
-        "hasPlayback": true
-      }
-    ]
-  },
-  {
-    "id": 560714,
-    "startTime": "2026-12-30T20:00:00Z",
-    "status": "TIMED",
-    "matchday": 18,
-    "competition": "Premier League",
-    "competitionCode": "PL",
-    "competitionCategory": "english",
-    "homeTeam": "Aston Villa",
-    "homeTeamTla": "AVL",
+    "homeTeam": "Hull City",
+    "homeTeamTla": "HUL",
     "awayTeam": "Liverpool",
     "awayTeamTla": "LIV",
     "homeScore": null,
     "awayScore": null,
-    "title": "Aston Villa vs Liverpool",
-    "description": "Matchday 18: Aston Villa FC vs Liverpool FC",
+    "title": "Hull City vs Liverpool",
+    "description": "Matchday 17: Hull City AFC vs Liverpool FC",
     "isLive": false,
     "broadcaster": "Not yet announced",
     "broadcastConfirmed": false,
@@ -11090,21 +10630,213 @@
     ]
   },
   {
-    "id": 560715,
-    "startTime": "2026-12-30T20:00:00Z",
+    "id": 560707,
+    "startTime": "2026-12-26T20:00:00Z",
     "status": "TIMED",
-    "matchday": 18,
+    "matchday": 17,
     "competition": "Premier League",
     "competitionCode": "PL",
     "competitionCategory": "english",
     "homeTeam": "Newcastle",
     "homeTeamTla": "NEW",
+    "awayTeam": "Man City",
+    "awayTeamTla": "MCI",
+    "homeScore": null,
+    "awayScore": null,
+    "title": "Newcastle vs Man City",
+    "description": "Matchday 17: Newcastle United FC vs Manchester City FC",
+    "isLive": false,
+    "broadcaster": "Not yet announced",
+    "broadcastConfirmed": false,
+    "channel": {
+      "number": "174",
+      "name": "USA Network East",
+      "category": "National",
+      "hasPlayback": true
+    },
+    "channels": [
+      {
+        "number": "174",
+        "name": "USA Network East",
+        "category": "National",
+        "hasPlayback": true
+      },
+      {
+        "number": "181",
+        "name": "Telemundo East",
+        "category": "National",
+        "hasPlayback": false
+      },
+      {
+        "number": "870",
+        "name": "Sky Sports Premier League",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "857",
+        "name": "BT Sports 1",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "858",
+        "name": "BT Sports 2",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "828",
+        "name": "ESPN",
+        "category": "Sports",
+        "hasPlayback": true
+      }
+    ]
+  },
+  {
+    "id": 560706,
+    "startTime": "2026-12-27T14:00:00Z",
+    "status": "TIMED",
+    "matchday": 17,
+    "competition": "Premier League",
+    "competitionCode": "PL",
+    "competitionCategory": "english",
+    "homeTeam": "Coventry City",
+    "homeTeamTla": "COV",
+    "awayTeam": "Chelsea",
+    "awayTeamTla": "CHE",
+    "homeScore": null,
+    "awayScore": null,
+    "title": "Coventry City vs Chelsea",
+    "description": "Matchday 17: Coventry City FC vs Chelsea FC",
+    "isLive": false,
+    "broadcaster": "Not yet announced",
+    "broadcastConfirmed": false,
+    "channel": {
+      "number": "174",
+      "name": "USA Network East",
+      "category": "National",
+      "hasPlayback": true
+    },
+    "channels": [
+      {
+        "number": "174",
+        "name": "USA Network East",
+        "category": "National",
+        "hasPlayback": true
+      },
+      {
+        "number": "181",
+        "name": "Telemundo East",
+        "category": "National",
+        "hasPlayback": false
+      },
+      {
+        "number": "870",
+        "name": "Sky Sports Premier League",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "857",
+        "name": "BT Sports 1",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "858",
+        "name": "BT Sports 2",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "828",
+        "name": "ESPN",
+        "category": "Sports",
+        "hasPlayback": true
+      }
+    ]
+  },
+  {
+    "id": 560703,
+    "startTime": "2026-12-27T16:30:00Z",
+    "status": "TIMED",
+    "matchday": 17,
+    "competition": "Premier League",
+    "competitionCode": "PL",
+    "competitionCategory": "english",
+    "homeTeam": "Man United",
+    "homeTeamTla": "MUN",
     "awayTeam": "Nottingham",
     "awayTeamTla": "NOT",
     "homeScore": null,
     "awayScore": null,
-    "title": "Newcastle vs Nottingham",
-    "description": "Matchday 18: Newcastle United FC vs Nottingham Forest FC",
+    "title": "Man United vs Nottingham",
+    "description": "Matchday 17: Manchester United FC vs Nottingham Forest FC",
+    "isLive": false,
+    "broadcaster": "Not yet announced",
+    "broadcastConfirmed": false,
+    "channel": {
+      "number": "174",
+      "name": "USA Network East",
+      "category": "National",
+      "hasPlayback": true
+    },
+    "channels": [
+      {
+        "number": "174",
+        "name": "USA Network East",
+        "category": "National",
+        "hasPlayback": true
+      },
+      {
+        "number": "181",
+        "name": "Telemundo East",
+        "category": "National",
+        "hasPlayback": false
+      },
+      {
+        "number": "870",
+        "name": "Sky Sports Premier League",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "857",
+        "name": "BT Sports 1",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "858",
+        "name": "BT Sports 2",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "828",
+        "name": "ESPN",
+        "category": "Sports",
+        "hasPlayback": true
+      }
+    ]
+  },
+  {
+    "id": 560704,
+    "startTime": "2026-12-27T19:00:00Z",
+    "status": "TIMED",
+    "matchday": 17,
+    "competition": "Premier League",
+    "competitionCode": "PL",
+    "competitionCategory": "english",
+    "homeTeam": "Crystal Palace",
+    "homeTeamTla": "CRY",
+    "awayTeam": "Arsenal",
+    "awayTeamTla": "ARS",
+    "homeScore": null,
+    "awayScore": null,
+    "title": "Crystal Palace vs Arsenal",
+    "description": "Matchday 17: Crystal Palace FC vs Arsenal FC",
     "isLive": false,
     "broadcaster": "Not yet announced",
     "broadcastConfirmed": false,
@@ -11155,7 +10887,7 @@
   },
   {
     "id": 560716,
-    "startTime": "2026-12-30T20:00:00Z",
+    "startTime": "2026-12-29T19:30:00Z",
     "status": "TIMED",
     "matchday": 18,
     "competition": "Premier League",
@@ -11218,136 +10950,8 @@
     ]
   },
   {
-    "id": 560717,
-    "startTime": "2026-12-30T20:00:00Z",
-    "status": "TIMED",
-    "matchday": 18,
-    "competition": "Premier League",
-    "competitionCode": "PL",
-    "competitionCategory": "english",
-    "homeTeam": "Man United",
-    "homeTeamTla": "MUN",
-    "awayTeam": "Sunderland",
-    "awayTeamTla": "SUN",
-    "homeScore": null,
-    "awayScore": null,
-    "title": "Man United vs Sunderland",
-    "description": "Matchday 18: Manchester United FC vs Sunderland AFC",
-    "isLive": false,
-    "broadcaster": "Not yet announced",
-    "broadcastConfirmed": false,
-    "channel": {
-      "number": "174",
-      "name": "USA Network East",
-      "category": "National",
-      "hasPlayback": true
-    },
-    "channels": [
-      {
-        "number": "174",
-        "name": "USA Network East",
-        "category": "National",
-        "hasPlayback": true
-      },
-      {
-        "number": "181",
-        "name": "Telemundo East",
-        "category": "National",
-        "hasPlayback": false
-      },
-      {
-        "number": "870",
-        "name": "Sky Sports Premier League",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "857",
-        "name": "BT Sports 1",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "858",
-        "name": "BT Sports 2",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "828",
-        "name": "ESPN",
-        "category": "Sports",
-        "hasPlayback": true
-      }
-    ]
-  },
-  {
-    "id": 560718,
-    "startTime": "2026-12-30T20:00:00Z",
-    "status": "TIMED",
-    "matchday": 18,
-    "competition": "Premier League",
-    "competitionCode": "PL",
-    "competitionCategory": "english",
-    "homeTeam": "Ipswich Town",
-    "homeTeamTla": "IPS",
-    "awayTeam": "Chelsea",
-    "awayTeamTla": "CHE",
-    "homeScore": null,
-    "awayScore": null,
-    "title": "Ipswich Town vs Chelsea",
-    "description": "Matchday 18: Ipswich Town FC vs Chelsea FC",
-    "isLive": false,
-    "broadcaster": "Not yet announced",
-    "broadcastConfirmed": false,
-    "channel": {
-      "number": "174",
-      "name": "USA Network East",
-      "category": "National",
-      "hasPlayback": true
-    },
-    "channels": [
-      {
-        "number": "174",
-        "name": "USA Network East",
-        "category": "National",
-        "hasPlayback": true
-      },
-      {
-        "number": "181",
-        "name": "Telemundo East",
-        "category": "National",
-        "hasPlayback": false
-      },
-      {
-        "number": "870",
-        "name": "Sky Sports Premier League",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "857",
-        "name": "BT Sports 1",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "858",
-        "name": "BT Sports 2",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "828",
-        "name": "ESPN",
-        "category": "Sports",
-        "hasPlayback": true
-      }
-    ]
-  },
-  {
     "id": 560719,
-    "startTime": "2026-12-30T20:00:00Z",
+    "startTime": "2026-12-29T19:30:00Z",
     "status": "TIMED",
     "matchday": 18,
     "competition": "Premier League",
@@ -11411,7 +11015,7 @@
   },
   {
     "id": 560720,
-    "startTime": "2026-12-30T20:00:00Z",
+    "startTime": "2026-12-29T20:15:00Z",
     "status": "TIMED",
     "matchday": 18,
     "competition": "Premier League",
@@ -11474,8 +11078,264 @@
     ]
   },
   {
+    "id": 560712,
+    "startTime": "2026-12-30T19:30:00Z",
+    "status": "TIMED",
+    "matchday": 18,
+    "competition": "Premier League",
+    "competitionCode": "PL",
+    "competitionCategory": "english",
+    "homeTeam": "Fulham",
+    "homeTeamTla": "FUL",
+    "awayTeam": "Arsenal",
+    "awayTeamTla": "ARS",
+    "homeScore": null,
+    "awayScore": null,
+    "title": "Fulham vs Arsenal",
+    "description": "Matchday 18: Fulham FC vs Arsenal FC",
+    "isLive": false,
+    "broadcaster": "Not yet announced",
+    "broadcastConfirmed": false,
+    "channel": {
+      "number": "174",
+      "name": "USA Network East",
+      "category": "National",
+      "hasPlayback": true
+    },
+    "channels": [
+      {
+        "number": "174",
+        "name": "USA Network East",
+        "category": "National",
+        "hasPlayback": true
+      },
+      {
+        "number": "181",
+        "name": "Telemundo East",
+        "category": "National",
+        "hasPlayback": false
+      },
+      {
+        "number": "870",
+        "name": "Sky Sports Premier League",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "857",
+        "name": "BT Sports 1",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "858",
+        "name": "BT Sports 2",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "828",
+        "name": "ESPN",
+        "category": "Sports",
+        "hasPlayback": true
+      }
+    ]
+  },
+  {
+    "id": 560713,
+    "startTime": "2026-12-30T19:30:00Z",
+    "status": "TIMED",
+    "matchday": 18,
+    "competition": "Premier League",
+    "competitionCode": "PL",
+    "competitionCategory": "english",
+    "homeTeam": "Coventry City",
+    "homeTeamTla": "COV",
+    "awayTeam": "Brentford",
+    "awayTeamTla": "BRE",
+    "homeScore": null,
+    "awayScore": null,
+    "title": "Coventry City vs Brentford",
+    "description": "Matchday 18: Coventry City FC vs Brentford FC",
+    "isLive": false,
+    "broadcaster": "Not yet announced",
+    "broadcastConfirmed": false,
+    "channel": {
+      "number": "174",
+      "name": "USA Network East",
+      "category": "National",
+      "hasPlayback": true
+    },
+    "channels": [
+      {
+        "number": "174",
+        "name": "USA Network East",
+        "category": "National",
+        "hasPlayback": true
+      },
+      {
+        "number": "181",
+        "name": "Telemundo East",
+        "category": "National",
+        "hasPlayback": false
+      },
+      {
+        "number": "870",
+        "name": "Sky Sports Premier League",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "857",
+        "name": "BT Sports 1",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "858",
+        "name": "BT Sports 2",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "828",
+        "name": "ESPN",
+        "category": "Sports",
+        "hasPlayback": true
+      }
+    ]
+  },
+  {
+    "id": 560715,
+    "startTime": "2026-12-30T19:30:00Z",
+    "status": "TIMED",
+    "matchday": 18,
+    "competition": "Premier League",
+    "competitionCode": "PL",
+    "competitionCategory": "english",
+    "homeTeam": "Newcastle",
+    "homeTeamTla": "NEW",
+    "awayTeam": "Nottingham",
+    "awayTeamTla": "NOT",
+    "homeScore": null,
+    "awayScore": null,
+    "title": "Newcastle vs Nottingham",
+    "description": "Matchday 18: Newcastle United FC vs Nottingham Forest FC",
+    "isLive": false,
+    "broadcaster": "Not yet announced",
+    "broadcastConfirmed": false,
+    "channel": {
+      "number": "174",
+      "name": "USA Network East",
+      "category": "National",
+      "hasPlayback": true
+    },
+    "channels": [
+      {
+        "number": "174",
+        "name": "USA Network East",
+        "category": "National",
+        "hasPlayback": true
+      },
+      {
+        "number": "181",
+        "name": "Telemundo East",
+        "category": "National",
+        "hasPlayback": false
+      },
+      {
+        "number": "870",
+        "name": "Sky Sports Premier League",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "857",
+        "name": "BT Sports 1",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "858",
+        "name": "BT Sports 2",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "828",
+        "name": "ESPN",
+        "category": "Sports",
+        "hasPlayback": true
+      }
+    ]
+  },
+  {
+    "id": 560717,
+    "startTime": "2026-12-30T19:30:00Z",
+    "status": "TIMED",
+    "matchday": 18,
+    "competition": "Premier League",
+    "competitionCode": "PL",
+    "competitionCategory": "english",
+    "homeTeam": "Man United",
+    "homeTeamTla": "MUN",
+    "awayTeam": "Sunderland",
+    "awayTeamTla": "SUN",
+    "homeScore": null,
+    "awayScore": null,
+    "title": "Man United vs Sunderland",
+    "description": "Matchday 18: Manchester United FC vs Sunderland AFC",
+    "isLive": false,
+    "broadcaster": "Not yet announced",
+    "broadcastConfirmed": false,
+    "channel": {
+      "number": "174",
+      "name": "USA Network East",
+      "category": "National",
+      "hasPlayback": true
+    },
+    "channels": [
+      {
+        "number": "174",
+        "name": "USA Network East",
+        "category": "National",
+        "hasPlayback": true
+      },
+      {
+        "number": "181",
+        "name": "Telemundo East",
+        "category": "National",
+        "hasPlayback": false
+      },
+      {
+        "number": "870",
+        "name": "Sky Sports Premier League",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "857",
+        "name": "BT Sports 1",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "858",
+        "name": "BT Sports 2",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "828",
+        "name": "ESPN",
+        "category": "Sports",
+        "hasPlayback": true
+      }
+    ]
+  },
+  {
     "id": 560721,
-    "startTime": "2026-12-30T20:00:00Z",
+    "startTime": "2026-12-30T19:30:00Z",
     "status": "TIMED",
     "matchday": 18,
     "competition": "Premier League",
@@ -11538,21 +11398,213 @@
     ]
   },
   {
-    "id": 560722,
-    "startTime": "2027-01-02T15:00:00Z",
+    "id": 560714,
+    "startTime": "2026-12-30T20:15:00Z",
+    "status": "TIMED",
+    "matchday": 18,
+    "competition": "Premier League",
+    "competitionCode": "PL",
+    "competitionCategory": "english",
+    "homeTeam": "Aston Villa",
+    "homeTeamTla": "AVL",
+    "awayTeam": "Liverpool",
+    "awayTeamTla": "LIV",
+    "homeScore": null,
+    "awayScore": null,
+    "title": "Aston Villa vs Liverpool",
+    "description": "Matchday 18: Aston Villa FC vs Liverpool FC",
+    "isLive": false,
+    "broadcaster": "Not yet announced",
+    "broadcastConfirmed": false,
+    "channel": {
+      "number": "174",
+      "name": "USA Network East",
+      "category": "National",
+      "hasPlayback": true
+    },
+    "channels": [
+      {
+        "number": "174",
+        "name": "USA Network East",
+        "category": "National",
+        "hasPlayback": true
+      },
+      {
+        "number": "181",
+        "name": "Telemundo East",
+        "category": "National",
+        "hasPlayback": false
+      },
+      {
+        "number": "870",
+        "name": "Sky Sports Premier League",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "857",
+        "name": "BT Sports 1",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "858",
+        "name": "BT Sports 2",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "828",
+        "name": "ESPN",
+        "category": "Sports",
+        "hasPlayback": true
+      }
+    ]
+  },
+  {
+    "id": 560718,
+    "startTime": "2026-12-30T20:15:00Z",
+    "status": "TIMED",
+    "matchday": 18,
+    "competition": "Premier League",
+    "competitionCode": "PL",
+    "competitionCategory": "english",
+    "homeTeam": "Ipswich Town",
+    "homeTeamTla": "IPS",
+    "awayTeam": "Chelsea",
+    "awayTeamTla": "CHE",
+    "homeScore": null,
+    "awayScore": null,
+    "title": "Ipswich Town vs Chelsea",
+    "description": "Matchday 18: Ipswich Town FC vs Chelsea FC",
+    "isLive": false,
+    "broadcaster": "Not yet announced",
+    "broadcastConfirmed": false,
+    "channel": {
+      "number": "174",
+      "name": "USA Network East",
+      "category": "National",
+      "hasPlayback": true
+    },
+    "channels": [
+      {
+        "number": "174",
+        "name": "USA Network East",
+        "category": "National",
+        "hasPlayback": true
+      },
+      {
+        "number": "181",
+        "name": "Telemundo East",
+        "category": "National",
+        "hasPlayback": false
+      },
+      {
+        "number": "870",
+        "name": "Sky Sports Premier League",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "857",
+        "name": "BT Sports 1",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "858",
+        "name": "BT Sports 2",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "828",
+        "name": "ESPN",
+        "category": "Sports",
+        "hasPlayback": true
+      }
+    ]
+  },
+  {
+    "id": 560724,
+    "startTime": "2027-01-01T20:00:00Z",
     "status": "TIMED",
     "matchday": 19,
     "competition": "Premier League",
     "competitionCode": "PL",
     "competitionCategory": "english",
-    "homeTeam": "Bournemouth",
-    "homeTeamTla": "BOU",
-    "awayTeam": "Aston Villa",
-    "awayTeamTla": "AVL",
+    "homeTeam": "Leeds United",
+    "homeTeamTla": "LEE",
+    "awayTeam": "Everton",
+    "awayTeamTla": "EVE",
     "homeScore": null,
     "awayScore": null,
-    "title": "Bournemouth vs Aston Villa",
-    "description": "Matchday 19: AFC Bournemouth vs Aston Villa FC",
+    "title": "Leeds United vs Everton",
+    "description": "Matchday 19: Leeds United FC vs Everton FC",
+    "isLive": false,
+    "broadcaster": "Not yet announced",
+    "broadcastConfirmed": false,
+    "channel": {
+      "number": "174",
+      "name": "USA Network East",
+      "category": "National",
+      "hasPlayback": true
+    },
+    "channels": [
+      {
+        "number": "174",
+        "name": "USA Network East",
+        "category": "National",
+        "hasPlayback": true
+      },
+      {
+        "number": "181",
+        "name": "Telemundo East",
+        "category": "National",
+        "hasPlayback": false
+      },
+      {
+        "number": "870",
+        "name": "Sky Sports Premier League",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "857",
+        "name": "BT Sports 1",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "858",
+        "name": "BT Sports 2",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "828",
+        "name": "ESPN",
+        "category": "Sports",
+        "hasPlayback": true
+      }
+    ]
+  },
+  {
+    "id": 560730,
+    "startTime": "2027-01-02T12:30:00Z",
+    "status": "TIMED",
+    "matchday": 19,
+    "competition": "Premier League",
+    "competitionCode": "PL",
+    "competitionCategory": "english",
+    "homeTeam": "Brighton Hove",
+    "homeTeamTla": "BHA",
+    "awayTeam": "Man United",
+    "awayTeamTla": "MUN",
+    "homeScore": null,
+    "awayScore": null,
+    "title": "Brighton Hove vs Man United",
+    "description": "Matchday 19: Brighton & Hove Albion FC vs Manchester United FC",
     "isLive": false,
     "broadcaster": "Not yet announced",
     "broadcastConfirmed": false,
@@ -11617,70 +11669,6 @@
     "awayScore": null,
     "title": "Brentford vs Crystal Palace",
     "description": "Matchday 19: Brentford FC vs Crystal Palace FC",
-    "isLive": false,
-    "broadcaster": "Not yet announced",
-    "broadcastConfirmed": false,
-    "channel": {
-      "number": "174",
-      "name": "USA Network East",
-      "category": "National",
-      "hasPlayback": true
-    },
-    "channels": [
-      {
-        "number": "174",
-        "name": "USA Network East",
-        "category": "National",
-        "hasPlayback": true
-      },
-      {
-        "number": "181",
-        "name": "Telemundo East",
-        "category": "National",
-        "hasPlayback": false
-      },
-      {
-        "number": "870",
-        "name": "Sky Sports Premier League",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "857",
-        "name": "BT Sports 1",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "858",
-        "name": "BT Sports 2",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "828",
-        "name": "ESPN",
-        "category": "Sports",
-        "hasPlayback": true
-      }
-    ]
-  },
-  {
-    "id": 560724,
-    "startTime": "2027-01-02T15:00:00Z",
-    "status": "TIMED",
-    "matchday": 19,
-    "competition": "Premier League",
-    "competitionCode": "PL",
-    "competitionCategory": "english",
-    "homeTeam": "Leeds United",
-    "homeTeamTla": "LEE",
-    "awayTeam": "Everton",
-    "awayTeamTla": "EVE",
-    "homeScore": null,
-    "awayScore": null,
-    "title": "Leeds United vs Everton",
-    "description": "Matchday 19: Leeds United FC vs Everton FC",
     "isLive": false,
     "broadcaster": "Not yet announced",
     "broadcastConfirmed": false,
@@ -11922,70 +11910,6 @@
     ]
   },
   {
-    "id": 560728,
-    "startTime": "2027-01-02T15:00:00Z",
-    "status": "TIMED",
-    "matchday": 19,
-    "competition": "Premier League",
-    "competitionCode": "PL",
-    "competitionCategory": "english",
-    "homeTeam": "Chelsea",
-    "homeTeamTla": "CHE",
-    "awayTeam": "Newcastle",
-    "awayTeamTla": "NEW",
-    "homeScore": null,
-    "awayScore": null,
-    "title": "Chelsea vs Newcastle",
-    "description": "Matchday 19: Chelsea FC vs Newcastle United FC",
-    "isLive": false,
-    "broadcaster": "Not yet announced",
-    "broadcastConfirmed": false,
-    "channel": {
-      "number": "174",
-      "name": "USA Network East",
-      "category": "National",
-      "hasPlayback": true
-    },
-    "channels": [
-      {
-        "number": "174",
-        "name": "USA Network East",
-        "category": "National",
-        "hasPlayback": true
-      },
-      {
-        "number": "181",
-        "name": "Telemundo East",
-        "category": "National",
-        "hasPlayback": false
-      },
-      {
-        "number": "870",
-        "name": "Sky Sports Premier League",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "857",
-        "name": "BT Sports 1",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "858",
-        "name": "BT Sports 2",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "828",
-        "name": "ESPN",
-        "category": "Sports",
-        "hasPlayback": true
-      }
-    ]
-  },
-  {
     "id": 560729,
     "startTime": "2027-01-02T15:00:00Z",
     "status": "TIMED",
@@ -12050,21 +11974,85 @@
     ]
   },
   {
-    "id": 560730,
-    "startTime": "2027-01-02T15:00:00Z",
+    "id": 560722,
+    "startTime": "2027-01-02T17:30:00Z",
     "status": "TIMED",
     "matchday": 19,
     "competition": "Premier League",
     "competitionCode": "PL",
     "competitionCategory": "english",
-    "homeTeam": "Brighton Hove",
-    "homeTeamTla": "BHA",
-    "awayTeam": "Man United",
-    "awayTeamTla": "MUN",
+    "homeTeam": "Bournemouth",
+    "homeTeamTla": "BOU",
+    "awayTeam": "Aston Villa",
+    "awayTeamTla": "AVL",
     "homeScore": null,
     "awayScore": null,
-    "title": "Brighton Hove vs Man United",
-    "description": "Matchday 19: Brighton & Hove Albion FC vs Manchester United FC",
+    "title": "Bournemouth vs Aston Villa",
+    "description": "Matchday 19: AFC Bournemouth vs Aston Villa FC",
+    "isLive": false,
+    "broadcaster": "Not yet announced",
+    "broadcastConfirmed": false,
+    "channel": {
+      "number": "174",
+      "name": "USA Network East",
+      "category": "National",
+      "hasPlayback": true
+    },
+    "channels": [
+      {
+        "number": "174",
+        "name": "USA Network East",
+        "category": "National",
+        "hasPlayback": true
+      },
+      {
+        "number": "181",
+        "name": "Telemundo East",
+        "category": "National",
+        "hasPlayback": false
+      },
+      {
+        "number": "870",
+        "name": "Sky Sports Premier League",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "857",
+        "name": "BT Sports 1",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "858",
+        "name": "BT Sports 2",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "828",
+        "name": "ESPN",
+        "category": "Sports",
+        "hasPlayback": true
+      }
+    ]
+  },
+  {
+    "id": 560728,
+    "startTime": "2027-01-03T14:00:00Z",
+    "status": "TIMED",
+    "matchday": 19,
+    "competition": "Premier League",
+    "competitionCode": "PL",
+    "competitionCategory": "english",
+    "homeTeam": "Chelsea",
+    "homeTeamTla": "CHE",
+    "awayTeam": "Newcastle",
+    "awayTeamTla": "NEW",
+    "homeScore": null,
+    "awayScore": null,
+    "title": "Chelsea vs Newcastle",
+    "description": "Matchday 19: Chelsea FC vs Newcastle United FC",
     "isLive": false,
     "broadcaster": "Not yet announced",
     "broadcastConfirmed": false,
@@ -12115,7 +12103,7 @@
   },
   {
     "id": 560731,
-    "startTime": "2027-01-02T15:00:00Z",
+    "startTime": "2027-01-03T16:30:00Z",
     "status": "TIMED",
     "matchday": 19,
     "competition": "Premier League",
@@ -12179,7 +12167,7 @@
   },
   {
     "id": 560732,
-    "startTime": "2027-01-06T20:00:00Z",
+    "startTime": "2027-01-05T19:30:00Z",
     "status": "TIMED",
     "matchday": 20,
     "competition": "Premier League",
@@ -12242,136 +12230,8 @@
     ]
   },
   {
-    "id": 560733,
-    "startTime": "2027-01-06T20:00:00Z",
-    "status": "TIMED",
-    "matchday": 20,
-    "competition": "Premier League",
-    "competitionCode": "PL",
-    "competitionCategory": "english",
-    "homeTeam": "Leeds United",
-    "homeTeamTla": "LEE",
-    "awayTeam": "Man City",
-    "awayTeamTla": "MCI",
-    "homeScore": null,
-    "awayScore": null,
-    "title": "Leeds United vs Man City",
-    "description": "Matchday 20: Leeds United FC vs Manchester City FC",
-    "isLive": false,
-    "broadcaster": "Not yet announced",
-    "broadcastConfirmed": false,
-    "channel": {
-      "number": "174",
-      "name": "USA Network East",
-      "category": "National",
-      "hasPlayback": true
-    },
-    "channels": [
-      {
-        "number": "174",
-        "name": "USA Network East",
-        "category": "National",
-        "hasPlayback": true
-      },
-      {
-        "number": "181",
-        "name": "Telemundo East",
-        "category": "National",
-        "hasPlayback": false
-      },
-      {
-        "number": "870",
-        "name": "Sky Sports Premier League",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "857",
-        "name": "BT Sports 1",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "858",
-        "name": "BT Sports 2",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "828",
-        "name": "ESPN",
-        "category": "Sports",
-        "hasPlayback": true
-      }
-    ]
-  },
-  {
-    "id": 560734,
-    "startTime": "2027-01-06T20:00:00Z",
-    "status": "TIMED",
-    "matchday": 20,
-    "competition": "Premier League",
-    "competitionCode": "PL",
-    "competitionCategory": "english",
-    "homeTeam": "Man United",
-    "homeTeamTla": "MUN",
-    "awayTeam": "Newcastle",
-    "awayTeamTla": "NEW",
-    "homeScore": null,
-    "awayScore": null,
-    "title": "Man United vs Newcastle",
-    "description": "Matchday 20: Manchester United FC vs Newcastle United FC",
-    "isLive": false,
-    "broadcaster": "Not yet announced",
-    "broadcastConfirmed": false,
-    "channel": {
-      "number": "174",
-      "name": "USA Network East",
-      "category": "National",
-      "hasPlayback": true
-    },
-    "channels": [
-      {
-        "number": "174",
-        "name": "USA Network East",
-        "category": "National",
-        "hasPlayback": true
-      },
-      {
-        "number": "181",
-        "name": "Telemundo East",
-        "category": "National",
-        "hasPlayback": false
-      },
-      {
-        "number": "870",
-        "name": "Sky Sports Premier League",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "857",
-        "name": "BT Sports 1",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "858",
-        "name": "BT Sports 2",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "828",
-        "name": "ESPN",
-        "category": "Sports",
-        "hasPlayback": true
-      }
-    ]
-  },
-  {
     "id": 560735,
-    "startTime": "2027-01-06T20:00:00Z",
+    "startTime": "2027-01-05T19:30:00Z",
     "status": "TIMED",
     "matchday": 20,
     "competition": "Premier League",
@@ -12435,7 +12295,7 @@
   },
   {
     "id": 560736,
-    "startTime": "2027-01-06T20:00:00Z",
+    "startTime": "2027-01-05T19:30:00Z",
     "status": "TIMED",
     "matchday": 20,
     "competition": "Premier League",
@@ -12498,72 +12358,8 @@
     ]
   },
   {
-    "id": 560737,
-    "startTime": "2027-01-06T20:00:00Z",
-    "status": "TIMED",
-    "matchday": 20,
-    "competition": "Premier League",
-    "competitionCode": "PL",
-    "competitionCategory": "english",
-    "homeTeam": "Fulham",
-    "homeTeamTla": "FUL",
-    "awayTeam": "Tottenham",
-    "awayTeamTla": "TOT",
-    "homeScore": null,
-    "awayScore": null,
-    "title": "Fulham vs Tottenham",
-    "description": "Matchday 20: Fulham FC vs Tottenham Hotspur FC",
-    "isLive": false,
-    "broadcaster": "Not yet announced",
-    "broadcastConfirmed": false,
-    "channel": {
-      "number": "174",
-      "name": "USA Network East",
-      "category": "National",
-      "hasPlayback": true
-    },
-    "channels": [
-      {
-        "number": "174",
-        "name": "USA Network East",
-        "category": "National",
-        "hasPlayback": true
-      },
-      {
-        "number": "181",
-        "name": "Telemundo East",
-        "category": "National",
-        "hasPlayback": false
-      },
-      {
-        "number": "870",
-        "name": "Sky Sports Premier League",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "857",
-        "name": "BT Sports 1",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "858",
-        "name": "BT Sports 2",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "828",
-        "name": "ESPN",
-        "category": "Sports",
-        "hasPlayback": true
-      }
-    ]
-  },
-  {
     "id": 560738,
-    "startTime": "2027-01-06T20:00:00Z",
+    "startTime": "2027-01-05T19:30:00Z",
     "status": "TIMED",
     "matchday": 20,
     "competition": "Premier League",
@@ -12627,7 +12423,7 @@
   },
   {
     "id": 560739,
-    "startTime": "2027-01-06T20:00:00Z",
+    "startTime": "2027-01-05T20:15:00Z",
     "status": "TIMED",
     "matchday": 20,
     "competition": "Premier League",
@@ -12690,8 +12486,72 @@
     ]
   },
   {
+    "id": 560737,
+    "startTime": "2027-01-06T19:30:00Z",
+    "status": "TIMED",
+    "matchday": 20,
+    "competition": "Premier League",
+    "competitionCode": "PL",
+    "competitionCategory": "english",
+    "homeTeam": "Fulham",
+    "homeTeamTla": "FUL",
+    "awayTeam": "Tottenham",
+    "awayTeamTla": "TOT",
+    "homeScore": null,
+    "awayScore": null,
+    "title": "Fulham vs Tottenham",
+    "description": "Matchday 20: Fulham FC vs Tottenham Hotspur FC",
+    "isLive": false,
+    "broadcaster": "Not yet announced",
+    "broadcastConfirmed": false,
+    "channel": {
+      "number": "174",
+      "name": "USA Network East",
+      "category": "National",
+      "hasPlayback": true
+    },
+    "channels": [
+      {
+        "number": "174",
+        "name": "USA Network East",
+        "category": "National",
+        "hasPlayback": true
+      },
+      {
+        "number": "181",
+        "name": "Telemundo East",
+        "category": "National",
+        "hasPlayback": false
+      },
+      {
+        "number": "870",
+        "name": "Sky Sports Premier League",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "857",
+        "name": "BT Sports 1",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "858",
+        "name": "BT Sports 2",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "828",
+        "name": "ESPN",
+        "category": "Sports",
+        "hasPlayback": true
+      }
+    ]
+  },
+  {
     "id": 560740,
-    "startTime": "2027-01-06T20:00:00Z",
+    "startTime": "2027-01-06T19:30:00Z",
     "status": "TIMED",
     "matchday": 20,
     "competition": "Premier League",
@@ -12755,7 +12615,7 @@
   },
   {
     "id": 560741,
-    "startTime": "2027-01-06T20:00:00Z",
+    "startTime": "2027-01-06T19:30:00Z",
     "status": "TIMED",
     "matchday": 20,
     "competition": "Premier League",
@@ -12769,6 +12629,134 @@
     "awayScore": null,
     "title": "Ipswich Town vs Coventry City",
     "description": "Matchday 20: Ipswich Town FC vs Coventry City FC",
+    "isLive": false,
+    "broadcaster": "Not yet announced",
+    "broadcastConfirmed": false,
+    "channel": {
+      "number": "174",
+      "name": "USA Network East",
+      "category": "National",
+      "hasPlayback": true
+    },
+    "channels": [
+      {
+        "number": "174",
+        "name": "USA Network East",
+        "category": "National",
+        "hasPlayback": true
+      },
+      {
+        "number": "181",
+        "name": "Telemundo East",
+        "category": "National",
+        "hasPlayback": false
+      },
+      {
+        "number": "870",
+        "name": "Sky Sports Premier League",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "857",
+        "name": "BT Sports 1",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "858",
+        "name": "BT Sports 2",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "828",
+        "name": "ESPN",
+        "category": "Sports",
+        "hasPlayback": true
+      }
+    ]
+  },
+  {
+    "id": 560733,
+    "startTime": "2027-01-06T20:15:00Z",
+    "status": "TIMED",
+    "matchday": 20,
+    "competition": "Premier League",
+    "competitionCode": "PL",
+    "competitionCategory": "english",
+    "homeTeam": "Leeds United",
+    "homeTeamTla": "LEE",
+    "awayTeam": "Man City",
+    "awayTeamTla": "MCI",
+    "homeScore": null,
+    "awayScore": null,
+    "title": "Leeds United vs Man City",
+    "description": "Matchday 20: Leeds United FC vs Manchester City FC",
+    "isLive": false,
+    "broadcaster": "Not yet announced",
+    "broadcastConfirmed": false,
+    "channel": {
+      "number": "174",
+      "name": "USA Network East",
+      "category": "National",
+      "hasPlayback": true
+    },
+    "channels": [
+      {
+        "number": "174",
+        "name": "USA Network East",
+        "category": "National",
+        "hasPlayback": true
+      },
+      {
+        "number": "181",
+        "name": "Telemundo East",
+        "category": "National",
+        "hasPlayback": false
+      },
+      {
+        "number": "870",
+        "name": "Sky Sports Premier League",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "857",
+        "name": "BT Sports 1",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "858",
+        "name": "BT Sports 2",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "828",
+        "name": "ESPN",
+        "category": "Sports",
+        "hasPlayback": true
+      }
+    ]
+  },
+  {
+    "id": 560734,
+    "startTime": "2027-01-07T20:00:00Z",
+    "status": "TIMED",
+    "matchday": 20,
+    "competition": "Premier League",
+    "competitionCode": "PL",
+    "competitionCategory": "english",
+    "homeTeam": "Man United",
+    "homeTeamTla": "MUN",
+    "awayTeam": "Newcastle",
+    "awayTeamTla": "NEW",
+    "homeScore": null,
+    "awayScore": null,
+    "title": "Man United vs Newcastle",
+    "description": "Matchday 20: Manchester United FC vs Newcastle United FC",
     "isLive": false,
     "broadcaster": "Not yet announced",
     "broadcastConfirmed": false,
