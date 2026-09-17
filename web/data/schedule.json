@@ -2498,7 +2498,7 @@
   {
     "id": 560579,
     "startTime": "2026-09-14T19:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 4,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -2507,13 +2507,13 @@
     "homeTeamTla": "LEE",
     "awayTeam": "Newcastle",
     "awayTeamTla": "NEW",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 4,
+    "awayScore": 1,
     "title": "Leeds United vs Newcastle",
     "description": "Matchday 4: Leeds United FC vs Newcastle United FC",
     "isLive": false,
-    "broadcaster": "USA Network / DirecTV Stream / Sling Blue",
-    "broadcastConfirmed": true,
+    "broadcaster": "Not yet announced",
+    "broadcastConfirmed": false,
     "channel": {
       "number": "174",
       "name": "USA Network East",
@@ -2966,7 +2966,7 @@
     "title": "Bournemouth vs Liverpool",
     "description": "Matchday 5: AFC Bournemouth vs Liverpool FC",
     "isLive": false,
-    "broadcaster": "USA Network / Telemundo",
+    "broadcaster": "USA Network / Telemundo / DirecTV Stream / Sling Blue / Fubo",
     "broadcastConfirmed": true,
     "channel": {
       "number": "174",
@@ -3030,7 +3030,7 @@
     "title": "Leeds United vs Crystal Palace",
     "description": "Matchday 5: Leeds United FC vs Crystal Palace FC",
     "isLive": false,
-    "broadcaster": "Peacock",
+    "broadcaster": "Fubo / Peacock Premium",
     "broadcastConfirmed": false,
     "channel": {
       "number": "174",
@@ -3094,7 +3094,7 @@
     "title": "Man City vs Sunderland",
     "description": "Matchday 5: Manchester City FC vs Sunderland AFC",
     "isLive": false,
-    "broadcaster": "Peacock",
+    "broadcaster": "Fubo / Peacock Premium",
     "broadcastConfirmed": false,
     "channel": {
       "number": "174",
@@ -3158,7 +3158,7 @@
     "title": "Fulham vs Man United",
     "description": "Matchday 5: Fulham FC vs Manchester United FC",
     "isLive": false,
-    "broadcaster": "NBC / Telemundo",
+    "broadcaster": "NBC / Telemundo / Fubo / DirecTV Stream",
     "broadcastConfirmed": true,
     "channel": {
       "number": "174",
