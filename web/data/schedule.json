@@ -3874,8 +3874,8 @@
     "title": "Everton vs Chelsea",
     "description": "Matchday 7: Everton FC vs Chelsea FC",
     "isLive": false,
-    "broadcaster": "Not yet announced",
-    "broadcastConfirmed": false,
+    "broadcaster": "USA Network",
+    "broadcastConfirmed": true,
     "channel": {
       "number": "174",
       "name": "USA Network East",
@@ -4258,8 +4258,8 @@
     "title": "Leeds United vs Man United",
     "description": "Matchday 7: Leeds United FC vs Manchester United FC",
     "isLive": false,
-    "broadcaster": "Not yet announced",
-    "broadcastConfirmed": false,
+    "broadcaster": "USA Network",
+    "broadcastConfirmed": true,
     "channel": {
       "number": "174",
       "name": "USA Network East",
@@ -4450,8 +4450,8 @@
     "title": "Tottenham vs Coventry City",
     "description": "Matchday 7: Tottenham Hotspur FC vs Coventry City FC",
     "isLive": false,
-    "broadcaster": "Not yet announced",
-    "broadcastConfirmed": false,
+    "broadcaster": "USA Network",
+    "broadcastConfirmed": true,
     "channel": {
       "number": "174",
       "name": "USA Network East",
