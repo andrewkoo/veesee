@@ -4578,8 +4578,8 @@
     "title": "Aston Villa vs Man City",
     "description": "Matchday 8: Aston Villa FC vs Manchester City FC",
     "isLive": false,
-    "broadcaster": "Not yet announced",
-    "broadcastConfirmed": false,
+    "broadcaster": "USA Network",
+    "broadcastConfirmed": true,
     "channel": {
       "number": "174",
       "name": "USA Network East",
@@ -4642,8 +4642,8 @@
     "title": "Arsenal vs Everton",
     "description": "Matchday 8: Arsenal FC vs Everton FC",
     "isLive": false,
-    "broadcaster": "Not yet announced",
-    "broadcastConfirmed": false,
+    "broadcaster": "USA Network",
+    "broadcastConfirmed": true,
     "channel": {
       "number": "174",
       "name": "USA Network East",
@@ -4898,8 +4898,8 @@
     "title": "Crystal Palace vs Newcastle",
     "description": "Matchday 8: Crystal Palace FC vs Newcastle United FC",
     "isLive": false,
-    "broadcaster": "Not yet announced",
-    "broadcastConfirmed": false,
+    "broadcaster": "USA Network",
+    "broadcastConfirmed": true,
     "channel": {
       "number": "174",
       "name": "USA Network East",
@@ -5090,8 +5090,8 @@
     "title": "Sunderland vs Leeds United",
     "description": "Matchday 8: Sunderland AFC vs Leeds United FC",
     "isLive": false,
-    "broadcaster": "Not yet announced",
-    "broadcastConfirmed": false,
+    "broadcaster": "USA Network",
+    "broadcastConfirmed": true,
     "channel": {
       "number": "174",
       "name": "USA Network East",
