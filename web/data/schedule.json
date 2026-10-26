@@ -4482,7 +4482,7 @@
   {
     "id": 560620,
     "startTime": "2026-10-23T19:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 8,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -4491,8 +4491,8 @@
     "homeTeamTla": "IPS",
     "awayTeam": "Nottingham",
     "awayTeamTla": "NOT",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 1,
+    "awayScore": 1,
     "title": "Ipswich Town vs Nottingham",
     "description": "Matchday 8: Ipswich Town FC vs Nottingham Forest FC",
     "isLive": false,
@@ -4546,7 +4546,7 @@
   {
     "id": 560614,
     "startTime": "2026-10-24T11:30:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 8,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -4555,13 +4555,13 @@
     "homeTeamTla": "AVL",
     "awayTeam": "Man City",
     "awayTeamTla": "MCI",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 2,
+    "awayScore": 1,
     "title": "Aston Villa vs Man City",
     "description": "Matchday 8: Aston Villa FC vs Manchester City FC",
     "isLive": false,
-    "broadcaster": "USA Network / Universo / DirecTV Stream / Sling Blue",
-    "broadcastConfirmed": true,
+    "broadcaster": "Not yet announced",
+    "broadcastConfirmed": false,
     "channel": {
       "number": "174",
       "name": "USA Network East",
@@ -4574,12 +4574,6 @@
         "name": "USA Network East",
         "category": "National",
         "hasPlayback": true
-      },
-      {
-        "number": "183",
-        "name": "Univision East",
-        "category": "National",
-        "hasPlayback": false
       },
       {
         "number": "181",
@@ -4616,7 +4610,7 @@
   {
     "id": 560616,
     "startTime": "2026-10-24T14:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 8,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -4625,13 +4619,13 @@
     "homeTeamTla": "ARS",
     "awayTeam": "Everton",
     "awayTeamTla": "EVE",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 2,
+    "awayScore": 0,
     "title": "Arsenal vs Everton",
     "description": "Matchday 8: Arsenal FC vs Everton FC",
     "isLive": false,
-    "broadcaster": "USA Network / Universo / DirecTV Stream / Sling Blue",
-    "broadcastConfirmed": true,
+    "broadcaster": "Not yet announced",
+    "broadcastConfirmed": false,
     "channel": {
       "number": "174",
       "name": "USA Network East",
@@ -4644,12 +4638,6 @@
         "name": "USA Network East",
         "category": "National",
         "hasPlayback": true
-      },
-      {
-        "number": "183",
-        "name": "Univision East",
-        "category": "National",
-        "hasPlayback": false
       },
       {
         "number": "181",
@@ -4686,7 +4674,7 @@
   {
     "id": 560618,
     "startTime": "2026-10-24T14:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 8,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -4695,12 +4683,12 @@
     "homeTeamTla": "COV",
     "awayTeam": "Fulham",
     "awayTeamTla": "FUL",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 0,
+    "awayScore": 1,
     "title": "Coventry City vs Fulham",
     "description": "Matchday 8: Coventry City FC vs Fulham FC",
     "isLive": false,
-    "broadcaster": "Fubo / Peacock Premium",
+    "broadcaster": "Not yet announced",
     "broadcastConfirmed": false,
     "channel": {
       "number": "174",
@@ -4750,7 +4738,7 @@
   {
     "id": 560617,
     "startTime": "2026-10-24T16:30:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 8,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -4759,13 +4747,13 @@
     "homeTeamTla": "CHE",
     "awayTeam": "Tottenham",
     "awayTeamTla": "TOT",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 0,
+    "awayScore": 2,
     "title": "Chelsea vs Tottenham",
     "description": "Matchday 8: Chelsea FC vs Tottenham Hotspur FC",
     "isLive": false,
-    "broadcaster": "NBC / Telemundo / Fubo / DirecTV Stream / Sling Blue / Peacock Premium",
-    "broadcastConfirmed": true,
+    "broadcaster": "Not yet announced",
+    "broadcastConfirmed": false,
     "channel": {
       "number": "174",
       "name": "USA Network East",
@@ -4814,7 +4802,7 @@
   {
     "id": 560612,
     "startTime": "2026-10-25T14:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 8,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -4823,12 +4811,12 @@
     "homeTeamTla": "LIV",
     "awayTeam": "Brighton Hove",
     "awayTeamTla": "BHA",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 2,
+    "awayScore": 0,
     "title": "Liverpool vs Brighton Hove",
     "description": "Matchday 8: Liverpool FC vs Brighton & Hove Albion FC",
     "isLive": false,
-    "broadcaster": "Fubo / Peacock Premium",
+    "broadcaster": "Not yet announced",
     "broadcastConfirmed": false,
     "channel": {
       "number": "174",
@@ -4878,7 +4866,7 @@
   {
     "id": 560613,
     "startTime": "2026-10-25T14:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 8,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -4887,13 +4875,13 @@
     "homeTeamTla": "CRY",
     "awayTeam": "Newcastle",
     "awayTeamTla": "NEW",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 0,
+    "awayScore": 2,
     "title": "Crystal Palace vs Newcastle",
     "description": "Matchday 8: Crystal Palace FC vs Newcastle United FC",
     "isLive": false,
-    "broadcaster": "USA Network / Telemundo / DirecTV Stream / Sling Blue / Fubo",
-    "broadcastConfirmed": true,
+    "broadcaster": "Not yet announced",
+    "broadcastConfirmed": false,
     "channel": {
       "number": "174",
       "name": "USA Network East",
@@ -4942,7 +4930,7 @@
   {
     "id": 560615,
     "startTime": "2026-10-25T14:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 8,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -4951,12 +4939,12 @@
     "homeTeamTla": "MUN",
     "awayTeam": "Bournemouth",
     "awayTeamTla": "BOU",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 0,
+    "awayScore": 3,
     "title": "Man United vs Bournemouth",
     "description": "Matchday 8: Manchester United FC vs AFC Bournemouth",
     "isLive": false,
-    "broadcaster": "Fubo / Peacock Premium",
+    "broadcaster": "Not yet announced",
     "broadcastConfirmed": false,
     "channel": {
       "number": "174",
@@ -5006,7 +4994,7 @@
   {
     "id": 560619,
     "startTime": "2026-10-25T14:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 8,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -5015,12 +5003,12 @@
     "homeTeamTla": "HUL",
     "awayTeam": "Brentford",
     "awayTeamTla": "BRE",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 1,
+    "awayScore": 1,
     "title": "Hull City vs Brentford",
     "description": "Matchday 8: Hull City AFC vs Brentford FC",
     "isLive": false,
-    "broadcaster": "Fubo / Peacock Premium",
+    "broadcaster": "Not yet announced",
     "broadcastConfirmed": false,
     "channel": {
       "number": "174",
@@ -5070,7 +5058,7 @@
   {
     "id": 560621,
     "startTime": "2026-10-25T16:30:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 8,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -5079,13 +5067,13 @@
     "homeTeamTla": "SUN",
     "awayTeam": "Leeds United",
     "awayTeamTla": "LEE",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 0,
+    "awayScore": 0,
     "title": "Sunderland vs Leeds United",
     "description": "Matchday 8: Sunderland AFC vs Leeds United FC",
     "isLive": false,
-    "broadcaster": "USA Network / DirecTV Stream / Sling Blue",
-    "broadcastConfirmed": true,
+    "broadcaster": "Not yet announced",
+    "broadcastConfirmed": false,
     "channel": {
       "number": "174",
       "name": "USA Network East",
@@ -5148,8 +5136,8 @@
     "title": "Chelsea vs Man United",
     "description": "Matchday 9: Chelsea FC vs Manchester United FC",
     "isLive": false,
-    "broadcaster": "Not yet announced",
-    "broadcastConfirmed": false,
+    "broadcaster": "USA Network / Telemundo / DirecTV Stream / Sling Blue / Fubo",
+    "broadcastConfirmed": true,
     "channel": {
       "number": "174",
       "name": "USA Network East",
@@ -5212,7 +5200,7 @@
     "title": "Man City vs Brighton Hove",
     "description": "Matchday 9: Manchester City FC vs Brighton & Hove Albion FC",
     "isLive": false,
-    "broadcaster": "Not yet announced",
+    "broadcaster": "Fubo / Peacock Premium",
     "broadcastConfirmed": false,
     "channel": {
       "number": "174",
@@ -5276,7 +5264,7 @@
     "title": "Bournemouth vs Leeds United",
     "description": "Matchday 9: AFC Bournemouth vs Leeds United FC",
     "isLive": false,
-    "broadcaster": "Not yet announced",
+    "broadcaster": "Fubo / Peacock Premium",
     "broadcastConfirmed": false,
     "channel": {
       "number": "174",
@@ -5340,7 +5328,7 @@
     "title": "Coventry City vs Sunderland",
     "description": "Matchday 9: Coventry City FC vs Sunderland AFC",
     "isLive": false,
-    "broadcaster": "Not yet announced",
+    "broadcaster": "Fubo / Peacock Premium",
     "broadcastConfirmed": false,
     "channel": {
       "number": "174",
@@ -5468,8 +5456,8 @@
     "title": "Brentford vs Nottingham",
     "description": "Matchday 9: Brentford FC vs Nottingham Forest FC",
     "isLive": false,
-    "broadcaster": "Not yet announced",
-    "broadcastConfirmed": false,
+    "broadcaster": "USA Network / Universo / DirecTV Stream / Sling Blue",
+    "broadcastConfirmed": true,
     "channel": {
       "number": "174",
       "name": "USA Network East",
@@ -5482,6 +5470,12 @@
         "name": "USA Network East",
         "category": "National",
         "hasPlayback": true
+      },
+      {
+        "number": "183",
+        "name": "Univision East",
+        "category": "National",
+        "hasPlayback": false
       },
       {
         "number": "181",
@@ -5532,8 +5526,8 @@
     "title": "Tottenham vs Crystal Palace",
     "description": "Matchday 9: Tottenham Hotspur FC vs Crystal Palace FC",
     "isLive": false,
-    "broadcaster": "Not yet announced",
-    "broadcastConfirmed": false,
+    "broadcaster": "NBC / Universo / Fubo / DirecTV Stream / Sling Blue / Peacock Premium",
+    "broadcastConfirmed": true,
     "channel": {
       "number": "174",
       "name": "USA Network East",
@@ -5546,6 +5540,12 @@
         "name": "USA Network East",
         "category": "National",
         "hasPlayback": true
+      },
+      {
+        "number": "183",
+        "name": "Univision East",
+        "category": "National",
+        "hasPlayback": false
       },
       {
         "number": "181",
@@ -5596,7 +5596,7 @@
     "title": "Aston Villa vs Fulham",
     "description": "Matchday 9: Aston Villa FC vs Fulham FC",
     "isLive": false,
-    "broadcaster": "Not yet announced",
+    "broadcaster": "Fubo / Peacock Premium",
     "broadcastConfirmed": false,
     "channel": {
       "number": "174",
@@ -5660,26 +5660,26 @@
     "title": "Liverpool vs Arsenal",
     "description": "Matchday 9: Liverpool FC vs Arsenal FC",
     "isLive": false,
-    "broadcaster": "Not yet announced",
-    "broadcastConfirmed": false,
+    "broadcaster": "Telemundo / Fubo / DirecTV Stream / Peacock Premium",
+    "broadcastConfirmed": true,
     "channel": {
-      "number": "174",
-      "name": "USA Network East",
+      "number": "181",
+      "name": "Telemundo East",
       "category": "National",
-      "hasPlayback": true
+      "hasPlayback": false
     },
     "channels": [
-      {
-        "number": "174",
-        "name": "USA Network East",
-        "category": "National",
-        "hasPlayback": true
-      },
       {
         "number": "181",
         "name": "Telemundo East",
         "category": "National",
         "hasPlayback": false
+      },
+      {
+        "number": "174",
+        "name": "USA Network East",
+        "category": "National",
+        "hasPlayback": true
       },
       {
         "number": "870",
@@ -5724,8 +5724,8 @@
     "title": "Newcastle vs Everton",
     "description": "Matchday 9: Newcastle United FC vs Everton FC",
     "isLive": false,
-    "broadcaster": "Not yet announced",
-    "broadcastConfirmed": false,
+    "broadcaster": "USA Network / Universo / DirecTV Stream / Sling Blue",
+    "broadcastConfirmed": true,
     "channel": {
       "number": "174",
       "name": "USA Network East",
@@ -5738,6 +5738,12 @@
         "name": "USA Network East",
         "category": "National",
         "hasPlayback": true
+      },
+      {
+        "number": "183",
+        "name": "Univision East",
+        "category": "National",
+        "hasPlayback": false
       },
       {
         "number": "181",
