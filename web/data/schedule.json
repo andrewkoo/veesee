@@ -5698,7 +5698,7 @@
   {
     "id": 560622,
     "startTime": "2026-11-02T20:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 9,
     "competition": "Premier League",
     "competitionCode": "PL",
@@ -5707,13 +5707,13 @@
     "homeTeamTla": "NEW",
     "awayTeam": "Everton",
     "awayTeamTla": "EVE",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 0,
+    "awayScore": 1,
     "title": "Newcastle vs Everton",
     "description": "Matchday 9: Newcastle United FC vs Everton FC",
     "isLive": false,
-    "broadcaster": "USA Network / Universo / DirecTV Stream / Sling Blue",
-    "broadcastConfirmed": true,
+    "broadcaster": "Not yet announced",
+    "broadcastConfirmed": false,
     "channel": {
       "number": "174",
       "name": "USA Network East",
@@ -5726,12 +5726,6 @@
         "name": "USA Network East",
         "category": "National",
         "hasPlayback": true
-      },
-      {
-        "number": "183",
-        "name": "Univision East",
-        "category": "National",
-        "hasPlayback": false
       },
       {
         "number": "181",
@@ -9752,70 +9746,6 @@
     ]
   },
   {
-    "id": 560694,
-    "startTime": "2026-12-19T15:00:00Z",
-    "status": "TIMED",
-    "matchday": 16,
-    "competition": "Premier League",
-    "competitionCode": "PL",
-    "competitionCategory": "english",
-    "homeTeam": "Nottingham",
-    "homeTeamTla": "NOT",
-    "awayTeam": "Everton",
-    "awayTeamTla": "EVE",
-    "homeScore": null,
-    "awayScore": null,
-    "title": "Nottingham vs Everton",
-    "description": "Matchday 16: Nottingham Forest FC vs Everton FC",
-    "isLive": false,
-    "broadcaster": "Not yet announced",
-    "broadcastConfirmed": false,
-    "channel": {
-      "number": "174",
-      "name": "USA Network East",
-      "category": "National",
-      "hasPlayback": true
-    },
-    "channels": [
-      {
-        "number": "174",
-        "name": "USA Network East",
-        "category": "National",
-        "hasPlayback": true
-      },
-      {
-        "number": "181",
-        "name": "Telemundo East",
-        "category": "National",
-        "hasPlayback": false
-      },
-      {
-        "number": "870",
-        "name": "Sky Sports Premier League",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "857",
-        "name": "BT Sports 1",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "858",
-        "name": "BT Sports 2",
-        "category": "Sports",
-        "hasPlayback": false
-      },
-      {
-        "number": "828",
-        "name": "ESPN",
-        "category": "Sports",
-        "hasPlayback": true
-      }
-    ]
-  },
-  {
     "id": 560696,
     "startTime": "2026-12-19T15:00:00Z",
     "status": "TIMED",
@@ -10023,6 +9953,70 @@
     "awayScore": null,
     "title": "Brighton Hove vs Ipswich Town",
     "description": "Matchday 16: Brighton & Hove Albion FC vs Ipswich Town FC",
+    "isLive": false,
+    "broadcaster": "Not yet announced",
+    "broadcastConfirmed": false,
+    "channel": {
+      "number": "174",
+      "name": "USA Network East",
+      "category": "National",
+      "hasPlayback": true
+    },
+    "channels": [
+      {
+        "number": "174",
+        "name": "USA Network East",
+        "category": "National",
+        "hasPlayback": true
+      },
+      {
+        "number": "181",
+        "name": "Telemundo East",
+        "category": "National",
+        "hasPlayback": false
+      },
+      {
+        "number": "870",
+        "name": "Sky Sports Premier League",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "857",
+        "name": "BT Sports 1",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "858",
+        "name": "BT Sports 2",
+        "category": "Sports",
+        "hasPlayback": false
+      },
+      {
+        "number": "828",
+        "name": "ESPN",
+        "category": "Sports",
+        "hasPlayback": true
+      }
+    ]
+  },
+  {
+    "id": 560694,
+    "startTime": "2026-12-20T14:00:00Z",
+    "status": "TIMED",
+    "matchday": 16,
+    "competition": "Premier League",
+    "competitionCode": "PL",
+    "competitionCategory": "english",
+    "homeTeam": "Nottingham",
+    "homeTeamTla": "NOT",
+    "awayTeam": "Everton",
+    "awayTeamTla": "EVE",
+    "homeScore": null,
+    "awayScore": null,
+    "title": "Nottingham vs Everton",
+    "description": "Matchday 16: Nottingham Forest FC vs Everton FC",
     "isLive": false,
     "broadcaster": "Not yet announced",
     "broadcastConfirmed": false,
