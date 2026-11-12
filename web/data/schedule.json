@@ -6416,8 +6416,8 @@
     "title": "Man City vs Fulham",
     "description": "Matchday 11: Manchester City FC vs Fulham FC",
     "isLive": false,
-    "broadcaster": "Not yet announced",
-    "broadcastConfirmed": false,
+    "broadcaster": "USA Network / Universo / DirecTV Stream / Sling Blue",
+    "broadcastConfirmed": true,
     "channel": {
       "number": "174",
       "name": "USA Network East",
@@ -6430,6 +6430,12 @@
         "name": "USA Network East",
         "category": "National",
         "hasPlayback": true
+      },
+      {
+        "number": "183",
+        "name": "Univision East",
+        "category": "National",
+        "hasPlayback": false
       },
       {
         "number": "181",
@@ -6480,7 +6486,7 @@
     "title": "Chelsea vs Leeds United",
     "description": "Matchday 11: Chelsea FC vs Leeds United FC",
     "isLive": false,
-    "broadcaster": "Not yet announced",
+    "broadcaster": "Fubo / Peacock Premium",
     "broadcastConfirmed": false,
     "channel": {
       "number": "174",
@@ -6544,7 +6550,7 @@
     "title": "Aston Villa vs Sunderland",
     "description": "Matchday 11: Aston Villa FC vs Sunderland AFC",
     "isLive": false,
-    "broadcaster": "Not yet announced",
+    "broadcaster": "Fubo / Peacock Premium",
     "broadcastConfirmed": false,
     "channel": {
       "number": "174",
@@ -6608,7 +6614,7 @@
     "title": "Bournemouth vs Nottingham",
     "description": "Matchday 11: AFC Bournemouth vs Nottingham Forest FC",
     "isLive": false,
-    "broadcaster": "Not yet announced",
+    "broadcaster": "Fubo / Peacock Premium",
     "broadcastConfirmed": false,
     "channel": {
       "number": "174",
@@ -6736,7 +6742,7 @@
     "title": "Coventry City vs Crystal Palace",
     "description": "Matchday 11: Coventry City FC vs Crystal Palace FC",
     "isLive": false,
-    "broadcaster": "Not yet announced",
+    "broadcaster": "Fubo / Peacock Premium",
     "broadcastConfirmed": false,
     "channel": {
       "number": "174",
@@ -6800,8 +6806,8 @@
     "title": "Newcastle vs Arsenal",
     "description": "Matchday 11: Newcastle United FC vs Arsenal FC",
     "isLive": false,
-    "broadcaster": "Not yet announced",
-    "broadcastConfirmed": false,
+    "broadcaster": "USA Network / Telemundo / DirecTV Stream / Sling Blue / Fubo",
+    "broadcastConfirmed": true,
     "channel": {
       "number": "174",
       "name": "USA Network East",
@@ -6864,8 +6870,8 @@
     "title": "Hull City vs Brighton Hove",
     "description": "Matchday 11: Hull City AFC vs Brighton & Hove Albion FC",
     "isLive": false,
-    "broadcaster": "Not yet announced",
-    "broadcastConfirmed": false,
+    "broadcaster": "USA Network / Telemundo / DirecTV Stream / Sling Blue / Fubo",
+    "broadcastConfirmed": true,
     "channel": {
       "number": "174",
       "name": "USA Network East",
@@ -6928,8 +6934,8 @@
     "title": "Liverpool vs Man United",
     "description": "Matchday 11: Liverpool FC vs Manchester United FC",
     "isLive": false,
-    "broadcaster": "Not yet announced",
-    "broadcastConfirmed": false,
+    "broadcaster": "USA Network / Telemundo / DirecTV Stream / Sling Blue / Fubo",
+    "broadcastConfirmed": true,
     "channel": {
       "number": "174",
       "name": "USA Network East",
@@ -6992,8 +6998,8 @@
     "title": "Brentford vs Everton",
     "description": "Matchday 11: Brentford FC vs Everton FC",
     "isLive": false,
-    "broadcaster": "Not yet announced",
-    "broadcastConfirmed": false,
+    "broadcaster": "USA Network / DirecTV Stream / Sling Blue",
+    "broadcastConfirmed": true,
     "channel": {
       "number": "174",
       "name": "USA Network East",
